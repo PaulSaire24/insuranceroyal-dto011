@@ -1,0 +1,356 @@
+[
+  {
+    "id": "01",
+    "name": "PLAN BASICO",
+    "installmentPlan": {
+      "period": {
+        "id": "M",
+        "name": "Mensual"
+      },
+      "amount": {
+        "amount": 540.37,
+        "currency": "USD"
+      },
+      "financing": {
+        "id": "158",
+        "paymentsTotalnumber": 12,
+        "startDate": "2021-01-05",
+        "maturityDate": "2022-01-05",
+        "installments": [
+          {
+            "paymentNumber": 1,
+            "amount": {
+              "amount": 45.03,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-01-05"
+          },
+          {
+            "paymentNumber": 2,
+            "amount": {
+              "amount": 45.03,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-02-05"
+          },
+          {
+            "paymentNumber": 3,
+            "amount": {
+              "amount": 45.03,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-03-05"
+          },
+          {
+            "paymentNumber": 4,
+            "amount": {
+              "amount": 45.03,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-04-05"
+          },
+          {
+            "paymentNumber": 5,
+            "amount": {
+              "amount": 45.03,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-05-05"
+          },
+          {
+            "paymentNumber": 6,
+            "amount": {
+              "amount": 45.03,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-06-05"
+          },
+          {
+            "paymentNumber": 7,
+            "amount": {
+              "amount": 45.03,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-07-05"
+          },
+          {
+            "paymentNumber": 8,
+            "amount": {
+              "amount": 45.03,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-08-05"
+          },
+          {
+            "paymentNumber": 9,
+            "amount": {
+              "amount": 45.03,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-09-05"
+          },
+          {
+            "paymentNumber": 10,
+            "amount": {
+              "amount": 45.03,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-10-05"
+          },
+          {
+            "paymentNumber": 11,
+            "amount": {
+              "amount": 45.03,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-11-05"
+          },
+          {
+            "paymentNumber": 12,
+            "amount": {
+              "amount": 45.04,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-12-06"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "02",
+    "name": "PLAN ESTÁNDAR",
+    "installmentPlan": {
+      "period": {
+        "id": "M",
+        "name": "Mensual"
+      },
+      "amount": {
+        "amount": 1052.29,
+        "currency": "USD"
+      },
+      "financing": {
+        "id": "158",
+        "paymentsTotalnumber": 12,
+        "startDate": "2021-01-05",
+        "maturityDate": "2022-01-05",
+        "installments": [
+          {
+            "paymentNumber": 1,
+            "amount": {
+              "amount": 87.69,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-01-05"
+          },
+          {
+            "paymentNumber": 2,
+            "amount": {
+              "amount": 87.69,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-02-05"
+          },
+          {
+            "paymentNumber": 3,
+            "amount": {
+              "amount": 87.69,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-03-05"
+          },
+          {
+            "paymentNumber": 4,
+            "amount": {
+              "amount": 87.69,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-04-05"
+          },
+          {
+            "paymentNumber": 5,
+            "amount": {
+              "amount": 87.69,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-05-05"
+          },
+          {
+            "paymentNumber": 6,
+            "amount": {
+              "amount": 87.69,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-06-05"
+          },
+          {
+            "paymentNumber": 7,
+            "amount": {
+              "amount": 87.69,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-07-05"
+          },
+          {
+            "paymentNumber": 8,
+            "amount": {
+              "amount": 87.69,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-08-05"
+          },
+          {
+            "paymentNumber": 9,
+            "amount": {
+              "amount": 87.69,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-09-05"
+          },
+          {
+            "paymentNumber": 10,
+            "amount": {
+              "amount": 87.69,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-10-05"
+          },
+          {
+            "paymentNumber": 11,
+            "amount": {
+              "amount": 87.69,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-11-05"
+          },
+          {
+            "paymentNumber": 12,
+            "amount": {
+              "amount": 87.7,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-12-06"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "03",
+    "name": "PLAN FULL COBERTURAS",
+    "installmentPlan": {
+      "period": {
+        "id": "M",
+        "name": "Mensual"
+      },
+      "amount": {
+        "amount": 1336.69,
+        "currency": "USD"
+      },
+      "financing": {
+        "id": "158",
+        "paymentsTotalnumber": 12,
+        "startDate": "2021-01-05",
+        "maturityDate": "2022-01-05",
+        "installments": [
+          {
+            "paymentNumber": 1,
+            "amount": {
+              "amount": 111.39,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-01-05"
+          },
+          {
+            "paymentNumber": 2,
+            "amount": {
+              "amount": 111.39,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-02-05"
+          },
+          {
+            "paymentNumber": 3,
+            "amount": {
+              "amount": 111.39,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-03-05"
+          },
+          {
+            "paymentNumber": 4,
+            "amount": {
+              "amount": 111.39,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-04-05"
+          },
+          {
+            "paymentNumber": 5,
+            "amount": {
+              "amount": 111.39,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-05-05"
+          },
+          {
+            "paymentNumber": 6,
+            "amount": {
+              "amount": 111.39,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-06-05"
+          },
+          {
+            "paymentNumber": 7,
+            "amount": {
+              "amount": 111.39,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-07-05"
+          },
+          {
+            "paymentNumber": 8,
+            "amount": {
+              "amount": 111.39,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-08-05"
+          },
+          {
+            "paymentNumber": 9,
+            "amount": {
+              "amount": 111.39,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-09-05"
+          },
+          {
+            "paymentNumber": 10,
+            "amount": {
+              "amount": 111.39,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-10-05"
+          },
+          {
+            "paymentNumber": 11,
+            "amount": {
+              "amount": 111.39,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-11-05"
+          },
+          {
+            "paymentNumber": 12,
+            "amount": {
+              "amount": 111.4,
+              "currency": "USD"
+            },
+            "maturityDate": "2021-12-06"
+          }
+        ]
+      }
+    }
+  }
+]

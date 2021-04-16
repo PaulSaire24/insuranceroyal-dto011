@@ -1,0 +1,8 @@
+{
+    "payload": [
+        {
+            "status": "0",
+            "mensaje": "El Dni con número 00000000 no se encuentra registrado."
+        }
+    ]
+}

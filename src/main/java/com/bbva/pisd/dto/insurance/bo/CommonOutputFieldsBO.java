@@ -1,0 +1,23 @@
+package com.bbva.pisd.dto.insurance.bo;
+
+import java.math.BigDecimal;
+
+public class CommonOutputFieldsBO {
+
+	private String tipoDocumento;
+	private String numeroDocumento;
+	private BigDecimal primaNeta;
+	private BigDecimal primaBruta;
+	private String indicadorInspeccion;
+
+	public String getTipoDocumento() { return tipoDocumento; }
+	public void setTipoDocumento(String tipoDocumento) { this.tipoDocumento = tipoDocumento; }
+	public String getNumeroDocumento() { return numeroDocumento; }
+	public void setNumeroDocumento(String numeroDocumento) { this.numeroDocumento = numeroDocumento; }
+	public BigDecimal getPrimaNeta() { return primaNeta; }
+	public void setPrimaNeta(BigDecimal primaNeta) { this.primaNeta = primaNeta; }
+	public BigDecimal getPrimaBruta() { return primaBruta; }
+	public void setPrimaBruta(BigDecimal primaBruta) { this.primaBruta = primaBruta; }
+	public String getIndicadorInspeccion() { return indicadorInspeccion; }
+	public void setIndicadorInspeccion(String indicadorInspeccion) { this.indicadorInspeccion = indicadorInspeccion; }
+}

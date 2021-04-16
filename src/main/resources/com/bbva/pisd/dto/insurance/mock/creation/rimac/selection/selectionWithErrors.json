@@ -1,0 +1,9 @@
+{
+  "error": {
+    "code": "VEHCOT008",
+    "message": [
+      "El plan 532830, no existe en la cotización."
+    ],
+    "httpStatus": 400
+  }
+}

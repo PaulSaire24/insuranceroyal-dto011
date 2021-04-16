@@ -1,0 +1,146 @@
+[
+  {
+    "insuranceModalityType": "01",
+    "idConsideration": 1,
+    "insuranceConsiderationDescription": "TEXTO COBERTURA 1",
+    "considerationType": "CO"
+  },
+  {
+    "insuranceModalityType": "01",
+    "idConsideration": 2,
+    "insuranceConsiderationDescription": "TEXTO COBERTURA 2",
+    "considerationType": "CO"
+  },
+  {
+    "insuranceModalityType": "01",
+    "idConsideration": 1,
+    "insuranceConsiderationDescription": "TEXTO BENEFICIO 1",
+    "considerationType": "BE"
+  },
+  {
+    "insuranceModalityType": "01",
+    "idConsideration": 2,
+    "insuranceConsiderationDescription": "TEXTO BENEFICIO 2",
+    "considerationType": "BE"
+  },
+  {
+    "insuranceModalityType": "01",
+    "idConsideration": 1,
+    "insuranceConsiderationDescription": "TEXTO EXCLUSION 1",
+    "considerationType": "EX"
+  },
+  {
+    "insuranceModalityType": "01",
+    "idConsideration": 2,
+    "insuranceConsiderationDescription": "TEXTO EXCLUSION 2",
+    "considerationType": "EX"
+  },
+  {
+    "insuranceModalityType": "01",
+    "idConsideration": 1,
+    "insuranceConsiderationDescription": "TEXTO DEDUCIBLE 1",
+    "considerationType": "DE"
+  },
+  {
+    "insuranceModalityType": "01",
+    "idConsideration": 2,
+    "insuranceConsiderationDescription": "TEXTO DEDUCIBLE 2",
+    "considerationType": "DE"
+  },
+  {
+    "insuranceModalityType": "02",
+    "idConsideration": 1,
+    "insuranceConsiderationDescription": "TEXTO COBERTURA 1",
+    "considerationType": "CO"
+  },
+  {
+    "insuranceModalityType": "02",
+    "idConsideration": 2,
+    "insuranceConsiderationDescription": "TEXTO COBERTURA 2",
+    "considerationType": "CO"
+  },
+  {
+    "insuranceModalityType": "02",
+    "idConsideration": 1,
+    "insuranceConsiderationDescription": "TEXTO BENEFICIO 1",
+    "considerationType": "BE"
+  },
+  {
+    "insuranceModalityType": "02",
+    "idConsideration": 2,
+    "insuranceConsiderationDescription": "TEXTO BENEFICIO 2",
+    "considerationType": "BE"
+  },
+  {
+    "insuranceModalityType": "02",
+    "idConsideration": 1,
+    "insuranceConsiderationDescription": "TEXTO EXCLUSION 1",
+    "considerationType": "EX"
+  },
+  {
+    "insuranceModalityType": "02",
+    "idConsideration": 2,
+    "insuranceConsiderationDescription": "TEXTO EXCLUSION 2",
+    "considerationType": "EX"
+  },
+  {
+    "insuranceModalityType": "02",
+    "idConsideration": 1,
+    "insuranceConsiderationDescription": "TEXTO DEDUCIBLE 1",
+    "considerationType": "DE"
+  },
+  {
+    "insuranceModalityType": "02",
+    "idConsideration": 2,
+    "insuranceConsiderationDescription": "TEXTO DEDUCIBLE 2",
+    "considerationType": "DE"
+  },
+  {
+    "insuranceModalityType": "03",
+    "idConsideration": 1,
+    "insuranceConsiderationDescription": "TEXTO COBERTURA 1",
+    "considerationType": "CO"
+  },
+  {
+    "insuranceModalityType": "03",
+    "idConsideration": 2,
+    "insuranceConsiderationDescription": "TEXTO COBERTURA 2",
+    "considerationType": "CO"
+  },
+  {
+    "insuranceModalityType": "03",
+    "idConsideration": 1,
+    "insuranceConsiderationDescription": "TEXTO BENEFICIO 1",
+    "considerationType": "BE"
+  },
+  {
+    "insuranceModalityType": "03",
+    "idConsideration": 2,
+    "insuranceConsiderationDescription": "TEXTO BENEFICIO 2",
+    "considerationType": "BE"
+  },
+  {
+    "insuranceModalityType": "03",
+    "idConsideration": 1,
+    "insuranceConsiderationDescription": "TEXTO EXCLUSION 1",
+    "considerationType": "EX"
+  },
+  {
+    "insuranceModalityType": "03",
+    "idConsideration": 2,
+    "insuranceConsiderationDescription": "TEXTO EXCLUSION 2",
+    "considerationType": "EX"
+  },
+  {
+    "insuranceModalityType": "03",
+    "idConsideration": 1,
+    "insuranceConsiderationDescription": "TEXTO DEDUCIBLE 1",
+    "considerationType": "DE"
+  },
+  {
+    "insuranceModalityType": "03",
+    "idConsideration": 2,
+    "insuranceConsiderationDescription": "TEXTO DEDUCIBLE 2",
+    "considerationType": "DE"
+  }
+]

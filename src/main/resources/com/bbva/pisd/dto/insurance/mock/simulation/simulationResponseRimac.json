@@ -1,0 +1,749 @@
+{
+  "payload": {
+    "cotizaciones": [
+      {
+        "idCotizacion": "63782b90-3a7b-42fa-9e62-e3829de5f652",
+        "diasVigencia": "30",
+        "fechaFinVigencia": "2021-02-03",
+        "plan": {
+          "idPlan": 532857,
+          "descripcionPlan": "(ADVERTENCIA: FASE TEST) CANAL BANCO BBVA PERÃš - BESITO (05-12-2018) - SAS ",
+          "moneda": "USD",
+          "primaNeta": 865.8,
+          "primaBruta": 1052.29,
+          "indicadorInspeccion": "S",
+          "indicadorGPS": "NO",
+          "financiamientos": [
+            {
+              "idFinanciamiento": "8e39a3c4-f196-47d8-b73f-4f6367eab053",
+              "periodicidad": "Mensual",
+              "numeroCuotas": 12,
+              "fechaInicio": "2021-01-05",
+              "fechaFinal": "2022-01-05",
+              "cuotasFinanciamiento": [
+                {
+                  "cuota": 1,
+                  "monto": 87.69,
+                  "fechaVencimiento": "2021-01-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 2,
+                  "monto": 87.69,
+                  "fechaVencimiento": "2021-02-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 3,
+                  "monto": 87.69,
+                  "fechaVencimiento": "2021-03-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 4,
+                  "monto": 87.69,
+                  "fechaVencimiento": "2021-04-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 5,
+                  "monto": 87.69,
+                  "fechaVencimiento": "2021-05-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 6,
+                  "monto": 87.69,
+                  "fechaVencimiento": "2021-06-07",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 7,
+                  "monto": 87.69,
+                  "fechaVencimiento": "2021-07-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 8,
+                  "monto": 87.69,
+                  "fechaVencimiento": "2021-08-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 9,
+                  "monto": 87.69,
+                  "fechaVencimiento": "2021-09-06",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 10,
+                  "monto": 87.69,
+                  "fechaVencimiento": "2021-10-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 11,
+                  "monto": 87.69,
+                  "fechaVencimiento": "2021-11-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 12,
+                  "monto": 87.7,
+                  "fechaVencimiento": "2021-12-06",
+                  "moneda": "USD"
+                }
+              ]
+            }
+          ],
+          "servicios": [
+            {
+              "idServicio": 7886,
+              "descripcionServicio": "AUXILIO MECÃ�NICO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            }
+          ],
+          "coberturas": [
+            {
+              "idCobertura": 7820,
+              "descripcionCobertura": "CHOQUE",
+              "primaBruta": 1052.29,
+              "primaNeta": 865.8,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            },
+            {
+              "idCobertura": 7783,
+              "descripcionCobertura": "DAÃ‘O MALICIOSO VANDALISMO Y TERRORISMO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            },
+            {
+              "idCobertura": 7781,
+              "descripcionCobertura": "HUELGA Y CONMOCIÃ“N CIVIL",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            },
+            {
+              "idCobertura": 7784,
+              "descripcionCobertura": "TERREMOTO MAREMOTO Y TEMBLOR",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            },
+            {
+              "idCobertura": 12436,
+              "descripcionCobertura": "CHOFER DE REEMPLAZO.",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            },
+            {
+              "idCobertura": 7872,
+              "descripcionCobertura": "RESPONSABILIDAD  CIVIL FRENTE A OCUPANTES POR VEHÃ�CULO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 10000
+            },
+            {
+              "idCobertura": 7874,
+              "descripcionCobertura": "RESPONSABILIDAD CIVIL FRENTE A TERCEROS",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 150000
+            },
+            {
+              "idCobertura": 7835,
+              "descripcionCobertura": "MUERTE DE OCUPANTES C/U",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 5000
+            },
+            {
+              "idCobertura": 7837,
+              "descripcionCobertura": "INVALIDEZ PERMANENTE DE OCUPANTES C/U",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 5000
+            },
+            {
+              "idCobertura": 7838,
+              "descripcionCobertura": "GASTOS DE CURACIÃ“N DE OCUPANTES C/U",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 1000
+            },
+            {
+              "idCobertura": 7802,
+              "descripcionCobertura": "DAÃ‘OS MATERIALES",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            },
+            {
+              "idCobertura": 7801,
+              "descripcionCobertura": "INCENDIO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            },
+            {
+              "idCobertura": 7821,
+              "descripcionCobertura": "VUELCO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            },
+            {
+              "idCobertura": 7822,
+              "descripcionCobertura": "ROBO PARCIAL",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            },
+            {
+              "idCobertura": 7824,
+              "descripcionCobertura": "HUAYCO (AVENIDA)",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            },
+            {
+              "idCobertura": 7782,
+              "descripcionCobertura": "ROBO TOTAL.",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            }
+          ],
+          "deducibles": [
+            {
+              "idDeducible": 2237283,
+              "descripcionDeducible": "\n\nInspecciones:\n1)\tEn caso el asegurado no haya cumplido con pasar la inspecciÃ³n segÃºn requiere a pÃ³liza, se atenderÃ¡ eventos por accidentes de trÃ¡nsito (choques) bajo las condiciones regulares de la pÃ³liza Ãºnicamente cuando el asegurado cumpla lo siguiente : llamar a la central en el momento del siniestro , encontrarse en el lugar de los hechos junto al tercero y en presencia de nuestro procurador, en caso no se cumpla lo antes expuesto se aplicara un deducible de 30% del monto a indemnizar mÃ­nimo US$1,000 .\nSE EXCLUYE cualquier condiciones especial antes indicada en caso de ROBO TOTAL en el cual no habrÃ¡ cobertura\n"
+            },
+            {
+              "idDeducible": 2237277,
+              "idComponente": 7820,
+              "descripcionDeducible": "\nSERVICIOS ADICIONALES SOLO EN CASO DE ACCIDENTES \n(Mediante AlÃ³ Rimac)\t\t\t\n\n-Asistencia Personal de Procuradores (lugar de los hechos)\t\t\t\n-AsesorÃ­a de TrÃ¡mites en la ComisarÃ­a\t\t\t\n-Sistema SPEED (ExoneraciÃ³n de trÃ¡mites de acuerdo al caso)\t\t\t\n-Traslado en grÃºa (en la zona urbana), solo para vehÃ­culos menores a 2 Tn. de peso y con cobertura de Todo Riesgo\t\t\t\n-Emergencia mÃ©dica asistida y ambulancia amparado por la pÃ³liza\t\t\t\n-ReposiciÃ³n de lunas y llantas en caso de rotura y/o robo(en la zona urbana), solamente para automÃ³viles y camionetas\t\t\t\n"
+            },
+            {
+              "idDeducible": 2237281,
+              "idComponente": 7820,
+              "descripcionDeducible": "POR EVENTO:\n\t\t\t\t\t\nSINIESTROS ATENDIDOS SOLO EN RED DE TALLERES  (CLÃ�SICO) 15.00% DEL MONTO A INDEMNIZAR, MÃ�NIMO US$ 150.00\t\t\t\t\n\nSINIESTROS ATENDIDOS  EN RED DE TALLERES CONCESIONARIOS 20.00% DEL MONTO A INDEMNIZAR, MÃ�NIMO US$ 250.00\t\t\t\t\n\nEXCEPTO PARA:\t\n\nROBO PARCIAL 15.00% DEL MONTO A INDEMNIZAR, MÃ�NIMO US$ 200.00\t\t\t\t\t\t\n\nACCESORIOS MUSICALES 10.00% DEL MONTO A INDEMNIZAR, MÃ�NIMO US$ 200.00\t\t\t\t\t\n\nCONDUCTOR VARON MENOR DE 25 AÃ‘OS 20% DEL MONTO A INDEMNIZAR, MÃ�NIMO US$ 500.00 PARA TALLERES MOVILPLAN Y 30% DEL MONTO A INDEMNIZAR, MÃ�NIMO US$800.00 PARA TALLERES NO INCLUIDOS EN LISTADO DE TALLERES MOVILPLAN (CLÃ�SICO).\n\nREPOSICIÃ“N DE LUNAS NACIONALES, SIN DEDUCIBLE\t\t\t\t\t\t\n\nPARA HYUNDAI TUCSON, SANTA FE: COASEGURO POR ROBO TOTAL (NUEVOS Y HASTA 2 AÃ‘OS DE ANTIGÃœEDAD) 20%. SI EL VEHÃ�CULO CUENTA CON GPS, SE EXCLUIRÃ� EL COASEGURO.\t\t\t\n"
+            }
+          ]
+        }
+      },
+      {
+        "idCotizacion": "63782b90-3a7b-42fa-9e62-e3829de5f652",
+        "diasVigencia": "30",
+        "fechaFinVigencia": "2021-02-03",
+        "plan": {
+          "idPlan": 532831,
+          "descripcionPlan": "(ADVERTENCIA: FASE TEST) CANAL BANCO BBVA PERÃš - BESO FRANCÃ‰S (05-12-2018) - SAS ",
+          "moneda": "USD",
+          "primaNeta": 1099.8,
+          "primaBruta": 1336.69,
+          "indicadorInspeccion": "S",
+          "indicadorGPS": "NO",
+          "financiamientos": [
+            {
+              "idFinanciamiento": "1e564824-2d43-4189-b8ec-cf0212c737f7",
+              "periodicidad": "Mensual",
+              "numeroCuotas": 12,
+              "fechaInicio": "2021-01-05",
+              "fechaFinal": "2022-01-05",
+              "cuotasFinanciamiento": [
+                {
+                  "cuota": 1,
+                  "monto": 111.39,
+                  "fechaVencimiento": "2021-01-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 2,
+                  "monto": 111.39,
+                  "fechaVencimiento": "2021-02-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 3,
+                  "monto": 111.39,
+                  "fechaVencimiento": "2021-03-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 4,
+                  "monto": 111.39,
+                  "fechaVencimiento": "2021-04-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 5,
+                  "monto": 111.39,
+                  "fechaVencimiento": "2021-05-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 6,
+                  "monto": 111.39,
+                  "fechaVencimiento": "2021-06-07",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 7,
+                  "monto": 111.39,
+                  "fechaVencimiento": "2021-07-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 8,
+                  "monto": 111.39,
+                  "fechaVencimiento": "2021-08-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 9,
+                  "monto": 111.39,
+                  "fechaVencimiento": "2021-09-06",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 10,
+                  "monto": 111.39,
+                  "fechaVencimiento": "2021-10-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 11,
+                  "monto": 111.39,
+                  "fechaVencimiento": "2021-11-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 12,
+                  "monto": 111.4,
+                  "fechaVencimiento": "2021-12-06",
+                  "moneda": "USD"
+                }
+              ]
+            }
+          ],
+          "servicios": [
+            {
+              "idServicio": 7825,
+              "descripcionServicio": "VEHÃ�CULO DE REEMPLAZO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            },
+            {
+              "idServicio": 7886,
+              "descripcionServicio": "AUXILIO MECÃ�NICO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            }
+          ],
+          "coberturas": [
+            {
+              "idCobertura": 7820,
+              "descripcionCobertura": "CHOQUE",
+              "primaBruta": 1336.7,
+              "primaNeta": 1099.8,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            },
+            {
+              "idCobertura": 7783,
+              "descripcionCobertura": "DAÃ‘O MALICIOSO VANDALISMO Y TERRORISMO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            },
+            {
+              "idCobertura": 7781,
+              "descripcionCobertura": "HUELGA Y CONMOCIÃ“N CIVIL",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            },
+            {
+              "idCobertura": 7784,
+              "descripcionCobertura": "TERREMOTO MAREMOTO Y TEMBLOR",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            },
+            {
+              "idCobertura": 15821,
+              "descripcionCobertura": "ACCESORIOS MUSICALES.",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 1000
+            },
+            {
+              "idCobertura": 12436,
+              "descripcionCobertura": "CHOFER DE REEMPLAZO.",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            },
+            {
+              "idCobertura": 7872,
+              "descripcionCobertura": "RESPONSABILIDAD  CIVIL FRENTE A OCUPANTES POR VEHÃ�CULO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 30000
+            },
+            {
+              "idCobertura": 7874,
+              "descripcionCobertura": "RESPONSABILIDAD CIVIL FRENTE A TERCEROS",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 150000
+            },
+            {
+              "idCobertura": 7835,
+              "descripcionCobertura": "MUERTE DE OCUPANTES C/U",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 25000
+            },
+            {
+              "idCobertura": 7837,
+              "descripcionCobertura": "INVALIDEZ PERMANENTE DE OCUPANTES C/U",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 25000
+            },
+            {
+              "idCobertura": 7838,
+              "descripcionCobertura": "GASTOS DE CURACIÃ“N DE OCUPANTES C/U",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 5000
+            },
+            {
+              "idCobertura": 15824,
+              "descripcionCobertura": "PÃ‰RDIDA DE LLAVES",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 500
+            },
+            {
+              "idCobertura": 7802,
+              "descripcionCobertura": "DAÃ‘OS MATERIALES",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            },
+            {
+              "idCobertura": 7801,
+              "descripcionCobertura": "INCENDIO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            },
+            {
+              "idCobertura": 7821,
+              "descripcionCobertura": "VUELCO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            },
+            {
+              "idCobertura": 7822,
+              "descripcionCobertura": "ROBO PARCIAL",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            },
+            {
+              "idCobertura": 7782,
+              "descripcionCobertura": "ROBO TOTAL.",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            },
+            {
+              "idCobertura": 7824,
+              "descripcionCobertura": "HUAYCO (AVENIDA)",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            }
+          ],
+          "deducibles": [
+            {
+              "idDeducible": 2237230,
+              "idComponente": 7820,
+              "descripcionDeducible": "POR EVENTO 15.00% del MONTO A INDEMNIZAR, MÃ­nimo de US$ 150.00, EN TALLERES AFILIADOS.\n\nSINIESTROS ATENDIDOS EN RED DE TALLERES AFILIADOS MULTIMARCA: 10.00% del MONTO A INDEMNIZAR, MÃ­nimo de US$ 150.00\n\nROBO PARCIAL 15% del MONTO A INDEMNIZAR, MÃ­nimo de US$ 150.00\t\n\nACCESORIOS MUSICALES: 10% del MONTO DEL SINIESTRO, MÃ­nimo de US$ 150.00\n\nVEHÃ�CULO DE REEMPLAZO, US$ 100.00\t\n\nCONDUCTOR VARÃ“N MENOR  DE 29 AÃ‘OS, POR TODO Y CADA EVENTO: 20% del MONTO DEL SINIESTRO MÃ­nimo de US$ 500\n\nPOR EVENTO PARA MARCAS MERCEDES BENZ, BMW, AUDI: 20% del MONTO A INDEMNIZAR, MÃ­nimo de US$ 200.00 EN TALLERES AFILIADOS\n\nPOR EVENTO PARA MARCAS MERCEDES BENZ, BMW, AUDI: 15% del MONTO A INDEMNIZAR, MÃ­nimo de US$ 150.00 EN TALLERES AFILIADOS MULTIMARCA.\n\nREPOSICIÃ“N DE LUNAS NACIONALES, SIN DEDUCIBLE\t\n\t \nOTROS RIESGOS NO ESPECIFICADOS SEGÃšN CLÃ�USULA CORRESPONDIENTE\n\nDEDUCIBLE PARA SUB LIMITE DE ATENCIÃ“N US$ 400\n"
+            },
+            {
+              "idDeducible": 2237232,
+              "idComponente": 7820,
+              "descripcionDeducible": "\nSERVICIOS ADICIONALES SOLO EN CASO DE ACCIDENTES \n(Mediante AlÃ³ Rimac)\t\t\t\n\n-Asistencia Personal de Procuradores (lugar de los hechos)\t\t\t\n-AsesorÃ­a de TrÃ¡mites en la ComisarÃ­a\t\t\t\n-Sistema SPEED (ExoneraciÃ³n de trÃ¡mites de acuerdo al caso)\t\t\t\n-Traslado en grÃºa (en la zona urbana), solo para vehÃ­culos menores a 2 Tn. de peso y con cobertura de Todo Riesgo\t\t\t\n-Emergencia mÃ©dica asistida y ambulancia amparado por la pÃ³liza\t\t\t\n-ReposiciÃ³n de lunas y llantas en caso de rotura y/o robo(en la zona urbana), solamente para automÃ³viles y camionetas\t\t\t\n"
+            }
+          ]
+        }
+      },
+      {
+        "idCotizacion": "63782b90-3a7b-42fa-9e62-e3829de5f652",
+        "diasVigencia": "30",
+        "fechaFinVigencia": "2021-02-03",
+        "plan": {
+          "idPlan": 532844,
+          "descripcionPlan": "(ADVERTENCIA: FASE TEST) CANAL BANCO BBVA PERÃš - PIQUITO (05-12-2018) - SAS",
+          "moneda": "USD",
+          "primaNeta": 444.6,
+          "primaBruta": 540.37,
+          "indicadorInspeccion": "S",
+          "indicadorGPS": "NO",
+          "financiamientos": [
+            {
+              "idFinanciamiento": "1a9cd65c-9e01-4cdb-8971-dc231513eb8c",
+              "periodicidad": "Mensual",
+              "numeroCuotas": 12,
+              "fechaInicio": "2021-01-05",
+              "fechaFinal": "2022-01-05",
+              "cuotasFinanciamiento": [
+                {
+                  "cuota": 1,
+                  "monto": 45.03,
+                  "fechaVencimiento": "2021-01-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 2,
+                  "monto": 45.03,
+                  "fechaVencimiento": "2021-02-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 3,
+                  "monto": 45.03,
+                  "fechaVencimiento": "2021-03-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 4,
+                  "monto": 45.03,
+                  "fechaVencimiento": "2021-04-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 5,
+                  "monto": 45.03,
+                  "fechaVencimiento": "2021-05-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 6,
+                  "monto": 45.03,
+                  "fechaVencimiento": "2021-06-07",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 7,
+                  "monto": 45.03,
+                  "fechaVencimiento": "2021-07-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 8,
+                  "monto": 45.03,
+                  "fechaVencimiento": "2021-08-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 9,
+                  "monto": 45.03,
+                  "fechaVencimiento": "2021-09-06",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 10,
+                  "monto": 45.03,
+                  "fechaVencimiento": "2021-10-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 11,
+                  "monto": 45.03,
+                  "fechaVencimiento": "2021-11-05",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 12,
+                  "monto": 45.04,
+                  "fechaVencimiento": "2021-12-06",
+                  "moneda": "USD"
+                }
+              ]
+            }
+          ],
+          "servicios": [],
+          "coberturas": [
+            {
+              "idCobertura": 7792,
+              "descripcionCobertura": "DAÃ‘O PROPIO SOLO PÃ‰RDIDA TOTAL  POR ROBO TOTAL",
+              "primaBruta": 540.37,
+              "primaNeta": 444.6,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            },
+            {
+              "idCobertura": 7864,
+              "descripcionCobertura": "RESP. CIVIL FRENTE A TERCEROS POR ACCIDENTE DE TRÃ�NSITO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400
+            }
+          ],
+          "deducibles": [
+            {
+              "idDeducible": 2237268,
+              "idComponente": 7792,
+              "descripcionDeducible": "SERVICIOS ADICIONALES SOLO EN CASO DE ACCIDENTES  (Mediante AlÃ³ Rimac)\t\t\n*Asistencia Personal de Procuradores (lugar de los hechos)\t\t\n*Asesoria de TrÃ¡mites en la ComisarÃ­a\t\t\n*Sistema SPEED (ExoneraciÃ³n de trÃ¡mites de acuerdo al caso)\t\t\n*Traslado en grÃºa (en la zona urbana), solo para vehÃ­culos menores a 2 Tn. De peso y con cobertura de Todo Riesgo\t\t\n*Emergencia mÃ©dica asistida y ambulancia amparado por la pÃ³liza\t\t\n* Auxilio Mecanico en zona urbana\t\t\n"
+            },
+            {
+              "idDeducible": 2237269,
+              "idComponente": 7792,
+              "descripcionDeducible": "ROBO TOTAL, 15% del MONTO INDEMNIZABLE, MÃ­nimo de US$150.00"
+            },
+            {
+              "idDeducible": 2237284,
+              "idComponente": 7792,
+              "descripcionDeducible": "RESPONSABILIDAD CIVIL FRENTE A TERCEROS POR ACCIDENTE DE TRÃ�NSITO, 15% del MONTO INDEMNIZABLE, MÃ­nimo de US$150.00"
+            }
+          ]
+        }
+      }
+    ],
+    "planes": [
+      532844,
+      532857,
+      532831
+    ],
+    "datosParticulares": [
+      {
+        "etiqueta": "PLACA_DE_RODAJE",
+        "codigo": "",
+        "valor": "MZY979"
+      },
+      {
+        "etiqueta": "WEB_ANOS_DE_FABRICACION",
+        "codigo": "",
+        "valor": "2016"
+      },
+      {
+        "etiqueta": "SUMA_ASEGURADA",
+        "codigo": "",
+        "valor": "23400"
+      },
+      {
+        "etiqueta": "UBICACIÃ“N",
+        "codigo": "",
+        "valor": "LIMA"
+      },
+      {
+        "etiqueta": "FACTOR CAMPAÃ‘A",
+        "codigo": "",
+        "valor": "1"
+      },
+      {
+        "etiqueta": "TIER",
+        "codigo": "",
+        "valor": "1"
+      },
+      {
+        "etiqueta": "FACTOR BANCARIO",
+        "codigo": "",
+        "valor": "1"
+      },
+      {
+        "etiqueta": "TIMON_CAMBIADO_30",
+        "codigo": "",
+        "valor": "NO"
+      },
+      {
+        "etiqueta": "COMBUSTIBLE_GAS",
+        "codigo": "",
+        "valor": "NO"
+      },
+      {
+        "etiqueta": "FACTOR_RESULTANTE",
+        "codigo": "",
+        "valor": "1"
+      },
+      {
+        "etiqueta": "MARCAS_DE_VEHICULOS",
+        "codigo": "181",
+        "valor": "HONDA"
+      },
+      {
+        "etiqueta": "MODELOS_DE_VEHICULOS",
+        "codigo": "181003",
+        "valor": "CIVIC"
+      },
+      {
+        "etiqueta": "CLASES_DE_VEHICULOS",
+        "codigo": "001",
+        "valor": "AUTOMOVIL"
+      },
+      {
+        "etiqueta": "TIPOS_DE_VEHICULOS",
+        "codigo": "001000",
+        "valor": "AUTO"
+      }
+    ],
+    "financiamiento": [
+      {
+        "financiamiento": 158,
+        "fechaInicio": "2021-01-05",
+        "numeroCuotas": 12
+      }
+    ]
+  }
+}

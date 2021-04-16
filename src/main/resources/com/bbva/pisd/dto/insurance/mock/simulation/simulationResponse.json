@@ -1,0 +1,207 @@
+{
+  "product": {
+    "plans": [
+      {
+        "id": "13",
+        "name": "BÁSICO",
+        "installmentPlan": {
+          "period": {
+            "id": "S",
+            "name": "Semestral"
+          },
+          "amount": {
+            "amount": 1052.29,
+            "currency": "USD"
+          },
+          "notAdjustedAmount": {
+            "id": "R",
+            "name": "Recargo",
+            "amount": {
+              "amount": 177.00,
+              "currency": "USD"
+            },
+            "percentage": "95.000000"
+          },
+          "financing": {
+            "id": "158",
+            "paymentsTotalnumber": 12,
+            "startDate": "2021-01-11",
+            "maturityDate": "2022-01-11",
+            "installments": [
+              {
+                "paymentNumber": 1,
+                "amount": {
+                  "amount": 87.69,
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-01-11"
+              },
+              {
+                "paymentNumber": 2,
+                "amount": {
+                  "amount": 87.69,
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-02-11"
+              },
+              {
+                "paymentNumber": 3,
+                "amount": {
+                  "amount": 87.69,
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-03-11"
+              },
+              {
+                "paymentNumber": 4,
+                "amount": {
+                  "amount": 87.69,
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-04-11"
+              },
+              {
+                "paymentNumber": 5,
+                "amount": {
+                  "amount": 87.69,
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-05-11"
+              },
+              {
+                "paymentNumber": 6,
+                "amount": {
+                  "amount": 87.69,
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-06-11"
+              },
+              {
+                "paymentNumber": 7,
+                "amount": {
+                  "amount": 87.69,
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-07-11"
+              },
+              {
+                "paymentNumber": 8,
+                "amount": {
+                  "amount": 87.69,
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-08-11"
+              },
+              {
+                "paymentNumber": 9,
+                "amount": {
+                  "amount": 87.69,
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-09-11"
+              },
+              {
+                "paymentNumber": 10,
+                "amount": {
+                  "amount": 87.69,
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-10-11"
+              },
+              {
+                "paymentNumber": 11,
+                "amount": {
+                  "amount": 87.69,
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-11-11"
+              },
+              {
+                "paymentNumber": 12,
+                "amount": {
+                  "amount": 87.7,
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-12-11"
+              }
+            ]
+          }
+        },
+        "coverages": [
+          {
+            "id": "C001",
+            "name": "Cubre el robo total del auto (no ubicado).",
+            "unit": {
+              "unitType": "P",
+              "amount": 701.53,
+              "currency": "USD"
+            }
+          }
+        ],
+        "benefits": [
+          {
+            "id": "B001",
+            "name": "Hasta 8 % de descuento en consumos en los grifos Repsol.",
+            "unit": {
+              "unitType": "P",
+              "amount": 701.53,
+              "currency": "USD"
+            }
+          }
+        ],
+        "deductibles": [
+          {
+            "id": "DE001",
+            "name": "POR EVENTO 20.00% del MONTO A INDEMNIZAR, Mínimo de US$ 200.00"
+          }
+        ],
+        "exclusions": [
+          {
+            "id": "E001",
+            "name": "Suicidio",
+            "unit": {
+              "unitType": "P",
+              "amount": 701.53,
+              "currency": "USD"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "simulationCompanyId": "8315cadb-c9f1-4ebf-b122-f348bdc48db3",
+  "validityDays": 30,
+  "maturityDate": "2021-02-09",
+  "model": {
+    "brand": {
+      "id": "id",
+      "name": "name"
+    },
+    "id": "id",
+    "name": "name",
+    "year": 2014
+  },
+  "price": {
+    "amount": 5300.00,
+    "currency": "USD"
+  },
+  "vehicleCirculation": {
+    "id": "id",
+    "name": "name"
+  },
+  "hasPowerSupplyConvertion": "S",
+  "vehicleLicencePlate": "AAN680",
+  "usageType": {
+    "id": "P",
+    "name": "PARTICULAR"
+  },
+  "isGpsRequired": "S",
+  "isInspectionRequired": "S",
+  "hasSteeringWheelChanged": "N",
+  "tier": {
+    "id": "0001",
+    "name": "TIER1"
+  },
+  "bankingFactor": 95.000000,
+  "campaignFactor": 80.000000
+}

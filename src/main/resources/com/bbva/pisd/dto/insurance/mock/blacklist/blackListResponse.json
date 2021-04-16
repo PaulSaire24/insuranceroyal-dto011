@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "id": "00000000",
+            "isBlocked": "S",
+            "description": "Cliente inelegible",
+            "identityDocument": 
+				{
+					"documentNumber": "00000000",
+					"documentType":
+						{
+							"id": "L"
+						}
+				},
+			"blockType":
+				{
+					"id": "SALUD"
+				},
+			"blackListType":
+				{
+					"id": "3"
+				}
+        }
+    ]
+}

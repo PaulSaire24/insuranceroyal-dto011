@@ -1,0 +1,160 @@
+{
+  "holder": {
+    "id": "06792804",
+    "identityDocument": {
+      "documentType": {
+        "id": "DNI"
+      },
+      "documentNumber": "70433782"
+    }
+  },
+  "product": {
+    "id": "0000000827",
+    "plans": [
+      {
+        "id": "01",
+        "installmentPlan": {
+          "period": {
+            "id": "MONTHLY"
+          },
+          "amount": {
+            "amount": 540.37,
+            "currency": "USD"
+          },
+          "financing": {
+            "paymentsTotalnumber": 12,
+            "installments": [
+              {
+                "amount": {
+                  "amount": 45.03,
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-03-11",
+                "paymentNumber": 1
+              },
+              {
+                "amount": {
+                  "amount": 45.03,
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-04-12",
+                "paymentNumber": 2
+              },
+              {
+                "amount": {
+                  "amount": 45.03,
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-05-11",
+                "paymentNumber": 3
+              },
+              {
+                "amount": {
+                  "amount": 45.03,
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-06-11",
+                "paymentNumber": 4
+              },
+              {
+                "amount": {
+                  "amount": 45.03,
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-07-12",
+                "paymentNumber": 5
+              },
+              {
+                "amount": {
+                  "amount": 45.03,
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-08-11",
+                "paymentNumber": 6
+              },
+              {
+                "amount": {
+                  "amount": 45.03,
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-09-13",
+                "paymentNumber": 7
+              },
+              {
+                "amount": {
+                  "amount": 45.03,
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-10-11",
+                "paymentNumber": 8
+              },
+              {
+                "amount": {
+                  "amount": 45.03,
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-11-11",
+                "paymentNumber": 9
+              },
+              {
+                "amount": {
+                  "amount": 45.03,
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-12-13",
+                "paymentNumber": 10
+              },
+              {
+                "amount": {
+                  "amount": 45.03,
+                  "currency": "USD"
+                },
+                "maturityDate": "2022-01-11",
+                "paymentNumber": 11
+              },
+              {
+                "amount": {
+                  "amount": 45.04,
+                  "currency": "USD"
+                },
+                "maturityDate": "2022-02-11",
+                "paymentNumber": 12
+              }
+            ],
+            "maturityDate": "2021-03-09",
+            "id": "158",
+            "startDate": "2021-03-09"
+          }
+        }
+      }
+    ]
+  },
+  "quotationCompany": {
+    "id": "7c3dac7a-62eb-4e33-b83f-a61a61ff87a7"
+  },
+  "isGpsRequired": "N",
+  "isInspectionRequired": "S",
+  "model": {
+    "brand": {
+      "id": "181"
+    },
+    "id": "181003",
+    "year": 2016
+  },
+  "price": {
+    "amount": 23400.0,
+    "currency": "USD"
+  },
+  "vehicleCirculation": {
+    "id": "URBAN_AREA"
+  },
+  "tier": {
+    "id": "0001"
+  },
+  "hasPowerSupplyConvertion": "S",
+  "bankingFactor": 15.0,
+  "insuranceCompany": {
+    "id": "01"
+  },
+  "markedAsSaved": "N"
+}

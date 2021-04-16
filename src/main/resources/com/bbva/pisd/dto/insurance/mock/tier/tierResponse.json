@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+      "id": "0001",
+      "description": "TIER 1",
+      "factorType": "C",
+      "chargeFactor": 15.000000,
+      "effectiveStartDate": "2015-08-24",
+      "effectiveEndDate": "2015-09-28",
+      "segments": [
+        {
+          "id": "84200",
+          "description": "PRIME"
+        }
+      ]
+    }
+  ]
+}

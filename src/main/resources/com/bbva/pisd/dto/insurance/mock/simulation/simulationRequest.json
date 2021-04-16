@@ -1,0 +1,47 @@
+{
+  "holder": {
+    "id": "77712345",
+    "identityDocument": {
+      "documentType": {
+        "id": "DNI"
+      },
+      "documentNumber": "70433782"
+    }
+  },
+  "product": {
+    "id": "877",
+    "plans": [
+      {
+        "id": "01"
+      },
+      {
+        "id": "02"
+      },
+      {
+        "id": "03"
+      }
+    ]
+  },
+  "model": {
+    "brand": {
+      "id": "181"
+    },
+    "id": "181003",
+    "year": "2016"
+  },
+  "price": {
+    "amount": 23400,
+    "currency": "USD"
+  },
+  "vehicleCirculation": {
+    "id": "URBAN_AREA"
+  },
+  "hasPowerSupplyConvertion": "S",
+  "hasAcceptedDataTreatment": "S",
+  "vehicleLicencePlate": "LOR365",
+  "tier": {
+    "id": "0001"
+  },
+  "bankingFactor": 100.000000,
+  "campaignFactor": 15.000000
+}

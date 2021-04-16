@@ -1,0 +1,702 @@
+{
+  "payload": [
+    {
+      "fecCreacion": "2021-01-14",
+      "fecExpiracion": "2021-02-13",
+      "fecFinVig": "2021-02-12",
+      "fecIniVig": "2021-01-14",
+      "diasVigencia": "30",
+      "vehicular": "eaf2172a-6cef-496a-b3dd-5bd7fb730997",
+      "codigoExterno": "02414010091888",
+      "moneda": "USD",
+      "placa": "ZHK292",
+      "tipoDocumento": "L",
+      "nroDocumento": "70336628",
+      "indSeleccionado": "S",
+      "terceros": [],
+      "producto": "VEHICULAR",
+      "plan": [
+        {
+          "plan": 532831,
+          "descripcionPlan": "(ADVERTENCIA: FASE TEST) CANAL BANCO BBVA PERÚ - BESO FRANCÉS (05-12-2018) - SAS ",
+          "primaNeta": 1099.8,
+          "primaBruta": 1336.69,
+          "indicadorInspeccion": "S",
+          "financiamientos": [
+            {
+              "financiamiento": 158,
+              "periodicidad": "Mensual",
+              "numeroCuotas": 12,
+              "fechaInicio": "2021-01-14",
+              "fechaFinal": "2022-01-14",
+              "cuotasFinanciamiento": [
+                {
+                  "cuota": 1,
+                  "monto": 111.39,
+                  "fechaVencimiento": "2021-01-14",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 2,
+                  "monto": 111.39,
+                  "fechaVencimiento": "2021-02-15",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 3,
+                  "monto": 111.39,
+                  "fechaVencimiento": "2021-03-15",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 4,
+                  "monto": 111.39,
+                  "fechaVencimiento": "2021-04-15",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 5,
+                  "monto": 111.39,
+                  "fechaVencimiento": "2021-05-14",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 6,
+                  "monto": 111.39,
+                  "fechaVencimiento": "2021-06-14",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 7,
+                  "monto": 111.39,
+                  "fechaVencimiento": "2021-07-14",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 8,
+                  "monto": 111.39,
+                  "fechaVencimiento": "2021-08-16",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 9,
+                  "monto": 111.39,
+                  "fechaVencimiento": "2021-09-14",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 10,
+                  "monto": 111.39,
+                  "fechaVencimiento": "2021-10-14",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 11,
+                  "monto": 111.39,
+                  "fechaVencimiento": "2021-11-15",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 12,
+                  "monto": 111.4,
+                  "fechaVencimiento": "2021-12-14",
+                  "moneda": "USD"
+                }
+              ]
+            }
+          ],
+          "componente": [
+            {
+              "componente": 7820,
+              "descipcionComponente": "CHOQUE",
+              "tipoComponente": "COB",
+              "primaBruta": 1336.7,
+              "primaNeta": 1099.8,
+              "sumaAsegurada": 23400,
+              "tasa": 4.7
+            },
+            {
+              "componente": 7799,
+              "descipcionComponente": "AUSENCIA DE CONTROL.",
+              "tipoComponente": "COB",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "sumaAsegurada": 23400,
+              "tasa": null
+            },
+            {
+              "componente": 7783,
+              "descipcionComponente": "DAÑO MALICIOSO VANDALISMO Y TERRORISMO",
+              "tipoComponente": "COB",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "sumaAsegurada": 23400,
+              "tasa": null
+            },
+            {
+              "componente": 7781,
+              "descipcionComponente": "HUELGA Y CONMOCIÓN CIVIL",
+              "tipoComponente": "COB",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "sumaAsegurada": 23400,
+              "tasa": null
+            },
+            {
+              "componente": 7784,
+              "descipcionComponente": "TERREMOTO MAREMOTO Y TEMBLOR",
+              "tipoComponente": "COB",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "sumaAsegurada": 23400,
+              "tasa": null
+            },
+            {
+              "componente": 15821,
+              "descipcionComponente": "ACCESORIOS MUSICALES.",
+              "tipoComponente": "COB",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "sumaAsegurada": 1000,
+              "tasa": null
+            },
+            {
+              "componente": 7825,
+              "descipcionComponente": "VEHÍCULO DE REEMPLAZO",
+              "tipoComponente": "SER",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "sumaAsegurada": 23400,
+              "tasa": null
+            },
+            {
+              "componente": 12436,
+              "descipcionComponente": "CHOFER DE REEMPLAZO.",
+              "tipoComponente": "COB",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "sumaAsegurada": 23400,
+              "tasa": null
+            },
+            {
+              "componente": 7872,
+              "descipcionComponente": "RESPONSABILIDAD  CIVIL FRENTE A OCUPANTES POR VEHÍCULO",
+              "tipoComponente": "COB",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "sumaAsegurada": 30000,
+              "tasa": null
+            },
+            {
+              "componente": 7874,
+              "descipcionComponente": "RESPONSABILIDAD CIVIL FRENTE A TERCEROS",
+              "tipoComponente": "COB",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "sumaAsegurada": 150000,
+              "tasa": null
+            },
+            {
+              "componente": 7873,
+              "descipcionComponente": "RESPONSABILIDAD CIVIL POR AUSENCIA DE CONTROL",
+              "tipoComponente": "COB",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "sumaAsegurada": 50000,
+              "tasa": null
+            },
+            {
+              "componente": 7835,
+              "descipcionComponente": "MUERTE DE OCUPANTES C/U",
+              "tipoComponente": "COB",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "sumaAsegurada": 25000,
+              "tasa": null
+            },
+            {
+              "componente": 7837,
+              "descipcionComponente": "INVALIDEZ PERMANENTE DE OCUPANTES C/U",
+              "tipoComponente": "COB",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "sumaAsegurada": 25000,
+              "tasa": null
+            },
+            {
+              "componente": 7838,
+              "descipcionComponente": "GASTOS DE CURACIÓN DE OCUPANTES C/U",
+              "tipoComponente": "COB",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "sumaAsegurada": 5000,
+              "tasa": null
+            },
+            {
+              "componente": 7886,
+              "descipcionComponente": "AUXILIO MECÁNICO",
+              "tipoComponente": "SER",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "sumaAsegurada": 23400,
+              "tasa": null
+            },
+            {
+              "componente": 15824,
+              "descipcionComponente": "PÉRDIDA DE LLAVES",
+              "tipoComponente": "COB",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "sumaAsegurada": 500,
+              "tasa": null
+            },
+            {
+              "componente": 7802,
+              "descipcionComponente": "DAÑOS MATERIALES",
+              "tipoComponente": "COB",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "sumaAsegurada": 23400,
+              "tasa": null
+            },
+            {
+              "componente": 7801,
+              "descipcionComponente": "INCENDIO",
+              "tipoComponente": "COB",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "sumaAsegurada": 23400,
+              "tasa": null
+            },
+            {
+              "componente": 7821,
+              "descipcionComponente": "VUELCO",
+              "tipoComponente": "COB",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "sumaAsegurada": 23400,
+              "tasa": null
+            },
+            {
+              "componente": 7822,
+              "descipcionComponente": "ROBO PARCIAL",
+              "tipoComponente": "COB",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "sumaAsegurada": 23400,
+              "tasa": null
+            },
+            {
+              "componente": 7782,
+              "descipcionComponente": "ROBO TOTAL.",
+              "tipoComponente": "COB",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "sumaAsegurada": 23400,
+              "tasa": null
+            },
+            {
+              "componente": 7824,
+              "descipcionComponente": "HUAYCO (AVENIDA)",
+              "tipoComponente": "COB",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "sumaAsegurada": 23400,
+              "tasa": null
+            }
+          ],
+          "deducible": [
+            {
+              "deducible": 2237227,
+              "componente": 7799,
+              "descripcion": "AUSENCIA DE CONTROL 25% del MONTO A INDEMNIZAR, Mínimo de US$ 500.00",
+              "descripcionComp": "AUSENCIA DE CONTROL 25% del MONTO A INDEMNIZAR, Mínimo de US$ 500.00"
+            },
+            {
+              "deducible": 2237230,
+              "componente": 7820,
+              "descripcion": "POR EVENTO 15.00% del MONTO A INDEMNIZAR, Mínimo de US$ 150.00, EN TALLERES AFILIADOS.\n\nSINIESTROS ATENDIDOS EN RED DE TALLERES AFILIADOS MULTIMARCA: 10.00% del MONTO A INDEMNIZAR, Mínimo de US$ 150.00\n\nROBO PARCIAL 15% del MONTO A INDEMNIZAR, Mínimo de US$ 150.00\t\n\nACCESORIOS MUSICALES: 10% del MONTO DEL SINIESTRO, Mínimo de US$ 150.00\n\nVEHÍCULO DE REEMPLAZO, US$ 100.00\t\n\nCONDUCTOR VARÓN MENOR  DE 29 AÑOS, POR TODO Y CADA EVENTO: 20% del MONTO DEL SINIESTRO Mínimo de US$ 500\n\nPOR EVENTO PARA MARCAS MERCEDES BENZ, BMW, AUDI: 20% del MONTO A INDEMNIZAR, Mínimo de US$ 200.00 EN TALLERES AFILIADOS\n\nPOR EVENTO PARA MARCAS MERCEDES BENZ, BMW, AUDI: 15% del MONTO A INDEMNIZAR, Mínimo de US$ 150.00 EN TALLERES AFILIADOS MULTIMARCA.\n\nREPOSICIÓN DE LUNAS NACIONALES, SIN DEDUCIBLE\t\n\t \nOTROS RIESGOS NO ESPECIFICADOS SEGÚN CLÁUSULA CORRESPONDIENTE\n\nDEDUCIBLE PARA SUB LIMITE DE ATENCIÓN US$ 400\n",
+              "descripcionComp": "POR EVENTO 15.00% del MONTO A INDEMNIZAR, Mínimo de US$ 150.00, EN TALLERES AFILIADOS.\n\nSINIESTROS ATENDIDOS EN RED DE TALLERES AFILIADOS MULTIMARCA: 10.00% del MONTO A INDEMNIZAR, Mínimo de US$ 150.00\n\nROBO PARCIAL 15% del MONTO A INDEMNIZAR, Mínimo de US$ 150.00\t\n\nACCESORIOS MUSICALES: 10% del MONTO DEL SINIESTRO, Mínimo de US$ 150.00\n\nVEHÍCULO DE REEMPLAZO, US$ 100.00\t\n\nCONDUCTOR VARÓN MENOR  DE 29 AÑOS, POR TODO Y CADA EVENTO: 20% del MONTO DEL SINIESTRO Mínimo de US$ 500\n\nPOR EVENTO PARA MARCAS MERCEDES BENZ, BMW, AUDI: 20% del MONTO A INDEMNIZAR, Mínimo de US$ 200.00 EN TALLERES AFILIADOS\n\nPOR EVENTO PARA MARCAS MERCEDES BENZ, BMW, AUDI: 15% del MONTO A INDEMNIZAR, Mínimo de US$ 150.00 EN TALLERES AFILIADOS MULTIMARCA.\n\nREPOSICIÓN DE LUNAS NACIONALES, SIN DEDUCIBLE\t\n\t \nOTROS RIESGOS NO ESPECIFICADOS SEGÚN CLÁUSULA CORRESPONDIENTE\n\nDEDUCIBLE PARA SUB LIMITE DE ATENCIÓN US$ 400\n"
+            },
+            {
+              "deducible": 2237232,
+              "componente": 7820,
+              "descripcion": "\nSERVICIOS ADICIONALES SOLO EN CASO DE ACCIDENTES \n(Mediante Aló Rimac)\t\t\t\n\n-Asistencia Personal de Procuradores (lugar de los hechos)\t\t\t\n-Asesoría de Trámites en la Comisaría\t\t\t\n-Sistema SPEED (Exoneración de trámites de acuerdo al caso)\t\t\t\n-Traslado en grúa (en la zona urbana), solo para vehículos menores a 2 Tn. de peso y con cobertura de Todo Riesgo\t\t\t\n-Emergencia médica asistida y ambulancia amparado por la póliza\t\t\t\n-Reposición de lunas y llantas en caso de rotura y/o robo(en la zona urbana), solamente para automóviles y camionetas\t\t\t\n",
+              "descripcionComp": "\nSERVICIOS ADICIONALES SOLO EN CASO DE ACCIDENTES \n(Mediante Aló Rimac)\t\t\t\n\n-Asistencia Personal de Procuradores (lugar de los hechos)\t\t\t\n-Asesoría de Trámites en la Comisaría\t\t\t\n-Sistema SPEED (Exoneración de trámites de acuerdo al caso)\t\t\t\n-Traslado en grúa (en la zona urbana), solo para vehículos menores a 2 Tn. de peso y con cobertura de Todo Riesgo\t\t\t\n-Emergencia médica asistida y ambulancia amparado por la póliza\t\t\t\n-Reposición de lunas y llantas en caso de rotura y/o robo(en la zona urbana), solamente para automóviles y camionetas\t\t\t\n"
+            }
+          ],
+          "clausulas": [
+            {
+              "definicion": "RIESGOS POLÍTICOS",
+              "clausula": 17417564,
+              "componente": 25091299
+            },
+            {
+              "definicion": "CLÁUSULA DE RIESGOS DE LA NATURALEZA",
+              "clausula": 17417565,
+              "componente": 25091302
+            },
+            {
+              "definicion": "CLÁUSULA DE CHOFER DE REEMPLAZO (MÁXIMO 3 ASISTENCIAS)",
+              "clausula": 17417566,
+              "componente": 25091303
+            },
+            {
+              "definicion": "CONDICIÓN ESPECIAL FALLAS RECONOC. ELECTRÓNICO",
+              "clausula": 17417568,
+              "componente": 25091306
+            },
+            {
+              "definicion": "CONDICIÓN ESPECIAL CÚMULO DE ACCIDENTES PERSONALES",
+              "clausula": 17417569,
+              "componente": 25091306
+            },
+            {
+              "definicion": "RELACIÓN DE TALLERES AFILIADOS PREMIER",
+              "clausula": 17417570,
+              "componente": 25091306
+            },
+            {
+              "definicion": "CONDICIONES GENERALES SEGURO VEHICULAR PREMIER",
+              "clausula": 17417571,
+              "componente": 25091306
+            },
+            {
+              "definicion": "VALOR CONVENIDO",
+              "clausula": 17417572,
+              "componente": 25091306
+            },
+            {
+              "definicion": "DEDUCIBLE PARA CONDUCTOR VARÓN MENOR DE 29 AÑOS",
+              "clausula": 17417573,
+              "componente": 25091306
+            },
+            {
+              "definicion": "DAÑOS CORPORALES EN EXCESO DEL SEGURO OBLIGATORIO DE ACCIDENTES DE TRÁNSITO",
+              "clausula": 17417575,
+              "componente": 25091306
+            },
+            {
+              "definicion": "PRESCRIPCIONES DE SEGURIDAD",
+              "clausula": 17417577,
+              "componente": 25091306
+            },
+            {
+              "definicion": "CONDICIONES GENERALES DE CONTRATACIÓN",
+              "clausula": 17417578,
+              "componente": 25091306
+            },
+            {
+              "definicion": "REPUESTOS",
+              "clausula": 17417579,
+              "componente": 25091306
+            },
+            {
+              "definicion": "LUNAS",
+              "clausula": 17417580,
+              "componente": 25091306
+            },
+            {
+              "definicion": "CLÁUSULA DE VÍAS NO AUTORIZADAS",
+              "clausula": 17417581,
+              "componente": 25091306
+            },
+            {
+              "definicion": "RESTITUCIÓN AUTOMÁTICA DE LA SUMA ASEGURADA",
+              "clausula": 17417582,
+              "componente": 25091306
+            },
+            {
+              "definicion": "SISTEMA SPEED",
+              "clausula": 17417584,
+              "componente": 25091306
+            },
+            {
+              "definicion": "ACCESORIOS MUSICALES",
+              "clausula": 17417588,
+              "componente": 25091309
+            },
+            {
+              "definicion": "EQUIPO MUSICAL CON MÁSCARA DESMONTABLE",
+              "clausula": 17417589,
+              "componente": 25091309
+            },
+            {
+              "definicion": "CLÁUSULA DE COBERTURA DE ACCESORIOS ESPECIALES NO MUSICALES",
+              "clausula": 17417590,
+              "componente": 25091309
+            },
+            {
+              "definicion": "VEHÍCULO DE REEMPLAZO",
+              "clausula": 17417591,
+              "componente": 25091311
+            },
+            {
+              "definicion": "CLÁUSULA DE MODIFICACIÓN DEL LIMITE MÁXIMO ASEGURADO DE RESPONSABILIDAD CIVIL FRENTE A TERCEROS",
+              "clausula": 17417592,
+              "componente": 25091312
+            },
+            {
+              "definicion": "CLÁUSULA DE AUSENCIA DE CONTROL PARA DAÑO PROPIO Y RESPONSABILIDAD CIVIL SEGURO VEHICULAR PREMIER SOLO PARA PÓLIZAS CON DERECHOS DE INDEMNIZACIÓN TRANSFERIDOS A FAVOR DE ENTIDADES FINANCIERAS",
+              "clausula": 17417593,
+              "componente": 25091313
+            },
+            {
+              "definicion": "AUXILIO MECÁNICO",
+              "clausula": 17417594,
+              "componente": 25091314
+            }
+          ],
+          "datosParticulares": [
+            {
+              "etiqueta": "CLASES_DE_VEHICULOS",
+              "codigo": "001",
+              "valor": "AUTOMOVIL"
+            },
+            {
+              "etiqueta": "TIPOS_DE_VEHICULOS",
+              "codigo": "001000",
+              "valor": "AUTO"
+            },
+            {
+              "etiqueta": "MARCAS_DE_VEHICULOS",
+              "codigo": "181",
+              "valor": "HONDA"
+            },
+            {
+              "etiqueta": "MODELOS_DE_VEHICULOS",
+              "codigo": "181003",
+              "valor": "CIVIC"
+            },
+            {
+              "etiqueta": "CATEGORIA VEHICULAR",
+              "codigo": null,
+              "valor": "532831-Alfanumérico-AUTO_BR2"
+            },
+            {
+              "etiqueta": "NUEVO RIESGO VEHICULAR",
+              "codigo": null,
+              "valor": "532831-Alfanumérico-R2"
+            },
+            {
+              "etiqueta": "PLACA_DE_RODAJE",
+              "codigo": null,
+              "valor": "ZHK292"
+            },
+            {
+              "etiqueta": "NUMERO_DE_SERIE",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "USOS_DE_VEHICULOS",
+              "codigo": "001",
+              "valor": "PARTICULAR"
+            },
+            {
+              "etiqueta": "NUMERO_DE_MOTOR",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "NUMERO_INSPECCION",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "COLOR",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "GPS",
+              "codigo": "000",
+              "valor": "NO"
+            },
+            {
+              "etiqueta": "SUMA_ASEGURADA",
+              "codigo": null,
+              "valor": 23400
+            },
+            {
+              "etiqueta": "NRO_PASAJEROS",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "COMBUSTIBLE_GAS",
+              "codigo": "000",
+              "valor": "NO"
+            },
+            {
+              "etiqueta": "VEHICULO_BLINDADO",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "TIMON_CAMBIADO_30",
+              "codigo": "002",
+              "valor": "NO"
+            },
+            {
+              "etiqueta": "NRO_CERT_BANCO",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "EQUIPO_MUSICAL",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "PARLANTES",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "ANTENA",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "OTROS_EQUIPOS_DE_SONIDO",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "ALARMA_ANTI_ROBO_VH",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "PROTECTOR_FAROS_DELANTEROS_VH",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "PROTECTOR_FAROS_POSTERIORES_VH",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "PERNOS_DE_SEGURIDAD_EN_AROS_VH",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "OTROS_TIPOS_DE_SEGURIDAD_VH",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "ATENCIONES_ALO_RIMAC_AL_AÑO",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "WEB_ANOS_DE_FABRICACION",
+              "codigo": null,
+              "valor": "2016"
+            },
+            {
+              "etiqueta": "AÑOS_ANTIGUEDAD",
+              "codigo": null,
+              "valor": 5
+            },
+            {
+              "etiqueta": "FORMA_DE_PAGO",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "ALTO_RIESGO",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "WEB_PROVEEDOR_GPS",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "PROCEDENCIA EXTERNA",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "REQUIERE INSPECCION",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "NRO_CERT_BANCO",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "PROCEDENCIA DE VEHICULO",
+              "codigo": "0",
+              "valor": "IMP. VERS. LOCAL"
+            },
+            {
+              "etiqueta": "CATEGORIA BASE DATOS UNICA",
+              "codigo": null,
+              "valor": "532831-Alfanumérico-AUTO_BR2"
+            },
+            {
+              "etiqueta": "FACTOR BANCARIO",
+              "codigo": null,
+              "valor": "1"
+            },
+            {
+              "etiqueta": "FACTOR CAMPAÑA",
+              "codigo": null,
+              "valor": "1"
+            },
+            {
+              "etiqueta": "FACTOR TERRITORIO",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "FACTOR OFICINA",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "FACTOR SEXO",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "FACTOR_RIMAC",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "FACTOR_RESULTANTE",
+              "codigo": null,
+              "valor": "1"
+            },
+            {
+              "etiqueta": "INDICADOR DE RETENCIÓN",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "TIER",
+              "codigo": null,
+              "valor": "1"
+            },
+            {
+              "etiqueta": "UBICACIÓN",
+              "codigo": "001",
+              "valor": "LIMA"
+            }
+          ]
+        }
+      ],
+      "indicadorGps": "NO"
+    }
+  ]
+}

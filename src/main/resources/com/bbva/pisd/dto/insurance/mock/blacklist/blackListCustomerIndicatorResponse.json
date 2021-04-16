@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "indicatorId": "PEP",
+            "name": "PERSONA EXPUESTA POLITICAMENTE",
+            "isActive": false
+        },
+        {
+            "indicatorId": "INE",
+            "name": "PERSONA HA TENIDO COMPORTAMIENTO INADEC.",
+            "isActive": false
+        },
+        {
+            "indicatorId": "EMPLOYEE",
+            "name": "PERSONA EMPLEADO BANCO",
+            "isActive": false
+        },
+        {
+            "indicatorId": "MEDIA_COMMUNICATION_PERSON",
+            "name": "PERSONA MEDIATICA",
+            "isActive": false
+        },
+        {
+            "indicatorId": "FATCA",
+            "name": "PERSONA FATCA",
+            "isActive": false
+        }
+    ]
+}

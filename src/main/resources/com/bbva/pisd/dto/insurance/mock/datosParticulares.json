@@ -1,0 +1,262 @@
+[
+  {
+    "etiqueta": "CLASES_DE_VEHICULOS",
+    "codigo": "001",
+    "valor": "AUTOMOVIL"
+  },
+  {
+    "etiqueta": "TIPOS_DE_VEHICULOS",
+    "codigo": "001000",
+    "valor": "AUTO"
+  },
+  {
+    "etiqueta": "MARCAS_DE_VEHICULOS",
+    "codigo": "181",
+    "valor": "HONDA"
+  },
+  {
+    "etiqueta": "MODELOS_DE_VEHICULOS",
+    "codigo": "181003",
+    "valor": "CIVIC"
+  },
+  {
+    "etiqueta": "CATEGORIA VEHICULAR",
+    "codigo": null,
+    "valor": "532831-Alfanumérico-AUTO_BR2"
+  },
+  {
+    "etiqueta": "NUEVO RIESGO VEHICULAR",
+    "codigo": null,
+    "valor": "532831-Alfanumérico-R2"
+  },
+  {
+    "etiqueta": "PLACA_DE_RODAJE",
+    "codigo": null,
+    "valor": "LOR365"
+  },
+  {
+    "etiqueta": "NUMERO_DE_SERIE",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "USOS_DE_VEHICULOS",
+    "codigo": "001",
+    "valor": "PARTICULAR"
+  },
+  {
+    "etiqueta": "NUMERO_DE_MOTOR",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "NUMERO_INSPECCION",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "COLOR",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "GPS",
+    "codigo": "000",
+    "valor": "NO"
+  },
+  {
+    "etiqueta": "SUMA_ASEGURADA",
+    "codigo": null,
+    "valor": 23400
+  },
+  {
+    "etiqueta": "NRO_PASAJEROS",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "COMBUSTIBLE_GAS",
+    "codigo": "000",
+    "valor": "NO"
+  },
+  {
+    "etiqueta": "VEHICULO_BLINDADO",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "TIMON_CAMBIADO_30",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "NRO_CERT_BANCO",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "EQUIPO_MUSICAL",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "PARLANTES",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "ANTENA",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "OTROS_EQUIPOS_DE_SONIDO",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "ALARMA_ANTI_ROBO_VH",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "PROTECTOR_FAROS_DELANTEROS_VH",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "PROTECTOR_FAROS_POSTERIORES_VH",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "PERNOS_DE_SEGURIDAD_EN_AROS_VH",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "OTROS_TIPOS_DE_SEGURIDAD_VH",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "ATENCIONES_ALO_RIMAC_AL_AÑO",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "WEB_ANOS_DE_FABRICACION",
+    "codigo": null,
+    "valor": "2016"
+  },
+  {
+    "etiqueta": "AÑOS_ANTIGUEDAD",
+    "codigo": null,
+    "valor": 5
+  },
+  {
+    "etiqueta": "FORMA_DE_PAGO",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "ALTO_RIESGO",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "WEB_PROVEEDOR_GPS",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "PROCEDENCIA EXTERNA",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "REQUIERE INSPECCION",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "NRO_CERT_BANCO",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "NRO_CERT_BANCO",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "PROCEDENCIA DE VEHICULO",
+    "codigo": "0",
+    "valor": "IMP. VERS. LOCAL"
+  },
+  {
+    "etiqueta": "CATEGORIA BASE DATOS UNICA",
+    "codigo": null,
+    "valor": "532831-Alfanumérico-AUTO_BR2"
+  },
+  {
+    "etiqueta": "FACTOR BANCARIO",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "FACTOR CAMPANA",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "FACTOR TERRITORIO",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "FACTOR OFICINA",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "FACTOR SEXO",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "FACTOR_RIMAC",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "FACTOR_RESULTANTE",
+    "codigo": null,
+    "valor": "1"
+  },
+  {
+    "etiqueta": "INDICADOR DE RETENCIÓN",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "TIER",
+    "codigo": null,
+    "valor": "0001"
+  },
+  {
+    "etiqueta": "UBICACION",
+    "codigo": "LIMA",
+    "valor": "LIMA"
+  },
+  {
+    "etiqueta": "CANAL TERCERO",
+    "codigo": null,
+    "valor": null
+  },
+  {
+    "etiqueta": "NRO POLIZA TERCERO",
+    "codigo": null,
+    "valor": null
+  }
+]

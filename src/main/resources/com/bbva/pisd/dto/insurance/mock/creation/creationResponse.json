@@ -1,0 +1,278 @@
+{
+  "quotationCompany": {
+    "id": "df902c9d-c031-4bdb-b6d6-a6ae5f09724d"
+  },
+  "operationDate": "2021-03-23T17:34:29.669Z",
+  "product": {
+    "plans": [
+      {
+        "benefits": [
+          {
+            "unit": {
+              "unitType": "TEXT",
+              "amount": 0.0,
+              "percentage": 0.0,
+              "currency": "",
+              "text": "",
+              "decimal": 0.0
+            },
+            "name": "TEXTO BENEFICIO 1",
+            "id": "1"
+          },
+          {
+            "unit": {
+              "unitType": "TEXT",
+              "amount": 0.0,
+              "percentage": 0.0,
+              "currency": "",
+              "text": "",
+              "decimal": 0.0
+            },
+            "name": "TEXTO BENEFICIO 2",
+            "id": "2"
+          }
+        ],
+        "name": "PLAN BASICO",
+        "isRecommended": "S",
+        "isSelected": "S",
+        "installmentPlan": {
+          "period": {
+            "name": "Mensual",
+            "id": "M"
+          },
+          "amount": {
+            "amount": "540.37",
+            "currency": "USD"
+          },
+          "financing": {
+            "paymentsTotalnumber": 12,
+            "installments": [
+              {
+                "amount": {
+                  "amount": "45.03",
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-03-17",
+                "paymentNumber": 1
+              },
+              {
+                "amount": {
+                  "amount": "45.03",
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-04-19",
+                "paymentNumber": 2
+              },
+              {
+                "amount": {
+                  "amount": "45.03",
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-05-17",
+                "paymentNumber": 3
+              },
+              {
+                "amount": {
+                  "amount": "45.03",
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-06-17",
+                "paymentNumber": 4
+              },
+              {
+                "amount": {
+                  "amount": "45.03",
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-07-19",
+                "paymentNumber": 5
+              },
+              {
+                "amount": {
+                  "amount": "45.03",
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-08-17",
+                "paymentNumber": 6
+              },
+              {
+                "amount": {
+                  "amount": "45.03",
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-09-17",
+                "paymentNumber": 7
+              },
+              {
+                "amount": {
+                  "amount": "45.03",
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-10-18",
+                "paymentNumber": 8
+              },
+              {
+                "amount": {
+                  "amount": "45.03",
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-11-17",
+                "paymentNumber": 9
+              },
+              {
+                "amount": {
+                  "amount": "45.03",
+                  "currency": "USD"
+                },
+                "maturityDate": "2021-12-17",
+                "paymentNumber": 10
+              },
+              {
+                "amount": {
+                  "amount": "45.03",
+                  "currency": "USD"
+                },
+                "maturityDate": "2022-01-17",
+                "paymentNumber": 11
+              },
+              {
+                "amount": {
+                  "amount": "45.04",
+                  "currency": "USD"
+                },
+                "maturityDate": "2022-02-17",
+                "paymentNumber": 12
+              }
+            ],
+            "maturityDate": "2021-03-17",
+            "id": 158,
+            "startDate": "2021-03-17"
+          }
+        },
+        "exclusions": [
+          {
+            "unit": {
+              "unitType": "TEXT",
+              "amount": 0.0,
+              "percentage": 0.0,
+              "currency": "",
+              "text": "",
+              "decimal": 0.0
+            },
+            "name": "TEXTO EXCLUSION 1",
+            "id": "1"
+          },
+          {
+            "unit": {
+              "unitType": "TEXT",
+              "amount": 0.0,
+              "percentage": 0.0,
+              "currency": "",
+              "text": "",
+              "decimal": 0.0
+            },
+            "name": "TEXTO EXCLUSION 2",
+            "id": "2"
+          }
+        ],
+        "id": "01",
+        "deductibles": [
+          {
+            "name": "TEXTO DEDUCIBLE 1",
+            "id": "1"
+          },
+          {
+            "name": "TEXTO DEDUCIBLE 2",
+            "id": "2"
+          }
+        ],
+        "coverages": [
+          {
+            "unit": {
+              "unitType": "TEXT",
+              "amount": 0.0,
+              "percentage": 0.0,
+              "currency": "",
+              "text": "",
+              "decimal": 0.0
+            },
+            "name": "TEXTO COBERTURA 1",
+            "id": "1"
+          },
+          {
+            "unit": {
+              "unitType": "TEXT",
+              "amount": 0.0,
+              "percentage": 0.0,
+              "currency": "",
+              "text": "",
+              "decimal": 0.0
+            },
+            "name": "TEXTO COBERTURA 2",
+            "id": "2"
+          }
+        ]
+      }
+    ],
+    "description": "SEGURO VEHICULAR OPTATIVO",
+    "id": "0000000827"
+  },
+  "markedAsSaved": "N",
+  "vehicleCirculation": {
+    "name": "LIMA",
+    "id": "URBAN_AREA"
+  },
+  "bankingFactor": 15.0,
+  "holder": {
+    "identityDocument": {
+      "documentType": {
+        "id": "DNI"
+      },
+      "documentNumber": "70433782"
+    },
+    "id": "06792804"
+  },
+  "tier": {
+    "id": "0001"
+  },
+  "maturityDate": "2021-04-22",
+  "price": {
+    "amount": "23400.0",
+    "currency": "USD"
+  },
+  "isInspectionRequired": "S",
+  "model": {
+    "year": 2016,
+    "name": "CIVIC",
+    "id": "181003",
+    "brand": {
+      "name": "HONDA",
+      "id": "181"
+    }
+  },
+  "id": "0814000000159",
+  "isGpsRequired": "N",
+  "hasPowerSupplyConvertion": "S",
+  "insuranceCompany": {
+    "name": "RIMAC SEGUROS Y REASEGUROS",
+    "id": "1"
+  },
+  "licensePlate": "UEG164",
+  "validityDays": 30,
+  "status": {
+    "name": "COTIZADA",
+    "id": "QUOTED"
+  },
+  "contactDetails": [
+    {
+      "id": "931669231"
+    },
+    {
+      "id": "abc@gmail.com"
+    }
+  ],
+  "scheduleContact": {
+    "id": "AFTERNOON"
+  },
+  "aap": "13000013"
+}
