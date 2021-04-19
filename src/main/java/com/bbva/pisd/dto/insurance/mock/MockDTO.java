@@ -1,14 +1,14 @@
 package com.bbva.pisd.dto.insurance.mock;
 
-import com.bbva.pisd.dto.insurance.aso.blacklist.BlackListASO;
+import com.bbva.pisd.dto.insurance.aso.BlackListASO;
 
 import com.bbva.pisd.dto.insurance.blacklist.EntityOutBlackListDTO;
 
 import com.bbva.pisd.dto.insurance.bo.SelectionQuotationPayloadBO;
 
-import com.bbva.pisd.dto.insurance.bo.blacklist.BlackListHealthRimacBO;
-import com.bbva.pisd.dto.insurance.bo.blacklist.BlackListIndicatorBO;
-import com.bbva.pisd.dto.insurance.bo.blacklist.BlackListRiskRimacBO;
+import com.bbva.pisd.dto.insurance.bo.BlackListHealthRimacBO;
+import com.bbva.pisd.dto.insurance.bo.BlackListIndicatorBO;
+import com.bbva.pisd.dto.insurance.bo.BlackListRiskRimacBO;
 
 import com.bbva.pisd.dto.insurance.commons.InsuranceProductModalityDTO;
 

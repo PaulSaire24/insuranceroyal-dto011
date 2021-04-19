@@ -1,6 +1,4 @@
-package com.bbva.pisd.dto.insurance.bo.blacklist;
-
-import com.bbva.pisd.dto.insurance.bo.SelectionQuotationPayloadBO;
+package com.bbva.pisd.dto.insurance.bo;
 
 import java.util.List;
 

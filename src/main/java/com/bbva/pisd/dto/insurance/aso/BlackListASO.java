@@ -1,6 +1,6 @@
-package com.bbva.pisd.dto.insurance.aso.blacklist;
+package com.bbva.pisd.dto.insurance.aso;
 
-import com.bbva.pisd.dto.insurance.bo.blacklist.BlackListIndicatorBO;
+import com.bbva.pisd.dto.insurance.bo.BlackListIndicatorBO;
 
 import java.util.List;
 

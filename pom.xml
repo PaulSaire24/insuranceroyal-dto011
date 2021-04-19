@@ -15,10 +15,9 @@
 	<properties>
 		<sonar.coverage.exclusions>
 			/src/main/java/com/bbva/pisd/dto/insurance/amazon/**.java,
-			/src/main/java/com/bbva/pisd/dto/insurance/aso/blacklist/**.java,
+			/src/main/java/com/bbva/pisd/dto/insurance/aso/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/blacklist/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/bo/**.java,
-			/src/main/java/com/bbva/pisd/dto/insurance/bo/blacklist/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/commons/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/mapper/ObjectMapperHelper.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/mock/**.java,

@@ -1,4 +1,4 @@
-package com.bbva.pisd.dto.insurance.bo.blacklist;
+package com.bbva.pisd.dto.insurance.bo;
 
 public class BlackListIndicatorBO {
 	private String indicatorId;
