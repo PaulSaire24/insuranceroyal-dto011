@@ -41,7 +41,7 @@
 		<dependency>
 			<groupId>com.bbva.elara</groupId>
 			<artifactId>elara-exception</artifactId>
-			<version>7.1.7</version>
+			<version>7.3.1-RELEASE</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
