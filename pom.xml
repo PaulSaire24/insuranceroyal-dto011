@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.bbva.pisd.dto.insurance</groupId>
 	<artifactId>PISDC011</artifactId>
-	<version>0.2.0-SNAPSHOT</version>
+	<version>0.2.1-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 	<description>Deployment unit insuranceroyal-dto011 of uuaa pisd</description>
 	<properties>
@@ -17,15 +17,18 @@
 			/src/main/java/com/bbva/pisd/dto/insurance/amazon/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/aso/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/aso/crypto/**.java,
+			/src/main/java/com/bbva/pisd/dto/insurance/aso/email/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/aso/gifole/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/aso/tier/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/blacklist/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/bo/**.java,
+			/src/main/java/com/bbva/pisd/dto/insurance/bo/detail/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/bo/simulation/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/commons/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/dao/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/mapper/ObjectMapperHelper.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/mock/**.java,
+			/src/main/java/com/bbva/pisd/dto/insurance/quotation/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/simulation/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/utils/**.java
 		</sonar.coverage.exclusions>
