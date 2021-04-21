@@ -10,6 +10,7 @@ import com.bbva.pisd.dto.insurance.blacklist.EntityOutBlackListDTO;
 import com.bbva.pisd.dto.insurance.bo.*;
 
 import com.bbva.pisd.dto.insurance.bo.detail.InsuranceQuotationDetailBO;
+import com.bbva.pisd.dto.insurance.bo.registerAdditional.RegisterAdditionalVehBO;
 import com.bbva.pisd.dto.insurance.bo.simulation.InsuranceSimulationBO;
 import com.bbva.pisd.dto.insurance.commons.*;
 
@@ -17,6 +18,8 @@ import com.bbva.pisd.dto.insurance.dao.ConsiderationsDAO;
 import com.bbva.pisd.dto.insurance.dao.InsuranceProductModalityDAO;
 import com.bbva.pisd.dto.insurance.mapper.ObjectMapperHelper;
 import com.bbva.pisd.dto.insurance.quotation.InsuranceQuotationDTO;
+import com.bbva.pisd.dto.insurance.quotation.RegisterAdditionalQuotationDTO;
+import com.bbva.pisd.dto.insurance.search.EntityOutSearchDTO;
 import com.bbva.pisd.dto.insurance.search.SearchQuotationDTO;
 import com.bbva.pisd.dto.insurance.simulation.InsuranceSimulationDTO;
 
@@ -232,6 +235,20 @@ public final class MockDTO {
                 SearchQuotationBO.class);
     }
 
+    public RegisterAdditionalQuotationDTO getRegisterAdditionalRequest() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/register/registerAdditionalRequest.json"),
+                RegisterAdditionalQuotationDTO.class);
+    }
+
+    public RegisterAdditionalVehBO getRegisterAdditionalOKResponse() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/register/registerAdditionalResponse.json"),
+                RegisterAdditionalVehBO.class);
+    }
+
     public List<Map<String, Object>> getSearchQuotationBBVAResponse() {
         List<Map<String, Object>> response = new ArrayList<>();
         Map<String, Object> row = new HashMap<>();
@@ -326,4 +343,26 @@ public final class MockDTO {
         return out;
     }
 
+    public EntityOutSearchDTO getSearchQuotationResponse() {
+        EntityOutSearchDTO out = new EntityOutSearchDTO();
+        List<SearchQuotationDTO> listquot = new ArrayList<>();
+        SearchQuotationDTO quot = getSearchQuotationBBVAMappedResponse();
+
+        quot.setId("0000003345454554");
+        quot.setLicensePlate("AAN680");
+        quot.setMaturityDate(new Date());
+
+        VehicleModelDTO model = new VehicleModelDTO();
+        VehicleBrandDTO brand = new VehicleBrandDTO();
+        brand.setId("3394");
+        brand.setName("ACURA");
+        model.setId("281598");
+        model.setName("A7 SPORTBACK 3.0 TSFI QUATTRO");
+        model.setBrand(brand);
+        quot.setModel(model);
+
+        listquot.add(quot);
+        out.setData(listquot);
+        return out;
+    }
 }

@@ -1,0 +1,24 @@
+{
+  "payload": {
+    "cotizacion": "",
+    "datosParticulares": [
+      {
+        "etiqueta": "NUMERO_DE_MOTOR",
+        "codigo": "000",
+        "valor": "003688B"
+      },
+      {
+        "etiqueta": "NRO_PASAJEROS",
+        "codigo": "",
+        "valor": "2"
+      },
+
+      {
+        "etiqueta": "NUMERO_DE_SERIE",
+        "codigo": "",
+        "valor": "D8975J1P076675"
+      }
+    ],
+    "indPolizaElectronica": "S"
+  }
+}
