@@ -1,14 +1,8 @@
 package com.bbva.pisd.dto.insurance.bo;
 
-import com.bbva.pisd.dto.insurance.commons.CommonOutputFieldsDTO;
-
 import java.util.List;
 
-<<<<<<< HEAD
 public class RegisterAdditionalVehPayloadBO{
-=======
-public class RegisterAdditionalVehPayloadBO extends CommonOutputFieldsDTO {
->>>>>>> 050772f641110fb416ba577c75ddc9d9e6d61fc8
 
     private String cotizacion;
     private List<DatoParticularBO> datosParticulares;

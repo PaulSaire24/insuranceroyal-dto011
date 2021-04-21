@@ -1,17 +1,10 @@
 package com.bbva.pisd.dto.insurance.quotation;
 
-<<<<<<< HEAD
 import com.bbva.pisd.dto.insurance.commons.CommonOutputFieldsDTO;
 
 public class RegisterAdditionalQuotationDTO extends CommonOutputFieldsDTO {
 
     private String quotationId;
-=======
-import com.bbva.pisd.dto.insurance.bo.RegisterAdditionalVehPayloadBO;
-
-public class RegisterAdditionalQuotationDTO extends RegisterAdditionalVehPayloadBO {
-
->>>>>>> 050772f641110fb416ba577c75ddc9d9e6d61fc8
     private String chassisVeh;
     private String engineVeh;
     private Long seatVeh;
@@ -42,7 +35,6 @@ public class RegisterAdditionalQuotationDTO extends RegisterAdditionalVehPayload
         this.engineVeh = engineVeh;
     }
 
-<<<<<<< HEAD
     public String getQuotationId() {
         return quotationId;
     }
@@ -56,12 +48,6 @@ public class RegisterAdditionalQuotationDTO extends RegisterAdditionalVehPayload
     public String toString() {
         final StringBuilder sb = new StringBuilder("RegisterAdditionalQuotationDTO{");
         sb.append("quotation-id= ").append(quotationId).append('\'');
-=======
-    @Override
-    public String toString() {
-        final StringBuilder sb = new StringBuilder("RegisterAdditionalQuotationDTO{");
-        sb.append("quotation-id= ").append(this.getCotizacion()).append('\'');
->>>>>>> 050772f641110fb416ba577c75ddc9d9e6d61fc8
         sb.append(", engineNumber='").append(engineVeh).append('\'');
         sb.append(", vehicleIdentificationNumber='").append(chassisVeh).append('\'');
         sb.append(", seats='").append(seatVeh).append('\'');
