@@ -29,6 +29,7 @@
 			/src/main/java/com/bbva/pisd/dto/insurance/mapper/ObjectMapperHelper.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/mock/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/quotation/**.java,
+			/src/main/java/com/bbva/pisd/dto/insurance/search/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/simulation/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/utils/**.java
 		</sonar.coverage.exclusions>

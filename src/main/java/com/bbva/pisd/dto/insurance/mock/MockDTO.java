@@ -11,17 +11,17 @@ import com.bbva.pisd.dto.insurance.bo.*;
 
 import com.bbva.pisd.dto.insurance.bo.detail.InsuranceQuotationDetailBO;
 import com.bbva.pisd.dto.insurance.bo.simulation.InsuranceSimulationBO;
-import com.bbva.pisd.dto.insurance.commons.InsuranceProductModalityDTO;
+import com.bbva.pisd.dto.insurance.commons.*;
 
 import com.bbva.pisd.dto.insurance.dao.ConsiderationsDAO;
 import com.bbva.pisd.dto.insurance.dao.InsuranceProductModalityDAO;
 import com.bbva.pisd.dto.insurance.mapper.ObjectMapperHelper;
 import com.bbva.pisd.dto.insurance.quotation.InsuranceQuotationDTO;
+import com.bbva.pisd.dto.insurance.search.SearchQuotationDTO;
 import com.bbva.pisd.dto.insurance.simulation.InsuranceSimulationDTO;
 
 import java.io.IOException;
-import java.util.List;
-import java.util.Arrays;
+import java.util.*;
 
 public final class MockDTO {
 
@@ -223,6 +223,107 @@ public final class MockDTO {
                 Thread.currentThread().getContextClassLoader().getResourceAsStream(
                         "com/bbva/pisd/dto/insurance/mock/creation/creationResponse.json"),
                 InsuranceQuotationDTO.class);
+    }
+
+    public SearchQuotationBO getSearchMockResponse() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/search/searchResponse.json"),
+                SearchQuotationBO.class);
+    }
+
+    public List<Map<String, Object>> getSearchQuotationBBVAResponse() {
+        List<Map<String, Object>> response = new ArrayList<>();
+        Map<String, Object> row = new HashMap<>();
+        String productId = "01827";
+        String productDesc = "Seguro vehicular";
+        row.put("PRODUCT_TYPE", productId);
+        row.put("PRODUCT_DESC", productDesc);
+        row.put("OPERATION_DATE", "2020-11-17 00:00:00.0");
+        row.put("OPERATION_HMS_DATE", "2020-11-17 14:55:23.185763");
+        row.put("PLAN_ID", "01");
+        row.put("PLAN_PERIOD_ID", "M");
+        row.put("STATUS_ID", "COT");
+        row.put("PLAN_NAME", "BASICO");
+        row.put("PLAN_SUGGESTED", "S");
+        row.put("PERIOD_NAME", "Mensual");
+        row.put("AMOUNT", "53.00");
+        row.put("CURRENCY", "USD");
+        response.add(row);
+
+        row = new HashMap<>();
+        row.put("PRODUCT_TYPE", productId);
+        row.put("PRODUCT_DESC", productDesc);
+        row.put("OPERATION_DATE", "2020-11-17 00:00:00.0");
+        row.put("OPERATION_HMS_DATE", "2020-11-17 14:55:23.185763");
+        row.put("PLAN_ID", "02");
+        row.put("PLAN_PERIOD_ID", "S");
+        row.put("STATUS_ID", "EMI");
+        row.put("PLAN_NAME", "ESTANDAR");
+        row.put("PLAN_SUGGESTED", "N");
+        row.put("PERIOD_NAME", "Semestral");
+        row.put("AMOUNT", "77.00");
+        row.put("CURRENCY", "USD");
+        response.add(row);
+        return response;
+    }
+
+    public SearchQuotationDTO getSearchQuotationBBVAMappedResponse() {
+        SearchQuotationDTO out = new SearchQuotationDTO();
+        out.setProduct(new InsuranceProductDTO());
+        out.getProduct().setPlans(new ArrayList<>());
+
+        InsuranceProductModalityDTO plan = new InsuranceProductModalityDTO();
+        InstallmentModalityDTO inst = new InstallmentModalityDTO();
+        PaymentPeriodDTO periodo = new PaymentPeriodDTO();
+        InsurancePrimeAmountDTO ammount = new InsurancePrimeAmountDTO();
+        ammount.setAmount(53.00);
+        ammount.setCurrency("USD");
+        inst.setAmount(ammount);
+        inst.setPeriod(periodo);
+        plan.setInstallmentPlan(inst);
+
+        out.getProduct().setId("01827");
+        out.getProduct().setDescription("Seguro vehicular");
+        out.setOperationDate(new Date());
+        out.setId("0000003345454554");
+        out.setLicensePlate("AAN680");
+
+        QuotationStatusDTO status = new QuotationStatusDTO();
+        status.setId("COT");
+        out.setStatus(status);
+
+        plan.setId("02");
+        plan.setName("BASICO");
+        periodo.setId("S");
+        periodo.setName("Mensual");
+
+        out.getProduct().getPlans().add(plan);
+
+        plan = new InsuranceProductModalityDTO();
+        inst = new InstallmentModalityDTO();
+        periodo = new PaymentPeriodDTO();
+        inst.setPeriod(periodo);
+        inst.setAmount(ammount);
+        plan.setInstallmentPlan(inst);
+
+        plan.setId("01");
+        plan.setName("ESTANDAR");
+        periodo.setId("M");
+        periodo.setName("Semestral");
+        out.getProduct().getPlans().add(plan);
+
+        VehicleModelDTO model = new VehicleModelDTO();
+        model.setId("281598");
+        model.setName("A7 SPORTBACK 3.0 TSFI QUATTRO");
+        model.setYear(2014L);
+        VehicleBrandDTO brand = new VehicleBrandDTO();
+        brand.setId("3394");
+        brand.setName("ACURA");
+        model.setBrand(brand);
+        out.setModel(model);
+
+        return out;
     }
 
 }
