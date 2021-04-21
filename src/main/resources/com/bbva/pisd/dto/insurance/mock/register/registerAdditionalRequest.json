@@ -1,0 +1,6 @@
+{
+  "cotizacion": "policy_value",
+  "engineNumber": "engineid",
+  "vehicleIdentificationNumber": "chassisid",
+  "seats": "3"
+}
