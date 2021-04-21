@@ -1,0 +1,10 @@
+{
+<<<<<<< HEAD
+  "quotationId": "policy_value",
+=======
+  "cotizacion": "policy_value",
+>>>>>>> 050772f641110fb416ba577c75ddc9d9e6d61fc8
+  "engineNumber": "engineid",
+  "vehicleIdentificationNumber": "chassisid",
+  "seats": "3"
+}
