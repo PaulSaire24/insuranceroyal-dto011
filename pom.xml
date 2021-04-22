@@ -27,6 +27,7 @@
 			/src/main/java/com/bbva/pisd/dto/insurance/bo/registerAdditional/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/commons/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/dao/**.java,
+			/src/main/java/com/bbva/pisd/dto/insurance/detail/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/mapper/ObjectMapperHelper.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/mock/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/quotation/**.java,
