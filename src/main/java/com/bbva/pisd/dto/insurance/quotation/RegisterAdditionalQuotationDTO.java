@@ -8,6 +8,7 @@ public class RegisterAdditionalQuotationDTO extends CommonOutputFieldsDTO {
     private String chassisVeh;
     private String engineVeh;
     private Long seatVeh;
+    private String lastChangeBranchId;
 
 
     public Long getSeatVeh() {
@@ -43,15 +44,23 @@ public class RegisterAdditionalQuotationDTO extends CommonOutputFieldsDTO {
         this.quotationId = quotationId;
     }
 
+    public String getLastChangeBranchId() {
+        return lastChangeBranchId;
+    }
+
+    public void setLastChangeBranchId(String lastChangeBranchId) {
+        this.lastChangeBranchId = lastChangeBranchId;
+    }
 
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("RegisterAdditionalQuotationDTO{");
-        sb.append("quotation-id= ").append(quotationId).append('\'');
+
+        sb.append("quotation-id='").append(quotationId).append('\'');
         sb.append(", engineNumber='").append(engineVeh).append('\'');
         sb.append(", vehicleIdentificationNumber='").append(chassisVeh).append('\'');
         sb.append(", seats='").append(seatVeh).append('\'');
-        sb.append(", bank=").append(this.getBank());
+        sb.append(", bank='").append(lastChangeBranchId).append('\'');
         sb.append('}');
         return sb.toString();
     }
