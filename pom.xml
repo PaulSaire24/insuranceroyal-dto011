@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.bbva.pisd.dto.insurance</groupId>
 	<artifactId>PISDC011</artifactId>
-	<version>0.2.1-SNAPSHOT</version>
+	<version>0.5.0-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 	<description>Deployment unit insuranceroyal-dto011 of uuaa pisd</description>
 	<properties>
@@ -27,6 +27,7 @@
 			/src/main/java/com/bbva/pisd/dto/insurance/bo/registerAdditional/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/commons/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/dao/**.java,
+			/src/main/java/com/bbva/pisd/dto/insurance/detail/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/mapper/ObjectMapperHelper.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/mock/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/quotation/**.java,
