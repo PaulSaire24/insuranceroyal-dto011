@@ -56,7 +56,7 @@ public class RegisterAdditionalQuotationDTO extends CommonOutputFieldsDTO {
     public String toString() {
         final StringBuilder sb = new StringBuilder("RegisterAdditionalQuotationDTO{");
 
-        sb.append("quotation-id='").append(quotationId).append('\'');
+        sb.append("quotationId='").append(quotationId).append('\'');
         sb.append(", engineNumber='").append(engineVeh).append('\'');
         sb.append(", vehicleIdentificationNumber='").append(chassisVeh).append('\'');
         sb.append(", seats='").append(seatVeh).append('\'');
