@@ -37,7 +37,6 @@ public class RegisterAdditionalQuotationDAO extends CommonsDAO{
         sb.append(", chassisId=").append(chassisId).append('\'');
         sb.append(", vehicleEngineId='").append(engineId).append('\'');
         sb.append(", vehicleSeatNumber='").append(seatNumber).append('\'');
-        sb.append(", userAudit='").append(this.getUserAudit()).append('\'');
         sb.append('}');
         return sb.toString();
     }
