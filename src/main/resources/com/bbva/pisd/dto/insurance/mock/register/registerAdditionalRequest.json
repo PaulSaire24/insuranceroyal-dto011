@@ -1,6 +1,6 @@
 {
   "quotationId": "policy_value",
-  "engineNumber": "engineid",
-  "vehicleIdentificationNumber": "chassisid",
-  "seats": "3"
+  "engineVeh": "engineid",
+  "chassisVeh": "chassisid",
+  "seatVeh": "3"
 }
