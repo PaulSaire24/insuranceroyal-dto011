@@ -1,4 +1,46 @@
 {
+  "vehicle": {
+    "model": {
+      "brand": {
+        "id": "id",
+        "name": "name"
+      },
+      "id": "id",
+      "name": "name",
+      "year": 2014
+    },
+    "price": {
+      "amount": 5300.00,
+      "currency": "USD"
+    },
+    "hasSteeringWheelChanged": "N",
+    "hasPowerSupplyConvertion": "S"
+  },
+  "vehicleCirculation": {
+    "id": "id",
+    "name": "name"
+  },
+  "usageType": {
+    "id": "P",
+    "name": "PARTICULAR"
+  },
+  "tier": {
+    "id": "0001",
+    "name": "TIER1"
+  },
+  "bankingFactor": 95.000000,
+  "campaignFactor": 80.000000,
+  "simulationCompany": {
+    "id": "8315cadb-c9f1-4ebf-b122-f348bdc48db3"
+  },
+  "isGpsRequired": "S",
+  "isInspectionRequired": "S",
+  "bank": {
+    "id": "0011",
+    "branch": {
+      "id": "0814"
+    }
+  },
   "product": {
     "plans": [
       {
@@ -169,39 +211,6 @@
       }
     ]
   },
-  "simulationCompanyId": "8315cadb-c9f1-4ebf-b122-f348bdc48db3",
   "validityDays": 30,
-  "maturityDate": "2021-02-09",
-  "model": {
-    "brand": {
-      "id": "id",
-      "name": "name"
-    },
-    "id": "id",
-    "name": "name",
-    "year": 2014
-  },
-  "price": {
-    "amount": 5300.00,
-    "currency": "USD"
-  },
-  "vehicleCirculation": {
-    "id": "id",
-    "name": "name"
-  },
-  "hasPowerSupplyConvertion": "S",
-  "vehicleLicencePlate": "AAN680",
-  "usageType": {
-    "id": "P",
-    "name": "PARTICULAR"
-  },
-  "isGpsRequired": "S",
-  "isInspectionRequired": "S",
-  "hasSteeringWheelChanged": "N",
-  "tier": {
-    "id": "0001",
-    "name": "TIER1"
-  },
-  "bankingFactor": 95.000000,
-  "campaignFactor": 80.000000
+  "maturityDate": "2021-02-09"
 }

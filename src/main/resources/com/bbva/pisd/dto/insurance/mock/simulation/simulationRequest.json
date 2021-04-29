@@ -1,4 +1,19 @@
 {
+  "vehicle": {
+    "model": {
+      "brand": {
+        "id": "181"
+      },
+      "id": "181003",
+      "year": "2016"
+    },
+    "price": {
+      "amount": 23400,
+      "currency": "USD"
+    },
+    "hasPowerSupplyConvertion": "S",
+    "licensePlate": "LOR365"
+  },
   "holder": {
     "id": "77712345",
     "identityDocument": {
@@ -22,26 +37,13 @@
       }
     ]
   },
-  "model": {
-    "brand": {
-      "id": "181"
-    },
-    "id": "181003",
-    "year": "2016"
-  },
-  "price": {
-    "amount": 23400,
-    "currency": "USD"
-  },
   "vehicleCirculation": {
     "id": "URBAN_AREA"
   },
-  "hasPowerSupplyConvertion": "S",
-  "hasAcceptedDataTreatment": "S",
-  "vehicleLicencePlate": "LOR365",
   "tier": {
     "id": "0001"
   },
   "bankingFactor": 100.000000,
-  "campaignFactor": 15.000000
+  "campaignFactor": 15.000000,
+  "hasAcceptedDataTreatment": "S"
 }

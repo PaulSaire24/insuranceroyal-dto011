@@ -1,4 +1,18 @@
 {
+  "vehicle": {
+    "model": {
+      "brand": {
+        "id": "181"
+      },
+      "id": "181003",
+      "year": "2016"
+    },
+    "price": {
+      "amount": 23400,
+      "currency": "USD"
+    },
+    "hasPowerSupplyConvertion": "S"
+  },
   "holder": {
     "id": "77712345",
     "identityDocument": {
@@ -12,34 +26,22 @@
     "id": "VEHICULAR",
     "plans": [
       {
-        "id": "532844"
+        "id": "01"
       },
       {
-        "id": "532857"
+        "id": "02"
       },
       {
-        "id": "532831"
+        "id": "03"
       }
     ]
-  },
-  "model": {
-    "brand": {
-      "id": "181"
-    },
-    "id": "181003",
-    "year": "2016"
-  },
-  "price": {
-    "amount": 23400,
-    "currency": "USD"
   },
   "vehicleCirculation": {
     "id": "URBAN_AREA"
   },
-  "hasPowerSupplyConvertion": "S",
-  "hasAcceptedDataTreatment": "S",
   "tier": {
     "id": "0000"
   },
-  "bankingFactor": 0.000000
+  "bankingFactor": 0.000000,
+  "hasAcceptedDataTreatment": "S"
 }
