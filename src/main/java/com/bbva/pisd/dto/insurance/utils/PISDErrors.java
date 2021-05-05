@@ -22,7 +22,9 @@ public enum PISDErrors {
     ERROR_QUOTATIONCREATION_WITHOUT_MODALITY("PISD00120016", false, "No se puede crear la cotización, falta seleccionar un plan"),
     ERROR_QUOTATIONCREATION_COULDNT_BE_SELECTED("PISD00120017", false, "No se seleccionó el plan en el servicio de Rimac"),
 
-    ERROR_CONNECTION_VALIDATE_ADITIONAL_SERVICE("PISD00120021", false, "No se pudo realizar una conexión con el servicio de Registros Adicionales");
+    ERROR_CONNECTION_VALIDATE_ADITIONAL_SERVICE("PISD00120021", false, "No se pudo realizar una conexión con el servicio de Registros Adicionales"),
+
+    ERROR_CUSTOMER_WITHOUT_QUOTATION("PISD00120022", false, "El cliente no tiene cotizaciones vigentes.");
 
     private final String adviceCode;
     private final boolean rollback;

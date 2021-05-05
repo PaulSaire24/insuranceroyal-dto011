@@ -1,10 +1,7 @@
 package com.bbva.pisd.dto.insurance.utils;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-
 public class PISDConstants {
+
 	public static final String MOCKERSEARCH = "MOCKERSEARCH";
 	public static final String MOCKERRIMAC = "MOCKERRIMAC";
 	public static final String MOCKERBBVA = "MOCKERBBVA";
@@ -17,6 +14,7 @@ public class PISDConstants {
 	public static final String BLACKLIST_COMPANY_CHUBB = "CHUBB" ;
 	public static final String BLACKLIST_MSJ_REJECT = "BLOQUEADO" ;
 	public static final String MSJ_EN_TRAMITE = "EN TRAMITE" ;
+	public static final String MSJ_SIN_PLACA = "SIN PLACA";
 	public static final String TAG_SI = "SI" ;
 	public static final String TAG_NO = "NO" ;
 	public static final String TAG_MODELO = "MODELOS_DE_VEHICULOS" ;
@@ -33,20 +31,7 @@ public class PISDConstants {
 	public static final String TAG_NRO_PASAJEROS = "NRO_PASAJEROS" ;
 	public static final String UBICACION_LIMA = "LIMA" ;
 	public static final String UBICACION_PROVINCIA = "PROVINCIA" ;
-	public static final List<String> SEARCH_QUOTATION_KEYS = Collections.unmodifiableList(Arrays.asList(
-			"PRODUCT_TYPE"
-			, "PRODUCT_DESC"
-			, "OPERATION_DATE"
-			, "OPERATION_HMS_DATE"
-			, "PLAN_ID"
-			, "PLAN_PERIOD_ID"
-			, "STATUS_ID"
-			, "PLAN_NAME"
-			, "PLAN_SUGGESTED"
-			, "PERIOD_NAME"
-			, "AMOUNT"
-			, "CURRENCY"
-			));
 	
 	private PISDConstants() { }
+
 }
