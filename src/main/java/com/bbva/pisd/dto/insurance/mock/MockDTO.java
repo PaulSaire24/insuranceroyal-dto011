@@ -5,22 +5,41 @@ import com.bbva.pisd.dto.insurance.aso.BlackListASO;
 import com.bbva.pisd.dto.insurance.aso.crypto.CryptoASO;
 import com.bbva.pisd.dto.insurance.aso.gifole.GifoleASO;
 import com.bbva.pisd.dto.insurance.aso.tier.TierASO;
+
 import com.bbva.pisd.dto.insurance.blacklist.EntityOutBlackListDTO;
 
-import com.bbva.pisd.dto.insurance.bo.*;
-
+import com.bbva.pisd.dto.insurance.bo.BlackListHealthRimacBO;
+import com.bbva.pisd.dto.insurance.bo.BlackListRiskRimacBO;
+import com.bbva.pisd.dto.insurance.bo.BlackListIndicatorBO;
+import com.bbva.pisd.dto.insurance.bo.SelectionQuotationPayloadBO;
+import com.bbva.pisd.dto.insurance.bo.SelectionQuotationBO;
+import com.bbva.pisd.dto.insurance.bo.DatoParticularBO;
+import com.bbva.pisd.dto.insurance.bo.SearchQuotationBO;
 import com.bbva.pisd.dto.insurance.bo.detail.InsuranceQuotationDetailBO;
 import com.bbva.pisd.dto.insurance.bo.registerAdditional.RegisterAdditionalVehBO;
 import com.bbva.pisd.dto.insurance.bo.simulation.InsuranceSimulationBO;
-import com.bbva.pisd.dto.insurance.commons.*;
+
+import com.bbva.pisd.dto.insurance.commons.InsuranceProductDTO;
+import com.bbva.pisd.dto.insurance.commons.InsuranceProductModalityDTO;
+import com.bbva.pisd.dto.insurance.commons.InstallmentModalityDTO;
+import com.bbva.pisd.dto.insurance.commons.PaymentPeriodDTO;
+import com.bbva.pisd.dto.insurance.commons.InsurancePrimeAmountDTO;
+import com.bbva.pisd.dto.insurance.commons.QuotationStatusDTO;
+import com.bbva.pisd.dto.insurance.commons.VehicleModelDTO;
+import com.bbva.pisd.dto.insurance.commons.VehicleBrandDTO;
 
 import com.bbva.pisd.dto.insurance.dao.ConsiderationsDAO;
 import com.bbva.pisd.dto.insurance.dao.InsuranceProductModalityDAO;
+
 import com.bbva.pisd.dto.insurance.mapper.ObjectMapperHelper;
+
 import com.bbva.pisd.dto.insurance.quotation.InsuranceQuotationDTO;
 import com.bbva.pisd.dto.insurance.quotation.RegisterAdditionalQuotationDTO;
+
 import com.bbva.pisd.dto.insurance.search.EntityOutSearchDTO;
+import com.bbva.pisd.dto.insurance.search.InsuranceSearchDTO;
 import com.bbva.pisd.dto.insurance.search.SearchQuotationDTO;
+
 import com.bbva.pisd.dto.insurance.simulation.InsuranceSimulationDTO;
 
 import java.io.IOException;
@@ -233,6 +252,34 @@ public final class MockDTO {
                 Thread.currentThread().getContextClassLoader().getResourceAsStream(
                         "com/bbva/pisd/dto/insurance/mock/search/searchResponse.json"),
                 SearchQuotationBO.class);
+    }
+
+    public SearchQuotationBO getSearchErrorResponse() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/search/searchResponseError.json"),
+                SearchQuotationBO.class);
+    }
+
+    public InsuranceSearchDTO getSearchQuotationsRequest() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/search/searchRequest.json"),
+                InsuranceSearchDTO.class);
+    }
+
+    public InsuranceSearchDTO getSearchQuotationRequestInvalidDocumentType() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/search/searchRequestInvalidDocumentType.json"),
+                InsuranceSearchDTO.class);
+    }
+
+    public InsuranceSearchDTO getSearchQuotationRequestInvalidLengthDocumentNumber() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/search/searchRequestInvalidLengthDocumentNumber.json"),
+                InsuranceSearchDTO.class);
     }
 
     public RegisterAdditionalQuotationDTO getRegisterAdditionalRequest() throws IOException {

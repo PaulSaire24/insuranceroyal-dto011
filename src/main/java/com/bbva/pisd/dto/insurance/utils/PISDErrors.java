@@ -24,7 +24,9 @@ public enum PISDErrors {
 
     ERROR_CONNECTION_VALIDATE_ADITIONAL_SERVICE("PISD00120021", false, "No se pudo realizar una conexión con el servicio de Registros Adicionales"),
 
-    ERROR_CUSTOMER_WITHOUT_QUOTATION("PISD00120022", false, "El cliente no tiene cotizaciones vigentes.");
+    ERROR_CUSTOMER_WITHOUT_QUOTATION("PISD00120022", false, "El cliente no tiene cotizaciones vigentes."),
+    ERROR_DOCUMENT_TYPE_INVALID("PISD00120025", false, "Se ha ingresado un tipo de documento inválido"),
+    ERROR_DOCUMENT_NUMBER_LENGTH_INVALID("PISD00120026", false, "El número de documento no puede exceder de 11 caracteres");
 
     private final String adviceCode;
     private final boolean rollback;

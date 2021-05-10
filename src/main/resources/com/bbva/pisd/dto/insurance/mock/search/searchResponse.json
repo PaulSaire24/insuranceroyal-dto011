@@ -20,12 +20,12 @@
                 "codigo": 113871,
                 "descripcion": "X-TRAIL"
             },
-            "anhoFab": null,
+            "anhoFab": 2016,
             "pdfUrl": null,
             "indSeleccionado": "S",
             "cotizacion": "ea9fa39a-4168-4ec0-99b5-a3aa5484b64a",
             "codigoExterno": "0486004012345678",
-            "moneda": "SOL"
+            "moneda": "USD"
         }
     ]
 }
