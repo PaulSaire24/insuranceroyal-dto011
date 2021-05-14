@@ -12,9 +12,9 @@ public class QuotationStatusDTO extends CommonDTO {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("QuotationStatusDTO{");
+        final StringBuilder sb = new StringBuilder("QuotationStatusDTO");
         sb.append(super.toString());
-        sb.append('}');
+        sb.append(", description='").append(this.getDescription()).append('\'');
         return sb.toString();
     }
 

@@ -30,6 +30,7 @@
 			/src/main/java/com/bbva/pisd/dto/insurance/detail/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/mapper/ObjectMapperHelper.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/mock/**.java,
+			/src/main/java/com/bbva/pisd/dto/insurance/policy/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/quotation/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/search/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/simulation/**.java,
