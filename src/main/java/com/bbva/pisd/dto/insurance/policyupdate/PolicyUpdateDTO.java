@@ -12,7 +12,6 @@ public class PolicyUpdateDTO extends CommonOutputFieldsDTO {
     private InstallmentPlanDTO installmentPlan;
     private InsuranceCompanyDTO insuranceCompany;
     private ValidityPeriodDTO validityPeriod;
-    private LinkDTO link;
 
     private String insuranceId;
     private String externalPolicyNumber;
@@ -25,8 +24,6 @@ public class PolicyUpdateDTO extends CommonOutputFieldsDTO {
     public void setInsuranceCompany(InsuranceCompanyDTO insuranceCompany) { this.insuranceCompany = insuranceCompany; }
     public ValidityPeriodDTO getValidityPeriod() { return validityPeriod; }
     public void setValidityPeriod(ValidityPeriodDTO validityPeriod) { this.validityPeriod = validityPeriod; }
-    public LinkDTO getLink() { return link; }
-    public void setLink(LinkDTO link) { this.link = link; }
     public String getInsuranceId() { return insuranceId; }
     public void setInsuranceId(String insuranceId) { this.insuranceId = insuranceId; }
     public String getExternalPolicyNumber() { return externalPolicyNumber; }
@@ -38,7 +35,6 @@ public class PolicyUpdateDTO extends CommonOutputFieldsDTO {
         sb.append("installmentPlan=").append(installmentPlan);
         sb.append(", insuranceCompany=").append(insuranceCompany);
         sb.append(", validityPeriod=").append(validityPeriod);
-        sb.append(", link=").append(link);
         sb.append(", insuranceId='").append(insuranceId).append('\'');
         sb.append(", externalPolicyNumber='").append(externalPolicyNumber).append('\'');
         sb.append('}');

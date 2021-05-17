@@ -1,6 +1,6 @@
 package com.bbva.pisd.dto.insurance.commons;
 
-public class InsuranceCompanyDTO extends CommonDTO {
+public class InsuranceCompanyDTO extends CommonOutputFieldsDTO {
 
     private String productId;
 
