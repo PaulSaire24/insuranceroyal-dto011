@@ -2,8 +2,6 @@ package com.bbva.pisd.dto.insurance.commons;
 
 import com.bbva.apx.dto.AbstractDTO;
 
-import com.bbva.pisd.dto.insurance.policy.ContactDetailDTO;
-
 import java.util.List;
 
 public class HolderDTO extends AbstractDTO {
