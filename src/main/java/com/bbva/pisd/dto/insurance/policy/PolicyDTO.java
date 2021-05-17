@@ -23,7 +23,6 @@ public class PolicyDTO extends CommonOutputFieldsDTO {
     private String policyNumber;
     private String productDescription;
     private String externalQuotationId;
-    private String externalPolicyNumber;
 
     public PolicyProductPlan getProductPlan() { return productPlan; }
     public void setProductPlan(PolicyProductPlan productPlan) { this.productPlan = productPlan; }
@@ -57,13 +56,18 @@ public class PolicyDTO extends CommonOutputFieldsDTO {
     public void setProductDescription(String productDescription) { this.productDescription = productDescription; }
     public String getExternalQuotationId() { return externalQuotationId; }
     public void setExternalQuotationId(String externalQuotationId) { this.externalQuotationId = externalQuotationId; }
-    public String getExternalPolicyNumber() { return externalPolicyNumber; }
-    public void setExternalPolicyNumber(String externalPolicyNumber) { this.externalPolicyNumber = externalPolicyNumber; }
 
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("PolicyDTO{");
-        sb.append("productPlan=").append(productPlan);
+        sb.append("id='").append(this.getId()).append('\'');
+        sb.append(", quotationId='").append(this.getQuotationId()).append('\'');
+        sb.append(", productId='").append(this.getProductId()).append('\'');
+        sb.append(", operationDate='").append(this.getOperationDate()).append('\'');
+        sb.append(", validityPeriod=").append(this.getValidityPeriod());
+        sb.append(", links=").append(this.getLinks());
+        sb.append(", holder=").append(this.getHolder());
+        sb.append(", productPlan=").append(productPlan);
         sb.append(", paymentMethod=").append(paymentMethod);
         sb.append(", totalAmount=").append(totalAmount);
         sb.append(", insuredAmount=").append(insuredAmount);
@@ -78,8 +82,11 @@ public class PolicyDTO extends CommonOutputFieldsDTO {
         sb.append(", promoter=").append(promoter);
         sb.append(", policyNumber='").append(policyNumber).append('\'');
         sb.append(", productDescription='").append(productDescription).append('\'');
+        sb.append(", insuranceCompany=").append(this.getInsuranceCompany());
         sb.append(", externalQuotationId='").append(externalQuotationId).append('\'');
-        sb.append(", externalPolicyNumber='").append(externalPolicyNumber).append('\'');
+        sb.append(", externalPolicyNumber='").append(this.getExternalPolicyNumber()).append('\'');
+        sb.append(", status=").append(this.getStatus());
+        sb.append(", bank=").append(this.getBank());
         sb.append('}');
         return sb.toString();
     }

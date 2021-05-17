@@ -8,6 +8,7 @@ public class RelationshipDTO extends CommonOutputFieldsDTO {
     public String toString() {
         final StringBuilder sb = new StringBuilder("RelationshipDTO{");
         sb.append("id='").append(this.getId()).append('\'');
+        sb.append(", description='").append(this.getDescription()).append('\'');
         sb.append('}');
         return sb.toString();
     }

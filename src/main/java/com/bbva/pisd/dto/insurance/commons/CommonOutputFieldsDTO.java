@@ -45,6 +45,7 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
     private String customerId;
     private String productId;
     private ValidityPeriodDTO validityPeriod;
+    private String externalPolicyNumber;
 
     private String quotationId;
     private PaymentAmountDTO paymentAmount;
@@ -127,6 +128,8 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
     public void setProductId(String productId) { this.productId = productId; }
     public ValidityPeriodDTO getValidityPeriod() { return validityPeriod; }
     public void setValidityPeriod(ValidityPeriodDTO validityPeriod) { this.validityPeriod = validityPeriod; }
+    public String getExternalPolicyNumber() { return externalPolicyNumber; }
+    public void setExternalPolicyNumber(String externalPolicyNumber) { this.externalPolicyNumber = externalPolicyNumber; }
 
     public String getQuotationId() { return quotationId; }
     public void setQuotationId(String quotationId) { this.quotationId = quotationId; }

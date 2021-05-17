@@ -1,8 +1,8 @@
 package com.bbva.pisd.dto.insurance.policy;
 
-import com.bbva.pisd.dto.insurance.commons.InsuranceProductDTO;
+import com.bbva.pisd.dto.insurance.commons.CommonOutputFieldsDTO;
 
-public class PolicyProductPlan extends InsuranceProductDTO {
+public class PolicyProductPlan extends CommonOutputFieldsDTO {
 
     @Override
     public String toString() {

@@ -1,7 +1,5 @@
 package com.bbva.pisd.dto.insurance.commons;
 
-import com.bbva.pisd.dto.insurance.commons.InsuranceFinancingDTO;
-
 public class ValidityPeriodDTO extends InsuranceFinancingDTO {
 
     @Override
