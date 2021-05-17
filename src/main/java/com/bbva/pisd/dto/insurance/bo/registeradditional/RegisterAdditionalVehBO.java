@@ -1,4 +1,4 @@
-package com.bbva.pisd.dto.insurance.bo.registerAdditional;
+package com.bbva.pisd.dto.insurance.bo.registeradditional;
 
 import com.bbva.pisd.dto.insurance.bo.RegisterAdditionalVehPayloadBO;
 

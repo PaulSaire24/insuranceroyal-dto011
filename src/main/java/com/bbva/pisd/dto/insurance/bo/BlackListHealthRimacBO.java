@@ -1,7 +1,5 @@
 package com.bbva.pisd.dto.insurance.bo;
 
-import com.bbva.pisd.dto.insurance.bo.SelectionQuotationPayloadBO;
-
 public class BlackListHealthRimacBO {
 	private SelectionQuotationPayloadBO payload;
 

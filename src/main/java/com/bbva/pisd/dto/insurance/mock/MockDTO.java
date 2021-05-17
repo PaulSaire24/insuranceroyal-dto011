@@ -16,7 +16,7 @@ import com.bbva.pisd.dto.insurance.bo.SelectionQuotationBO;
 import com.bbva.pisd.dto.insurance.bo.DatoParticularBO;
 import com.bbva.pisd.dto.insurance.bo.SearchQuotationBO;
 import com.bbva.pisd.dto.insurance.bo.detail.InsuranceQuotationDetailBO;
-import com.bbva.pisd.dto.insurance.bo.registerAdditional.RegisterAdditionalVehBO;
+import com.bbva.pisd.dto.insurance.bo.registeradditional.RegisterAdditionalVehBO;
 import com.bbva.pisd.dto.insurance.bo.simulation.InsuranceSimulationBO;
 
 import com.bbva.pisd.dto.insurance.commons.InsuranceProductDTO;
@@ -43,7 +43,13 @@ import com.bbva.pisd.dto.insurance.search.SearchQuotationDTO;
 import com.bbva.pisd.dto.insurance.simulation.InsuranceSimulationDTO;
 
 import java.io.IOException;
-import java.util.*;
+
+import java.util.List;
+import java.util.Arrays;
+import java.util.Map;
+import java.util.HashMap;
+import java.util.ArrayList;
+import java.util.Date;
 
 public final class MockDTO {
 
@@ -136,58 +142,58 @@ public final class MockDTO {
     }
 
     public BlackListASO getBlackListASOMockResponse() throws IOException {
-    	return objectMapperHelper.readValue(
-    			Thread.currentThread().getContextClassLoader().getResourceAsStream(
-    					"com/bbva/pisd/dto/insurance/mock/blacklist/blackListCustomerIndicatorResponse.json"),
-    			BlackListASO.class);
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/blacklist/blackListCustomerIndicatorResponse.json"),
+                BlackListASO.class);
     }
-    
+
     public BlackListHealthRimacBO getBlackListHealthRimacMockResponse() throws IOException {
-    	return objectMapperHelper.readValue(
-    			Thread.currentThread().getContextClassLoader().getResourceAsStream(
-    					"com/bbva/pisd/dto/insurance/mock/blacklist/blackListHealthRimacResponse.json"),
-    			BlackListHealthRimacBO.class);
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/blacklist/blackListHealthRimacResponse.json"),
+                BlackListHealthRimacBO.class);
     }
-    
+
     public BlackListRiskRimacBO getBlackListRiskRimacMockResponse() throws IOException {
-    	return objectMapperHelper.readValue(
-    			Thread.currentThread().getContextClassLoader().getResourceAsStream(
-    					"com/bbva/pisd/dto/insurance/mock/blacklist/blackListRiskRimacResponse.json"),
-    			BlackListRiskRimacBO.class);
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/blacklist/blackListRiskRimacResponse.json"),
+                BlackListRiskRimacBO.class);
     }
 
     public BlackListIndicatorBO getBlackListValidationPositiveASOMockResponse() throws IOException {
         return objectMapperHelper.readValue(
                 Thread.currentThread().getContextClassLoader().getResourceAsStream(
-                    "com/bbva/pisd/dto/insurance/mock/blacklist/blackListValidationPositiveASO.json"),
+                        "com/bbva/pisd/dto/insurance/mock/blacklist/blackListValidationPositiveASO.json"),
                 BlackListIndicatorBO.class);
     }
-    
+
     public BlackListIndicatorBO getBlackListValidationNegativeASOMockResponse() throws IOException {
-    	return objectMapperHelper.readValue(
-    			Thread.currentThread().getContextClassLoader().getResourceAsStream(
-    					"com/bbva/pisd/dto/insurance/mock/blacklist/blackListValidationNegativeASO.json"),
-    			BlackListIndicatorBO.class);
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/blacklist/blackListValidationNegativeASO.json"),
+                BlackListIndicatorBO.class);
     }
-    
+
     public SelectionQuotationPayloadBO getBlackListValidationPositiveRimacMockResponse() throws IOException {
-    	return objectMapperHelper.readValue(
-    			Thread.currentThread().getContextClassLoader().getResourceAsStream(
-    					"com/bbva/pisd/dto/insurance/mock/blacklist/blackListValidationPositiveRimac.json"),
-    			SelectionQuotationPayloadBO.class);
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/blacklist/blackListValidationPositiveRimac.json"),
+                SelectionQuotationPayloadBO.class);
     }
-    
+
     public SelectionQuotationPayloadBO getBlackListValidationNegativeRimacMockResponse() throws IOException {
-    	return objectMapperHelper.readValue(
-    			Thread.currentThread().getContextClassLoader().getResourceAsStream(
-    					"com/bbva/pisd/dto/insurance/mock/blacklist/blackListValidationNegativeRimac.json"),
-    			SelectionQuotationPayloadBO.class);
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/blacklist/blackListValidationNegativeRimac.json"),
+                SelectionQuotationPayloadBO.class);
     }
 
     public EntityOutBlackListDTO getInsuranceBlackListResponse() throws IOException {
         return objectMapperHelper.readValue(
                 Thread.currentThread().getContextClassLoader().getResourceAsStream(
-                    "com/bbva/pisd/dto/insurance/mock/blacklist/blackListResponse.json"),
+                        "com/bbva/pisd/dto/insurance/mock/blacklist/blackListResponse.json"),
                 EntityOutBlackListDTO.class);
     }
 

@@ -1,6 +1,7 @@
 package com.bbva.pisd.dto.insurance.commons;
 
 import com.bbva.apx.dto.AbstractDTO;
+import com.bbva.pisd.dto.insurance.policy.PaymentAmountDTO;
 
 import java.util.Date;
 import java.util.List;
@@ -23,6 +24,10 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
     private String isGpsRequired;
     private String isInspectionRequired;
     private Long validityDays;
+    private Date startDate;
+
+    private Date endDate;
+
     private Date maturityDate;
     private Date operationDate;
     private String id;
@@ -36,6 +41,16 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
     private String vehicleIdentificationNumber;
     private Long seats;
     private String markedAsSaved;
+
+    private String customerId;
+    private String productId;
+    private ValidityPeriodDTO validityPeriod;
+    private String externalPolicyNumber;
+
+    private String quotationId;
+    private PaymentAmountDTO paymentAmount;
+    private String description;
+    private List<LinkDTO> links;
 
     private String creationUser;
     private String userAudit;
@@ -76,6 +91,12 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
     public void setIsInspectionRequired(String isInspectionRequired) { this.isInspectionRequired = isInspectionRequired; }
     public Long getValidityDays() { return validityDays; }
     public void setValidityDays(Long validityDays) { this.validityDays = validityDays; }
+    public Date getStartDate() { return startDate; }
+    public void setStartDate(Date startDate) { this.startDate = startDate; }
+
+    public Date getEndDate() { return endDate; }
+    public void setEndDate(Date endDate) { this.endDate = endDate; }
+
     public Date getMaturityDate() { return maturityDate; }
     public void setMaturityDate(Date maturityDate) { this.maturityDate = maturityDate; }
     public Date getOperationDate() { return operationDate; }
@@ -100,6 +121,25 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
     public void setSeats(Long seats) { this.seats = seats; }
     public String getMarkedAsSaved() { return markedAsSaved; }
     public void setMarkedAsSaved(String markedAsSaved) { this.markedAsSaved = markedAsSaved; }
+
+    public String getCustomerId() { return customerId; }
+    public void setCustomerId(String customerId) { this.customerId = customerId; }
+    public String getProductId() { return productId; }
+    public void setProductId(String productId) { this.productId = productId; }
+    public ValidityPeriodDTO getValidityPeriod() { return validityPeriod; }
+    public void setValidityPeriod(ValidityPeriodDTO validityPeriod) { this.validityPeriod = validityPeriod; }
+    public String getExternalPolicyNumber() { return externalPolicyNumber; }
+    public void setExternalPolicyNumber(String externalPolicyNumber) { this.externalPolicyNumber = externalPolicyNumber; }
+
+    public String getQuotationId() { return quotationId; }
+    public void setQuotationId(String quotationId) { this.quotationId = quotationId; }
+    public PaymentAmountDTO getPaymentAmount() { return paymentAmount; }
+    public void setPaymentAmount(PaymentAmountDTO paymentAmount) { this.paymentAmount = paymentAmount; }
+    public String getDescription() { return description; }
+    public void setDescription(String description) { this.description = description; }
+    public List<LinkDTO> getLinks() { return links; }
+    public void setLinks(List<LinkDTO> links) { this.links = links; }
+
     public String getCreationUser() { return creationUser; }
     public void setCreationUser(String creationUser) { this.creationUser = creationUser; }
     public String getUserAudit() { return userAudit; }
