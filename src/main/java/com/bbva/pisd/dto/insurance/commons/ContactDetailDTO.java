@@ -2,10 +2,15 @@ package com.bbva.pisd.dto.insurance.commons;
 
 public class ContactDetailDTO extends CommonDTO {
 
+    private ContactDTO contact;
+
+    public ContactDTO getContact() { return contact; }
+    public void setContact(ContactDTO contact) { this.contact = contact; }
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("ContactDetailDTO{");
-        sb.append(super.toString());
+        final StringBuilder sb = new StringBuilder("HolderContactDetail{");
+        sb.append("id='").append(this.getId()).append('\'');
+        sb.append(", contact=").append(contact);
         sb.append('}');
         return sb.toString();
     }
