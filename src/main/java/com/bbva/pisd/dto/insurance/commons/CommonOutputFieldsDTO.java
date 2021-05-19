@@ -52,6 +52,8 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
     private String description;
     private List<LinkDTO> links;
 
+    private PolicyInspectionDTO inspection;
+
     private String creationUser;
     private String userAudit;
     private String saleChannelId;
@@ -139,6 +141,9 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
     public void setDescription(String description) { this.description = description; }
     public List<LinkDTO> getLinks() { return links; }
     public void setLinks(List<LinkDTO> links) { this.links = links; }
+
+    public PolicyInspectionDTO getInspection() { return inspection; }
+    public void setInspection(PolicyInspectionDTO inspection) { this.inspection = inspection; }
 
     public String getCreationUser() { return creationUser; }
     public void setCreationUser(String creationUser) { this.creationUser = creationUser; }

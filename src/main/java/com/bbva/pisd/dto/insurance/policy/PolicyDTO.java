@@ -14,7 +14,6 @@ public class PolicyDTO extends CommonOutputFieldsDTO {
     private List<RelatedContractDTO> relatedContracts;
     private PolicyInstallmentPlanDTO installmentPlan;
     private boolean hasAcceptedContract;
-    private PolicyInspectionDTO inspection;
     private FirstInstallmentDTO firstInstallment;
     private List<ParticipantDTO> participants;
     private BusinessAgentDTO businessAgent;
@@ -40,8 +39,6 @@ public class PolicyDTO extends CommonOutputFieldsDTO {
     public void setInstallmentPlan(PolicyInstallmentPlanDTO installmentPlan) { this.installmentPlan = installmentPlan; }
     public boolean isHasAcceptedContract() { return hasAcceptedContract; }
     public void setHasAcceptedContract(boolean hasAcceptedContract) { this.hasAcceptedContract = hasAcceptedContract; }
-    public PolicyInspectionDTO getInspection() { return inspection; }
-    public void setInspection(PolicyInspectionDTO inspection) { this.inspection = inspection; }
     public FirstInstallmentDTO getFirstInstallment() { return firstInstallment; }
     public void setFirstInstallment(FirstInstallmentDTO firstInstallment) { this.firstInstallment = firstInstallment; }
     public List<ParticipantDTO> getParticipants() { return participants; }
@@ -75,7 +72,7 @@ public class PolicyDTO extends CommonOutputFieldsDTO {
         sb.append(", relatedContracts=").append(relatedContracts);
         sb.append(", installmentPlan=").append(installmentPlan);
         sb.append(", hasAcceptedContract=").append(hasAcceptedContract);
-        sb.append(", inspection=").append(inspection);
+        sb.append(", inspection=").append(this.getInspection());
         sb.append(", firstInstallment=").append(firstInstallment);
         sb.append(", participants=").append(participants);
         sb.append(", businessAgent=").append(businessAgent);
