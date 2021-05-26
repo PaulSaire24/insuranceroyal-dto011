@@ -48,6 +48,30 @@
     "considerationType": "DE"
   },
   {
+    "insuranceModalityType": "01",
+    "idConsideration": 1,
+    "insuranceConsiderationDescription": "COBERTURA BASICA 1",
+    "considerationType": "CB"
+  },
+  {
+    "insuranceModalityType": "01",
+    "idConsideration": 2,
+    "insuranceConsiderationDescription": "COBERTURA BASICA 2",
+    "considerationType": "CB"
+  },
+  {
+    "insuranceModalityType": "01",
+    "idConsideration": 1,
+    "insuranceConsiderationDescription": "DESCRIPCION 1",
+    "considerationType": "VN"
+  },
+  {
+    "insuranceModalityType": "01",
+    "idConsideration": 2,
+    "insuranceConsiderationDescription": "DESCRIPCION 2",
+    "considerationType": "VN"
+  },
+  {
     "insuranceModalityType": "02",
     "idConsideration": 1,
     "insuranceConsiderationDescription": "TEXTO COBERTURA 1",
@@ -96,6 +120,30 @@
     "considerationType": "DE"
   },
   {
+    "insuranceModalityType": "02",
+    "idConsideration": 1,
+    "insuranceConsiderationDescription": "COBERTURA BASICA 1",
+    "considerationType": "CB"
+  },
+  {
+    "insuranceModalityType": "02",
+    "idConsideration": 2,
+    "insuranceConsiderationDescription": "COBERTURA BASICA 2",
+    "considerationType": "CB"
+  },
+  {
+    "insuranceModalityType": "02",
+    "idConsideration": 1,
+    "insuranceConsiderationDescription": "DESCRIPCION 1",
+    "considerationType": "VN"
+  },
+  {
+    "insuranceModalityType": "02",
+    "idConsideration": 2,
+    "insuranceConsiderationDescription": "DESCRIPCION 2",
+    "considerationType": "VN"
+  },
+  {
     "insuranceModalityType": "03",
     "idConsideration": 1,
     "insuranceConsiderationDescription": "TEXTO COBERTURA 1",
@@ -142,5 +190,29 @@
     "idConsideration": 2,
     "insuranceConsiderationDescription": "TEXTO DEDUCIBLE 2",
     "considerationType": "DE"
+  },
+  {
+    "insuranceModalityType": "03",
+    "idConsideration": 1,
+    "insuranceConsiderationDescription": "COBERTURA BASICA 1",
+    "considerationType": "CB"
+  },
+  {
+    "insuranceModalityType": "03",
+    "idConsideration": 2,
+    "insuranceConsiderationDescription": "COBERTURA BASICA 2",
+    "considerationType": "CB"
+  },
+  {
+    "insuranceModalityType": "03",
+    "idConsideration": 1,
+    "insuranceConsiderationDescription": "DESCRIPCION 1",
+    "considerationType": "VN"
+  },
+  {
+    "insuranceModalityType": "03",
+    "idConsideration": 2,
+    "insuranceConsiderationDescription": "DESCRIPCION 2",
+    "considerationType": "VN"
   }
 ]
