@@ -288,6 +288,13 @@ public final class MockDTO {
                 InsuranceSearchDTO.class);
     }
 
+    public Map<String, Object> getResponseQueryForGetQuotationDetailService() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/detail/responseQuery.json"),
+                Map.class);
+    }
+
     public RegisterAdditionalQuotationDTO getRegisterAdditionalRequest() throws IOException {
         return objectMapperHelper.readValue(
                 Thread.currentThread().getContextClassLoader().getResourceAsStream(
