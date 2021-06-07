@@ -8,10 +8,10 @@ import java.util.List;
 public class FinancingPlanDTO extends CommonOutputFieldsDTO {
 
     private Long totalNumberInstallments;
-    private List<InstallmentsDTO> installmentsPlans;
+    private List<InstallmentsDTO> installmentPlans;
 
-    public List<InstallmentsDTO> getInstallmentsPlans() { return installmentsPlans; }
-    public void setInstallmentsPlans(List<InstallmentsDTO> installmentsPlans) { this.installmentsPlans = installmentsPlans; }
+    public List<InstallmentsDTO> getInstallmentPlans() { return installmentPlans; }
+    public void setInstallmentPlans(List<InstallmentsDTO> installmentsPlans) { this.installmentPlans = installmentsPlans; }
     public Long getTotalNumberInstallments() { return totalNumberInstallments; }
     public void setTotalNumberInstallments(Long totalNumberInstallments) { this.totalNumberInstallments = totalNumberInstallments; }
 

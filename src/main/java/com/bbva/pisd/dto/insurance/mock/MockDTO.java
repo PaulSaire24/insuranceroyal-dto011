@@ -16,6 +16,7 @@ import com.bbva.pisd.dto.insurance.bo.SelectionQuotationBO;
 import com.bbva.pisd.dto.insurance.bo.DatoParticularBO;
 import com.bbva.pisd.dto.insurance.bo.SearchQuotationBO;
 import com.bbva.pisd.dto.insurance.bo.detail.InsuranceQuotationDetailBO;
+import com.bbva.pisd.dto.insurance.bo.financing.FinancingPlanBO;
 import com.bbva.pisd.dto.insurance.bo.registeradditional.RegisterAdditionalVehBO;
 import com.bbva.pisd.dto.insurance.bo.simulation.InsuranceSimulationBO;
 
@@ -31,6 +32,7 @@ import com.bbva.pisd.dto.insurance.commons.VehicleBrandDTO;
 import com.bbva.pisd.dto.insurance.dao.ConsiderationsDAO;
 import com.bbva.pisd.dto.insurance.dao.InsuranceProductModalityDAO;
 
+import com.bbva.pisd.dto.insurance.financing.FinancingPlanDTO;
 import com.bbva.pisd.dto.insurance.mapper.ObjectMapperHelper;
 
 import com.bbva.pisd.dto.insurance.quotation.InsuranceQuotationDTO;
@@ -83,6 +85,27 @@ public final class MockDTO {
                 Thread.currentThread().getContextClassLoader().getResourceAsStream(
                         "com/bbva/pisd/dto/insurance/mock/simulation/simulationRequest.json"),
                 InsuranceSimulationDTO.class);
+    }
+
+    public FinancingPlanBO getGRequestRimac() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/financing/simulateInsuranceQuotationInstallmentPlanRequestRimac.json"),
+                FinancingPlanBO.class);
+    }
+
+    public FinancingPlanDTO getSimulateInsuranceQuotationInstallmentPlanRequest() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/financing/simulateInsuranceQuotationInstallmentPlanRequest.json"),
+                FinancingPlanDTO.class);
+    }
+
+    public FinancingPlanBO getSimulateInsuranceQuotationInstallmentPlanResponse() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/financing/simulateInsuranceQuotationInstallmentPlanResponse.json"),
+                FinancingPlanBO.class);
     }
 
     public List<InsuranceProductModalityDAO> getProductModalitiesFromDBMockResponse() throws IOException {

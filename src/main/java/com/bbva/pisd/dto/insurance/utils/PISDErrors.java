@@ -15,7 +15,9 @@ public enum PISDErrors {
     ERROR_TO_CONNECT_SERVICE_BLACKLIST_ASO("PISD00120009", false, "Error al consultar el servicio de lista negra aso BBVA"),
     ERROR_TO_CONNECT_SERVICE_BLACKLISTHEALTH_RIMAC("PISD00120010", false, "Error al consultar el servicio de lista negra salud rimac"),
     ERROR_TO_CONNECT_SERVICE_BLACKLISTRISK_RIMAC("PISD00120011", false, "Error al consultar el servicio de lista negra riesgo rimac"),
-	
+
+    ERROR_CONNECTION_SCHEDULE_QUOTE_RIMAC_SERVICE("PISD00120004", false, "No se pudo realizar una conexión con el servicio de calcular cuota del Rimac"),
+
     ERROR_NO_RESULT_JDBC_INSRC_QUOTATION("PISD00120012", false, "Error al consultar cotización: No se hallaron resultados."),
     ERROR_TO_CONNECT_SERVICE_INSRC_QUOTATION("PISD00120013", false, "Error al consultar el servicio de listado de cotización Rimac"),
 
