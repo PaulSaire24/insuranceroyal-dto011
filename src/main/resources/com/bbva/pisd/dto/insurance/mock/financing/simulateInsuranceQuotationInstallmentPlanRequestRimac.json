@@ -1,0 +1,28 @@
+{
+  "payload": {
+    "cotizacion": "1a02cbcc-7298-4db8-895b-e5f6692bc89a",
+    "fechaInicioFinanciamiento": "2021-06-08",
+    "financiamiento": [
+      {
+        "periodo": "A",
+        "nroCuotas": 1
+      },
+      {
+        "periodo": "R",
+        "nroCuotas": 2
+      },
+      {
+        "periodo": "T",
+        "nroCuotas": 4
+      },
+      {
+        "periodo": "B",
+        "nroCuotas": 6
+      },
+      {
+        "periodo": "M",
+        "nroCuotas": 12
+      }
+    ]
+  }
+}

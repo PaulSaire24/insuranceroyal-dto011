@@ -14,6 +14,7 @@ public enum PISDProperties {
     URI_SIMULATION("/vehicular/V1/cotizacion"),
     ID_API_QUOTATION_DETAIL_RIMAC("quotationdetail.rimac"),
     URI_QUOTATION_DETAIL("/vehicular/V1/cotizacion/detalle/"),
+    URI_FINANCING_PLAN("/vehicular/V1/cotizacion/cronograma/calcular-cuota"),
     QUOTATION_DETAIL_QUERYSTRING("plan="),
     ID_API_QUOTATION_SELECTION_RIMAC("quotationselection.rimac"),
     URI_QUOTATION_SELECTION("/vehicular/V1/cotizacion/-/seleccionar"),

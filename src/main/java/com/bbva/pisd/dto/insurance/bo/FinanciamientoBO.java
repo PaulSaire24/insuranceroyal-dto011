@@ -32,9 +32,9 @@ public class FinanciamientoBO {
     public String toString() {
         final StringBuilder sb = new StringBuilder("FinanciamientoBO{");
         sb.append("idFinanciamiento='").append(idFinanciamiento).append('\'');
-        sb.append(", financiamiento=").append(financiamiento);
+        sb.append(", financiamiento=").append(financiamiento).append('\'');;
         sb.append(", periodicidad='").append(periodicidad).append('\'');
-        sb.append(", numeroCuotas=").append(numeroCuotas);
+        sb.append(", numeroCuotas=").append(numeroCuotas).append('\'');;
         sb.append(", fechaInicio='").append(fechaInicio).append('\'');
         sb.append(", fechaFinal='").append(fechaFinal).append('\'');
         sb.append(", cuotasFinanciamiento=").append(cuotasFinanciamiento);
