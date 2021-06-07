@@ -21,6 +21,9 @@ public class QuotDetailDAO {
     private String licenseNumber;
     private String productType;
     private String productDescription;
+    private String chassisId;
+    private String vehicleEngineId;
+    private BigDecimal vehicleSeatNumber;
 
     public String getRimacId() { return rimacId; }
     public void setRimacId(String rimacId) { this.rimacId = rimacId; }
@@ -56,5 +59,11 @@ public class QuotDetailDAO {
     public void setProductType(String productType) { this.productType = productType; }
     public String getProductDescription() { return productDescription; }
     public void setProductDescription(String productDescription) { this.productDescription = productDescription; }
+    public String getChassisId() { return chassisId; }
+    public void setChassisId(String chassisId) { this.chassisId = chassisId; }
+    public String getVehicleEngineId() { return vehicleEngineId; }
+    public void setVehicleEngineId(String vehicleEngineId) { this.vehicleEngineId = vehicleEngineId; }
+    public BigDecimal getVehicleSeatNumber() { return vehicleSeatNumber; }
+    public void setVehicleSeatNumber(BigDecimal vehicleSeatNumber) { this.vehicleSeatNumber = vehicleSeatNumber; }
 
 }
