@@ -56,8 +56,9 @@ public class FinanciamientoPayloadBO {
         final StringBuilder sb = new StringBuilder("FinanciamientoBO{");
         sb.append("cotizacion='").append(cotizacion).append('\'');
         sb.append(", fechaInicioFinanciamiento=").append(fechaInicioFinanciamiento).append('\'');;
-        sb.append(", fechaInicio=").append(fechaInicio).append('\'');;
-        sb.append(", fechaFin=").append(fechaFin);
+        sb.append(", fechaInicio=").append(fechaInicio).append('\'');
+        sb.append(", fechaFin=").append(fechaFin).append('\'');
+        sb.append(", finacimiento=").append(financiamiento).append('\'');
         sb.append('}');
         return sb.toString();
     }
