@@ -17,8 +17,9 @@ public class FinancingPlanDTO extends CommonOutputFieldsDTO {
 
     public String toString() {
         final StringBuilder sb = new StringBuilder("InstallmentPlanDTO{");
-        sb.append("maturityDate='").append(this.getMaturityDate()).append('\'');
-        sb.append("totalNumberInstallments='").append(getTotalNumberInstallments()).append('\'');
+        sb.append("quotationId='").append(this.getQuotationId()).append('\'');
+        sb.append("startDate='").append(this.getStartDate()).append('\'');
+        sb.append("installmentPlans='").append(installmentPlans).append('\'');
         sb.append('}');
         return sb.toString();
     }

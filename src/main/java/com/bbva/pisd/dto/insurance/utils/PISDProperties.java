@@ -11,6 +11,7 @@ public enum PISDProperties {
     ID_API_NOTIFICATIONS_GATEWAY_CREATE_EMAIL_SERVICE("createEmail"),
     ID_API_GIFOLE_CANCELLATION_SERVICE("gifole"),
     ID_API_SIMULATION_RIMAC("simulation.rimac"),
+    ID_API_FINANCING_PLAN_RIMAC("financingplan.rimac"),
     URI_SIMULATION("/vehicular/V1/cotizacion"),
     ID_API_QUOTATION_DETAIL_RIMAC("quotationdetail.rimac"),
     URI_QUOTATION_DETAIL("/vehicular/V1/cotizacion/detalle/"),

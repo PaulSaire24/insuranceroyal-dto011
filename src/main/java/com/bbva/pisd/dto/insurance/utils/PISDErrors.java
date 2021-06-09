@@ -30,7 +30,9 @@ public enum PISDErrors {
 
     ERROR_UPDATE_FIELDS_RIMAC_SERVICE("PISD00120027", false, "No se actualizarón los campos con exito en el servicio de Rimac"),
 
-    ERROR_CONNECTION_SCHEDULE_QUOTE_RIMAC_SERVICE("PISD00120028", false, "No se pudo realizar una conexión con el servicio de calcular cuota del Rimac");
+    ERROR_CONNECTION_SCHEDULE_QUOTE_RIMAC_SERVICE("PISD00120027", false, "No se pudo realizar una conexión con el servicio de calcular cuota del Rimac"),
+    ERROR_SCHEDULE_QUOTE_STARTDATE("PISD00120028", false, "La fecha de inicio de cronograma, debe ser mayor a la fecha actual");
+
 
     private final String adviceCode;
     private final boolean rollback;
