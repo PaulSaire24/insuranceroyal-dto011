@@ -63,6 +63,8 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
     private String aap;
     private BankDTO bank;
 
+    private Long totalNumberInstallments;
+
     public HolderDTO getHolder() { return holder; }
     public void setHolder(HolderDTO holder) { this.holder = holder; }
     public InsuranceProductDTO getProduct() { return product; }
@@ -163,4 +165,6 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
     public BankDTO getBank() { return bank; }
     public void setBank(BankDTO bank) { this.bank = bank; }
 
+    public Long getTotalNumberInstallments() { return totalNumberInstallments; }
+    public void setTotalNumberInstallments(Long totalNumberInstallments) { this.totalNumberInstallments = totalNumberInstallments; }
 }
