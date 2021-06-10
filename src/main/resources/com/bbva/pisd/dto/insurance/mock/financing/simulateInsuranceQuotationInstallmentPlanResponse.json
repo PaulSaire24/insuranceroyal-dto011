@@ -1,49 +1,27 @@
 {
-  "payload": {
-    "cotizacion": "1a02cbcc-7298-4db8-895b-e5f6692bc89a",
-    "fechaInicio": "2021-06-08",
-    "fechaFin": "2022-06-08",
-    "financiamiento": [
+    "maturityDate": "2022-06-09",
+    "installmentPlans": [
       {
-        "financiamiento": "7936d46e-5c63-4993-bcfc-4d54eb3f4b1c",
-        "numeroCuotasTotales": 1,
-        "periodo": "A",
-        "descripcionPeriodo": "Anual",
-        "montoCuota": 595.06,
-        "moneda": "USD"
+        "period": {
+          "name": "Mensual",
+          "id": "MONTHLY"
+        },
+        "paymentAmount": {
+          "amount": 49.59,
+          "currency": "USD"
+        }
       },
       {
-        "financiamiento": "a1fbdb68-c41d-419c-81ba-bcbaba87596b",
-        "numeroCuotasTotales": 2,
-        "periodo": "R",
-        "descripcionPeriodo": "Semestral",
-        "montoCuota": 298,
-        "moneda": "USD"
-      },
-      {
-        "financiamiento": "616a1446-5080-4482-9950-b8aebb147aeb",
-        "numeroCuotasTotales": 4,
-        "periodo": "T",
-        "descripcionPeriodo": "Trimestral",
-        "montoCuota": 149,
-        "moneda": "USD"
-      },
-      {
-        "financiamiento": "1ef2cde0-9554-4674-87b5-8d676ff13a8d",
-        "numeroCuotasTotales": 6,
-        "periodo": "B",
-        "descripcionPeriodo": "Bimestral",
-        "montoCuota": 100,
-        "moneda": "USD"
-      },
-      {
-        "financiamiento": "1b63b538-ab3f-47b9-b8ef-2d1a4a707f75",
-        "numeroCuotasTotales": 12,
-        "periodo": "M",
-        "descripcionPeriodo": "Mensual",
-        "montoCuota": 49.59,
-        "moneda": "USD"
+        "period": {
+          "name": "Semestral",
+          "id": "SEMIANNUAL"
+        },
+        "paymentAmount": {
+          "amount": 298.0,
+          "currency": "USD"
+        }
       }
-    ]
-  }
+    ],
+    "totalNumberInstallments": 2,
+    "startDate": "2021-06-09"
 }

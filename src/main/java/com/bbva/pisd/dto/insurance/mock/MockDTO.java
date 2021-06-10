@@ -87,7 +87,7 @@ public final class MockDTO {
                 InsuranceSimulationDTO.class);
     }
 
-    public FinancingPlanBO getGRequestRimac() throws IOException {
+    public FinancingPlanBO getSimulateInsuranceQuotationInstallmentPlanRequestRimac() throws IOException {
         return objectMapperHelper.readValue(
                 Thread.currentThread().getContextClassLoader().getResourceAsStream(
                         "com/bbva/pisd/dto/insurance/mock/financing/simulateInsuranceQuotationInstallmentPlanRequestRimac.json"),
@@ -101,11 +101,18 @@ public final class MockDTO {
                 FinancingPlanDTO.class);
     }
 
-    public FinancingPlanBO getSimulateInsuranceQuotationInstallmentPlanResponse() throws IOException {
+    public FinancingPlanBO getSimulateInsuranceQuotationInstallmentPlanResponseRimac() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/financing/simulateInsuranceQuotationInstallmentPlanResponseRimac.json"),
+                FinancingPlanBO.class);
+    }
+
+    public FinancingPlanDTO getSimulateInsuranceQuotationInstallmentPlanResponse() throws IOException {
         return objectMapperHelper.readValue(
                 Thread.currentThread().getContextClassLoader().getResourceAsStream(
                         "com/bbva/pisd/dto/insurance/mock/financing/simulateInsuranceQuotationInstallmentPlanResponse.json"),
-                FinancingPlanBO.class);
+                FinancingPlanDTO.class);
     }
 
     public List<InsuranceProductModalityDAO> getProductModalitiesFromDBMockResponse() throws IOException {
