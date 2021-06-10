@@ -1,6 +1,8 @@
 package com.bbva.pisd.dto.insurance.financing;
 
-public class EntityOutFinancingPlanDTO {
+import com.bbva.apx.dto.AbstractDTO;
+
+public class EntityOutFinancingPlanDTO extends AbstractDTO {
 
     private FinancingPlanDTO data;
 
