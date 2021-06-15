@@ -16,6 +16,7 @@ import com.bbva.pisd.dto.insurance.bo.SelectionQuotationBO;
 import com.bbva.pisd.dto.insurance.bo.DatoParticularBO;
 import com.bbva.pisd.dto.insurance.bo.SearchQuotationBO;
 import com.bbva.pisd.dto.insurance.bo.detail.InsuranceQuotationDetailBO;
+import com.bbva.pisd.dto.insurance.bo.financing.CronogramaPagoBO;
 import com.bbva.pisd.dto.insurance.bo.financing.FinancingPlanBO;
 import com.bbva.pisd.dto.insurance.bo.registeradditional.RegisterAdditionalVehBO;
 import com.bbva.pisd.dto.insurance.bo.simulation.InsuranceSimulationBO;
@@ -106,6 +107,20 @@ public final class MockDTO {
                 Thread.currentThread().getContextClassLoader().getResourceAsStream(
                         "com/bbva/pisd/dto/insurance/mock/financing/simulateInsuranceQuotationInstallmentPlanResponseRimac.json"),
                 FinancingPlanBO.class);
+    }
+
+    public FinancingPlanBO getSimulateInsuranceQuotationInstallmentPlanCronogramaPagoRequestRimac() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/financing/simulateInsuranceQuotationInstallmentPlanCronogramaPagoRequestRimac.json"),
+                FinancingPlanBO.class);
+    }
+
+    public CronogramaPagoBO getSimulateInsuranceQuotationInstallmentPlanCronogramaPagoResponseRimac() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/financing/simulateInsuranceQuotationInstallmentPlanCronogramaPagoResponseRimac.json"),
+                CronogramaPagoBO.class);
     }
 
     public FinancingPlanDTO getSimulateInsuranceQuotationInstallmentPlanResponse() throws IOException {
