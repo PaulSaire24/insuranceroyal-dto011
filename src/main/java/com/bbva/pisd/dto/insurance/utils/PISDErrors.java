@@ -32,7 +32,9 @@ public enum PISDErrors {
     ERROR_CONNECTION_REGISTER_DATOS_ADICIONALES("PISD00120028", false, "No se pudo realizar una conexión con Registrar datos adicionales de cotización vehicular"),
 
     ERROR_CONNECTION_SCHEDULE_QUOTE_RIMAC_SERVICE("PISD00120029", false, "No se pudo realizar una conexión con el servicio de calcular cuota del Rimac"),
-    ERROR_SCHEDULE_QUOTE_STARTDATE("PISD00120030", false, "La fecha de inicio de cronograma, debe ser mayor a la fecha actual");
+    ERROR_SCHEDULE_QUOTE_STARTDATE("PISD00120030", false, "La fecha de inicio de cronograma, debe ser mayor a la fecha actual"),
+    ERROR_CONNECTION_PAYMENT_SCHEDULE_RIMAC_SERVICE("PISD00120031", false, "No se pudo realizar una conexión con el servicio de cronograma pago del Rimac");
+
 
 
 
