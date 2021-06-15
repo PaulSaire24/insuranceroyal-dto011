@@ -29,9 +29,12 @@ public enum PISDErrors {
     NON_EXISTENT_QUOTATION("PISD00120026", false, "El código de cotización ingresado no existe en la BD"),
 
     ERROR_UPDATE_FIELDS_RIMAC_SERVICE("PISD00120027", false, "No se actualizarón los campos con exito en el servicio de Rimac"),
+    ERROR_CONNECTION_REGISTER_DATOS_ADICIONALES("PISD00120028", false, "No se pudo realizar una conexión con Registrar datos adicionales de cotización vehicular"),
 
-    ERROR_CONNECTION_SCHEDULE_QUOTE_RIMAC_SERVICE("PISD00120027", false, "No se pudo realizar una conexión con el servicio de calcular cuota del Rimac"),
-    ERROR_SCHEDULE_QUOTE_STARTDATE("PISD00120028", false, "La fecha de inicio de cronograma, debe ser mayor a la fecha actual");
+    ERROR_CONNECTION_SCHEDULE_QUOTE_RIMAC_SERVICE("PISD00120029", false, "No se pudo realizar una conexión con el servicio de calcular cuota del Rimac"),
+    ERROR_SCHEDULE_QUOTE_STARTDATE("PISD00120030", false, "La fecha de inicio de cronograma, debe ser mayor a la fecha actual");
+
+
 
 
     private final String adviceCode;
