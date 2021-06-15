@@ -2,7 +2,7 @@ package com.bbva.pisd.dto.insurance.commons;
 
 import com.bbva.apx.dto.AbstractDTO;
 
-public class ContactDTO extends AbstractDTO {
+public class ContactDTO extends CommonDTO {
 
     private String contactDetailType;
     private String address;
@@ -21,6 +21,7 @@ public class ContactDTO extends AbstractDTO {
         sb.append("contactDetailType='").append(contactDetailType).append('\'');
         sb.append(", address='").append(address).append('\'');
         sb.append(", phoneNumber='").append(phoneNumber).append('\'');
+        sb.append(", number='").append(this.getNumber()).append('\'');
         sb.append('}');
         return sb.toString();
     }
