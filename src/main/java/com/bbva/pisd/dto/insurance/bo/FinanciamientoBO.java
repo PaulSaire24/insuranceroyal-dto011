@@ -3,7 +3,7 @@ package com.bbva.pisd.dto.insurance.bo;
 import java.util.Date;
 import java.util.List;
 
-public class FinanciamientoBO {
+public class FinanciamientoBO extends CommonOutputFieldsBO {
 
     private String idFinanciamiento;
     private Long financiamiento;

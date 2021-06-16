@@ -1,0 +1,72 @@
+{
+  "payload": [
+    {
+      "financiamiento": 24281,
+      "fechaInicio": "2021-06-14",
+      "fechaFinal": "2022-06-14",
+      "numeroCuotas": 12,
+      "cuotasFinanciamiento": [
+        {
+          "cuota": 1,
+          "monto": 39.11,
+          "fechaVencimiento": "2021-06-14"
+        },
+        {
+          "cuota": 2,
+          "monto": 39.11,
+          "fechaVencimiento": "2021-07-14"
+        },
+        {
+          "cuota": 3,
+          "monto": 39.11,
+          "fechaVencimiento": "2021-08-14"
+        },
+        {
+          "cuota": 4,
+          "monto": 39.11,
+          "fechaVencimiento": "2021-09-14"
+        },
+        {
+          "cuota": 5,
+          "monto": 39.11,
+          "fechaVencimiento": "2021-10-14"
+        },
+        {
+          "cuota": 6,
+          "monto": 39.11,
+          "fechaVencimiento": "2021-11-14"
+        },
+        {
+          "cuota": 7,
+          "monto": 39.11,
+          "fechaVencimiento": "2021-12-14"
+        },
+        {
+          "cuota": 8,
+          "monto": 39.11,
+          "fechaVencimiento": "2022-01-14"
+        },
+        {
+          "cuota": 9,
+          "monto": 39.11,
+          "fechaVencimiento": "2022-02-14"
+        },
+        {
+          "cuota": 10,
+          "monto": 39.11,
+          "fechaVencimiento": "2022-03-14"
+        },
+        {
+          "cuota": 11,
+          "monto": 39.11,
+          "fechaVencimiento": "2022-04-14"
+        },
+        {
+          "cuota": 12,
+          "monto": 39.05,
+          "fechaVencimiento": "2022-05-14"
+        }
+      ]
+    }
+  ]
+}

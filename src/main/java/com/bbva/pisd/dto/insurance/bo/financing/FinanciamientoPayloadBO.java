@@ -8,7 +8,7 @@ public class FinanciamientoPayloadBO {
     private Date fechaInicioFinanciamiento;
     private Date fechaInicio;
     private Date fechaFin;
-    private List<CuotaFinanciamientoBO> financiamiento;
+    private List<FinanciamientoBO> financiamiento;
 
     public void setCotizacion(String cotizacion) {
         this.cotizacion = cotizacion;
@@ -34,11 +34,11 @@ public class FinanciamientoPayloadBO {
         this.fechaFin = fechaFin;
     }
 
-    public List<CuotaFinanciamientoBO> getFinanciamiento() {
+    public List<FinanciamientoBO> getFinanciamiento() {
         return financiamiento;
     }
 
-    public void setFinanciamiento(List<CuotaFinanciamientoBO> financiamiento) {
+    public void setFinanciamiento(List<FinanciamientoBO> financiamiento) {
         this.financiamiento = financiamiento;
     }
 

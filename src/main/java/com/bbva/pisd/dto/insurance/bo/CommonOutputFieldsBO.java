@@ -10,9 +10,12 @@ public class CommonOutputFieldsBO {
 	private BigDecimal primaNeta;
 	private BigDecimal primaBruta;
 	private String indicadorInspeccion;
+	private String cotizacion;
 
 	public ErrorBO getError() { return error; }
 	public void setError(ErrorBO error) { this.error = error; }
+	public String geCotizacion() { return cotizacion; }
+	public void setCotizacion(String cotizacion) { this.cotizacion = cotizacion; }
 	public String getTipoDocumento() { return tipoDocumento; }
 	public void setTipoDocumento(String tipoDocumento) { this.tipoDocumento = tipoDocumento; }
 	public String getNumeroDocumento() { return numeroDocumento; }

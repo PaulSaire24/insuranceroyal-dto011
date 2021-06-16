@@ -1,0 +1,11 @@
+{
+  "payload": {
+    "financiamiento": [
+      {
+        "frecuencia": "M",
+        "fechaInicio": "{{fechaInicio}}",
+        "numeroCuotas":12
+      }
+    ]
+  }
+}
