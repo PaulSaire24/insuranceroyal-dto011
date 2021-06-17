@@ -1,36 +1,37 @@
 package com.bbva.pisd.dto.insurance.bo.financing;
 
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
 
 public class FinanciamientoPayloadBO {
     private String cotizacion;
-    private Date fechaInicioFinanciamiento;
-    private Date fechaInicio;
-    private Date fechaFin;
+    private LocalDate fechaInicioFinanciamiento;
+    private LocalDate fechaInicio;
+    private LocalDate fechaFin;
     private List<FinanciamientoBO> financiamiento;
 
     public void setCotizacion(String cotizacion) {
         this.cotizacion = cotizacion;
     }
 
-    public void setFechaInicioFinanciamiento(Date fechaInicioFinanciamiento) {
+    public void setFechaInicioFinanciamiento(LocalDate fechaInicioFinanciamiento) {
         this.fechaInicioFinanciamiento = fechaInicioFinanciamiento;
     }
 
-    public Date getFechaInicio() {
+    public LocalDate getFechaInicio() {
         return fechaInicio;
     }
 
-    public void setFechaInicio(Date fechaInicio) {
+    public void setFechaInicio(LocalDate fechaInicio) {
         this.fechaInicio = fechaInicio;
     }
 
-    public Date getFechaFin() {
+    public LocalDate getFechaFin() {
         return fechaFin;
     }
 
-    public void setFechaFin(Date fechaFin) {
+    public void setFechaFin(LocalDate fechaFin) {
         this.fechaFin = fechaFin;
     }
 
@@ -46,7 +47,7 @@ public class FinanciamientoPayloadBO {
         return cotizacion;
     }
 
-    public Date getFechaInicioFinanciamiento() {
+    public LocalDate getFechaInicioFinanciamiento() {
         return fechaInicioFinanciamiento;
     }
 

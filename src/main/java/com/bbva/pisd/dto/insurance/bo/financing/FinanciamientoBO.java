@@ -1,7 +1,7 @@
 package com.bbva.pisd.dto.insurance.bo.financing;
 
 import java.math.BigDecimal;
-import java.util.Date;
+import java.time.LocalDate;
 
 public class FinanciamientoBO {
 
@@ -13,7 +13,7 @@ public class FinanciamientoBO {
     private String moneda;
     private Long nroCuotas;
     private String frecuencia;
-    private Date fechaInicio;
+    private LocalDate fechaInicio;
     private Long numeroCuotas;
 
     public Long getNroCuotas() { return nroCuotas; }
@@ -55,8 +55,8 @@ public class FinanciamientoBO {
         this.moneda = moneda;
     }
 
-    public Date getFechaInicio() { return fechaInicio; }
-    public void setFechaInicio(Date fechaInicio) { this.fechaInicio = fechaInicio; }
+    public LocalDate getFechaInicio() { return fechaInicio; }
+    public void setFechaInicio(LocalDate fechaInicio) { this.fechaInicio = fechaInicio; }
     public Long getNumeroCuotas() { return numeroCuotas; }
     public void setNumeroCuotas(Long numeroCuotas) { this.numeroCuotas = numeroCuotas; }
     public String getFrecuencia() { return frecuencia; }
