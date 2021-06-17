@@ -54,6 +54,10 @@
 			<artifactId>jackson-mapper-asl</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>com.bbva.elara</groupId>
 			<artifactId>elara-exception</artifactId>
 			<version>7.3.1-RELEASE</version>

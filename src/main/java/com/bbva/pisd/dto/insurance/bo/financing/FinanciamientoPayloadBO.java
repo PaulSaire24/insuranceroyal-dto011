@@ -1,10 +1,10 @@
 package com.bbva.pisd.dto.insurance.bo.financing;
 
-import java.time.LocalDate;
-import java.util.Date;
+import org.joda.time.LocalDate;
 import java.util.List;
 
 public class FinanciamientoPayloadBO {
+
     private String cotizacion;
     private LocalDate fechaInicioFinanciamiento;
     private LocalDate fechaInicio;

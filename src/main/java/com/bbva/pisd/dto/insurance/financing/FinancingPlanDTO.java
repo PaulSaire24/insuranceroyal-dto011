@@ -3,7 +3,7 @@ package com.bbva.pisd.dto.insurance.financing;
 import com.bbva.apx.dto.AbstractDTO;
 import com.bbva.pisd.dto.insurance.commons.InstallmentsDTO;
 
-import java.time.LocalDate;
+import org.joda.time.LocalDate;
 import java.util.List;
 
 public class FinancingPlanDTO extends AbstractDTO {

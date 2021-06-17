@@ -9,7 +9,8 @@
         "paymentAmount": {
           "amount": 49.59,
           "currency": "USD"
-        }
+        },
+        "totalNumberInstallments": 2
       },
       {
         "period": {
@@ -19,9 +20,9 @@
         "paymentAmount": {
           "amount": 298.0,
           "currency": "USD"
-        }
+        },
+        "totalNumberInstallments": 2
       }
     ],
-    "totalNumberInstallments": 2,
     "startDate": "2021-06-09"
 }
