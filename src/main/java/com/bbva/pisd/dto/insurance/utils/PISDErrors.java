@@ -35,7 +35,10 @@ public enum PISDErrors {
     ERROR_CONNECTION_REGISTER_DATOS_ADICIONALES("PISD00120030", false, "No se pudo realizar una conexión con Registrar datos adicionales de cotización vehicular"),
     ERROR_CONNECTION_PAYMENT_SCHEDULE_RIMAC_SERVICE("PISD00120031", false, "No se pudo realizar una conexión con el servicio de cronograma pago del Rimac"),
 
-    QUERY_EMPTY_POLICY_QUOTA_INTERNAL_ID("PISD00120032", false, "No se encontró resultados con el id de poliza");
+    QUERY_EMPTY_POLICY_QUOTA_INTERNAL_ID("PISD00120032", false, "No se encontró resultados con el id de poliza"),
+
+    ERROR_LONGITUD_REGISTER_DATOS_ADICIONALES("PISD00120033", false, "El campo número de serie debe tener longitud entre 8 y 20 caracteres."),
+    ERROR_CALL_TO_THIRD_PARTY("PISD00120034", false, "No se pudo realizar una conexión en llamar a tercero");
 
     private final String adviceCode;
     private final boolean rollback;
