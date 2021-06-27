@@ -11,6 +11,7 @@ public class CommonOutputFieldsBO {
 	private BigDecimal primaBruta;
 	private String indicadorInspeccion;
 	private String cotizacion;
+	private String state;
 
 	public ErrorBO getError() { return error; }
 	public void setError(ErrorBO error) { this.error = error; }
@@ -26,4 +27,8 @@ public class CommonOutputFieldsBO {
 	public void setPrimaBruta(BigDecimal primaBruta) { this.primaBruta = primaBruta; }
 	public String getIndicadorInspeccion() { return indicadorInspeccion; }
 	public void setIndicadorInspeccion(String indicadorInspeccion) { this.indicadorInspeccion = indicadorInspeccion; }
+	public String getState() { return state; }
+	public void setState(String state) { this.state = state; }
+
+
 }
