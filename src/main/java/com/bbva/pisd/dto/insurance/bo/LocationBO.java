@@ -1,13 +1,19 @@
 package com.bbva.pisd.dto.insurance.bo;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
 import java.util.List;
 
-public class LocationBO extends CommonOutputFieldsBO {
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class LocationBO {
 
+    private StateBO state;
     private CountryBO country;
     private String additionalInformation;
     private List<GeographicGroupsBO> geographicGroups;
 
+    public StateBO getState() { return state; }
+    public void setState(StateBO state) { this.state = state; }
     public CountryBO getCountry() { return country; }
     public void setCountry(CountryBO country) { this.country = country; }
     public String getAdditionalInformation() { return additionalInformation; }
@@ -18,7 +24,8 @@ public class LocationBO extends CommonOutputFieldsBO {
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("LocationBO{");
-        sb.append("country=").append(country);
+        sb.append("state=").append(state);
+        sb.append(", country=").append(country);
         sb.append(", additionalInformation=").append(additionalInformation);
         sb.append(", geographicGroups=").append(geographicGroups);
         sb.append(", state=").append(this.getState());
