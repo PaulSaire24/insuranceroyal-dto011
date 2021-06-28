@@ -1,14 +1,14 @@
 package com.bbva.pisd.dto.insurance.bo;
 
-public class GeographicGroupsBO extends  CommonBO {
+public class GeographicGroupsBO extends CommonBO {
 
-    private String code;
     private GeographicGroupTypeBO geographicGroupType;
+    private String code;
 
-    public String getCode() { return code; }
-    public void setCode(String code) { this.code = code; }
     public GeographicGroupTypeBO getGeographicGroupType() { return geographicGroupType; }
     public void setGeographicGroupType(GeographicGroupTypeBO geographicGroupType) { this.geographicGroupType = geographicGroupType; }
+    public String getCode() { return code; }
+    public void setCode(String code) { this.code = code; }
 
     @Override
     public String toString() {

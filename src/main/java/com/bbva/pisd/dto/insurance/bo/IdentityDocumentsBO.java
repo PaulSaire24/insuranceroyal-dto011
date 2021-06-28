@@ -2,16 +2,16 @@ package com.bbva.pisd.dto.insurance.bo;
 
 public class IdentityDocumentsBO {
 
+    private DocumentTypeBO documentType;
     private String expirationDate;
     private String documentNumber;
-    private DocumentTypeBO documentType;
 
+    public DocumentTypeBO getDocumentType() { return documentType; }
+    public void setDocumentType(DocumentTypeBO documentType) { this.documentType = documentType; }
     public String getExpirationDate() { return expirationDate; }
     public void setExpirationDate(String expirationDate) { this.expirationDate = expirationDate; }
     public String getDocumentNumber() { return documentNumber; }
     public void setDocumentNumber(String documentNumber) { this.documentNumber = documentNumber; }
-    public DocumentTypeBO getDocumentType() { return documentType; }
-    public void setDocumentType(DocumentTypeBO documentType) { this.documentType = documentType; }
 
     @Override
     public String toString() {
