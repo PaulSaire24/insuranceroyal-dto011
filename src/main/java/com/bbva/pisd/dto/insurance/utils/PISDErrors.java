@@ -38,7 +38,8 @@ public enum PISDErrors {
     QUERY_EMPTY_POLICY_QUOTA_INTERNAL_ID("PISD00120032", false, "No se encontró resultados con el id de poliza"),
 
     ERROR_LONGITUD_REGISTER_DATOS_ADICIONALES("PISD00120033", false, "El campo número de serie debe tener longitud entre 8 y 20 caracteres."),
-    ERROR_CALL_TO_THIRD_PARTY("PISD00120034", false, "No se pudo realizar una conexión en llamar a tercero");
+    ERROR_CALL_TO_THIRD_PARTY("PISD00120034", false, "No se pudo realizar una conexión en llamar a tercero"),
+    ERROR_NOT_PERIOD_VALIDATE("PISD00120035", false, "El campo periodo debe tener un valor valido.");
 
     private final String adviceCode;
     private final boolean rollback;
