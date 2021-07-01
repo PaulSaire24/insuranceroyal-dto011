@@ -2,8 +2,8 @@ package com.bbva.pisd.dto.insurance.bo.customer;
 
 public class AddPersonBO {
 
-    public DataPersona payload;
+    private DataPersona payload;
 
-    public DataPersona getPayload() { return payload; }
-    public void setPayload(DataPersona payload) { this.payload = payload; }
+    private DataPersona getPayload() { return payload; }
+    private void setPayload(DataPersona payload) { this.payload = payload; }
 }
