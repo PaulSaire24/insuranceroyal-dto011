@@ -20,6 +20,30 @@ public class Persona {
     private String tipoVia;
     private String nombreVia;
     private String numeroVia;
+    private String ubigeo;
+    private String proteccionDatosPersonales;
+    private String envioComunicacionesComerciales;
+
+    public Persona(Persona persona){
+        this.tipoDocumento=persona.getTipoDocumento();
+        this.nroDocumento=persona.getNroDocumento();
+        this.apePaterno=persona.getApePaterno();
+        this.apeMaterno=persona.getApeMaterno();
+        this.nombres=persona.getNombres();
+        this.fechaNacimiento=persona.getFechaNacimiento();
+        this.sexo=persona.getSexo();
+        this.correoElectronico=persona.getCorreoElectronico();
+        this.telefonoFijo=persona.getTelefonoFijo();
+        this.celular=persona.getCelular();
+        this.direccion=persona.getDireccion();
+        this.distrito=persona.getDistrito();
+        this.provincia=persona.getProvincia();
+        this.departamento=persona.getDepartamento();
+        this.tipoVia=persona.getTipoVia();
+        this.nombreVia=persona.getNombreVia();
+        this.numeroVia=persona.getNumeroVia();
+        this.ubigeo=persona.getUbigeo();
+    }
 
     public String getTipoDocumento() { return tipoDocumento;}
     public void setTipoDocumento(String tipoDocumento) { this.tipoDocumento = tipoDocumento; }
@@ -57,4 +81,11 @@ public class Persona {
     public void setNombreVia(String nombreVia) { this.nombreVia = nombreVia; }
     public String getNumeroVia() { return numeroVia; }
     public void setNumeroVia(String numeroVia) { this.numeroVia = numeroVia; }
+    public String getProteccionDatosPersonales() { return proteccionDatosPersonales; }
+    public String getUbigeo() { return ubigeo; }
+    public void setUbigeo(String ubigeo) { this.ubigeo = ubigeo;}
+    public void setProteccionDatosPersonales(String proteccionDatosPersonales) { this.proteccionDatosPersonales = proteccionDatosPersonales; }
+    public String getEnvioComunicacionesComerciales() { return envioComunicacionesComerciales; }
+    public void setEnvioComunicacionesComerciales(String envioComunicacionesComerciales) { this.envioComunicacionesComerciales = envioComunicacionesComerciales; }
+
 }
