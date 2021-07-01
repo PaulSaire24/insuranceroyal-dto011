@@ -24,29 +24,6 @@ public class Persona {
     private String proteccionDatosPersonales;
     private String envioComunicacionesComerciales;
 
-    public Persona(String tDoc, String nDoc, String apeP, String apeM, String nom, String fNac, String sex, String mail,
-                   String telefijo, String cel, String direc, String dis, String prov, String dep, String tVia,
-                   String noVia, String nuVia, String ubi){
-        this.tipoDocumento=tDoc;
-        this.nroDocumento=nDoc;
-        this.apePaterno=apeP;
-        this.apeMaterno=apeM;
-        this.nombres=nom;
-        this.fechaNacimiento=fNac;
-        this.sexo=sex;
-        this.correoElectronico=mail;
-        this.telefonoFijo=telefijo;
-        this.celular=cel;
-        this.direccion=direc;
-        this.distrito=dis;
-        this.provincia=prov;
-        this.departamento=dep;
-        this.tipoVia=tVia;
-        this.nombreVia=noVia;
-        this.numeroVia=nuVia;
-        this.ubigeo=ubi;
-    }
-
     public String getTipoDocumento() { return tipoDocumento;}
     public void setTipoDocumento(String tipoDocumento) { this.tipoDocumento = tipoDocumento; }
     public String getNroDocumento() { return nroDocumento; }
