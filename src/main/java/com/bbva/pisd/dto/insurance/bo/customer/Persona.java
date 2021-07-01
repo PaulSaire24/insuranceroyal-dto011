@@ -24,25 +24,27 @@ public class Persona {
     private String proteccionDatosPersonales;
     private String envioComunicacionesComerciales;
 
-    public Persona(Persona persona){
-        this.tipoDocumento=persona.getTipoDocumento();
-        this.nroDocumento=persona.getNroDocumento();
-        this.apePaterno=persona.getApePaterno();
-        this.apeMaterno=persona.getApeMaterno();
-        this.nombres=persona.getNombres();
-        this.fechaNacimiento=persona.getFechaNacimiento();
-        this.sexo=persona.getSexo();
-        this.correoElectronico=persona.getCorreoElectronico();
-        this.telefonoFijo=persona.getTelefonoFijo();
-        this.celular=persona.getCelular();
-        this.direccion=persona.getDireccion();
-        this.distrito=persona.getDistrito();
-        this.provincia=persona.getProvincia();
-        this.departamento=persona.getDepartamento();
-        this.tipoVia=persona.getTipoVia();
-        this.nombreVia=persona.getNombreVia();
-        this.numeroVia=persona.getNumeroVia();
-        this.ubigeo=persona.getUbigeo();
+    public Persona(String tDoc, String nDoc, String apeP, String apeM, String nom, String fNac, String sex, String mail,
+                   String telefijo, String cel, String direc, String dis, String prov, String dep, String tVia,
+                   String noVia, String nuVia, String ubi){
+        this.tipoDocumento=tDoc;
+        this.nroDocumento=nDoc;
+        this.apePaterno=apeP;
+        this.apeMaterno=apeM;
+        this.nombres=nom;
+        this.fechaNacimiento=fNac;
+        this.sexo=sex;
+        this.correoElectronico=mail;
+        this.telefonoFijo=telefijo;
+        this.celular=cel;
+        this.direccion=direc;
+        this.distrito=dis;
+        this.provincia=prov;
+        this.departamento=dep;
+        this.tipoVia=tVia;
+        this.nombreVia=noVia;
+        this.numeroVia=nuVia;
+        this.ubigeo=ubi;
     }
 
     public String getTipoDocumento() { return tipoDocumento;}
