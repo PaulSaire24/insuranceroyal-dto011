@@ -13,7 +13,7 @@ public class Persona {
     private String telefonoFijo;
     private String celular;
     private String direccion;
-    private String rol;
+    private Integer rol;
     private String distrito;
     private String provincia;
     private String departamento;
@@ -46,8 +46,8 @@ public class Persona {
     public void setCelular(String celular) { this.celular = celular; }
     public String getDireccion() { return direccion; }
     public void setDireccion(String direccion) { this.direccion = direccion; }
-    public String getRol() { return rol; }
-    public void setRol(String rol) { this.rol = rol; }
+    public Integer getRol() { return rol; }
+    public void setRol(Integer rol) { this.rol = rol; }
     public String getDistrito() { return distrito;}
     public void setDistrito(String distrito) { this.distrito = distrito; }
     public String getProvincia() { return provincia; }
