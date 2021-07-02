@@ -67,4 +67,31 @@ public class Persona {
     public String getEnvioComunicacionesComerciales() { return envioComunicacionesComerciales; }
     public void setEnvioComunicacionesComerciales(String envioComunicacionesComerciales) { this.envioComunicacionesComerciales = envioComunicacionesComerciales; }
 
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("Persona{");
+        sb.append("tipoDocumento='").append(tipoDocumento).append('\'');
+        sb.append(", nroDocumento='").append(nroDocumento).append('\'');
+        sb.append(", apePaterno='").append(apePaterno).append('\'');
+        sb.append(", apeMaterno='").append(apeMaterno).append('\'');
+        sb.append(", nombres='").append(nombres).append('\'');
+        sb.append(", fechaNacimiento='").append(fechaNacimiento).append('\'');
+        sb.append(", sexo='").append(sexo).append('\'');
+        sb.append(", correoElectronico='").append(correoElectronico).append('\'');
+        sb.append(", telefonoFijo='").append(telefonoFijo).append('\'');
+        sb.append(", celular='").append(celular).append('\'');
+        sb.append(", direccion='").append(direccion).append('\'');
+        sb.append(", rol=").append(rol);
+        sb.append(", distrito='").append(distrito).append('\'');
+        sb.append(", provincia='").append(provincia).append('\'');
+        sb.append(", departamento='").append(departamento).append('\'');
+        sb.append(", tipoVia='").append(tipoVia).append('\'');
+        sb.append(", nombreVia='").append(nombreVia).append('\'');
+        sb.append(", numeroVia='").append(numeroVia).append('\'');
+        sb.append(", ubigeo='").append(ubigeo).append('\'');
+        sb.append(", proteccionDatosPersonales='").append(proteccionDatosPersonales).append('\'');
+        sb.append(", envioComunicacionesComerciales='").append(envioComunicacionesComerciales).append('\'');
+        sb.append('}');
+        return sb.toString();
+    }
 }
