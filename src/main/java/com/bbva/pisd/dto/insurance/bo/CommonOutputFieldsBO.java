@@ -16,7 +16,7 @@ public class CommonOutputFieldsBO {
 
 	public ErrorBO getError() { return error; }
 	public void setError(ErrorBO error) { this.error = error; }
-	public String geCotizacion() { return cotizacion; }
+	public String getCotizacion() { return cotizacion; }
 	public void setCotizacion(String cotizacion) { this.cotizacion = cotizacion; }
 	public String getTipoDocumento() { return tipoDocumento; }
 	public void setTipoDocumento(String tipoDocumento) { this.tipoDocumento = tipoDocumento; }
