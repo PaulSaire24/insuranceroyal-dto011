@@ -4,6 +4,6 @@ public class AddPersonBO {
 
     private DataPersona payload;
 
-    private DataPersona getPayload() { return payload; }
-    private void setPayload(DataPersona payload) { this.payload = payload; }
+    public DataPersona getPayload() { return payload; }
+    public void setPayload(DataPersona payload) { this.payload = payload; }
 }
