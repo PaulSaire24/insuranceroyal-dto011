@@ -1,6 +1,6 @@
 package com.bbva.pisd.dto.insurance.error;
 
-public class Error {
+public class ErrorDTO {
 
     private String code;
     private String message;
