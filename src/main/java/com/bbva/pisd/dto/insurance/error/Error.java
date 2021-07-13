@@ -6,9 +6,6 @@ public class Error {
     private String message;
     private Integer httpStatus;
 
-    public Error() {
-    }
-
     public String getCode() {
         return this.code;
     }

@@ -4,9 +4,6 @@ public class OutputError {
 
     private Error error;
 
-    public OutputError() {
-    }
-
     public Error getError() {
         return this.error;
     }
