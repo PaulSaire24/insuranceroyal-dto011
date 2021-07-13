@@ -23,6 +23,7 @@
 			/src/main/java/com/bbva/pisd/dto/insurance/blacklist/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/bo/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/bo/detail/**.java,
+			/src/main/java/com/bbva/pisd/dto/insurance/error/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/bo/simulation/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/bo/registerAdditional/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/commons/**.java,
