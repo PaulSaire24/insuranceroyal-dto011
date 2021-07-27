@@ -10,6 +10,7 @@ public class InsuranceProductModalityDTO extends AbstractDTO {
     private String name;
     private String isSelected;
     private String isRecommended;
+    private Long order;
     private InstallmentModalityDTO installmentPlan;
     private List<CoverageModalityDTO> coverages;
     private List<BenefitModalityDTO> benefits;
@@ -24,6 +25,8 @@ public class InsuranceProductModalityDTO extends AbstractDTO {
     public void setIsSelected(String isSelected) { this.isSelected = isSelected; }
     public String getIsRecommended() { return isRecommended; }
     public void setIsRecommended(String isRecommended) { this.isRecommended = isRecommended; }
+    public Long getOrder() { return order; }
+    public void setOrder(Long order) { this.order = order; }
     public InstallmentModalityDTO getInstallmentPlan() { return installmentPlan; }
     public void setInstallmentPlan(InstallmentModalityDTO installmentPlan) { this.installmentPlan = installmentPlan; }
     public List<CoverageModalityDTO> getCoverages() { return coverages; }

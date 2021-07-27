@@ -6,6 +6,7 @@ public class CommonDTO extends AbstractDTO {
 
     private String id;
     private String name;
+    private Boolean isPrincipal;
     private String number;
     private String description;
     private UnitDTO unit;
@@ -14,6 +15,8 @@ public class CommonDTO extends AbstractDTO {
     public void setId(String id) { this.id = id; }
     public String getName() { return name; }
     public void setName(String name) { this.name = name; }
+    public Boolean getIsPrincipal() { return isPrincipal; }
+    public void setIsPrincipal(Boolean principal) { isPrincipal = principal; }
     public String getNumber() { return number; }
     public void setNumber(String number) { this.number = number; }
     public String getDescription() { return description; }
@@ -26,6 +29,7 @@ public class CommonDTO extends AbstractDTO {
         final StringBuilder sb = new StringBuilder("{");
         sb.append("id='").append(id).append('\'');
         sb.append(", name='").append(name).append('\'');
+        sb.append(", isPrincipal='").append(isPrincipal).append('\'');
         sb.append(", unit=").append(unit);
         sb.append('}');
         return sb.toString();
