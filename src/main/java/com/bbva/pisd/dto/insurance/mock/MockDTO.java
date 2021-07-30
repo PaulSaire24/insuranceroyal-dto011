@@ -362,6 +362,13 @@ public final class MockDTO {
                 CustomerListASO.class);
     }
 
+    public SearchQuotationBO getSearchQuotationsResponse() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/search/searchQuotations.json"),
+                SearchQuotationBO.class);
+    }
+
     public List<Map<String, Object>> getSearchQuotationBBVAResponse() {
         List<Map<String, Object>> response = new ArrayList<>();
         Map<String, Object> row = new HashMap<>();
