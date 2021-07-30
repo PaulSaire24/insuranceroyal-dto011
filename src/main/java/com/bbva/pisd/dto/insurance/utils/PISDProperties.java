@@ -219,6 +219,7 @@ public enum PISDProperties {
     ID_QUERY_FOR_GET_INSURANCE_COMPANY_QUOTA_ID("PISD.QUERY_FOR_GET_INSURANCE_COMPANY_QUOTA_ID"),
     ID_API_CUSTOMER_INFORMATION("listCustomerInformation");
 
+    
     private final String value;
 
     PISDProperties(String value) { this.value = value; }
