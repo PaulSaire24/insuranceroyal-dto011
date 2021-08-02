@@ -142,6 +142,7 @@ public enum PISDProperties {
     QUOTATION_SEARCH_QUERYSTRING_DOCUMENT_TYPE("tipoDocumento="),
     QUOTATION_SEARCH_QUERYSTRING_DOCUMENT_NUMBER("nroDocumento="),
     QUOTATION_SEARCH_QUERYSTRING_PLATE("placa="),
+    QUOTATION_SEARCH_QUERYSTRING_PROD("ideProd="),
 	ID_API_SEARCH_RIMAC("quotationsearch.rimac"),
 	ASO_GET_SEARCH_MOCK("pisd.aso.get.search.mock"),
 
