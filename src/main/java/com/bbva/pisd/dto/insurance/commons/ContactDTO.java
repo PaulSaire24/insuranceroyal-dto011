@@ -1,6 +1,6 @@
 package com.bbva.pisd.dto.insurance.commons;
 
-import com.bbva.apx.dto.AbstractDTO;
+
 
 public class ContactDTO extends CommonDTO {
 

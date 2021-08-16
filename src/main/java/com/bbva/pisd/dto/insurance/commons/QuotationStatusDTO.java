@@ -14,6 +14,7 @@ public class QuotationStatusDTO extends CommonDTO {
     public String toString() {
         final StringBuilder sb = new StringBuilder("QuotationStatusDTO{");
         sb.append("id='").append(this.getId()).append('\'');
+        sb.append(", name='").append(this.getName()).append('\'');
         sb.append(", description='").append(this.getDescription()).append('\'');
         sb.append('}');
         return sb.toString();

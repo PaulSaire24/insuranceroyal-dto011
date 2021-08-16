@@ -1,6 +1,6 @@
 package com.bbva.pisd.dto.insurance.search;
 
-import com.bbva.apx.dto.AbstractDTO;
+
 import com.bbva.pisd.dto.insurance.commons.CommonOutputFieldsDTO;
 import com.bbva.pisd.dto.insurance.commons.IdentityDocumentDTO;
 import com.bbva.pisd.dto.insurance.simulation.VehicleDTO;
