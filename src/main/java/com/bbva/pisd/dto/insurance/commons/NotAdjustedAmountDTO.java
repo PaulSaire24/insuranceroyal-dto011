@@ -8,7 +8,13 @@ public class NotAdjustedAmountDTO extends AbstractDTO {
     private String name;
     private InsurancePrimeAmountDTO amount;
     private String percentage;
+    private Double percentageDouble;
 
+
+
+    public Double getPercentageDouble() {return this.percentageDouble;}
+    public void setPercentageDouble(Double percentageDouble) {this.percentageDouble = percentageDouble;}
+    
     public String getId() { return id; }
     public void setId(String id) { this.id = id; }
     public String getName() { return name; }
@@ -25,6 +31,7 @@ public class NotAdjustedAmountDTO extends AbstractDTO {
         sb.append(", name='").append(name).append('\'');
         sb.append(", amount=").append(amount);
         sb.append(", percentage=").append(percentage);
+        sb.append(", percentageDouble=").append(percentageDouble);
         sb.append('}');
         return sb.toString();
     }
