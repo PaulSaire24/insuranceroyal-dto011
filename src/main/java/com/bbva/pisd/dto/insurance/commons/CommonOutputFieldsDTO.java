@@ -1,6 +1,7 @@
 package com.bbva.pisd.dto.insurance.commons;
 
 import com.bbva.apx.dto.AbstractDTO;
+import com.bbva.pisd.dto.insurance.policy.BusinessAgentDTO;
 import com.bbva.pisd.dto.insurance.policy.PaymentAmountDTO;
 
 import java.util.Date;
@@ -53,8 +54,8 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
     private List<LinkDTO> links;
 
     private PaymentPeriodDTO period;
-
     private PolicyInspectionDTO inspection;
+    private BusinessAgentDTO businessAgent;
 
     private String creationUser;
     private String userAudit;
@@ -148,9 +149,11 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
 
     public PaymentPeriodDTO getPeriod() { return period; }
     public void setPeriod(PaymentPeriodDTO period) { this.period = period; }
-
     public PolicyInspectionDTO getInspection() { return inspection; }
     public void setInspection(PolicyInspectionDTO inspection) { this.inspection = inspection; }
+
+    public BusinessAgentDTO getBusinessAgent() { return businessAgent; }
+    public void setBusinessAgent(BusinessAgentDTO businessAgent) { this.businessAgent = businessAgent; }
 
     public String getCreationUser() { return creationUser; }
     public void setCreationUser(String creationUser) { this.creationUser = creationUser; }

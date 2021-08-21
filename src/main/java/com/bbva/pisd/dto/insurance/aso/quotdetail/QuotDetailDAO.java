@@ -1,6 +1,7 @@
 package com.bbva.pisd.dto.insurance.aso.quotdetail;
 
 import java.math.BigDecimal;
+import java.util.Date;
 
 public class QuotDetailDAO {
 
@@ -24,6 +25,10 @@ public class QuotDetailDAO {
     private String chassisId;
     private String vehicleEngineId;
     private BigDecimal vehicleSeatNumber;
+    private String vehicleUseType;
+    private String vehicleUsageDesc;
+    private Date creationDate;
+    private String status;
 
     public String getRimacId() { return rimacId; }
     public void setRimacId(String rimacId) { this.rimacId = rimacId; }
@@ -65,5 +70,11 @@ public class QuotDetailDAO {
     public void setVehicleEngineId(String vehicleEngineId) { this.vehicleEngineId = vehicleEngineId; }
     public BigDecimal getVehicleSeatNumber() { return vehicleSeatNumber; }
     public void setVehicleSeatNumber(BigDecimal vehicleSeatNumber) { this.vehicleSeatNumber = vehicleSeatNumber; }
+    public String getVehicleUseType() { return vehicleUseType; }
+    public void setVehicleUseType(String vehicleUseType) { this.vehicleUseType = vehicleUseType; }
+    public String getVehicleUsageDesc() { return vehicleUsageDesc; }
+    public void setVehicleUsageDesc(String vehicleUsageDesc) { this.vehicleUsageDesc = vehicleUsageDesc; }
+    public Date getCreationDate() { return creationDate; }
+    public void setCreationDate(Date creationDate) { this.creationDate = creationDate; }
 
 }
