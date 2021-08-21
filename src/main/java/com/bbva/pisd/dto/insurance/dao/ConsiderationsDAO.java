@@ -10,6 +10,7 @@ public class ConsiderationsDAO {
     private Double considerationAmount;
     private String considerationCurrency;
     private Double considerationPercentage;
+    private Boolean mainConsiderationIndType;
 
     public String getInsuranceModalityType() { return insuranceModalityType; }
     public void setInsuranceModalityType(String insuranceModalityType) { this.insuranceModalityType = insuranceModalityType; }
@@ -27,5 +28,6 @@ public class ConsiderationsDAO {
     public void setConsiderationCurrency(String considerationCurrency) { this.considerationCurrency = considerationCurrency; }
     public Double getConsiderationPercentage() { return considerationPercentage; }
     public void setConsiderationPercentage(Double considerationPercentage) { this.considerationPercentage = considerationPercentage; }
-
+    public Boolean getMainConsiderationIndType() { return mainConsiderationIndType; }
+    public void setMainConsiderationIndType(Boolean mainConsiderationIndType) { this.mainConsiderationIndType = mainConsiderationIndType; }
 }
