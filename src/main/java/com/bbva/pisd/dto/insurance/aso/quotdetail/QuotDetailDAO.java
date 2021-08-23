@@ -76,5 +76,6 @@ public class QuotDetailDAO {
     public void setVehicleUsageDesc(String vehicleUsageDesc) { this.vehicleUsageDesc = vehicleUsageDesc; }
     public Date getCreationDate() { return creationDate; }
     public void setCreationDate(Date creationDate) { this.creationDate = creationDate; }
-
+    public String getStatus() { return status; }
+    public void setStatus(String status) { this.status = status; }
 }

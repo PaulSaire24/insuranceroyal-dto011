@@ -10,12 +10,20 @@ public class InsuranceProductModalityDTO extends AbstractDTO {
     private String name;
     private String isSelected;
     private String isRecommended;
+    private Boolean isSelectBoolean;
+    private Boolean isRecommendBoolean;
     private Long order;
     private InstallmentModalityDTO installmentPlan;
     private List<CoverageModalityDTO> coverages;
     private List<BenefitModalityDTO> benefits;
     private List<ExclusionDTO> exclusions;
     private List<DeductibleDTO> deductibles;
+
+
+    public Boolean getIsSelectBoolean() {return this.isSelectBoolean;}
+    public void setIsSelectBoolean(Boolean isSelectBoolean) {this.isSelectBoolean = isSelectBoolean;}
+    public Boolean getIsRecommendBoolean() {return this.isRecommendBoolean;}
+    public void setIsRecommendBoolean(Boolean isRecommendBoolean) {this.isRecommendBoolean = isRecommendBoolean;}
 
     public String getId() { return id; }
     public void setId(String id) { this.id = id; }
@@ -50,6 +58,8 @@ public class InsuranceProductModalityDTO extends AbstractDTO {
         sb.append(", benefits=").append(benefits);
         sb.append(", exclusions=").append(exclusions);
         sb.append(", deductibles=").append(deductibles);
+        sb.append(", isSelectBoolean='").append(isSelectBoolean).append('\'');
+        sb.append(", isRecommendBoolean='").append(isRecommendBoolean).append('\'');
         sb.append('}');
         return sb.toString();
     }
