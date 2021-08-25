@@ -12,6 +12,8 @@ public class InsuranceQuotationModDAO extends CommonsDAO {
     private BigDecimal premiumAmount;
     private String premiumCurrencyId;
     private String saveQuotationIndType;
+    private String contactEmailDesc;
+    private String customerPhoneDesc;
 
     public String getSaleChannelId() { return saleChannelId; }
     public void setSaleChannelId(String saleChannelId) { this.saleChannelId = saleChannelId; }
@@ -29,6 +31,10 @@ public class InsuranceQuotationModDAO extends CommonsDAO {
     public void setPremiumCurrencyId(String premiumCurrencyId) { this.premiumCurrencyId = premiumCurrencyId; }
     public String getSaveQuotationIndType() { return saveQuotationIndType; }
     public void setSaveQuotationIndType(String saveQuotationIndType) { this.saveQuotationIndType = saveQuotationIndType; }
+    public String getContactEmailDesc() { return contactEmailDesc; }
+    public void setContactEmailDesc(String contactEmailDesc) { this.contactEmailDesc = contactEmailDesc; }
+    public String getCustomerPhoneDesc() { return customerPhoneDesc; }
+    public void setCustomerPhoneDesc(String customerPhoneDesc) { this.customerPhoneDesc = customerPhoneDesc; }
 
     @Override
     public String toString() {
@@ -46,6 +52,8 @@ public class InsuranceQuotationModDAO extends CommonsDAO {
         sb.append(", saveQuotationIndType='").append(saveQuotationIndType).append('\'');
         sb.append(", creationUser='").append(this.getCreationUser()).append('\'');
         sb.append(", userAudit='").append(this.getUserAudit()).append('\'');
+        sb.append(", contactEmailDesc='").append(contactEmailDesc).append('\'');
+        sb.append(", customerPhoneDesc='").append(customerPhoneDesc).append('\'');
         sb.append('}');
         return sb.toString();
     }
