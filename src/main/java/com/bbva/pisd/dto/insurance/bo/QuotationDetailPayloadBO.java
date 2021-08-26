@@ -21,6 +21,7 @@ public class QuotationDetailPayloadBO {
     private String producto;
     private List<QuotationDetailPlanBO> plan;
     private String indicadorGps;
+    private Long indicadorRequiereInspeccion;
 
     public Date getFecCreacion() { return fecCreacion; }
     public void setFecCreacion(Date fecCreacion) { this.fecCreacion = fecCreacion; }
@@ -54,6 +55,8 @@ public class QuotationDetailPayloadBO {
     public void setPlan(List<QuotationDetailPlanBO> plan) { this.plan = plan; }
     public String getIndicadorGps() { return indicadorGps; }
     public void setIndicadorGps(String indicadorGps) { this.indicadorGps = indicadorGps; }
+    public Long getIndicadorRequiereInspeccion() { return indicadorRequiereInspeccion; }
+    public void setIndicadorRequiereInspeccion(Long indicadorRequiereInspeccion) { this.indicadorRequiereInspeccion = indicadorRequiereInspeccion; }
 
     @Override
     public String toString() {
@@ -74,6 +77,7 @@ public class QuotationDetailPayloadBO {
         sb.append(", producto='").append(producto).append('\'');
         sb.append(", plan=").append(plan);
         sb.append(", indicadorGps='").append(indicadorGps).append('\'');
+        sb.append(", indicadorRequiereInspeccion='").append(indicadorRequiereInspeccion).append('\'');
         sb.append('}');
         return sb.toString();
     }

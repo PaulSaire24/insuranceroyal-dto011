@@ -1,5 +1,6 @@
 package com.bbva.pisd.dto.insurance.bo;
 
+
 import java.util.Date;
 
 public class CotizacionBO {
@@ -8,6 +9,7 @@ public class CotizacionBO {
     private String diasVigencia;
     private Date fechaFinVigencia;
     private PlanBO plan;
+    private Long indicadorRequiereInspeccion;
 
     public String getIdCotizacion() { return idCotizacion; }
     public void setIdCotizacion(String idCotizacion) { this.idCotizacion = idCotizacion; }
@@ -17,6 +19,8 @@ public class CotizacionBO {
     public void setFechaFinVigencia(Date fechaFinVigencia) { this.fechaFinVigencia = fechaFinVigencia; }
     public PlanBO getPlan() { return plan; }
     public void setPlan(PlanBO plan) { this.plan = plan; }
+    public Long getIndicadorRequiereInspeccion() { return indicadorRequiereInspeccion; }
+    public void setIndicadorRequiereInspeccion(Long indicadorRequiereInspeccion) { this.indicadorRequiereInspeccion = indicadorRequiereInspeccion; }
 
     @Override
     public String toString() {
@@ -24,6 +28,7 @@ public class CotizacionBO {
         sb.append("idCotizacion='").append(idCotizacion).append('\'');
         sb.append(", diasVigencia='").append(diasVigencia).append('\'');
         sb.append(", fechaFinVigencia='").append(fechaFinVigencia).append('\'');
+        sb.append(", indicadorRequiereInspeccion='").append(indicadorRequiereInspeccion).append('\'');
         sb.append(", plan=").append(plan);
         sb.append('}');
         return sb.toString();
