@@ -1,8 +1,14 @@
 package com.bbva.pisd.dto.insurance.detail;
 
 import com.bbva.pisd.dto.insurance.commons.CommonOutputFieldsDTO;
+import com.bbva.pisd.dto.insurance.simulation.VehicleDTO;
 
 public class EntityOutQuotationDetailDTO extends CommonOutputFieldsDTO {
+
+    private VehicleDTO vehicle;
+
+    public VehicleDTO getVehicle() { return vehicle; }
+    public void setVehicle(VehicleDTO vehicle) { this.vehicle = vehicle; }
 
     @Override
     public String toString() {
@@ -36,6 +42,7 @@ public class EntityOutQuotationDetailDTO extends CommonOutputFieldsDTO {
         sb.append(", seats=").append(this.getSeats());
         sb.append(", markedAsSaved='").append(this.getMarkedAsSaved()).append('\'');
         sb.append(", bank=").append(this.getBank());
+        sb.append(", vehicle=").append(vehicle);
         sb.append('}');
         return sb.toString();
     }

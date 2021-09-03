@@ -29,6 +29,12 @@ public class QuotDetailDAO {
     private String vehicleUsageDesc;
     private Date creationDate;
     private String status;
+    private String email;
+    private String phone;
+    private String hasSteeringWheelChanged;
+    private String savedQuotation;
+    private String businessAgentId;
+    private String branchId;
 
     public String getRimacId() { return rimacId; }
     public void setRimacId(String rimacId) { this.rimacId = rimacId; }
@@ -78,4 +84,16 @@ public class QuotDetailDAO {
     public void setCreationDate(Date creationDate) { this.creationDate = creationDate; }
     public String getStatus() { return status; }
     public void setStatus(String status) { this.status = status; }
+    public String getEmail() { return email; }
+    public void setEmail(String email) { this.email = email; }
+    public String getPhone() { return phone; }
+    public void setPhone(String phone) { this.phone = phone; }
+    public String getHasSteeringWheelChanged() { return hasSteeringWheelChanged; }
+    public void setHasSteeringWheelChanged(String hasSteeringWheelChanged) { this.hasSteeringWheelChanged = hasSteeringWheelChanged; }
+    public String getSavedQuotation() { return savedQuotation; }
+    public void setSavedQuotation(String savedQuotation) { this.savedQuotation = savedQuotation; }
+    public String getBusinessAgentId() { return businessAgentId; }
+    public void setBusinessAgentId(String businessAgentId) { this.businessAgentId = businessAgentId; }
+    public String getBranchId() { return branchId; }
+    public void setBranchId(String branchId) { this.branchId = branchId; }
 }
