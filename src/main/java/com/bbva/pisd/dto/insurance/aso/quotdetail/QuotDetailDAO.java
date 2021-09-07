@@ -27,7 +27,7 @@ public class QuotDetailDAO {
     private BigDecimal vehicleSeatNumber;
     private String vehicleUseType;
     private String vehicleUsageDesc;
-    private Date creationDate;
+    private String creationDate;
     private String status;
     private String email;
     private String phone;
@@ -80,8 +80,8 @@ public class QuotDetailDAO {
     public void setVehicleUseType(String vehicleUseType) { this.vehicleUseType = vehicleUseType; }
     public String getVehicleUsageDesc() { return vehicleUsageDesc; }
     public void setVehicleUsageDesc(String vehicleUsageDesc) { this.vehicleUsageDesc = vehicleUsageDesc; }
-    public Date getCreationDate() { return creationDate; }
-    public void setCreationDate(Date creationDate) { this.creationDate = creationDate; }
+    public String getCreationDate() { return creationDate; }
+    public void setCreationDate(String creationDate) { this.creationDate = creationDate; }
     public String getStatus() { return status; }
     public void setStatus(String status) { this.status = status; }
     public String getEmail() { return email; }
