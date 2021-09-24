@@ -7,6 +7,7 @@ public class InsuranceProductDTO extends CommonOutputFieldsDTO {
     private String name;
     private List<InsuranceProductModalityDTO> plans;
     private List<UninsurableGoodsDTO> uninsurableGoods;
+    private List<InsuranceProductModality2DTO> plans2;
 
     public String getName() { return name; }
     public void setName(String name) { this.name = name; }
@@ -14,6 +15,8 @@ public class InsuranceProductDTO extends CommonOutputFieldsDTO {
     public void setPlans(List<InsuranceProductModalityDTO> plans) { this.plans = plans; }
     public List<UninsurableGoodsDTO> getUninsurableGoods() {return this.uninsurableGoods;}
     public void setUninsurableGoods(List<UninsurableGoodsDTO> uninsurableGoods) {this.uninsurableGoods = uninsurableGoods;}
+    public List<InsuranceProductModality2DTO> getPlans2() { return plans2; }
+    public void setPlans2(List<InsuranceProductModality2DTO> plans2) { this.plans2 = plans2; }
 
     public InsuranceProductDTO(String id, String description, List<InsuranceProductModalityDTO> plans) {
 		this.setId(id);
