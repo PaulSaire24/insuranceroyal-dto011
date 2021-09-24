@@ -7,6 +7,8 @@ public class InsuranceQuotationDAO extends CommonsDAO {
     private String insuranceCompanyQuotaId;
     private String quoteDate;
     private Timestamp policyQuotaEndValidityDate;
+    private String mail;
+    private String phone;
 
     public String getInsuranceCompanyQuotaId() { return insuranceCompanyQuotaId; }
     public void setInsuranceCompanyQuotaId(String insuranceCompanyQuotaId) { this.insuranceCompanyQuotaId = insuranceCompanyQuotaId; }
@@ -14,6 +16,10 @@ public class InsuranceQuotationDAO extends CommonsDAO {
     public void setQuoteDate(String quoteDate) { this.quoteDate = quoteDate; }
     public Timestamp getPolicyQuotaEndValidityDate() { return policyQuotaEndValidityDate; }
     public void setPolicyQuotaEndValidityDate(Timestamp policyQuotaEndValidityDate) { this.policyQuotaEndValidityDate = policyQuotaEndValidityDate; }
+    public String getMail() { return mail; }
+    public void setMail(String mail) { this.mail = mail; }
+    public String getPhone() { return phone; }
+    public void setPhone(String phone) { this.phone = phone; }
 
     @Override
     public String toString() {
@@ -26,6 +32,8 @@ public class InsuranceQuotationDAO extends CommonsDAO {
         sb.append(", customerId='").append(this.getCustomerId()).append('\'');
         sb.append(", creationUser='").append(this.getCreationUser()).append('\'');
         sb.append(", userAudit='").append(this.getUserAudit()).append('\'');
+        sb.append(", mail='").append(mail).append('\'');
+        sb.append(", phone='").append(phone).append('\'');
         sb.append('}');
         return sb.toString();
     }
