@@ -174,5 +174,4 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
 
     public String getClientDocument() { return clientDocument; }
     public void setClientDocument(String clientDocument) { this.clientDocument = clientDocument; }
-
 }
