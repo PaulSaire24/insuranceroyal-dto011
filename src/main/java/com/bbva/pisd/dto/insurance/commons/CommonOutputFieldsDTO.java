@@ -171,7 +171,7 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
 
     public Long getTotalNumberInstallments() { return totalNumberInstallments; }
     public void setTotalNumberInstallments(Long totalNumberInstallments) { this.totalNumberInstallments = totalNumberInstallments; }
+
     public String getClientDocument() { return clientDocument; }
     public void setClientDocument(String clientDocument) { this.clientDocument = clientDocument; }
-
 }
