@@ -7,6 +7,7 @@ public class CommonsDAO {
     private BigDecimal insuranceSimulationId;
     private String policyQuotaInternalId;
     private BigDecimal insuranceProductId;
+    private String insuranceProductDescription;
     private String insuranceModalityType;
     private String customerId;
     private String creationUser;
@@ -20,6 +21,8 @@ public class CommonsDAO {
     public void setPolicyQuotaInternalId(String policyQuotaInternalId) { this.policyQuotaInternalId = policyQuotaInternalId; }
     public BigDecimal getInsuranceProductId() { return insuranceProductId; }
     public void setInsuranceProductId(BigDecimal insuranceProductId) { this.insuranceProductId = insuranceProductId; }
+    public String getInsuranceProductDescription() { return insuranceProductDescription; }
+    public void setInsuranceProductDescription(String insuranceProductDescription) { this.insuranceProductDescription = insuranceProductDescription; }
     public String getInsuranceModalityType() { return insuranceModalityType; }
     public void setInsuranceModalityType(String insuranceModalityType) { this.insuranceModalityType = insuranceModalityType; }
     public String getCustomerId() { return customerId; }
