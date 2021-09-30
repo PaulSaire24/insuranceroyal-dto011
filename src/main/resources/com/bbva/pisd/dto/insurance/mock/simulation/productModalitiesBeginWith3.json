@@ -1,0 +1,23 @@
+[
+  {
+    "insuranceCompanyModalityId": "532831",
+    "insuranceModalityName": "PLAN FULL COBERTURAS",
+    "insuranceModalityType": "03",
+    "suggestedModalityIndType": "S",
+    "publicationOrderNumber": 1
+  },
+  {
+    "insuranceCompanyModalityId": "532844",
+    "insuranceModalityName": "PLAN BASICO",
+    "insuranceModalityType": "01",
+    "suggestedModalityIndType": "N",
+    "publicationOrderNumber": 2
+  },
+  {
+    "insuranceCompanyModalityId": "532857",
+    "insuranceModalityName": "PLAN ESTÁNDAR",
+    "insuranceModalityType": "02",
+    "suggestedModalityIndType": "N",
+    "publicationOrderNumber": 3
+  }
+]
