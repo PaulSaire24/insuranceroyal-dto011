@@ -42,7 +42,11 @@ public enum PISDErrors {
     ERROR_NOT_PERIOD_VALIDATE("PISD00120035", false, "El campo periodo debe tener un valor valido."),
     ERROR_PERSON_ADD_REGISTER_ADICIONALES("PISD00120036", false, "No se Agrego la Persona en el servicio de Rimac en Registro Adicionales."),
     ERROR_CONNECTION_VALIDATE_PERSONA_SERVICE("PISD00120037", false, "No se pudo realizar la conexion con el servicio Persona Rimac."),
-    EMPTY_RIMAC("PISD00120038", false, "No se puede obtener el error de Rimac");
+    EMPTY_RIMAC("PISD00120038", false, "No se puede obtener el error de Rimac"),
+
+    WRONG_PRODUCT_CODE("PISD00120039", false, "El codigo de producto enviado es incorrecto"),
+    WWRONG_PLAN_CODES("PISD00120040", false, "Los codigos de los planes son incorrectos"),
+    PLANS_WITHOUT_CONSIDERATIONS("PISD00120041", false, "No se encontraron consideraciones para ningun plan");
 
     private final String adviceCode;
     private final boolean rollback;
