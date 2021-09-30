@@ -131,10 +131,17 @@ public final class MockDTO {
                 FinancingPlanDTO.class);
     }
 
-    public List<InsuranceProductModalityDAO> getProductModalitiesFromDBMockResponse() throws IOException {
+    public List<InsuranceProductModalityDAO> getProductModalitiesBeginWith3() throws IOException {
         return Arrays.asList(objectMapperHelper.readValue(
                 Thread.currentThread().getContextClassLoader().getResourceAsStream(
-                        "com/bbva/pisd/dto/insurance/mock/simulation/productModalitiesFromDBMockResponse.json"),
+                        "com/bbva/pisd/dto/insurance/mock/simulation/productModalitiesBeginWith3.json"),
+                InsuranceProductModalityDAO[].class));
+    }
+
+    public List<InsuranceProductModalityDAO> getProductModalitiesBeginWith2() throws IOException {
+        return Arrays.asList(objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/simulation/productModalitiesBeginWith2.json"),
                 InsuranceProductModalityDAO[].class));
     }
 
