@@ -46,7 +46,12 @@ public enum PISDErrors {
 
     WRONG_PRODUCT_CODE("PISD00120039", false, "El codigo de producto enviado es incorrecto"),
     WWRONG_PLAN_CODES("PISD00120040", false, "Los codigos de los planes son incorrectos"),
-    PLANS_WITHOUT_CONSIDERATIONS("PISD00120041", false, "No se encontraron consideraciones para ningun plan");
+    PLANS_WITHOUT_CONSIDERATIONS("PISD00120041", false, "No se encontraron consideraciones para ningun plan"),
+    PLAN_WITHOUT_CONSIDERATION("PISD00120042", false, "No se recupero ninguna consideracion para el plan seleccionado"),
+    WRONG_PLAN_CODE("PISD00120043", false, "El codigo del plan enviado es incorrecto"),
+    INSERTION_ERROR_IN_QUOTATION_TABLE("PISD00120044", false, "Parametros requeridos incompletos para el registro de la cotizacion"),
+    INSERTION_ERROR_IN_QUOTATION_MOD_TABLE("PISD00120045", false, "Parametros requeridos incompletos para el registro del plan cotizado"),
+    INSERTION_ERROR_IN_QUOTATION_VEH_TABLE("PISD00120046", false, "Parametros requeridos incompletos para el registro del vehiculo a asegurar");
 
     private final String adviceCode;
     private final boolean rollback;
