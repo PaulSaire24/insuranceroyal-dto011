@@ -23,7 +23,9 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
     private Double bankingFactor;
     private Double campaignFactor;
     private String isGpsRequired;
+    private Boolean gpsRequired;
     private String isInspectionRequired;
+    private Boolean inspectionRequired;
     private Long validityDays;
     private Date startDate;
 
@@ -42,6 +44,7 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
     private String vehicleIdentificationNumber;
     private Long seats;
     private String markedAsSaved;
+    private Boolean markedAsSavedBoolean;
 
     private String customerId;
     private String productId;
@@ -97,6 +100,10 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
     public void setIsGpsRequired(String isGpsRequired) { this.isGpsRequired = isGpsRequired; }
     public String getIsInspectionRequired() { return isInspectionRequired; }
     public void setIsInspectionRequired(String isInspectionRequired) { this.isInspectionRequired = isInspectionRequired; }
+    public Boolean getGpsRequired() { return gpsRequired; }
+    public void setGpsRequired(Boolean gpsRequired) { this.gpsRequired = gpsRequired; }
+    public Boolean getInspectionRequired() { return inspectionRequired; }
+    public void setInspectionRequired(Boolean inspectionRequired) { this.inspectionRequired = inspectionRequired; }
     public Long getValidityDays() { return validityDays; }
     public void setValidityDays(Long validityDays) { this.validityDays = validityDays; }
     public Date getStartDate() { return startDate; }
@@ -129,7 +136,8 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
     public void setSeats(Long seats) { this.seats = seats; }
     public String getMarkedAsSaved() { return markedAsSaved; }
     public void setMarkedAsSaved(String markedAsSaved) { this.markedAsSaved = markedAsSaved; }
-
+    public Boolean getMarkedAsSavedBoolean() { return markedAsSavedBoolean; }
+    public void setMarkedAsSavedBoolean(Boolean markedAsSavedBoolean) { this.markedAsSavedBoolean = markedAsSavedBoolean; }
     public String getCustomerId() { return customerId; }
     public void setCustomerId(String customerId) { this.customerId = customerId; }
     public String getProductId() { return productId; }
