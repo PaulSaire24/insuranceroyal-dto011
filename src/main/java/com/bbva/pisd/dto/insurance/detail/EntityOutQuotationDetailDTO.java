@@ -32,7 +32,9 @@ public class EntityOutQuotationDetailDTO extends CommonOutputFieldsDTO {
         sb.append(", licensePlate='").append(this.getLicensePlate()).append('\'');
         sb.append(", usageType=").append(this.getUsageType());
         sb.append(", isGpsRequired='").append(this.getIsGpsRequired()).append('\'');
+        sb.append(", gpsRequired='").append(this.getGpsRequired()).append('\'');
         sb.append(", isInspectionRequired='").append(this.getIsInspectionRequired()).append('\'');
+        sb.append(", inspectionRequired='").append(this.getInspectionRequired()).append('\'');
         sb.append(", hasSteeringWheelChanged='").append(this.getHasSteeringWheelChanged()).append('\'');
         sb.append(", tier=").append(this.getTier());
         sb.append(", bankingFactor=").append(this.getBankingFactor());
@@ -41,6 +43,7 @@ public class EntityOutQuotationDetailDTO extends CommonOutputFieldsDTO {
         sb.append(", vehicleIdentificationNumber='").append(this.getVehicleIdentificationNumber()).append('\'');
         sb.append(", seats=").append(this.getSeats());
         sb.append(", markedAsSaved='").append(this.getMarkedAsSaved()).append('\'');
+        sb.append(", markedAsSavedBoolean='").append(this.getMarkedAsSavedBoolean()).append('\'');
         sb.append(", bank=").append(this.getBank());
         sb.append(", vehicle=").append(vehicle);
         sb.append('}');
