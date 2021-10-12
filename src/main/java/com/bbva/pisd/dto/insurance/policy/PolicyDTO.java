@@ -16,7 +16,6 @@ public class PolicyDTO extends CommonOutputFieldsDTO {
     private boolean hasAcceptedContract;
     private FirstInstallmentDTO firstInstallment;
     private List<ParticipantDTO> participants;
-    private BusinessAgentDTO businessAgent;
     private PromoterDTO promoter;
 
     private String policyNumber;
@@ -43,8 +42,6 @@ public class PolicyDTO extends CommonOutputFieldsDTO {
     public void setFirstInstallment(FirstInstallmentDTO firstInstallment) { this.firstInstallment = firstInstallment; }
     public List<ParticipantDTO> getParticipants() { return participants; }
     public void setParticipants(List<ParticipantDTO> participants) { this.participants = participants; }
-    public BusinessAgentDTO getBusinessAgent() { return businessAgent; }
-    public void setBusinessAgent(BusinessAgentDTO businessAgent) { this.businessAgent = businessAgent; }
     public PromoterDTO getPromoter() { return promoter; }
     public void setPromoter(PromoterDTO promoter) { this.promoter = promoter; }
     public String getPolicyNumber() { return policyNumber; }
@@ -75,7 +72,7 @@ public class PolicyDTO extends CommonOutputFieldsDTO {
         sb.append(", inspection=").append(this.getInspection());
         sb.append(", firstInstallment=").append(firstInstallment);
         sb.append(", participants=").append(participants);
-        sb.append(", businessAgent=").append(businessAgent);
+        sb.append(", businessAgent=").append(this.getBusinessAgent());
         sb.append(", promoter=").append(promoter);
         sb.append(", policyNumber='").append(policyNumber).append('\'');
         sb.append(", productDescription='").append(productDescription).append('\'');

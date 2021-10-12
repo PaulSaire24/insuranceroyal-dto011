@@ -10,6 +10,7 @@ public class SimulacionPayloadBO {
     private List<Long> planes;
     private List<DatoParticularBO> datosParticulares;
     private List<PlanFinanciamientoBO> financiamiento;
+    private List<Integer> periodosConDescuentoPrima;
     private AseguradoBO asegurado;
 
     public String getProducto() { return producto; }
@@ -24,6 +25,8 @@ public class SimulacionPayloadBO {
     public void setDatosParticulares(List<DatoParticularBO> datosParticulares) { this.datosParticulares = datosParticulares; }
     public List<PlanFinanciamientoBO> getFinanciamiento() { return financiamiento; }
     public void setFinanciamiento(List<PlanFinanciamientoBO> financiamiento) { this.financiamiento = financiamiento; }
+    public List<Integer> getPeriodosConDescuentoPrima() {return periodosConDescuentoPrima;}
+    public void setPeriodosConDescuentoPrima(List<Integer> periodosConDescuentoPrima) {this.periodosConDescuentoPrima = periodosConDescuentoPrima;}
     public AseguradoBO getAsegurado() { return asegurado; }
     public void setAsegurado(AseguradoBO asegurado) { this.asegurado = asegurado; }
 
@@ -36,6 +39,7 @@ public class SimulacionPayloadBO {
         sb.append(", planes=").append(planes);
         sb.append(", datosParticulares=").append(datosParticulares);
         sb.append(", financiamiento=").append(financiamiento);
+        sb.append(", periodosConDescuentoPrima=").append(periodosConDescuentoPrima);
         sb.append(", asegurado=").append(asegurado);
         sb.append('}');
         return sb.toString();

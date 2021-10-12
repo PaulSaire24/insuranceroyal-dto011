@@ -3,7 +3,7 @@ package com.bbva.pisd.dto.insurance.dao;
 import java.math.BigDecimal;
 import java.util.Date;
 
-public class ContractDAO extends CommonsDAO{
+public class ContractDAO extends CommonsDAO {
 
     private String insuranceContractEntityId;
     private String insuranceContractBranchId;
@@ -23,7 +23,6 @@ public class ContractDAO extends CommonsDAO{
     private Date policyAnnulationDate;
     private BigDecimal aftrReprgPendingInstNumber;
     private BigDecimal contractRegisCstAgeNumber;
-    private String customerId;
     private String domicileContractId;
     private String cardIssuingMarkType;
     private BigDecimal issuedReceiptNumber;
@@ -84,8 +83,6 @@ public class ContractDAO extends CommonsDAO{
     public void setAftrReprgPendingInstNumber(BigDecimal aftrReprgPendingInstNumber) { this.aftrReprgPendingInstNumber = aftrReprgPendingInstNumber; }
     public BigDecimal getContractRegisCstAgeNumber() { return contractRegisCstAgeNumber; }
     public void setContractRegisCstAgeNumber(BigDecimal contractRegisCstAgeNumber) { this.contractRegisCstAgeNumber = contractRegisCstAgeNumber; }
-    public String getCustomerId() { return customerId; }
-    public void setCustomerId(String customerId) { this.customerId = customerId; }
     public String getDomicileContractId() { return domicileContractId; }
     public void setDomicileContractId(String domicileContractId) { this.domicileContractId = domicileContractId; }
     public String getCardIssuingMarkType() { return cardIssuingMarkType; }
@@ -157,7 +154,7 @@ public class ContractDAO extends CommonsDAO{
         sb.append(", policyAnnulationDate=").append(policyAnnulationDate);
         sb.append(", aftrReprgPendingInstNumber=").append(aftrReprgPendingInstNumber);
         sb.append(", contractRegisCstAgeNumber=").append(contractRegisCstAgeNumber);
-        sb.append(", customerId='").append(customerId).append('\'');
+        sb.append(", customerId='").append(this.getCustomerId()).append('\'');
         sb.append(", domicileContractId='").append(domicileContractId).append('\'');
         sb.append(", cardIssuingMarkType='").append(cardIssuingMarkType).append('\'');
         sb.append(", issuedReceiptNumber=").append(issuedReceiptNumber);

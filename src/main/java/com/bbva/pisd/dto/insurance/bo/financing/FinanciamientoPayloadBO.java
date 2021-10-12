@@ -56,7 +56,7 @@ public class FinanciamientoPayloadBO {
     public String toString() {
         final StringBuilder sb = new StringBuilder("FinanciamientoBO{");
         sb.append("cotizacion='").append(cotizacion).append('\'');
-        sb.append(", fechaInicioFinanciamiento=").append(fechaInicioFinanciamiento).append('\'');;
+        sb.append(", fechaInicioFinanciamiento=").append(fechaInicioFinanciamiento).append('\'');
         sb.append(", fechaInicio=").append(fechaInicio).append('\'');
         sb.append(", fechaFin=").append(fechaFin).append('\'');
         sb.append(", finacimiento=").append(financiamiento).append('\'');
