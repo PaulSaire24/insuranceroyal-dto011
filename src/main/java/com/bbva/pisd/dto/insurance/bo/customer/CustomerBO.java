@@ -54,7 +54,6 @@ public class CustomerBO {
         sb.append(", nationalities=").append(nationalities);
         sb.append(", identityDocuments=").append(identityDocuments);
         sb.append(", gender=").append(gender);
-        //sb.append(", contactDetails=").append(contactDetails);
         sb.append(", addresses=").append(addresses);
         sb.append('}');
         return sb.toString();

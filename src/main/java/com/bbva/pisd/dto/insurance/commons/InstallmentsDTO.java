@@ -13,9 +13,9 @@ public class InstallmentsDTO extends CommonOutputFieldsDTO {
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("InstallmentsSimulationDTO{");
-        sb.append("paymentNumber=").append(paymentNumber).append('\'');;
-        sb.append(", amount=").append(amount).append('\'');;
-        sb.append(", period=").append(this.getPeriod()).append('\'');;
+        sb.append("paymentNumber=").append(paymentNumber).append('\'');
+        sb.append(", amount=").append(amount).append('\'');
+        sb.append(", period=").append(this.getPeriod()).append('\'');
         sb.append(", maturityDate='").append(this.getMaturityDate()).append('\'');
         sb.append('}');
         return sb.toString();
