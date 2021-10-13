@@ -51,7 +51,10 @@ public enum PISDErrors {
     WRONG_PLAN_CODE("PISD00120043", false, "El codigo del plan enviado es incorrecto"),
     INSERTION_ERROR_IN_QUOTATION_TABLE("PISD00120044", false, "Parametros requeridos incompletos para el registro de la cotizacion"),
     INSERTION_ERROR_IN_QUOTATION_MOD_TABLE("PISD00120045", false, "Parametros requeridos incompletos para el registro del plan cotizado"),
-    INSERTION_ERROR_IN_QUOTATION_VEH_TABLE("PISD00120046", false, "Parametros requeridos incompletos para el registro del vehiculo a asegurar");
+    INSERTION_ERROR_IN_QUOTATION_VEH_TABLE("PISD00120046", false, "Parametros requeridos incompletos para el registro del vehiculo a asegurar"),
+
+    VEHCOT001_RIMAC_ERROR_CODE("PISD00120047", false, "Rimac encontro errores en algunas validaciones"),
+    RIMAC_SERVER_ERROR("PISD00120048", false, "Ocurrio un problema con el servidor");
 
     private final String adviceCode;
     private final boolean rollback;
