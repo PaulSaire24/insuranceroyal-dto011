@@ -1,0 +1,616 @@
+{
+  "payload": {
+    "producto": "VEHICULAR",
+    "moneda": "USD",
+    "cotizaciones": [
+      {
+        "idCotizacion": "64648f70-661e-4013-a5da-bff6afce65b3",
+        "diasVigencia": "30",
+        "fechaFinVigencia": "2021-11-18",
+        "plan": {
+          "idPlan": 532844,
+          "descripcionPlan": "BBVA - PLAN BÁSICO",
+          "moneda": "USD",
+          "indicadorGPS": "NO",
+          "financiamientos": [
+            {
+              "idFinanciamiento": "c1660c20-2b29-4630-9075-fb839e3abaa0",
+              "periodicidad": "Mensual",
+              "numeroCuotas": 12,
+              "indicadorDescuentoPrima": "N",
+              "montoNetoFrac": 489.6,
+              "montoPago": 595.06,
+              "fechaInicio": "2021-10-20",
+              "fechaFinal": "2022-10-20",
+              "cuotasFinanciamiento": [
+                {
+                  "cuota": 1,
+                  "monto": 49.59,
+                  "fechaVencimiento": "2021-10-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 2,
+                  "monto": 49.59,
+                  "fechaVencimiento": "2021-11-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 3,
+                  "monto": 49.59,
+                  "fechaVencimiento": "2021-12-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 4,
+                  "monto": 49.59,
+                  "fechaVencimiento": "2022-01-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 5,
+                  "monto": 49.59,
+                  "fechaVencimiento": "2022-02-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 6,
+                  "monto": 49.59,
+                  "fechaVencimiento": "2022-03-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 7,
+                  "monto": 49.59,
+                  "fechaVencimiento": "2022-04-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 8,
+                  "monto": 49.59,
+                  "fechaVencimiento": "2022-05-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 9,
+                  "monto": 49.59,
+                  "fechaVencimiento": "2022-06-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 10,
+                  "monto": 49.59,
+                  "fechaVencimiento": "2022-07-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 11,
+                  "monto": 49.59,
+                  "fechaVencimiento": "2022-08-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 12,
+                  "monto": 49.57,
+                  "fechaVencimiento": "2022-09-20",
+                  "moneda": "USD"
+                }
+              ]
+            },
+            {
+              "idFinanciamiento": "22a9b00a-9232-4443-a9f8-b0cd79b62f35",
+              "periodicidad": "Anual",
+              "numeroCuotas": 1,
+              "indicadorDescuentoPrima": "S",
+              "montoNetoFrac": 467.37,
+              "montoPago": 568.04,
+              "fechaInicio": "2021-10-20",
+              "fechaFinal": "2022-10-20",
+              "cuotasFinanciamiento": [
+                {
+                  "cuota": 1,
+                  "monto": 568.04,
+                  "fechaVencimiento": "2021-11-21",
+                  "moneda": "USD"
+                }
+              ]
+            }
+          ],
+          "servicios": [
+            {
+              "idServicio": 15809,
+              "descripcionServicio": "AUXILIO MECÁNICO / GRÚA:  LIMA - PROVINCIA",
+              "primaBruta": 0.0,
+              "primaNeta": 0.0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400.0
+            },
+            {
+              "idServicio": 15810,
+              "descripcionServicio": "AMBULANCIA POR ACCIDENTE DE TRÁNSITO",
+              "primaBruta": 0.0,
+              "primaNeta": 0.0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400.0
+            },
+            {
+              "idServicio": 15800,
+              "descripcionServicio": "ASISTENCIA PERSONAL DE PROCURADORES",
+              "primaBruta": 0.0,
+              "primaNeta": 0.0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400.0
+            }
+          ],
+          "coberturas": [
+            {
+              "idCobertura": 7792,
+              "descripcionCobertura": "DAÑO PROPIO SOLO PÉRDIDA TOTAL  POR ROBO TOTAL",
+              "primaBruta": 577.73,
+              "primaNeta": 489.6,
+              "moneda": "USD",
+              "sumaAsegurada": 23400.0
+            },
+            {
+              "idCobertura": 7864,
+              "descripcionCobertura": "RESP. CIVIL FRENTE A TERCEROS POR ACCIDENTE DE TRÁNSITO",
+              "primaBruta": 0.0,
+              "primaNeta": 0.0,
+              "moneda": "USD",
+              "sumaAsegurada": 20000.0
+            }
+          ],
+          "deducibles": [
+            {
+              "idDeducible": 2239045,
+              "idComponente": 7792,
+              "descripcionDeducible": "ROBO TOTAL, 15% del MONTO INDEMNIZABLE, Mínimo de US$150.00"
+            },
+            {
+              "idDeducible": 2237284,
+              "idComponente": 7864,
+              "descripcionDeducible": "RESPONSABILIDAD CIVIL FRENTE A TERCEROS POR ACCIDENTE DE TRÁNSITO, 15% del MONTO INDEMNIZABLE, Mínimo de US$150.00"
+            },
+            {
+              "idDeducible": 2239046,
+              "idComponente": 7792,
+              "descripcionDeducible": "REPOSICIÓN DE LUNAS NACIONALES, SIN DEDUCIBLE."
+            },
+            {
+              "idDeducible": 2237268,
+              "idComponente": 7792,
+              "descripcionDeducible": "SERVICIOS ADICIONALES SOLO EN CASO DE ACCIDENTES  (Mediante Aló Rimac)\t\t\n*Asistencia Personal de Procuradores (lugar de los hechos)\t\t\n*Asesoria de Trámites en la Comisaría\t\t\n*Sistema SPEED (Exoneración de trámites de acuerdo al caso)\t\t\n*Traslado en grúa (en la zona urbana), solo para vehículos menores a 2 Tn. De peso y con cobertura de Todo Riesgo\t\t\n*Emergencia médica asistida y ambulancia amparado por la póliza\t\t\n* Auxilio Mecanico en zona urbana\t\t\n"
+            }
+          ],
+          "primaNeta": 489.6,
+          "primaBruta": 595.06,
+          "indicadorInspeccion": "S"
+        },
+        "indicadorRequiereInspeccion": 1
+      },
+      {
+        "idCotizacion": "64648f70-661e-4013-a5da-bff6afce65b3",
+        "diasVigencia": "30",
+        "fechaFinVigencia": "2021-11-18",
+        "plan": {
+          "idPlan": 532857,
+          "descripcionPlan": "BBVA - PLAN ESTÁNDAR",
+          "moneda": "USD",
+          "indicadorGPS": "NO",
+          "financiamientos": [
+            {
+              "idFinanciamiento": "7cddd0a4-9dcc-43ee-8f16-466046c4afe0",
+              "periodicidad": "Mensual",
+              "numeroCuotas": 12,
+              "indicadorDescuentoPrima": "N",
+              "montoNetoFrac": 885.06,
+              "montoPago": 1075.7,
+              "fechaInicio": "2021-10-20",
+              "fechaFinal": "2022-10-20",
+              "cuotasFinanciamiento": [
+                {
+                  "cuota": 1,
+                  "monto": 89.64,
+                  "fechaVencimiento": "2021-10-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 2,
+                  "monto": 89.64,
+                  "fechaVencimiento": "2021-11-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 3,
+                  "monto": 89.64,
+                  "fechaVencimiento": "2021-12-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 4,
+                  "monto": 89.64,
+                  "fechaVencimiento": "2022-01-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 5,
+                  "monto": 89.64,
+                  "fechaVencimiento": "2022-02-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 6,
+                  "monto": 89.64,
+                  "fechaVencimiento": "2022-03-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 7,
+                  "monto": 89.64,
+                  "fechaVencimiento": "2022-04-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 8,
+                  "monto": 89.64,
+                  "fechaVencimiento": "2022-05-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 9,
+                  "monto": 89.64,
+                  "fechaVencimiento": "2022-06-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 10,
+                  "monto": 89.64,
+                  "fechaVencimiento": "2022-07-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 11,
+                  "monto": 89.64,
+                  "fechaVencimiento": "2022-08-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 12,
+                  "monto": 89.66,
+                  "fechaVencimiento": "2022-09-20",
+                  "moneda": "USD"
+                }
+              ]
+            },
+            {
+              "idFinanciamiento": "6e22f088-3ea5-4c74-90ff-4ee8b3e9188a",
+              "periodicidad": "Anual",
+              "numeroCuotas": 1,
+              "indicadorDescuentoPrima": "S",
+              "montoNetoFrac": 843.06,
+              "montoPago": 1024.65,
+              "fechaInicio": "2021-10-20",
+              "fechaFinal": "2022-10-20",
+              "cuotasFinanciamiento": [
+                {
+                  "cuota": 1,
+                  "monto": 1024.65,
+                  "fechaVencimiento": "2021-11-21",
+                  "moneda": "USD"
+                }
+              ]
+            }
+          ],
+          "servicios": [
+            {
+              "idServicio": 15809,
+              "descripcionServicio": "AUXILIO MECÁNICO / GRÚA:  LIMA - PROVINCIA",
+              "primaBruta": 0.0,
+              "primaNeta": 0.0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400.0
+            },
+            {
+              "idServicio": 15810,
+              "descripcionServicio": "AMBULANCIA POR ACCIDENTE DE TRÁNSITO",
+              "primaBruta": 0.0,
+              "primaNeta": 0.0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400.0
+            },
+            {
+              "idServicio": 15800,
+              "descripcionServicio": "ASISTENCIA PERSONAL DE PROCURADORES",
+              "primaBruta": 0.0,
+              "primaNeta": 0.0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400.0
+            },
+            {
+              "idServicio": 15802,
+              "descripcionServicio": "CHOFER DE REEMPLAZO",
+              "primaBruta": 0.0,
+              "primaNeta": 0.0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400.0
+            }
+          ],
+          "coberturas": [
+            {
+              "idCobertura": 15818,
+              "descripcionCobertura": "POR ROBO TOTAL",
+              "primaBruta": 0.0,
+              "primaNeta": 0.0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400.0
+            },
+            {
+              "idCobertura": 15826,
+              "descripcionCobertura": "POR ROBO PARCIAL",
+              "primaBruta": 0.0,
+              "primaNeta": 0.0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400.0
+            },
+            {
+              "idCobertura": 15817,
+              "descripcionCobertura": ".PÉRDIDA TOTAL: POR CHOQUE, INCENDIO, VUELCO O DESPISTE POR ACCIDENTE DE TRANSITO",
+              "primaBruta": 0.0,
+              "primaNeta": 0.0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400.0
+            },
+            {
+              "idCobertura": 15816,
+              "descripcionCobertura": "ACCIDENTES DE TRÁNSITO (CHOQUE, VUELCO Y DESPISTE), INCENDIO Y DAÑOS MATERIALES",
+              "primaBruta": 1044.37,
+              "primaNeta": 885.06,
+              "moneda": "USD",
+              "sumaAsegurada": 23400.0
+            },
+            {
+              "idCobertura": 15819,
+              "descripcionCobertura": "POR ALTERACIÓN DEL ORDEN PÚBLICO Y/O PRIVADO (RIESGOS POLÍTICOS)",
+              "primaBruta": 0.0,
+              "primaNeta": 0.0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400.0
+            },
+            {
+              "idCobertura": 15821,
+              "descripcionCobertura": "ACCESORIOS MUSICALES.",
+              "primaBruta": 0.0,
+              "primaNeta": 0.0,
+              "moneda": "USD",
+              "sumaAsegurada": 0.0
+            },
+            {
+              "idCobertura": 15820,
+              "descripcionCobertura": "RIESGOS DE LA NATURALEZA",
+              "primaBruta": 0.0,
+              "primaNeta": 0.0,
+              "moneda": "USD",
+              "sumaAsegurada": 23400.0
+            },
+            {
+              "idCobertura": 15813,
+              "descripcionCobertura": "POR OCUPANTES DEL VEHÍCULO",
+              "primaBruta": 0.0,
+              "primaNeta": 0.0,
+              "moneda": "USD",
+              "sumaAsegurada": 10000.0
+            },
+            {
+              "idCobertura": 15811,
+              "descripcionCobertura": "POR DAÑOS MATERIALES Y/O PERSONALES A TERCEROS NO OCUPANTES DEL VEHÍCULO",
+              "primaBruta": 0.0,
+              "primaNeta": 0.0,
+              "moneda": "USD",
+              "sumaAsegurada": 150000.0
+            },
+            {
+              "idCobertura": 15829,
+              "descripcionCobertura": "GASTOS DE CURACIÓN, POR CADA OCUPANTE",
+              "primaBruta": 0.0,
+              "primaNeta": 0.0,
+              "moneda": "USD",
+              "sumaAsegurada": 1000.0
+            },
+            {
+              "idCobertura": 15827,
+              "descripcionCobertura": "MUERTE DE OCUPANTES DEL VEHÍCULO, POR CADA OCUPANTE",
+              "primaBruta": 0.0,
+              "primaNeta": 0.0,
+              "moneda": "USD",
+              "sumaAsegurada": 5000.0
+            },
+            {
+              "idCobertura": 15828,
+              "descripcionCobertura": "INVALIDEZ PERMANENTE, POR CADA OCUPANTE",
+              "primaBruta": 0.0,
+              "primaNeta": 0.0,
+              "moneda": "USD",
+              "sumaAsegurada": 5000.0
+            }
+          ],
+          "deducibles": [
+            {
+              "idDeducible": 2239134,
+              "idComponente": 15827,
+              "descripcionDeducible": "MUERTE DE OCUPANTES DEL VEHÍCULO, POR CADA UNO"
+            },
+            {
+              "idDeducible": 2239158,
+              "idComponente": 15828,
+              "descripcionDeducible": "INVALIDEZ DE OCUPANTES DEL VEHÍCULO, POR CADA UNO"
+            },
+            {
+              "idDeducible": 2239235,
+              "idComponente": 15829,
+              "descripcionDeducible": "GASTOS DE CURACIÓN, POR CADA UNO"
+            },
+            {
+              "idDeducible": 2239236,
+              "idComponente": 15811,
+              "descripcionDeducible": "POR DAÑOS MATERIALES Y/O PERSONALES A TERCEROS NO OCUPANTES DEL VEHÍCULO, 15% del MONTO DEL SINIESTRO, Mínimo de US$150.00"
+            },
+            {
+              "idDeducible": 2239237,
+              "idComponente": 15811,
+              "descripcionDeducible": "POR OCUPANTES DEL VEHÍCULO, 15% del MONTO DEL SINIESTRO, Mínimo de US$150.00"
+            },
+            {
+              "idDeducible": 2239162,
+              "idComponente": 15816,
+              "descripcionDeducible": "CONDUCTOR VARÓN MENOR DE 25 AÑOS PARA TALLERES MOVILPLAN, 20% del MONTO DEL SINIESTRO, Mínimo de US$500.00"
+            },
+            {
+              "idDeducible": 2239164,
+              "idComponente": 15816,
+              "descripcionDeducible": "REPOSICIÓN DE LUNAS NACIONALES"
+            },
+            {
+              "idDeducible": 2239181,
+              "idComponente": 15816,
+              "descripcionDeducible": "SINIESTROS ATENDIDOS SOLO EN RED DE TALLERES (CLÁSICO), 15% del MONTO DEL SINIESTRO, Mínimo de US$150.00"
+            },
+            {
+              "idDeducible": 2239178,
+              "idComponente": 15826,
+              "descripcionDeducible": "ROBO PARCIAL, 15% del MONTO DEL SINIESTRO, Mínimo de US$200.00"
+            },
+            {
+              "idDeducible": 2239170,
+              "idComponente": 15817,
+              "descripcionDeducible": "HYUNDAI TUCSON, SANTA FE: COASEGURO POR ROBO TOTAL (NUEVOS Y HASTA 2 AÑOS DE ANTIGÜEDAD) 20%. SI EL VEHÍCULO CUENTA CON GPS, SE EXCLUIRÁ EL COASEGURO."
+            },
+            {
+              "idDeducible": 2239396,
+              "idComponente": 15821,
+              "descripcionDeducible": "ACCESORIOS MUSICALES, 10% del MONTO DEL SINIESTRO, Mínimo de US$150.00"
+            }
+          ],
+          "primaNeta": 885.06,
+          "primaBruta": 1075.7,
+          "indicadorInspeccion": "S"
+        },
+        "indicadorRequiereInspeccion": 1
+      },
+      {
+        "idCotizacion": "64648f70-661e-4013-a5da-bff6afce65b3",
+        "diasVigencia": "30",
+        "fechaFinVigencia": "2021-11-18",
+        "plan": {
+          "idPlan": 532831,
+          "descripcionPlan": "BBVA - PLAN FULL COBERTURAS",
+          "moneda": "USD",
+          "indicadorGPS": "NO",
+          "financiamientos": [
+            {
+              "idFinanciamiento": "c03f3159-8eb3-4303-909c-a8b681fa2f34",
+              "periodicidad": "Mensual",
+              "numeroCuotas": 12,
+              "indicadorDescuentoPrima": "N",
+              "montoNetoFrac": 1107.36,
+              "montoPago": 1345.80,
+              "fechaInicio": "2021-10-20",
+              "fechaFinal": "2022-10-20",
+              "cuotasFinanciamiento": [
+                {
+                  "cuota": 1,
+                  "monto": 112.15,
+                  "fechaVencimiento": "2021-10-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 2,
+                  "monto": 112.15,
+                  "fechaVencimiento": "2021-10-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 3,
+                  "monto": 112.15,
+                  "fechaVencimiento": "2021-10-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 4,
+                  "monto": 112.15,
+                  "fechaVencimiento": "2021-10-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 5,
+                  "monto": 112.15,
+                  "fechaVencimiento": "2021-10-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 6,
+                  "monto": 112.15,
+                  "fechaVencimiento": "2021-10-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 7,
+                  "monto": 112.15,
+                  "fechaVencimiento": "2021-10-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 8,
+                  "monto": 112.15,
+                  "fechaVencimiento": "2021-10-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 9,
+                  "monto": 112.15,
+                  "fechaVencimiento": "2021-10-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 10,
+                  "monto": 112.15,
+                  "fechaVencimiento": "2021-10-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 11,
+                  "monto": 112.15,
+                  "fechaVencimiento": "2021-10-20",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 12,
+                  "monto": 112.15,
+                  "fechaVencimiento": "2021-10-20",
+                  "moneda": "USD"
+                }
+              ]
+            },
+            {
+              "idFinanciamiento": "409cdf25-5dbc-4e79-a64f-4a65f2906c5d",
+              "periodicidad": "Anual",
+              "numeroCuotas": 1,
+              "indicadorDescuentoPrima": "S",
+              "montoNetoFrac": 1048.38,
+              "montoPago": 1278.51,
+              "fechaInicio": "2021-10-20",
+              "fechaFinal": "2022-10-20",
+              "cuotasFinanciamiento": [
+                {
+                  "cuota": 1,
+                  "monto": 1278.51,
+                  "fechaVencimiento": "2021-11-21",
+                  "moneda": "USD"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

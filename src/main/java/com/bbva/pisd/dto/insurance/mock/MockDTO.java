@@ -166,10 +166,17 @@ public final class MockDTO {
                 InsuranceSimulationDTO.class);
     }
 
-    public InsuranceSimulationBO getInsuranceSimulationResponseRimac() throws IOException {
+    public InsuranceSimulationBO getRimacInsuranceSimulationResponseMonthlyFrequency() throws IOException {
         return objectMapperHelper.readValue(
                 Thread.currentThread().getContextClassLoader().getResourceAsStream(
-                        "com/bbva/pisd/dto/insurance/mock/simulation/simulationResponseRimac.json"),
+                        "com/bbva/pisd/dto/insurance/mock/simulation/simulationResponseRimacMonthlyFrequency.json"),
+                InsuranceSimulationBO.class);
+    }
+
+    public InsuranceSimulationBO getRimacInsuranceSimulationResponseAnnualFrequency() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/simulation/simulationResponseRimacDiscountedAnnualFrequency.json"),
                 InsuranceSimulationBO.class);
     }
 
