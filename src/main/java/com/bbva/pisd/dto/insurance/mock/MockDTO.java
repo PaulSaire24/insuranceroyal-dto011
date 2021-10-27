@@ -4,7 +4,6 @@ import com.bbva.pisd.dto.insurance.aso.BlackListASO;
 
 import com.bbva.pisd.dto.insurance.aso.CustomerListASO;
 import com.bbva.pisd.dto.insurance.aso.crypto.CryptoASO;
-import com.bbva.pisd.dto.insurance.aso.gifole.GifoleASO;
 import com.bbva.pisd.dto.insurance.aso.tier.TierASO;
 
 import com.bbva.pisd.dto.insurance.blacklist.EntityOutBlackListDTO;
@@ -290,13 +289,6 @@ public final class MockDTO {
                 Thread.currentThread().getContextClassLoader().getResourceAsStream(
                         "com/bbva/pisd/dto/insurance/mock/creation/rimac/selection/selectionWithErrors.json"),
                 SelectionQuotationBO.class);
-    }
-
-    public GifoleASO getGifoleResponseASO() throws IOException {
-        return objectMapperHelper.readValue(
-                Thread.currentThread().getContextClassLoader().getResourceAsStream(
-                        "com/bbva/pisd/dto/insurance/mock/creation/gifole/gifoleResponse.json"),
-                GifoleASO.class);
     }
 
     public List<DatoParticularBO> getDatosParticularesList() throws IOException {
