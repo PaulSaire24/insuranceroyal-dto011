@@ -15,6 +15,7 @@ public class FinanciamientoBO {
     private String frecuencia;
     private LocalDate fechaInicio;
     private Long numeroCuotas;
+    private String indicadorDescuentoPrima;
 
     public Long getNroCuotas() { return nroCuotas; }
     public void setNroCuotas(Long nroCuotas) { this.nroCuotas = nroCuotas; }
@@ -61,6 +62,8 @@ public class FinanciamientoBO {
     public void setNumeroCuotas(Long numeroCuotas) { this.numeroCuotas = numeroCuotas; }
     public String getFrecuencia() { return frecuencia; }
     public void setFrecuencia(String frecuencia) { this.frecuencia = frecuencia; }
+    public String getIndicadorDescuentoPrima() {return indicadorDescuentoPrima;}
+    public void setIndicadorDescuentoPrima(String indicadorDescuentoPrima) {this.indicadorDescuentoPrima = indicadorDescuentoPrima;}
 
     @Override
     public String toString() {
@@ -75,6 +78,7 @@ public class FinanciamientoBO {
         sb.append("frecuencia=").append(frecuencia).append('\'');
         sb.append(", fechaInicio=").append(fechaInicio).append('\'');
         sb.append(", numeroCuotas='").append(numeroCuotas).append('\'');
+        sb.append(", indicadorDescuentoPrima='").append(indicadorDescuentoPrima).append('\'');
         sb.append('}');
         return sb.toString();
     }
