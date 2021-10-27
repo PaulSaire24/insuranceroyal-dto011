@@ -11,7 +11,7 @@ public enum PISDProperties {
     ID_API_CRYPTO("createCrypto"),
     ID_API_TIER("listCustomerClassifications"),
     ID_API_NOTIFICATIONS_GATEWAY_CREATE_EMAIL_SERVICE("createEmail"),
-    ID_API_GIFOLE_CANCELLATION_SERVICE("gifole"),
+    ID_API_GIFOLE_INSURANCE_REQUEST_SERVICE("createGifoleInsuranceRequest"),
     ID_API_SIMULATION_RIMAC("simulation.rimac"),
     ID_API_FINANCING_PLAN_RIMAC("financingplan.rimac"),
     ID_API_PAYMENT_SCHEDULE_RIMAC("paymentschedule.rimac"),
