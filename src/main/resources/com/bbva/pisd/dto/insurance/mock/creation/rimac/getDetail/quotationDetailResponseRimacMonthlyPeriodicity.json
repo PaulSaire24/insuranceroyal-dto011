@@ -29,6 +29,9 @@
               "numeroCuotas": 12,
               "fechaInicio": "2021-01-14",
               "fechaFinal": "2022-01-14",
+              "indicadorDescuentoPrima": "N",
+              "montoNetoFrac": 1107.36,
+              "montoPago": 1345.88,
               "cuotasFinanciamiento": [
                 {
                   "cuota": 1,
