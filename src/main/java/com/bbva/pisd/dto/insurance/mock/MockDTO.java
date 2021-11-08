@@ -3,6 +3,7 @@ package com.bbva.pisd.dto.insurance.mock;
 import com.bbva.pisd.dto.insurance.aso.BlackListASO;
 
 import com.bbva.pisd.dto.insurance.aso.CustomerListASO;
+import com.bbva.pisd.dto.insurance.aso.GetContactDetailsASO;
 import com.bbva.pisd.dto.insurance.aso.crypto.CryptoASO;
 import com.bbva.pisd.dto.insurance.aso.gifole.GifoleASO;
 import com.bbva.pisd.dto.insurance.aso.tier.TierASO;
@@ -255,6 +256,13 @@ public final class MockDTO {
                 Thread.currentThread().getContextClassLoader().getResourceAsStream(
                         "com/bbva/pisd/dto/insurance/mock/blacklist/blackListResponse.json"),
                 EntityOutBlackListDTO.class);
+    }
+
+    public GetContactDetailsASO getContactDetailsResponse() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/contactDetails/getContactDetails.json"),
+                GetContactDetailsASO.class);
     }
 
     public SelectionQuotationBO getInsuranceQuotationSelectionOKResponseRimac() throws IOException {
