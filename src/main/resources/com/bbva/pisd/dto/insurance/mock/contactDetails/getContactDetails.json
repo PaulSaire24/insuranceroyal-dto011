@@ -1,0 +1,83 @@
+{
+  "data": [
+    {
+      "contactDetailId": "MUtCM0pRNmtDRVVnag",
+      "contact": "942000011",
+      "contactType": {
+        "id": "MOBILE_NUMBER",
+        "name": "TELEFONO MOVIL"
+      },
+      "phoneCompany": {
+        "id": "E",
+        "name": "ENTEL"
+      },
+      "isPreferential": true,
+      "isChecked": true,
+      "adsAllowed": false,
+      "isVerified": true,
+      "lastUpdateDate": "2021-08-16"
+    },
+    {
+      "contactDetailId": "OHlpWVRiU0xxVG1mNFBh",
+      "contact": "3432541",
+      "contactType": {
+        "id": "PHONE_NUMBER",
+        "name": "TELEFONO FIJO"
+      },
+      "regionalCode": "01",
+      "isPreferential": false,
+      "isChecked": false,
+      "adsAllowed": false,
+      "isVerified": true,
+      "lastUpdateDate": "2020-08-03"
+    },
+    {
+      "contactDetailId": "emhSTGcxRnM",
+      "contact": "PEDRO.BLAS.CONTRACTOR@BBVA.COM",
+      "contactType": {
+        "id": "EMAIL",
+        "name": "PERSONAL"
+      },
+      "isPreferential": false,
+      "isChecked": true,
+      "isVerified": true,
+      "lastUpdateDate": "2021-11-04"
+    },
+    {
+      "contactDetailId": "w5F6MkU5YTR6",
+      "contact": "ISABEL.CUSTODIO.CONTRACTOR@BBVA.COM",
+      "contactType": {
+        "id": "EMAIL",
+        "name": "PERSONAL"
+      },
+      "isPreferential": false,
+      "isChecked": false,
+      "isVerified": true,
+      "lastUpdateDate": "2021-09-14"
+    },
+    {
+      "contactDetailId": "NzlPw7FHeEFa",
+      "contact": "JULIO.MANRIQUE@BBVA.COM",
+      "contactType": {
+        "id": "EMAIL",
+        "name": "PERSONAL"
+      },
+      "isPreferential": true,
+      "isChecked": false,
+      "isVerified": true,
+      "lastUpdateDate": "2021-09-07"
+    },
+    {
+      "contactDetailId": "QzlVNXowT20",
+      "contact": "DCLEMENTE@BBVA.COM",
+      "contactType": {
+        "id": "EMAIL",
+        "name": "PERSONAL"
+      },
+      "isPreferential": false,
+      "isChecked": false,
+      "isVerified": true,
+      "lastUpdateDate": "2021-09-07"
+    }
+  ]
+}
