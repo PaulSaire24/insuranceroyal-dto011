@@ -134,7 +134,7 @@
   },
   "isGpsRequired": "N",
   "isInspectionRequired": "S",
-  "insuranceVehicle":{
+  "vehicle":{
   "model": {
     "brand": {
       "id": "181"
