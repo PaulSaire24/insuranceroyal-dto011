@@ -236,28 +236,30 @@
     "id": "0001"
   },
   "maturityDate": "2021-04-22",
-  "price": {
-    "amount": "23400.0",
-    "currency": "USD"
+  "insuranceVehicle": {
+    "price": {
+      "amount": "23400.0",
+      "currency": "USD"
+    },
+    "model": {
+      "year": 2016,
+      "name": "CIVIC",
+      "id": "181003",
+      "brand": {
+        "name": "HONDA",
+        "id": "181"
+      }
+    },
+    "hasPowerSupplyConvertion": "S",
+    "licensePlate": "UEG164"
   },
   "isInspectionRequired": "S",
-  "model": {
-    "year": 2016,
-    "name": "CIVIC",
-    "id": "181003",
-    "brand": {
-      "name": "HONDA",
-      "id": "181"
-    }
-  },
   "id": "0814000000159",
   "isGpsRequired": "N",
-  "hasPowerSupplyConvertion": "S",
   "insuranceCompany": {
     "name": "RIMAC SEGUROS Y REASEGUROS",
     "id": "1"
   },
-  "licensePlate": "UEG164",
   "validityDays": 30,
   "status": {
     "name": "COTIZADA",

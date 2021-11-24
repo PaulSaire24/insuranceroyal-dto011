@@ -71,6 +71,8 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
 
     private Long totalNumberInstallments;
 
+    private InsuranceVehicleDTO insuranceVehicle;
+
     public HolderDTO getHolder() { return holder; }
     public void setHolder(HolderDTO holder) { this.holder = holder; }
     public InsuranceProductDTO getProduct() { return product; }
@@ -186,4 +188,8 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
 
     public String getCouponCode() { return couponCode; }
     public void setCouponCode(String couponCode) { this.couponCode = couponCode; }
+
+    public InsuranceVehicleDTO getInsuranceVehicle() { return insuranceVehicle; }
+    public void setInsuranceVehicle(InsuranceVehicleDTO insuranceVehicle) { this.insuranceVehicle = insuranceVehicle; }
+
 }
