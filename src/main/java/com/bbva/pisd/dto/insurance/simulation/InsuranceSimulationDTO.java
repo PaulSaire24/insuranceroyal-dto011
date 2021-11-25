@@ -4,12 +4,9 @@ import com.bbva.pisd.dto.insurance.commons.CommonOutputFieldsDTO;
 
 public class InsuranceSimulationDTO extends CommonOutputFieldsDTO {
 
-    private VehicleDTO vehicle;
     private String hasAcceptedDataTreatment;
     private SimulationCompanyDTO simulationCompany;
 
-    public VehicleDTO getVehicle() { return vehicle; }
-    public void setVehicle(VehicleDTO vehicle) { this.vehicle = vehicle; }
     public String getHasAcceptedDataTreatment() { return hasAcceptedDataTreatment; }
     public void setHasAcceptedDataTreatment(String hasAcceptedDataTreatment) { this.hasAcceptedDataTreatment = hasAcceptedDataTreatment; }
     public SimulationCompanyDTO getSimulationCompany() { return simulationCompany; }

@@ -3,6 +3,7 @@ package com.bbva.pisd.dto.insurance.commons;
 import com.bbva.apx.dto.AbstractDTO;
 import com.bbva.pisd.dto.insurance.policy.BusinessAgentDTO;
 import com.bbva.pisd.dto.insurance.policy.PaymentAmountDTO;
+import com.bbva.pisd.dto.insurance.simulation.VehicleDTO;
 
 import java.util.Date;
 import java.util.List;
@@ -70,6 +71,8 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
     private String couponCode;
 
     private Long totalNumberInstallments;
+
+    private VehicleDTO vehicle;
 
     public HolderDTO getHolder() { return holder; }
     public void setHolder(HolderDTO holder) { this.holder = holder; }
@@ -186,4 +189,8 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
 
     public String getCouponCode() { return couponCode; }
     public void setCouponCode(String couponCode) { this.couponCode = couponCode; }
+
+    public VehicleDTO getVehicle() { return vehicle; }
+    public void setVehicle(VehicleDTO vehicle) { this.vehicle = vehicle; }
+
 }
