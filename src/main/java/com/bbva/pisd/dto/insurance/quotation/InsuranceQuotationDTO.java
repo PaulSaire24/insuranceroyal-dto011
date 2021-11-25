@@ -34,6 +34,7 @@ public class InsuranceQuotationDTO extends CommonOutputFieldsDTO {
         sb.append(", maturityDate=").append(this.getMaturityDate());
         sb.append(", validityDays=").append(this.getValidityDays());
         sb.append(", status=").append(this.getStatus());
+        sb.append(",vehicle=").append(this.getVehicle());
 
         sb.append('}');
         return sb.toString();
