@@ -29,11 +29,8 @@ public enum PISDProperties {
     RIMAC_AWS_REGION("pisd.region.rimac"),
     RIMAC_AWS_SERVICE_NAME("pisd.servicename.rimac"),
     RIMAC_ACCESS_KEY("pisd.accesskey.rimac"),
-    MULTIRISK_RIMAC_ACCESS_KEY("pisd.multirisk.accesskey.rimac"),
     RIMAC_SECRET_ACCESS_KEY("pisd.secretaccesskey.rimac"),
-    MULTIRISK_RIMAC_SECRET_ACCESS_KEY("pisd.multirisk.secretaccesskey.rimac"),
     X_API_KEY_RIMAC_HEADER("header.xapikey.simulation.rimac"),
-    MULTIRISK_X_API_KEY_RIMAC_HEADER("header.multirisk.xapikey.rimac"),
 
     KEY_OF_INSRC_LIST_RESPONSES("dtoInsurance"),
     FIELD_OR_FILTER_INSURANCE_MODALITY_TYPE("INSURANCE_MODALITY_TYPE"),
