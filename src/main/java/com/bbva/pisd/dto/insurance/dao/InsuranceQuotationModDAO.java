@@ -14,6 +14,17 @@ public class InsuranceQuotationModDAO extends CommonsDAO {
     private String saveQuotationIndType;
     private String contactEmailDesc;
     private String customerPhoneDesc;
+    //Inicio Open Market
+    private String contactTimeType;
+
+    public String getContactTimeType() {
+        return contactTimeType;
+    }
+
+    public void setContactTimeType(String contactTimeType) {
+        this.contactTimeType = contactTimeType;
+    }
+    //Fin Open Market
 
     public String getSaleChannelId() { return saleChannelId; }
     public void setSaleChannelId(String saleChannelId) { this.saleChannelId = saleChannelId; }
