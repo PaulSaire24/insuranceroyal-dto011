@@ -10,7 +10,7 @@ public enum PISDErrors {
     ERROR_CONNECTION_CRYPTO_ASO_SERVICE("PISD00120007", false, "No se pudo realizar una conexión con el servicio Crypto ASO"),
 
     ERROR_CONNECTION_GIFOLE_ROYAL_ASO_SERVICE("PISD00120019", false, "No se pudo realizar una conexión con el servicio Gifole ASO"),
-    ERROR_CONNECTION_GIFOLE_INSURANCE_REQUEST_ASO_SERVICE("PISD00120019", false, "No se pudo realizar una conexión con el servicio createGifoleInsuranceRequest ASO"),
+    ERROR_CONNECTION_GIFOLE_INSURANCE_REQUEST_ASO_SERVICE("PISD00120019", false, "No se pudo realizar una conexion con el servicio createGifoleInsuranceRequest ASO"),
     ERROR_CONNECTION_GIFOLE_ROYAL_INSURANCE_REQUEST_ASO_SERVICE("PISD00120019", false, "No se pudo realizar una conexión con el servicio createGifoleInsuranceRequest ASO"),
     ERROR_CONNECTION_GATEWAY_CREATE_EMAIL_ASO_SERVICE("PISD00120020", false, "No se pudo realizar una conexión con el servicio createEmail ASO"),
     
