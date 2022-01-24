@@ -1,5 +1,7 @@
 package com.bbva.pisd.dto.insurance.aso.gifole;
 
+import com.bbva.pisd.dto.insurance.commons.ScheduleContactDTO;
+
 public class GifoleInsuranceRequestASO {
 
     private ProductASO product;
@@ -10,6 +12,17 @@ public class GifoleInsuranceRequestASO {
     private String channel;
     private String operationDate;
     private String operationType;
+    //Inicio Open Market
+    private ScheduleContactDTO scheduleContact;
+
+    public ScheduleContactDTO getScheduleContact() {
+        return scheduleContact;
+    }
+
+    public void setScheduleContact(ScheduleContactDTO scheduleContact) {
+        this.scheduleContact = scheduleContact;
+    }
+    //Fin Open Market
 
     public ProductASO getProduct() {return product;}
     public void setProduct(ProductASO product) {this.product = product;}
@@ -39,6 +52,7 @@ public class GifoleInsuranceRequestASO {
         sb.append(", channel='").append(channel).append('\'');
         sb.append(", operationDate='").append(operationDate).append('\'');
         sb.append(", operationType='").append(operationType).append('\'');
+        sb.append(", scheduleContact='").append(scheduleContact).append('\'');
         sb.append('}');
         return sb.toString();
     }
