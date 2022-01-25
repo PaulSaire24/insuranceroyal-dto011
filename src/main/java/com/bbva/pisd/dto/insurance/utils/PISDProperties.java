@@ -11,7 +11,9 @@ public enum PISDProperties {
     ID_API_CRYPTO("createCrypto"),
     ID_API_TIER("listCustomerClassifications"),
     ID_API_NOTIFICATIONS_GATEWAY_CREATE_EMAIL_SERVICE("createEmail"),
-    ID_API_GIFOLE_CANCELLATION_SERVICE("gifole"),
+    ID_API_GIFOLE_INSURANCE_REQUEST_SERVICE("createGifoleInsuranceRequest"),
+    ID_API_GIFOLE_ROYAL_INSURANCE_REQUEST_SERVICE("createGifoleInsuranceRequest"),
+    ID_API_GIFOLE_ROYAL_SERVICE("gifole"),
     ID_API_SIMULATION_RIMAC("simulation.rimac"),
     ID_API_FINANCING_PLAN_RIMAC("financingplan.rimac"),
     ID_API_PAYMENT_SCHEDULE_RIMAC("paymentschedule.rimac"),
@@ -23,14 +25,14 @@ public enum PISDProperties {
     QUOTATION_DETAIL_QUERYSTRING("plan="),
     ID_API_QUOTATION_SELECTION_RIMAC("quotationselection.rimac"),
     URI_QUOTATION_SELECTION("/vehicular/V1/cotizacion/-/seleccionar"),
-    X_API_KEY_RIMAC_HEADER("header.xapikey.simulation.rimac"),
+
     HOST_RIMAC_HEADER("header.host.simulation.rimac"),
     SIGNEDHEADERS_RIMAC("pisd.signedheaders.rimac"),
-
     RIMAC_AWS_REGION("pisd.region.rimac"),
     RIMAC_AWS_SERVICE_NAME("pisd.servicename.rimac"),
     RIMAC_ACCESS_KEY("pisd.accesskey.rimac"),
     RIMAC_SECRET_ACCESS_KEY("pisd.secretaccesskey.rimac"),
+    X_API_KEY_RIMAC_HEADER("header.xapikey.simulation.rimac"),
 
     KEY_OF_INSRC_LIST_RESPONSES("dtoInsurance"),
     FIELD_OR_FILTER_INSURANCE_MODALITY_TYPE("INSURANCE_MODALITY_TYPE"),

@@ -33,5 +33,5 @@ public class CommonFieldsASO {
     public void setContract(ContractGifoleASO contract) { this.contract = contract; }
     public ChannelGifoleASO getChannel() { return channel; }
     public void setChannel(ChannelGifoleASO channel) { this.channel = channel; }
-
+    
 }

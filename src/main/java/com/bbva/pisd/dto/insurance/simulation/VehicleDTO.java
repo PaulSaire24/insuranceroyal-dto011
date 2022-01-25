@@ -7,13 +7,11 @@ public class VehicleDTO extends CommonOutputFieldsDTO {
     private Boolean hasPowerSupplyConvertionBoolean;
     private Boolean hasSteeringWheelChangedBoolean;
 
+    public Boolean getHasPowerSupplyConvertionBoolean() { return hasPowerSupplyConvertionBoolean; }
+    public void setHasPowerSupplyConvertionBoolean(Boolean hasPowerSupplyConvertionBoolean) { this.hasPowerSupplyConvertionBoolean = hasPowerSupplyConvertionBoolean; }
+    public Boolean getHasSteeringWheelChangedBoolean() { return hasSteeringWheelChangedBoolean; }
+    public void setHasSteeringWheelChangedBoolean(Boolean hasSteeringWheelChangedBoolean) { this.hasSteeringWheelChangedBoolean = hasSteeringWheelChangedBoolean; }
 
-    public Boolean getHasSteeringWheelChangedBoolean() {return this.hasSteeringWheelChangedBoolean;}
-    public void setHasSteeringWheelChangedBoolean(Boolean hasSteeringWheelChangedBoolean) {this.hasSteeringWheelChangedBoolean = hasSteeringWheelChangedBoolean;}
-
-    public Boolean getHasPowerSupplyConvertionBoolean() {return this.hasPowerSupplyConvertionBoolean;}
-    public void setHasPowerSupplyConvertionBoolean(Boolean hasPowerSupplyConvertionBoolean) {this.hasPowerSupplyConvertionBoolean = hasPowerSupplyConvertionBoolean;}
-    
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("VehicleDTO{");
