@@ -16,6 +16,7 @@ public class InsuranceQuotationModDAO extends CommonsDAO {
     private String customerPhoneDesc;
     //Inicio Open Market
     private String contactTimeType;
+    private String dataTreatmentIndType;
 
     public String getContactTimeType() {
         return contactTimeType;
@@ -23,6 +24,14 @@ public class InsuranceQuotationModDAO extends CommonsDAO {
 
     public void setContactTimeType(String contactTimeType) {
         this.contactTimeType = contactTimeType;
+    }
+
+    public String getDataTreatmentIndType() {
+        return dataTreatmentIndType;
+    }
+
+    public void setDataTreatmentIndType(String dataTreatmentIndType) {
+        this.dataTreatmentIndType = dataTreatmentIndType;
     }
     //Fin Open Market
 
@@ -65,6 +74,8 @@ public class InsuranceQuotationModDAO extends CommonsDAO {
         sb.append(", userAudit='").append(this.getUserAudit()).append('\'');
         sb.append(", contactEmailDesc='").append(contactEmailDesc).append('\'');
         sb.append(", customerPhoneDesc='").append(customerPhoneDesc).append('\'');
+        sb.append(", contactTimeType='").append(contactTimeType).append('\'');
+        sb.append(", dataTreatmentIndType='").append(dataTreatmentIndType).append('\'');
         sb.append('}');
         return sb.toString();
     }
