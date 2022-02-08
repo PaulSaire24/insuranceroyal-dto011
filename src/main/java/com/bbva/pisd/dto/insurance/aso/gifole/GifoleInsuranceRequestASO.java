@@ -12,6 +12,8 @@ public class GifoleInsuranceRequestASO {
     private String channel;
     private String operationDate;
     private String operationType;
+    private BankASO bank;
+    private QuotationASO quotation;
     //Inicio Open Market
     private ScheduleContactDTO scheduleContact;
 
@@ -40,6 +42,10 @@ public class GifoleInsuranceRequestASO {
     public void setOperationDate(String operationDate) {this.operationDate = operationDate;}
     public String getOperationType() {return operationType;}
     public void setOperationType(String operationType) {this.operationType = operationType;}
+    public BankASO getBank() {return bank;}
+    public void setBank(BankASO bank) {this.bank = bank;}
+    public QuotationASO getQuotation() {return quotation;}
+    public void setQuotation(QuotationASO quotation) {this.quotation = quotation;}
 
     @Override
     public String toString() {
@@ -53,6 +59,8 @@ public class GifoleInsuranceRequestASO {
         sb.append(", operationDate='").append(operationDate).append('\'');
         sb.append(", operationType='").append(operationType).append('\'');
         sb.append(", scheduleContact='").append(scheduleContact).append('\'');
+        sb.append(", bank='").append(bank).append('\'');
+        sb.append(", quotation='").append(quotation).append('\'');
         sb.append('}');
         return sb.toString();
     }
