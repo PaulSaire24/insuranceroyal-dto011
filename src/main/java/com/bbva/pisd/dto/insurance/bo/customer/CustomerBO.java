@@ -16,6 +16,17 @@ public class CustomerBO {
     private GenderBO gender;
     private List<ContactDetailsBO> contactDetails;
     private List<AddressesBO> addresses;
+    //Inicio Open Market
+    private String customerId;
+
+    public String getCustomerId() {
+        return customerId;
+    }
+
+    public void setCustomerId(String customerId) {
+        this.customerId = customerId;
+    }
+    //Fin Open Market
 
     public String getFirstName() { return firstName; }
     public void setFirstName(String firstName) { this.firstName = firstName; }
@@ -55,6 +66,7 @@ public class CustomerBO {
         sb.append(", identityDocuments=").append(identityDocuments);
         sb.append(", gender=").append(gender);
         sb.append(", addresses=").append(addresses);
+        sb.append(", customerId=").append(customerId);
         sb.append('}');
         return sb.toString();
     }
