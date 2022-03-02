@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.bbva.pisd.dto.insurance</groupId>
 	<artifactId>PISDC011</artifactId>
-	<version>0.15.1</version>
+	<version>0.15.0</version>
 	<packaging>bundle</packaging>
 	<description>Deployment unit insuranceroyal-dto011 of uuaa pisd</description>
 	<properties>
