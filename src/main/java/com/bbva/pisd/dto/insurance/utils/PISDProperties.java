@@ -238,6 +238,7 @@ public enum PISDProperties {
 
     QUERY_SELECT_INSURANCE_TYPE("PISD.SELECT_INSURANCE_TYPE"),
     QUERY_ROLLBACK("PISD.ROLLBACK");
+    
     private final String value;
 
     PISDProperties(String value) { this.value = value; }
