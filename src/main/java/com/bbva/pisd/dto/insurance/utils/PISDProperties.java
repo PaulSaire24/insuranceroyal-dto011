@@ -230,6 +230,7 @@ public enum PISDProperties {
     //Fin Open Market
     BANK_PERU("bank.Peru");
     
+    
     private final String value;
 
     PISDProperties(String value) { this.value = value; }
