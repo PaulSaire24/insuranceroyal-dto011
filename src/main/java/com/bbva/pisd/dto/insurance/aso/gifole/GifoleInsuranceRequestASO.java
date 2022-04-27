@@ -17,6 +17,11 @@ public class GifoleInsuranceRequestASO {
     //Inicio Open Market
     private ScheduleContactDTO scheduleContact;
 
+    //Inicio Emision Gifole
+    private ValidityPeriodASO validityPeriod;
+    private InsuranceASO insurance;
+    private String policyNumber;
+
     public ScheduleContactDTO getScheduleContact() {
         return scheduleContact;
     }
@@ -46,7 +51,15 @@ public class GifoleInsuranceRequestASO {
     public void setBank(BankASO bank) {this.bank = bank;}
     public QuotationASO getQuotation() {return quotation;}
     public void setQuotation(QuotationASO quotation) {this.quotation = quotation;}
-
+    
+    public ValidityPeriodASO getValidityPeriod() {return validityPeriod;}
+    public void setValidityPeriod(ValidityPeriodASO validityPeriod) {this.validityPeriod = validityPeriod;}
+    public InsuranceASO getInsurance() {return insurance;}
+    public void setInsurance(InsuranceASO insurance) {this.insurance = insurance;}
+    public String getPolicyNumber() {return policyNumber;}
+    public void setPolicyNumber(String policyNumber) {this.policyNumber = policyNumber;}
+    //Fin Emision Gifole
+    
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("GifoleInsuranceRequestASO{");
@@ -61,6 +74,9 @@ public class GifoleInsuranceRequestASO {
         sb.append(", scheduleContact='").append(scheduleContact).append('\'');
         sb.append(", bank='").append(bank).append('\'');
         sb.append(", quotation='").append(quotation).append('\'');
+        sb.append(", validityPeriod='").append(validityPeriod).append('\'');
+        sb.append(", insurance='").append(insurance).append('\'');
+        sb.append(", policyNumber='").append(policyNumber).append('\'');
         sb.append('}');
         return sb.toString();
     }
