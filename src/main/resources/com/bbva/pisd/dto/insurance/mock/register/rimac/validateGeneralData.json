@@ -1,0 +1,29 @@
+{
+  "payload": {
+    "numMotor": "6HE1415032",
+    "numSerie": "JALFVR32M97000034",
+    "indBloqueo": "1",
+    "observaciones": [
+      {
+        "tipo": "POLIZA_VIGENTE",
+        "indicador": "0",
+        "mensaje": "El motor, serie ó placa ingresado no se encuentra registrado."
+      },
+      {
+        "tipo": "RIESGO_VEHICULAR",
+        "indicador": "1",
+        "mensaje": "El vehículo se encuentra en una Lista Restringida."
+      },
+      {
+        "tipo": "SINIESTRO_PERDIDA_TOTAL",
+        "indicador": "0",
+        "mensaje": "El motor, serie ó placa ingresado no se encuentra registrado."
+      },
+      {
+        "tipo": "AÑOS_ANTIGUEDAD",
+        "indicador": "0",
+        "mensaje": "Los años de antiguedad del vehículo se encuentra dentro del rango permitido."
+      }
+    ]
+  }
+}

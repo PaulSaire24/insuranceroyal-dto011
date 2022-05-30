@@ -20,6 +20,7 @@ import com.bbva.pisd.dto.insurance.bo.detail.InsuranceQuotationDetailBO;
 import com.bbva.pisd.dto.insurance.bo.financing.CronogramaPagoBO;
 import com.bbva.pisd.dto.insurance.bo.financing.FinancingPlanBO;
 import com.bbva.pisd.dto.insurance.bo.registeradditional.RegisterAdditionalVehBO;
+import com.bbva.pisd.dto.insurance.bo.registeradditional.ValidateGeneralDataBO;
 import com.bbva.pisd.dto.insurance.bo.simulation.InsuranceSimulationBO;
 
 import com.bbva.pisd.dto.insurance.commons.InsuranceProductDTO;
@@ -374,6 +375,13 @@ public final class MockDTO {
                 Thread.currentThread().getContextClassLoader().getResourceAsStream(
                         "com/bbva/pisd/dto/insurance/mock/register/registerAdditionalResponse.json"),
                 RegisterAdditionalVehBO.class);
+    }
+
+    public ValidateGeneralDataBO getValidateGeneralDataOKResponse() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/register/rimac/validateGeneralData.json"),
+                ValidateGeneralDataBO.class);
     }
 
     public CustomerListASO getCustomerDataResponse() throws IOException {
