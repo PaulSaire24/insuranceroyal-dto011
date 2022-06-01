@@ -1,8 +1,5 @@
 package com.bbva.pisd.dto.insurance.bo;
 
-import org.codehaus.jackson.annotate.JsonIgnoreProperties;
-
-@JsonIgnoreProperties(ignoreUnknown = true)
 public class SearchPayloadBO {
 
     private String fechaCotizacion;
@@ -15,10 +12,13 @@ public class SearchPayloadBO {
     private String cotizacion;
     private String codigoExterno;
     private String moneda;
+    private String numCotizacion;
     private PlanSearchBO plan;
     private CommonDataBO marca;
     private CommonDataBO modelo;
 
+    public String getNumCotizacion() { return numCotizacion; }
+    public void setNumCotizacion(String numCotizacion) { this.numCotizacion = numCotizacion; }
     public String getIndSeleccionado() { return indSeleccionado; }
     public void setIndSeleccionado(String indSeleccionado) { this.indSeleccionado = indSeleccionado; }
     public String getMoneda() { return moneda; }
@@ -62,6 +62,7 @@ public class SearchPayloadBO {
         sb.append(", plan=").append(plan);
         sb.append(", marca=").append(marca);
         sb.append(", modelo=").append(modelo);
+        sb.append(", numCotizacion=").append(numCotizacion);
         sb.append('}');
         return sb.toString();
     }
