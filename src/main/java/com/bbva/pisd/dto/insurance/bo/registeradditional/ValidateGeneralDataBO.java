@@ -1,10 +1,5 @@
 package com.bbva.pisd.dto.insurance.bo.registeradditional;
 
-import org.codehaus.jackson.annotate.JsonIgnoreProperties;
-
-import java.util.List;
-
-@JsonIgnoreProperties(ignoreUnknown = true)
 public class ValidateGeneralDataBO {
 
     private ValidateGeneralDataPayloadBO payload;
