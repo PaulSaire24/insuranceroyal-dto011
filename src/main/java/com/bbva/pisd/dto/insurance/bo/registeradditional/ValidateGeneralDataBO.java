@@ -7,12 +7,9 @@ import java.util.List;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class ValidateGeneralDataBO {
 
-    private String indBloqueo;
-    private List<GeneralDataObservationsBO> observaciones;
+    private ValidateGeneralDataPayloadBO payload;
 
-    public String getIndBloqueo() {return indBloqueo;}
-    public void setIndBloqueo(String indBloqueo) {this.indBloqueo = indBloqueo;}
-    public List<GeneralDataObservationsBO> getObservaciones() {return observaciones;}
-    public void setObservaciones(List<GeneralDataObservationsBO> observaciones) {this.observaciones = observaciones;}
+    public ValidateGeneralDataPayloadBO getPayload() {return payload;}
+    public void setPayload(ValidateGeneralDataPayloadBO payload) {this.payload = payload;}
 
 }
