@@ -14,6 +14,7 @@ public enum PISDProperties {
     ID_API_GIFOLE_INSURANCE_REQUEST_SERVICE("createGifoleInsuranceRequest"),
     ID_API_GIFOLE_ROYAL_INSURANCE_REQUEST_SERVICE("createGifoleInsuranceRequest"),
     ID_API_GIFOLE_ROYAL_SERVICE("gifole"),
+    ID_API_LIMIT_PAGINATION("createLimit"),
     ID_API_SIMULATION_RIMAC("simulation.rimac"),
     ID_API_FINANCING_PLAN_RIMAC("financingplan.rimac"),
     ID_API_PAYMENT_SCHEDULE_RIMAC("paymentschedule.rimac"),
