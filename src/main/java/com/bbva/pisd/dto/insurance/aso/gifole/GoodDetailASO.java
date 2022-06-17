@@ -22,7 +22,7 @@ public class GoodDetailASO {
     private BigDecimal floorsNumber;
     private List<SurfaceASO> surfaces;
     private BigDecimal basementLevels;
-    private HolderTypeASO holderType;
+    private HolderTypeASO holderType;    
     
     public String getInsuranceType() {return insuranceType;}
     public void setInsuranceType(String insuranceType) {this.insuranceType = insuranceType;}

@@ -230,9 +230,10 @@ public enum PISDProperties {
     QUERY_UPDATE_INSURANCE_SIMULATION_CUSTOMER("PISD.UPDATE_INSURANCE_SIMULATION_CUSTOMER"),
     QUERY_UPDATE_INSURANCE_QUOTATION_CUSTOMER("PISD.UPDATE_INSURANCE_QUOTATION_CUSTOMER"),
     //Fin Open Market
-    BANK_PERU("bank.Peru");
-    
-    
+    BANK_PERU("bank.Peru"),
+    ID_API_VALIDATE_GENERAL_DATA_VALUE("validateGeneralData.rimac"),
+    URI_VALIDATE_GENERAL_DATA_KEY("rimac.validateGeneralData.uri");
+
     private final String value;
 
     PISDProperties(String value) { this.value = value; }
