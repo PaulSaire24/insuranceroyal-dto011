@@ -14,6 +14,7 @@ public class GifoleInsuranceRequestASO {
     private String operationType;
     private BankASO bank;
     private QuotationASO quotation;
+    private BusinessAgentASO businessAgent;
     //Inicio Open Market
     private ScheduleContactDTO scheduleContact;
 
@@ -51,7 +52,9 @@ public class GifoleInsuranceRequestASO {
     public void setBank(BankASO bank) {this.bank = bank;}
     public QuotationASO getQuotation() {return quotation;}
     public void setQuotation(QuotationASO quotation) {this.quotation = quotation;}
-    
+    public BusinessAgentASO getBusinessAgent() {return businessAgent;}
+    public void setBusinessAgent(BusinessAgentASO businessAgent) {this.businessAgent = businessAgent;}
+
     public ValidityPeriodASO getValidityPeriod() {return validityPeriod;}
     public void setValidityPeriod(ValidityPeriodASO validityPeriod) {this.validityPeriod = validityPeriod;}
     public InsuranceASO getInsurance() {return insurance;}
@@ -77,6 +80,7 @@ public class GifoleInsuranceRequestASO {
         sb.append(", validityPeriod='").append(validityPeriod).append('\'');
         sb.append(", insurance='").append(insurance).append('\'');
         sb.append(", policyNumber='").append(policyNumber).append('\'');
+        sb.append(", businessAgent='").append(businessAgent).append('\'');
         sb.append('}');
         return sb.toString();
     }
