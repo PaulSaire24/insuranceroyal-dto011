@@ -14,6 +14,7 @@ public enum PISDProperties {
     ID_API_GIFOLE_INSURANCE_REQUEST_SERVICE("createGifoleInsuranceRequest"),
     ID_API_GIFOLE_ROYAL_INSURANCE_REQUEST_SERVICE("createGifoleInsuranceRequest"),
     ID_API_GIFOLE_ROYAL_SERVICE("gifole"),
+    ID_API_LIMIT_PAGINATION("createLimit"),
     ID_API_SIMULATION_RIMAC("simulation.rimac"),
     ID_API_FINANCING_PLAN_RIMAC("financingplan.rimac"),
     ID_API_PAYMENT_SCHEDULE_RIMAC("paymentschedule.rimac"),
@@ -66,7 +67,7 @@ public enum PISDProperties {
 
     FIELD_LAST_CHANGE_BRANCH_ID("LAST_CHANGE_BRANCH_ID"),
     FIELD_SOURCE_BRANCH_ID("SOURCE_BRANCH_ID"),
-
+ 
     QUERY_INSERT_INSURANCE_SIMULATION("PISD.INSERT_INSURANCE_SIMULATION"),
     FIELD_INSRNC_COMPANY_SIMULATION_ID("INSRNC_COMPANY_SIMULATION_ID"),
     FIELD_CUSTOMER_ID("CUSTOMER_ID"),
@@ -146,6 +147,7 @@ public enum PISDProperties {
 	ASO_MOCK_SEARCH_ENABLED("pisd.aso.mock.search.enabled"),
     QUOTATION_SEARCH_QUERYSTRING_DOCUMENT_TYPE("tipoDocumento="),
     QUOTATION_SEARCH_QUERYSTRING_DOCUMENT_NUMBER("nroDocumento="),
+    QUOTATION_SEARCH_QUERYSTRING_LIMIT("limite="),
     QUOTATION_SEARCH_QUERYSTRING_PLATE("placa="),
     QUOTATION_SEARCH_QUERYSTRING_PROD("ideProd="),
 	ID_API_SEARCH_RIMAC("quotationsearch.rimac"),
@@ -232,7 +234,6 @@ public enum PISDProperties {
     ID_API_VALIDATE_GENERAL_DATA_VALUE("validateGeneralData.rimac"),
     URI_VALIDATE_GENERAL_DATA_KEY("rimac.validateGeneralData.uri");
 
-    
     private final String value;
 
     PISDProperties(String value) { this.value = value; }

@@ -12,4 +12,6 @@ public class BuildMaterialTypeASO extends CommonFieldsASO{
         sb.append('}');
         return sb.toString();
     }
+
 }
+

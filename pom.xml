@@ -5,7 +5,7 @@
 	<parent>
 		<artifactId>elara-project</artifactId>
 		<groupId>com.bbva.elara</groupId>
-		<version>7.5.5</version>
+		<version>7.6.5</version>
 	</parent>
 	<groupId>com.bbva.pisd.dto.insurance</groupId>
 	<artifactId>PISDC011</artifactId>

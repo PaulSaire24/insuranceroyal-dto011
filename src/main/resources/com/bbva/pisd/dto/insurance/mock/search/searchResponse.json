@@ -1,31 +1,37 @@
 {
-    "payload": [
-        {
-            "fechaCotizacion": "22-01-2021",
-            "fechaFinVig": "20-02-2021",
-            "estado": "ACTIVO",
-            "placa": "AOA458",
-            "plan": {
-                "plan": 260739,
-                "dscPlan": "SOAT CONSEJEROS Y CORREDORES DE SEGUROS DIGITAL COM. 5% (08.07.2019)",
-                "primaBruta": 70,
-                "primaNeta": 57.59,
-                "moneda": "SOL"
-            },
-            "marca": {
-                "codigo": 105464,
-                "descripcion": "NISSAN"
-            },
-            "modelo": {
-                "codigo": 113871,
-                "descripcion": "X-TRAIL"
-            },
-            "anhoFab": 2016,
-            "pdfUrl": null,
-            "indSeleccionado": "S",
-            "cotizacion": "ea9fa39a-4168-4ec0-99b5-a3aa5484b64a",
-            "codigoExterno": "0486004012345678",
-            "moneda": "USD"
-        }
-    ]
+    "payload": {
+        "cotizaciones": [
+            {
+                "fechaCotizacion": "22-01-2021",
+                "fechaFinVig": "20-02-2021",
+                "estado": "ACTIVO",
+                "placa": "AOA458",
+                "plan": {
+                    "plan": 260739,
+                    "dscPlan": "SOAT CONSEJEROS Y CORREDORES DE SEGUROS DIGITAL COM. 5% (08.07.2019)",
+                    "primaBruta": 70,
+                    "primaNeta": 57.59,
+                    "dscProd": null,
+                    "ideProd": 3654,
+                    "moneda": "USD"
+                },
+                "marca": {
+                    "codigo": 105464,
+                    "descripcion": "NISSAN"
+                },
+                "modelo": {
+                    "codigo": 113871,
+                    "descripcion": "X-TRAIL"
+                },
+                "anhoFab": 2016,
+                "pdfUrl": null,
+                "indSeleccionado": "S",
+                "numCotizacion": "COT-20220530145152000",
+                "cotizacion": "ea9fa39a-4168-4ec0-99b5-a3aa5484b64a",
+                "codigoExterno": "0486004012345678",
+                "moneda": "USD"
+            }
+        ],
+        "indPaginacion": "||eyJpZGVDb3RpemFjaW9uIjoiZDZiNWMxMTQtZWRmYy00Yzk4LWExOWItNjdmMGVkMDJjOTQ0IiwiaWRlUGxhbiI6NTMzMjAzMSwiZG9jdW1lbnRvIjoiMl80NTcyMzIxNCIsImZlY0FmaWxpYWNpb24iOiIyMDIyLTAzLTEyIn0="
+    }
 }
