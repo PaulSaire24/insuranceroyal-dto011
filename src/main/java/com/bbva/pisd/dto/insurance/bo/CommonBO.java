@@ -8,6 +8,7 @@ public class CommonBO {
     private Double primaNeta;
     private String moneda;
     private Double sumaAsegurada;
+    private String producto;
 
     public String getId() { return id; }
     public void setId(String id) { this.id = id; }
@@ -21,6 +22,8 @@ public class CommonBO {
     public void setMoneda(String moneda) { this.moneda = moneda; }
     public Double getSumaAsegurada() { return sumaAsegurada; }
     public void setSumaAsegurada(Double sumaAsegurada) { this.sumaAsegurada = sumaAsegurada; }
+    public String getProducto() { return producto; }
+    public void setProducto(String producto) { this.producto = producto; }
 
     @Override
     public String toString() {
@@ -31,6 +34,7 @@ public class CommonBO {
         sb.append(", primaNeta=").append(primaNeta);
         sb.append(", moneda='").append(moneda).append('\'');
         sb.append(", sumaAsegurada=").append(sumaAsegurada);
+        sb.append(", producto=").append(producto);
         sb.append('}');
         return sb.toString();
     }
