@@ -14,9 +14,9 @@ public class CoverageFeeASO extends CommonFieldsASO{
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("CoverageASO{");
+        final StringBuilder sb = new StringBuilder("CoverageFeeASO{");
         sb.append("paymentAmount=").append(paymentAmount);
-        sb.append("unit=").append(unit).append('\'');
+        sb.append(", unit=").append(unit).append('\'');
         sb.append(", percentageValue='").append(this.getPercentageValue()).append('\'');
         sb.append('}');
         return sb.toString();

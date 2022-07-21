@@ -13,9 +13,9 @@ public class UnitASO extends CommonFieldsASO{
     public String toString() {
         final StringBuilder sb = new StringBuilder("UnitASO{");
         sb.append("unitType=").append(unitType).append('\'');
-        sb.append("amount=").append(this.getAmount()).append('\'');
-        sb.append("currency=").append(this.getCurrency()).append('\'');
-        sb.append("text=").append(this.getText()).append('\'');
+        sb.append(", amount=").append(this.getAmount()).append('\'');
+        sb.append(", currency=").append(this.getCurrency()).append('\'');
+        sb.append(", text=").append(this.getText()).append('\'');
         sb.append('}');
         return sb.toString();
     }
