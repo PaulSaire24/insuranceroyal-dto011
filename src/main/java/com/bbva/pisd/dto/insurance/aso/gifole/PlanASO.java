@@ -9,6 +9,7 @@ public class PlanASO extends CommonFieldsASO {
         final StringBuilder sb = new StringBuilder("PlanASO{");
         sb.append("id='").append(this.getId()).append('\'');
         sb.append(", name='").append(this.getName()).append('\'');
+        sb.append(", coverages='").append(this.getCoverages()).append('\'');
         sb.append('}');
         return sb.toString();
     }
