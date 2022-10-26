@@ -4,7 +4,7 @@ import java.util.List;
 
 public class PlansDTO extends CommonDTO{
 
-    private List<CoveragesDTO> coverages;
+    private transient List<CoveragesDTO> coverages;
 
     public List<CoveragesDTO> getCoverages() {
         return coverages;
