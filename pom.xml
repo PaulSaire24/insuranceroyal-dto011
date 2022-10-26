@@ -57,6 +57,17 @@
 			<groupId>joda-time</groupId>
 			<artifactId>joda-time</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.bbva.apx.dto</groupId>
+			<artifactId>apx-dto</artifactId>
+			<version>[0.0, )</version>
+		</dependency>
+		<dependency>
+			<groupId>com.bbva.elara</groupId>
+			<artifactId>elara-exception</artifactId>
+			<version>7.3.1-RELEASE</version>
+			<scope>compile</scope>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>${project.artifactId}</finalName>
