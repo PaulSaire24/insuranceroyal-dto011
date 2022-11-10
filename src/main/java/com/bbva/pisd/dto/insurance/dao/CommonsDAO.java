@@ -15,7 +15,6 @@ public class CommonsDAO {
     private String sourceBranchId;
     private String lastChangeBranchId;
 
-    private String flexiblePlanIndicator;
 
     public BigDecimal getInsuranceSimulationId() { return insuranceSimulationId; }
     public void setInsuranceSimulationId(BigDecimal insuranceSimulationId) { this.insuranceSimulationId = insuranceSimulationId; }
@@ -38,12 +37,5 @@ public class CommonsDAO {
     public String getLastChangeBranchId() { return lastChangeBranchId; }
     public void setLastChangeBranchId(String lastChangeBranchId) { this.lastChangeBranchId = lastChangeBranchId; }
 
-    public String getFlexiblePlanIndicator() {
-        return flexiblePlanIndicator;
-    }
-
-    public void setFlexiblePlanIndicator(String flexiblePlanIndicator) {
-        this.flexiblePlanIndicator = flexiblePlanIndicator;
-    }
 }
 

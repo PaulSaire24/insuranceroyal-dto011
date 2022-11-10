@@ -45,6 +45,7 @@ public class InsuranceProductModalityDAO extends CommonsDAO {
     private String insuranceCompanyId;
     private String insuranceCompanyDesc;
     private BigDecimal publicationOrderNumber;
+    private String flexiblePlanIndicator;
 
     public String getInsuranceCompanyModalityId() { return insuranceCompanyModalityId; }
     public void setInsuranceCompanyModalityId(String insuranceCompanyModalityId) { this.insuranceCompanyModalityId = insuranceCompanyModalityId; }
@@ -59,4 +60,11 @@ public class InsuranceProductModalityDAO extends CommonsDAO {
     public BigDecimal getPublicationOrderNumber() {return publicationOrderNumber;}
     public void setPublicationOrderNumber(BigDecimal publicationOrderNumber) {this.publicationOrderNumber = publicationOrderNumber;}
 
+    public String getFlexiblePlanIndicator() {
+        return flexiblePlanIndicator;
+    }
+
+    public void setFlexiblePlanIndicator(String flexiblePlanIndicator) {
+        this.flexiblePlanIndicator = flexiblePlanIndicator;
+    }
 }
