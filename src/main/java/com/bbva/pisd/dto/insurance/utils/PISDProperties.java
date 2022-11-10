@@ -234,6 +234,8 @@ public enum PISDProperties {
     ID_API_VALIDATE_GENERAL_DATA_VALUE("validateGeneralData.rimac"),
     URI_VALIDATE_GENERAL_DATA_KEY("rimac.validateGeneralData.uri");
 
+
+
     private final String value;
 
     PISDProperties(String value) { this.value = value; }
