@@ -25,6 +25,13 @@ public class InsuranceProductModalityDAO extends CommonsDAO {
         this.setInsuranceModalityType(insuranceModalityType);
     }
 
+    public InsuranceProductModalityDAO(String insuranceCompanyModalityId, String insuranceModalityName, String insuranceModalityType, String suggestedModalityIndType, BigDecimal publicationOrderNumber,String flexiblePlanIndicator) {
+        this(insuranceCompanyModalityId, insuranceModalityName, suggestedModalityIndType);
+        this.publicationOrderNumber = publicationOrderNumber;
+        this.setInsuranceModalityType(insuranceModalityType);
+        this.setFlexiblePlanIndicator(flexiblePlanIndicator);
+    }
+
     public InsuranceProductModalityDAO(String insuranceCompanyModalityId, String insuranceModalityName, String insuranceModalityType, String suggestedModalityIndType, String insuranceCompanyId, String insuranceCompanyDesc) {
         this(insuranceCompanyModalityId, insuranceModalityName, suggestedModalityIndType);
         this.setInsuranceModalityType(insuranceModalityType);
