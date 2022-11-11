@@ -74,6 +74,8 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
 
     private VehicleDTO vehicle;
 
+    private String externalSimulationId;
+
     public HolderDTO getHolder() { return holder; }
     public void setHolder(HolderDTO holder) { this.holder = holder; }
     public InsuranceProductDTO getProduct() { return product; }
@@ -193,4 +195,11 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
     public VehicleDTO getVehicle() { return vehicle; }
     public void setVehicle(VehicleDTO vehicle) { this.vehicle = vehicle; }
 
+    public String getExternalSimulationId() {
+        return externalSimulationId;
+    }
+
+    public void setExternalSimulationId(String externalSimulationId) {
+        this.externalSimulationId = externalSimulationId;
+    }
 }

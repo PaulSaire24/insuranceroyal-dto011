@@ -2,6 +2,8 @@ package com.bbva.pisd.dto.insurance.commons;
 
 import com.bbva.apx.dto.AbstractDTO;
 
+import java.util.List;
+
 public class CommonDTO extends AbstractDTO {
 
     private String id;
@@ -10,6 +12,9 @@ public class CommonDTO extends AbstractDTO {
     private String number;
     private String description;
     private UnitDTO unit;
+    private CoverageTypeDTO coverageType;
+    private CoverageGroupDTO coverageGroup;
+    private List<CoverageFeesDTO> coverageFees;
 
     public String getId() { return id; }
     public void setId(String id) { this.id = id; }
@@ -24,13 +29,42 @@ public class CommonDTO extends AbstractDTO {
     public UnitDTO getUnit() { return unit; }
     public void setUnit(UnitDTO unit) { this.unit = unit; }
 
+    public CoverageTypeDTO getCoverageType() {
+        return coverageType;
+    }
+
+    public void setCoverageType(CoverageTypeDTO coverageType) {
+        this.coverageType = coverageType;
+    }
+
+    public CoverageGroupDTO getCoverageGroup() {
+        return coverageGroup;
+    }
+
+    public void setCoverageGroup(CoverageGroupDTO coverageGroup) {
+        this.coverageGroup = coverageGroup;
+    }
+
+    public List<CoverageFeesDTO> getCoverageFees() {
+        return coverageFees;
+    }
+
+    public void setCoverageFees(List<CoverageFeesDTO> coverageFees) {
+        this.coverageFees = coverageFees;
+    }
+
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("{");
+        final StringBuilder sb = new StringBuilder("CommonDTO{");
         sb.append("id='").append(id).append('\'');
         sb.append(", name='").append(name).append('\'');
-        sb.append(", isPrincipal='").append(isPrincipal).append('\'');
+        sb.append(", isPrincipal=").append(isPrincipal);
+        sb.append(", number='").append(number).append('\'');
+        sb.append(", description='").append(description).append('\'');
         sb.append(", unit=").append(unit);
+        sb.append(", coverageType=").append(coverageType);
+        sb.append(", coverageGroup=").append(coverageGroup);
+        sb.append(", coverageFees=").append(coverageFees);
         sb.append('}');
         return sb.toString();
     }

@@ -15,6 +15,7 @@ public class CommonsDAO {
     private String sourceBranchId;
     private String lastChangeBranchId;
 
+
     public BigDecimal getInsuranceSimulationId() { return insuranceSimulationId; }
     public void setInsuranceSimulationId(BigDecimal insuranceSimulationId) { this.insuranceSimulationId = insuranceSimulationId; }
     public String getPolicyQuotaInternalId() { return policyQuotaInternalId; }

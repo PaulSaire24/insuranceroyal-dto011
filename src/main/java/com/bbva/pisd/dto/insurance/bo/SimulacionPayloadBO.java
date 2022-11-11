@@ -4,6 +4,12 @@ import java.util.List;
 
 public class SimulacionPayloadBO {
 
+    private String idCotizacion;
+    private int indicadorRequiereInspeccion;
+    private String operacion;
+    private String diasVigencia;
+    private String fechaFinVigencia;
+
     private String producto;
     private String moneda;
     private List<CotizacionBO> cotizaciones;
@@ -12,6 +18,47 @@ public class SimulacionPayloadBO {
     private List<PlanFinanciamientoBO> financiamiento;
     private List<Integer> periodosConDescuentoPrima;
     private AseguradoBO asegurado;
+
+
+    public String getIdCotizacion() {
+        return idCotizacion;
+    }
+
+    public void setIdCotizacion(String idCotizacion) {
+        this.idCotizacion = idCotizacion;
+    }
+
+    public int getIndicadorRequiereInspeccion() {
+        return indicadorRequiereInspeccion;
+    }
+
+    public void setIndicadorRequiereInspeccion(int indicadorRequiereInspeccion) {
+        this.indicadorRequiereInspeccion = indicadorRequiereInspeccion;
+    }
+
+    public String getOperacion() {
+        return operacion;
+    }
+
+    public void setOperacion(String operacion) {
+        this.operacion = operacion;
+    }
+
+    public String getDiasVigencia() {
+        return diasVigencia;
+    }
+
+    public void setDiasVigencia(String diasVigencia) {
+        this.diasVigencia = diasVigencia;
+    }
+
+    public String getFechaFinVigencia() {
+        return fechaFinVigencia;
+    }
+
+    public void setFechaFinVigencia(String fechaFinVigencia) {
+        this.fechaFinVigencia = fechaFinVigencia;
+    }
 
     public String getProducto() { return producto; }
     public void setProducto(String producto) { this.producto = producto; }
