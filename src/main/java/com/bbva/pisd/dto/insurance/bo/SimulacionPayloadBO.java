@@ -18,6 +18,7 @@ public class SimulacionPayloadBO {
     private List<PlanFinanciamientoBO> financiamiento;
     private List<Integer> periodosConDescuentoPrima;
     private AseguradoBO asegurado;
+    private List<CoberturaBO> coberturas;
 
 
     public String getIdCotizacion() {
@@ -77,10 +78,23 @@ public class SimulacionPayloadBO {
     public AseguradoBO getAsegurado() { return asegurado; }
     public void setAsegurado(AseguradoBO asegurado) { this.asegurado = asegurado; }
 
+    public List<CoberturaBO> getCoberturas() {
+        return coberturas;
+    }
+
+    public void setCoberturas(List<CoberturaBO> coberturas) {
+        this.coberturas = coberturas;
+    }
+
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("PayloadBO{");
-        sb.append("producto='").append(producto).append('\'');
+        final StringBuilder sb = new StringBuilder("SimulacionPayloadBO{");
+        sb.append("idCotizacion='").append(idCotizacion).append('\'');
+        sb.append(", indicadorRequiereInspeccion=").append(indicadorRequiereInspeccion);
+        sb.append(", operacion='").append(operacion).append('\'');
+        sb.append(", diasVigencia='").append(diasVigencia).append('\'');
+        sb.append(", fechaFinVigencia='").append(fechaFinVigencia).append('\'');
+        sb.append(", producto='").append(producto).append('\'');
         sb.append(", moneda='").append(moneda).append('\'');
         sb.append(", cotizaciones=").append(cotizaciones);
         sb.append(", planes=").append(planes);
@@ -88,6 +102,7 @@ public class SimulacionPayloadBO {
         sb.append(", financiamiento=").append(financiamiento);
         sb.append(", periodosConDescuentoPrima=").append(periodosConDescuentoPrima);
         sb.append(", asegurado=").append(asegurado);
+        sb.append(", coberturas=").append(coberturas);
         sb.append('}');
         return sb.toString();
     }
