@@ -4,6 +4,7 @@ public class PlanFinanciamientoBO {
 
     private Long financiamiento;
     private String fechaInicio;
+    private String fechaFin;
     private Long numeroCuotas;
 
     public Long getFinanciamiento() { return financiamiento; }
@@ -13,14 +14,22 @@ public class PlanFinanciamientoBO {
     public Long getNumeroCuotas() { return numeroCuotas; }
     public void setNumeroCuotas(Long numeroCuotas) { this.numeroCuotas = numeroCuotas; }
 
+    public String getFechaFin() {
+        return fechaFin;
+    }
+
+    public void setFechaFin(String fechaFin) {
+        this.fechaFin = fechaFin;
+    }
+
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("PlanFinanciamientoBO{");
         sb.append("financiamiento=").append(financiamiento);
         sb.append(", fechaInicio='").append(fechaInicio).append('\'');
+        sb.append(", fechaFin='").append(fechaFin).append('\'');
         sb.append(", numeroCuotas=").append(numeroCuotas);
         sb.append('}');
         return sb.toString();
     }
-
 }
