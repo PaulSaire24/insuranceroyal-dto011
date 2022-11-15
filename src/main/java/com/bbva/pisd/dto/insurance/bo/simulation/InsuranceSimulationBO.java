@@ -2,6 +2,8 @@ package com.bbva.pisd.dto.insurance.bo.simulation;
 
 import com.bbva.pisd.dto.insurance.bo.SimulacionPayloadBO;
 
+import java.util.List;
+
 public class InsuranceSimulationBO {
 
     private SimulacionPayloadBO payload;
