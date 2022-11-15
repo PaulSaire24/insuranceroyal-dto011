@@ -7,6 +7,8 @@ public class CoberturaBO extends CommonBO{
 
     private String porcentaje;
 
+    public CoberturaBO(){}
+
     public CoberturaBO(Long idCobertura, String porcentaje) {
         this.idCobertura = idCobertura;
         this.porcentaje = porcentaje;
