@@ -149,7 +149,24 @@
               "primaBruta": 577.73,
               "primaNeta": 489.6,
               "moneda": "USD",
-              "sumaAsegurada": 23400.0
+              "sumaAsegurada": 23400.0,
+              "principal": "ABCDE",
+              "observacionCobertura": "Roturas por tubería",
+              "periodoEvento": "1 mes",
+              "condicion": "OBL",
+              "porcentajeSeleccionado": "100%",
+              "codigoAgrupador": 1904,
+              "tipoAgrupador": "509437",
+              "indSeleccionar": "SI",
+              "agrupador": {
+                "codigoAgrupador": "15817",
+                "nombreAgrupador": "Por robo parcial",
+                "descripcionAgrupador": "Pérdida Total: Por choque, incendio, vuelco o despiste por Accidente de Tránsito",
+                "porcentajes": [0,100],
+                "periodicidad": "Anual",
+                "primaBruta": 48963.58,
+                "primaNeta": 48860.52
+              }
             },
             {
               "idCobertura": 7864,
@@ -157,7 +174,24 @@
               "primaBruta": 0.0,
               "primaNeta": 0.0,
               "moneda": "USD",
-              "sumaAsegurada": 20000.0
+              "sumaAsegurada": 20000.0,
+              "principal": "ABCDE",
+              "observacionCobertura": "Roturas por tubería",
+              "periodoEvento": "1 mes",
+              "condicion": "OBL",
+              "porcentajeSeleccionado": "100%",
+              "codigoAgrupador": 1904,
+              "tipoAgrupador": "509437",
+              "indSeleccionar": "SI",
+              "agrupador": {
+                "codigoAgrupador": "15817",
+                "nombreAgrupador": "Por robo parcial",
+                "descripcionAgrupador": "Pérdida Total: Por choque, incendio, vuelco o despiste por Accidente de Tránsito",
+                "porcentajes": [0,100],
+                "periodicidad": "Anual",
+                "primaBruta": 48963.58,
+                "primaNeta": 48860.52
+              }
             }
           ],
           "deducibles": [
@@ -342,7 +376,24 @@
               "primaBruta": 0.0,
               "primaNeta": 0.0,
               "moneda": "USD",
-              "sumaAsegurada": 23400.0
+              "sumaAsegurada": 23400.0,
+              "principal": "ABCDE",
+              "observacionCobertura": "Roturas por tubería",
+              "periodoEvento": "1 mes",
+              "condicion": "OBL",
+              "porcentajeSeleccionado": "100%",
+              "codigoAgrupador": 1904,
+              "tipoAgrupador": "509437",
+              "indSeleccionar": "SI",
+              "agrupador": {
+                "codigoAgrupador": "15817",
+                "nombreAgrupador": "Por robo parcial",
+                "descripcionAgrupador": "Pérdida Total: Por choque, incendio, vuelco o despiste por Accidente de Tránsito",
+                "porcentajes": [0,100],
+                "periodicidad": "Anual",
+                "primaBruta": 48963.58,
+                "primaNeta": 48860.52
+              }
             },
             {
               "idCobertura": 15826,
@@ -350,7 +401,24 @@
               "primaBruta": 0.0,
               "primaNeta": 0.0,
               "moneda": "USD",
-              "sumaAsegurada": 23400.0
+              "sumaAsegurada": 23400.0,
+              "principal": "ABCDE",
+              "observacionCobertura": "Roturas por tubería",
+              "periodoEvento": "1 mes",
+              "condicion": "OBL",
+              "porcentajeSeleccionado": "100%",
+              "codigoAgrupador": 1904,
+              "tipoAgrupador": "509437",
+              "indSeleccionar": "SI",
+              "agrupador": {
+                "codigoAgrupador": "15817",
+                "nombreAgrupador": "Por robo parcial",
+                "descripcionAgrupador": "Pérdida Total: Por choque, incendio, vuelco o despiste por Accidente de Tránsito",
+                "porcentajes": [0,100],
+                "periodicidad": "Anual",
+                "primaBruta": 48963.58,
+                "primaNeta": 48860.52
+              }
             },
             {
               "idCobertura": 15817,
@@ -358,7 +426,24 @@
               "primaBruta": 0.0,
               "primaNeta": 0.0,
               "moneda": "USD",
-              "sumaAsegurada": 23400.0
+              "sumaAsegurada": 23400.0,
+              "principal": "ABCDE",
+              "observacionCobertura": "Roturas por tubería",
+              "periodoEvento": "1 mes",
+              "condicion": "OBL",
+              "porcentajeSeleccionado": "100%",
+              "codigoAgrupador": 1904,
+              "tipoAgrupador": "509437",
+              "indSeleccionar": "SI",
+              "agrupador": {
+                "codigoAgrupador": "15817",
+                "nombreAgrupador": "Por robo parcial",
+                "descripcionAgrupador": "Pérdida Total: Por choque, incendio, vuelco o despiste por Accidente de Tránsito",
+                "porcentajes": [0,100],
+                "periodicidad": "Anual",
+                "primaBruta": 48963.58,
+                "primaNeta": 48860.52
+              }
             },
             {
               "idCobertura": 15816,
@@ -366,7 +451,24 @@
               "primaBruta": 1044.37,
               "primaNeta": 885.06,
               "moneda": "USD",
-              "sumaAsegurada": 23400.0
+              "sumaAsegurada": 23400.0,
+              "principal": "ABCDE",
+              "observacionCobertura": "Roturas por tubería",
+              "periodoEvento": "1 mes",
+              "condicion": "OBL",
+              "porcentajeSeleccionado": "100%",
+              "codigoAgrupador": 1904,
+              "tipoAgrupador": "509437",
+              "indSeleccionar": "SI",
+              "agrupador": {
+                "codigoAgrupador": "15817",
+                "nombreAgrupador": "Por robo parcial",
+                "descripcionAgrupador": "Pérdida Total: Por choque, incendio, vuelco o despiste por Accidente de Tránsito",
+                "porcentajes": [0,100],
+                "periodicidad": "Anual",
+                "primaBruta": 48963.58,
+                "primaNeta": 48860.52
+              }
             },
             {
               "idCobertura": 15819,
@@ -374,7 +476,24 @@
               "primaBruta": 0.0,
               "primaNeta": 0.0,
               "moneda": "USD",
-              "sumaAsegurada": 23400.0
+              "sumaAsegurada": 23400.0,
+              "principal": "ABCDE",
+              "observacionCobertura": "Roturas por tubería",
+              "periodoEvento": "1 mes",
+              "condicion": "OBL",
+              "porcentajeSeleccionado": "100%",
+              "codigoAgrupador": 1904,
+              "tipoAgrupador": "509437",
+              "indSeleccionar": "SI",
+              "agrupador": {
+                "codigoAgrupador": "15817",
+                "nombreAgrupador": "Por robo parcial",
+                "descripcionAgrupador": "Pérdida Total: Por choque, incendio, vuelco o despiste por Accidente de Tránsito",
+                "porcentajes": [0,100],
+                "periodicidad": "Mensual",
+                "primaBruta": 48963.58,
+                "primaNeta": 48860.52
+              }
             },
             {
               "idCobertura": 15821,
@@ -382,7 +501,24 @@
               "primaBruta": 0.0,
               "primaNeta": 0.0,
               "moneda": "USD",
-              "sumaAsegurada": 0.0
+              "sumaAsegurada": 0.0,
+              "principal": "ABCDE",
+              "observacionCobertura": "Roturas por tubería",
+              "periodoEvento": "1 mes",
+              "condicion": "OBL",
+              "porcentajeSeleccionado": "100%",
+              "codigoAgrupador": 1904,
+              "tipoAgrupador": "509437",
+              "indSeleccionar": "SI",
+              "agrupador": {
+                "codigoAgrupador": "15817",
+                "nombreAgrupador": "Por robo parcial",
+                "descripcionAgrupador": "Pérdida Total: Por choque, incendio, vuelco o despiste por Accidente de Tránsito",
+                "porcentajes": [0,100],
+                "periodicidad": "Mensual",
+                "primaBruta": 48963.58,
+                "primaNeta": 48860.52
+              }
             },
             {
               "idCobertura": 15820,
@@ -390,7 +526,24 @@
               "primaBruta": 0.0,
               "primaNeta": 0.0,
               "moneda": "USD",
-              "sumaAsegurada": 23400.0
+              "sumaAsegurada": 23400.0,
+              "principal": "ABCDE",
+              "observacionCobertura": "Roturas por tubería",
+              "periodoEvento": "1 mes",
+              "condicion": "OBL",
+              "porcentajeSeleccionado": "100%",
+              "codigoAgrupador": 1904,
+              "tipoAgrupador": "509437",
+              "indSeleccionar": "SI",
+              "agrupador": {
+                "codigoAgrupador": "15817",
+                "nombreAgrupador": "Por robo parcial",
+                "descripcionAgrupador": "Pérdida Total: Por choque, incendio, vuelco o despiste por Accidente de Tránsito",
+                "porcentajes": [0,100],
+                "periodicidad": "Anual",
+                "primaBruta": 48963.58,
+                "primaNeta": 48860.52
+              }
             },
             {
               "idCobertura": 15813,
@@ -398,7 +551,24 @@
               "primaBruta": 0.0,
               "primaNeta": 0.0,
               "moneda": "USD",
-              "sumaAsegurada": 10000.0
+              "sumaAsegurada": 10000.0,
+              "principal": "ABCDE",
+              "observacionCobertura": "Roturas por tubería",
+              "periodoEvento": "1 mes",
+              "condicion": "OBL",
+              "porcentajeSeleccionado": "100%",
+              "codigoAgrupador": 1904,
+              "tipoAgrupador": "509437",
+              "indSeleccionar": "SI",
+              "agrupador": {
+                "codigoAgrupador": "15817",
+                "nombreAgrupador": "Por robo parcial",
+                "descripcionAgrupador": "Pérdida Total: Por choque, incendio, vuelco o despiste por Accidente de Tránsito",
+                "porcentajes": [0,100],
+                "periodicidad": "Anual",
+                "primaBruta": 48963.58,
+                "primaNeta": 48860.52
+              }
             },
             {
               "idCobertura": 15811,
@@ -406,7 +576,24 @@
               "primaBruta": 0.0,
               "primaNeta": 0.0,
               "moneda": "USD",
-              "sumaAsegurada": 150000.0
+              "sumaAsegurada": 150000.0,
+              "principal": "ABCDE",
+              "observacionCobertura": "Roturas por tubería",
+              "periodoEvento": "1 mes",
+              "condicion": "OBL",
+              "porcentajeSeleccionado": "100%",
+              "codigoAgrupador": 1904,
+              "tipoAgrupador": "509437",
+              "indSeleccionar": "SI",
+              "agrupador": {
+                "codigoAgrupador": "15817",
+                "nombreAgrupador": "Por robo parcial",
+                "descripcionAgrupador": "Pérdida Total: Por choque, incendio, vuelco o despiste por Accidente de Tránsito",
+                "porcentajes": [0,100],
+                "periodicidad": "Anual",
+                "primaBruta": 48963.58,
+                "primaNeta": 48860.52
+              }
             },
             {
               "idCobertura": 15829,
@@ -414,7 +601,24 @@
               "primaBruta": 0.0,
               "primaNeta": 0.0,
               "moneda": "USD",
-              "sumaAsegurada": 1000.0
+              "sumaAsegurada": 1000.0,
+              "principal": "ABCDE",
+              "observacionCobertura": "Roturas por tubería",
+              "periodoEvento": "1 mes",
+              "condicion": "OBL",
+              "porcentajeSeleccionado": "100%",
+              "codigoAgrupador": 1904,
+              "tipoAgrupador": "509437",
+              "indSeleccionar": "SI",
+              "agrupador": {
+                "codigoAgrupador": "15817",
+                "nombreAgrupador": "Por robo parcial",
+                "descripcionAgrupador": "Pérdida Total: Por choque, incendio, vuelco o despiste por Accidente de Tránsito",
+                "porcentajes": [0,100],
+                "periodicidad": "Anual",
+                "primaBruta": 48963.58,
+                "primaNeta": 48860.52
+              }
             },
             {
               "idCobertura": 15827,
@@ -422,7 +626,24 @@
               "primaBruta": 0.0,
               "primaNeta": 0.0,
               "moneda": "USD",
-              "sumaAsegurada": 5000.0
+              "sumaAsegurada": 5000.0,
+              "principal": "ABCDE",
+              "observacionCobertura": "Roturas por tubería",
+              "periodoEvento": "1 mes",
+              "condicion": "OBL",
+              "porcentajeSeleccionado": "100%",
+              "codigoAgrupador": 1904,
+              "tipoAgrupador": "509437",
+              "indSeleccionar": "SI",
+              "agrupador": {
+                "codigoAgrupador": "15817",
+                "nombreAgrupador": "Por robo parcial",
+                "descripcionAgrupador": "Pérdida Total: Por choque, incendio, vuelco o despiste por Accidente de Tránsito",
+                "porcentajes": [0,100],
+                "periodicidad": "Anual",
+                "primaBruta": 48963.58,
+                "primaNeta": 48860.52
+              }
             },
             {
               "idCobertura": 15828,
@@ -430,7 +651,24 @@
               "primaBruta": 0.0,
               "primaNeta": 0.0,
               "moneda": "USD",
-              "sumaAsegurada": 5000.0
+              "sumaAsegurada": 5000.0,
+              "principal": "ABCDE",
+              "observacionCobertura": "Roturas por tubería",
+              "periodoEvento": "1 mes",
+              "condicion": "OBL",
+              "porcentajeSeleccionado": "100%",
+              "codigoAgrupador": 1904,
+              "tipoAgrupador": "509437",
+              "indSeleccionar": "SI",
+              "agrupador": {
+                "codigoAgrupador": "15817",
+                "nombreAgrupador": "Por robo parcial",
+                "descripcionAgrupador": "Pérdida Total: Por choque, incendio, vuelco o despiste por Accidente de Tránsito",
+                "porcentajes": [0,100],
+                "periodicidad": "Mensual",
+                "primaBruta": 48963.58,
+                "primaNeta": 48860.52
+              }
             }
           ],
           "deducibles": [

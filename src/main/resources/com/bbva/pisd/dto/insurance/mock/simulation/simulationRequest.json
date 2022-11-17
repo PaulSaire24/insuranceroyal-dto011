@@ -27,13 +27,60 @@
     "id": "877",
     "plans": [
       {
-        "id": "01"
+        "id": "01",
+        "coverages": [
+          {
+            "id":"7792"
+          },
+          {
+            "id":"7864"
+          },
+          {
+            "id":"7887"
+          }
+        ]
       },
       {
-        "id": "02"
+        "id": "02",
+        "coverages": [
+          {
+            "id":"15818"
+          },
+          {
+            "id":"15826"
+          },
+          {
+            "id":"15817"
+          }
+        ]
       },
       {
-        "id": "03"
+        "id": "03",
+        "coverages": [
+          {
+            "id":"15818"
+          },
+          {
+            "id":"15826"
+          },
+          {
+            "id":"15817"
+          }
+        ]
+      },
+      {
+        "id": "04",
+        "coverages": [
+          {
+            "id":"15820"
+          },
+          {
+            "id":"15818"
+          },
+          {
+            "id":"15817"
+          }
+        ]
       }
     ]
   },
@@ -45,5 +92,6 @@
   },
   "bankingFactor": 100.000000,
   "campaignFactor": 15.000000,
-  "hasAcceptedDataTreatment": "S"
+  "hasAcceptedDataTreatment": "S",
+  "externalSimulationId": "6756c3b1-affa-4d22-ba25-dc8bbb687bee"
 }

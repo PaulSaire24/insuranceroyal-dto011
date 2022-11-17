@@ -3,7 +3,6 @@ package com.bbva.pisd.dto.insurance.bo;
 public class CommonBO {
 
     private String id;
-
     private String descripcionCobertura;
     private String name;
     private Double primaBruta;

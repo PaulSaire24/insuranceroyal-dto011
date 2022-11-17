@@ -3,8 +3,6 @@ package com.bbva.pisd.dto.insurance.bo;
 public class CoberturaBO extends CommonBO{
 
     private Long idCobertura;
-    private String descripcionCobertura;
-
     private String principal;
     private String observacionCobertura;
     private String periodoEvento;
@@ -25,8 +23,6 @@ public class CoberturaBO extends CommonBO{
 
     public Long getIdCobertura() { return idCobertura; }
     public void setIdCobertura(Long idCobertura) { this.idCobertura = idCobertura; }
-    public String getDescripcionCobertura() { return descripcionCobertura; }
-    public void setDescripcionCobertura(String descripcionCobertura) { this.descripcionCobertura = descripcionCobertura; }
 
     public String getPorcentaje() {
         return porcentaje;
@@ -112,7 +108,6 @@ public class CoberturaBO extends CommonBO{
     public String toString() {
         final StringBuilder sb = new StringBuilder("CoberturaBO{");
         sb.append("idCobertura=").append(idCobertura);
-        sb.append(", descripcionCobertura='").append(descripcionCobertura).append('\'');
         sb.append(", principal='").append(principal).append('\'');
         sb.append(", observacionCobertura='").append(observacionCobertura).append('\'');
         sb.append(", periodoEvento='").append(periodoEvento).append('\'');
@@ -122,6 +117,7 @@ public class CoberturaBO extends CommonBO{
         sb.append(", tipoAgrupador='").append(tipoAgrupador).append('\'');
         sb.append(", indSeleccionar='").append(indSeleccionar).append('\'');
         sb.append(", agrupador=").append(agrupador);
+        sb.append(", porcentaje='").append(porcentaje).append('\'');
         sb.append('}');
         return sb.toString();
     }
