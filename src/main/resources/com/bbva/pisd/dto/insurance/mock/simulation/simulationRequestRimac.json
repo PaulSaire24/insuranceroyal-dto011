@@ -60,6 +60,17 @@
         "codigo": "",
         "valor": "PARTICULAR"
       }
+    ],
+    "coberturas": [
+      {
+        "codigoCobertura": "15826"
+      },
+      {
+        "codigoCobertura": "15817"
+      },
+      {
+        "codigoCobertura": "15819"
+      }
     ]
   }
 }

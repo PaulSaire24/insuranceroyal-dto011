@@ -19,5 +19,12 @@
     "insuranceModalityType": "01",
     "suggestedModalityIndType": "N",
     "publicationOrderNumber": 3
+  },
+  {
+    "insuranceCompanyModalityId": "533277",
+    "insuranceModalityName": "PLAN FLEXIBLE",
+    "insuranceModalityType": "04",
+    "suggestedModalityIndType": "N",
+    "publicationOrderNumber": 4
   }
 ]
