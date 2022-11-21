@@ -265,5 +265,5 @@
   },
   "validityDays": 30,
   "maturityDate": "2021-02-09",
-  "externalSimulationId": "6756c3b1-affa-4d22-ba25-dc8bbb687bee"
+  "isEndorseRequired": true
 }

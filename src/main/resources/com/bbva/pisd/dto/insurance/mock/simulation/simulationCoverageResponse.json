@@ -4,6 +4,11 @@
       "id":"1001",
       "name": "Reposición de lunas nacionales sin deducible.",
       "isPrincipal": true,
+      "isSelected": true,
+      "coverageCategory": {
+        "id": "01",
+        "name": "VEHICULO"
+      },
       "unit": {
         "unitType": "TEXT",
         "amount": 0.0,
@@ -34,6 +39,11 @@
       "id":"1002",
       "name": "Auxilio mecánico (cambio de llantas, paso de corriente, entre otros) y traslado en grúa.",
       "isPrincipal": true,
+      "isSelected": false,
+      "coverageCategory": {
+        "id": "01",
+        "name": "VEHICULO"
+      },
       "unit": {
         "unitType": "TEXT",
         "amount": 0.0,
@@ -64,6 +74,11 @@
       "id":"1003",
       "name": "Descuentos en Repsol y Baterías Etna Express.",
       "isPrincipal": true,
+      "isSelected": true,
+      "coverageCategory": {
+        "id": "02",
+        "name": "PERSONA"
+      },
       "unit": {
         "unitType": "TEXT",
         "amount": 0.0,
@@ -94,6 +109,11 @@
       "id":"1004",
       "name": "Chofer de reemplazo (con costo por uso).",
       "isPrincipal": true,
+      "isSelected": false,
+      "coverageCategory": {
+        "id": "02",
+        "name": "PERSONA"
+      },
       "unit": {
         "unitType": "TEXT",
         "amount": 0.0,
@@ -124,6 +144,11 @@
       "id":"1005",
       "name": "Reposición de lunas nacionales sin deducible.",
       "isPrincipal": true,
+      "isSelected": true,
+      "coverageCategory": {
+        "id": "01",
+        "name": "VEHICULO"
+      },
       "unit": {
         "unitType": "TEXT",
         "amount": 0.0,

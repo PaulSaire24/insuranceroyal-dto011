@@ -9,6 +9,8 @@ public class CommonDTO extends AbstractDTO {
     private String id;
     private String name;
     private Boolean isPrincipal;
+    private Boolean isSelected;
+    private CoverageCategoryDTO coverageCategory;
     private String number;
     private String description;
     private UnitDTO unit;

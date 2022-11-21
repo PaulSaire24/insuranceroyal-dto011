@@ -31,6 +31,9 @@ public class PISDConstants {
 	public static final String TAG_NRO_PASAJEROS = "NRO_PASAJEROS" ;
 	public static final String UBICACION_LIMA = "LIMA" ;
 	public static final String UBICACION_PROVINCIA = "PROVINCIA" ;
+	public static final String CHANNEL_GLOMO = "pisd.channel.glomo.aap";
+	public static final String CHANNEL_PZONE = "pisd.channel.pzone.aap"; //Open Market
+
 	
 	private PISDConstants() { }
 
