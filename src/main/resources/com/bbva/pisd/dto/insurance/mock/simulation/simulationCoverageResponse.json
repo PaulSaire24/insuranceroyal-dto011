@@ -1,180 +1,178 @@
-{
-  "coverages": [
-    {
-      "id":"1001",
-      "name": "Reposición de lunas nacionales sin deducible.",
-      "isPrincipal": true,
-      "isSelected": true,
-      "coverageCategory": {
-        "id": "01",
-        "name": "VEHICULO"
-      },
-      "unit": {
-        "unitType": "TEXT",
-        "amount": 0.0,
-        "percentage": 0.0,
-        "currency": "",
-        "text": "",
-        "decimal": 0.0
-      },
-      "coverageType": {
-        "id": "INCLUDED",
-        "name": "INCLUIDA"
-      },
-      "coverageGroup": {
-        "id": "15817",
-        "name": "Por robo parcial",
-        "description": "Pérdida Total: Por choque, incendio, vuelco o despiste por Accidente de Tránsito"
-      },
-      "coverageFees": [
-        {
-          "paymentAmount": {
-            "amount": 78.31,
-            "currency": "USD"
-          }
-        }
-      ]
+[
+  {
+    "id":"1001",
+    "name": "Reposición de lunas nacionales sin deducible.",
+    "isPrincipal": true,
+    "isSelected": true,
+    "coverageCategory": {
+      "id": "01",
+      "name": "VEHICULO"
     },
-    {
-      "id":"1002",
-      "name": "Auxilio mecánico (cambio de llantas, paso de corriente, entre otros) y traslado en grúa.",
-      "isPrincipal": true,
-      "isSelected": false,
-      "coverageCategory": {
-        "id": "01",
-        "name": "VEHICULO"
-      },
-      "unit": {
-        "unitType": "TEXT",
-        "amount": 0.0,
-        "percentage": 0.0,
-        "currency": "",
-        "text": "",
-        "decimal": 0.0
-      },
-      "coverageType": {
-        "id": "MANDATORY",
-        "name": "OBLIGATORIA"
-      },
-      "coverageGroup": {
-        "id": "15817",
-        "name": "Por robo parcial",
-        "description": "Pérdida Total: Por choque, incendio, vuelco o despiste por Accidente de Tránsito"
-      },
-      "coverageFees": [
-        {
-          "paymentAmount": {
-            "amount": 103.92,
-            "currency": "USD"
-          }
-        }
-      ]
+    "unit": {
+      "unitType": "TEXT",
+      "amount": 0.0,
+      "percentage": 0.0,
+      "currency": "",
+      "text": "",
+      "decimal": 0.0
     },
-    {
-      "id":"1003",
-      "name": "Descuentos en Repsol y Baterías Etna Express.",
-      "isPrincipal": true,
-      "isSelected": true,
-      "coverageCategory": {
-        "id": "02",
-        "name": "PERSONA"
-      },
-      "unit": {
-        "unitType": "TEXT",
-        "amount": 0.0,
-        "percentage": 0.0,
-        "currency": "",
-        "text": "",
-        "decimal": 0.0
-      },
-      "coverageType": {
-        "id": "MANDATORY",
-        "name": "OBLIGATORIA"
-      },
-      "coverageGroup": {
-        "id": "15816",
-        "name": "Por robo parcial",
-        "description": "Pérdida Total: Por choque, incendio, vuelco o despiste por Accidente de Tránsito"
-      },
-      "coverageFees": [
-        {
-          "paymentAmount": {
-            "amount": 93.28,
-            "currency": "USD"
-          }
-        }
-      ]
+    "coverageType": {
+      "id": "INCLUDED",
+      "name": "INCLUIDA"
     },
-    {
-      "id":"1004",
-      "name": "Chofer de reemplazo (con costo por uso).",
-      "isPrincipal": true,
-      "isSelected": false,
-      "coverageCategory": {
-        "id": "02",
-        "name": "PERSONA"
-      },
-      "unit": {
-        "unitType": "TEXT",
-        "amount": 0.0,
-        "percentage": 0.0,
-        "currency": "",
-        "text": "",
-        "decimal": 0.0
-      },
-      "coverageType": {
-        "id": "OPTIONAL",
-        "name": "OPCIONAL"
-      },
-      "coverageGroup": {
-        "id": "15826",
-        "name": "Por robo parcial",
-        "description": "Desastre natural: se cayó al agua."
-      },
-      "coverageFees": [
-        {
-          "paymentAmount": {
-            "amount": 126.47,
-            "currency": "USD"
-          }
-        }
-      ]
+    "coverageGroup": {
+      "id": "15817",
+      "name": "Por robo parcial",
+      "description": "Pérdida Total: Por choque, incendio, vuelco o despiste por Accidente de Tránsito"
     },
-    {
-      "id":"1005",
-      "name": "Reposición de lunas nacionales sin deducible.",
-      "isPrincipal": true,
-      "isSelected": true,
-      "coverageCategory": {
-        "id": "01",
-        "name": "VEHICULO"
-      },
-      "unit": {
-        "unitType": "TEXT",
-        "amount": 0.0,
-        "percentage": 0.0,
-        "currency": "",
-        "text": "",
-        "decimal": 0.0
-      },
-      "coverageType": {
-        "id": "OPTIONAL",
-        "name": "OPCIONAL"
-      },
-      "coverageGroup": {
-        "id": "15822",
-        "name": "Por robo parcial",
-        "description": "Pérdida Total: Por choque, incendio, vuelco o despiste por Accidente de Tránsito"
-      },
-      "coverageFees": [
-        {
-          "paymentAmount": {
-            "amount": 63.04,
-            "currency": "USD"
-          }
+    "coverageFees": [
+      {
+        "paymentAmount": {
+          "amount": 78.31,
+          "currency": "USD"
         }
-      ]
-    }
+      }
+    ]
+  },
+  {
+    "id":"1002",
+    "name": "Auxilio mecánico (cambio de llantas, paso de corriente, entre otros) y traslado en grúa.",
+    "isPrincipal": true,
+    "isSelected": false,
+    "coverageCategory": {
+      "id": "01",
+      "name": "VEHICULO"
+    },
+    "unit": {
+      "unitType": "TEXT",
+      "amount": 0.0,
+      "percentage": 0.0,
+      "currency": "",
+      "text": "",
+      "decimal": 0.0
+    },
+    "coverageType": {
+      "id": "MANDATORY",
+      "name": "OBLIGATORIA"
+    },
+    "coverageGroup": {
+      "id": "15817",
+      "name": "Por robo parcial",
+      "description": "Pérdida Total: Por choque, incendio, vuelco o despiste por Accidente de Tránsito"
+    },
+    "coverageFees": [
+      {
+        "paymentAmount": {
+          "amount": 103.92,
+          "currency": "USD"
+        }
+      }
+    ]
+  },
+  {
+    "id":"1003",
+    "name": "Descuentos en Repsol y Baterías Etna Express.",
+    "isPrincipal": true,
+    "isSelected": true,
+    "coverageCategory": {
+      "id": "02",
+      "name": "PERSONA"
+    },
+    "unit": {
+      "unitType": "TEXT",
+      "amount": 0.0,
+      "percentage": 0.0,
+      "currency": "",
+      "text": "",
+      "decimal": 0.0
+    },
+    "coverageType": {
+      "id": "MANDATORY",
+      "name": "OBLIGATORIA"
+    },
+    "coverageGroup": {
+      "id": "15816",
+      "name": "Por robo parcial",
+      "description": "Pérdida Total: Por choque, incendio, vuelco o despiste por Accidente de Tránsito"
+    },
+    "coverageFees": [
+      {
+        "paymentAmount": {
+          "amount": 93.28,
+          "currency": "USD"
+        }
+      }
+    ]
+  },
+  {
+    "id":"1004",
+    "name": "Chofer de reemplazo (con costo por uso).",
+    "isPrincipal": true,
+    "isSelected": false,
+    "coverageCategory": {
+      "id": "02",
+      "name": "PERSONA"
+    },
+    "unit": {
+      "unitType": "TEXT",
+      "amount": 0.0,
+      "percentage": 0.0,
+      "currency": "",
+      "text": "",
+      "decimal": 0.0
+    },
+    "coverageType": {
+      "id": "OPTIONAL",
+      "name": "OPCIONAL"
+    },
+    "coverageGroup": {
+      "id": "15826",
+      "name": "Por robo parcial",
+      "description": "Desastre natural: se cayó al agua."
+    },
+    "coverageFees": [
+      {
+        "paymentAmount": {
+          "amount": 126.47,
+          "currency": "USD"
+        }
+      }
+    ]
+  },
+  {
+    "id":"1005",
+    "name": "Reposición de lunas nacionales sin deducible.",
+    "isPrincipal": true,
+    "isSelected": true,
+    "coverageCategory": {
+      "id": "01",
+      "name": "VEHICULO"
+    },
+    "unit": {
+      "unitType": "TEXT",
+      "amount": 0.0,
+      "percentage": 0.0,
+      "currency": "",
+      "text": "",
+      "decimal": 0.0
+    },
+    "coverageType": {
+      "id": "OPTIONAL",
+      "name": "OPCIONAL"
+    },
+    "coverageGroup": {
+      "id": "15822",
+      "name": "Por robo parcial",
+      "description": "Pérdida Total: Por choque, incendio, vuelco o despiste por Accidente de Tránsito"
+    },
+    "coverageFees": [
+      {
+        "paymentAmount": {
+          "amount": 63.04,
+          "currency": "USD"
+        }
+      }
+    ]
+  }
 
-  ]
-}
+]
