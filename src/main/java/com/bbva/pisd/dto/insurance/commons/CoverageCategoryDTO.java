@@ -1,6 +1,10 @@
 package com.bbva.pisd.dto.insurance.commons;
 
-public class CoverageCategoryDTO {
+import java.io.Serializable;
+
+public class CoverageCategoryDTO implements Serializable {
+
+    private static final long serialVersionUID = 1L;
 
     private String id;
     private String name;
