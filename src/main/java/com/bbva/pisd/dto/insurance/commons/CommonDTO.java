@@ -18,41 +18,20 @@ public class CommonDTO extends AbstractDTO {
     private CoverageGroupDTO coverageGroup;
     private List<CoverageFeesDTO> coverageFees;
 
-    public String getId() { return id; }
-    public void setId(String id) { this.id = id; }
-    public String getName() { return name; }
-    public void setName(String name) { this.name = name; }
-    public Boolean getIsPrincipal() { return isPrincipal; }
-    public void setIsPrincipal(Boolean principal) { isPrincipal = principal; }
-    public String getNumber() { return number; }
-    public void setNumber(String number) { this.number = number; }
-    public String getDescription() { return description; }
-    public void setDescription(String description) { this.description = description; }
-    public UnitDTO getUnit() { return unit; }
-    public void setUnit(UnitDTO unit) { this.unit = unit; }
-
-    public CoverageTypeDTO getCoverageType() {
-        return coverageType;
+    public String getId() {
+        return id;
     }
 
-    public void setCoverageType(CoverageTypeDTO coverageType) {
-        this.coverageType = coverageType;
+    public void setId(String id) {
+        this.id = id;
     }
 
-    public CoverageGroupDTO getCoverageGroup() {
-        return coverageGroup;
+    public String getName() {
+        return name;
     }
 
-    public void setCoverageGroup(CoverageGroupDTO coverageGroup) {
-        this.coverageGroup = coverageGroup;
-    }
-
-    public List<CoverageFeesDTO> getCoverageFees() {
-        return coverageFees;
-    }
-
-    public void setCoverageFees(List<CoverageFeesDTO> coverageFees) {
-        this.coverageFees = coverageFees;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public Boolean getPrincipal() {
@@ -77,6 +56,54 @@ public class CommonDTO extends AbstractDTO {
 
     public void setCoverageCategory(CoverageCategoryDTO coverageCategory) {
         this.coverageCategory = coverageCategory;
+    }
+
+    public String getNumber() {
+        return number;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public UnitDTO getUnit() {
+        return unit;
+    }
+
+    public void setUnit(UnitDTO unit) {
+        this.unit = unit;
+    }
+
+    public CoverageTypeDTO getCoverageType() {
+        return coverageType;
+    }
+
+    public void setCoverageType(CoverageTypeDTO coverageType) {
+        this.coverageType = coverageType;
+    }
+
+    public CoverageGroupDTO getCoverageGroup() {
+        return coverageGroup;
+    }
+
+    public void setCoverageGroup(CoverageGroupDTO coverageGroup) {
+        this.coverageGroup = coverageGroup;
+    }
+
+    public List<CoverageFeesDTO> getCoverageFees() {
+        return coverageFees;
+    }
+
+    public void setCoverageFees(List<CoverageFeesDTO> coverageFees) {
+        this.coverageFees = coverageFees;
     }
 
     @Override

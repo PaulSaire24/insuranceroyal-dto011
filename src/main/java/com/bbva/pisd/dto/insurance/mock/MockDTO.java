@@ -18,7 +18,6 @@ import com.bbva.pisd.dto.insurance.bo.registeradditional.ValidateGeneralDataBO;
 import com.bbva.pisd.dto.insurance.bo.simulation.InsuranceSimulationBO;
 
 import com.bbva.pisd.dto.insurance.commons.*;
-
 import com.bbva.pisd.dto.insurance.dao.ConsiderationsDAO;
 import com.bbva.pisd.dto.insurance.dao.InsuranceProductModalityDAO;
 
