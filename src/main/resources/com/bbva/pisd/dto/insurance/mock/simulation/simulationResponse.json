@@ -193,10 +193,6 @@
                 "paymentAmount": {
                   "amount": "33.35",
                   "currency": "USD"
-                },
-                "paymentAmount": {
-                  "amount": "70.4",
-                  "currency": "USD"
                 }
               }
             ]
@@ -222,10 +218,6 @@
               {
                 "paymentAmount": {
                   "amount": "33.82",
-                  "currency": "USD"
-                },
-                "paymentAmount": {
-                  "amount": "70.41",
                   "currency": "USD"
                 }
               }
