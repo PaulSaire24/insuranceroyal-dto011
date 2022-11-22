@@ -55,12 +55,38 @@ public class CommonDTO extends AbstractDTO {
         this.coverageFees = coverageFees;
     }
 
+    public Boolean getPrincipal() {
+        return isPrincipal;
+    }
+
+    public void setPrincipal(Boolean principal) {
+        isPrincipal = principal;
+    }
+
+    public Boolean getSelected() {
+        return isSelected;
+    }
+
+    public void setSelected(Boolean selected) {
+        isSelected = selected;
+    }
+
+    public CoverageCategoryDTO getCoverageCategory() {
+        return coverageCategory;
+    }
+
+    public void setCoverageCategory(CoverageCategoryDTO coverageCategory) {
+        this.coverageCategory = coverageCategory;
+    }
+
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("CommonDTO{");
         sb.append("id='").append(id).append('\'');
         sb.append(", name='").append(name).append('\'');
         sb.append(", isPrincipal=").append(isPrincipal);
+        sb.append(", isSelected=").append(isSelected);
+        sb.append(", coverageCategory=").append(coverageCategory);
         sb.append(", number='").append(number).append('\'');
         sb.append(", description='").append(description).append('\'');
         sb.append(", unit=").append(unit);
