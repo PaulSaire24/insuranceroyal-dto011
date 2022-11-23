@@ -1,22 +1,22 @@
 [
   {
-    "insuranceCompanyModalityId": "532831",
-    "insuranceModalityName": "PLAN FULL COBERTURAS",
-    "insuranceModalityType": "03",
-    "suggestedModalityIndType": "S",
-    "publicationOrderNumber": 1
-  },
-  {
     "insuranceCompanyModalityId": "532857",
     "insuranceModalityName": "PLAN ESTÁNDAR",
     "insuranceModalityType": "02",
     "suggestedModalityIndType": "N",
+    "publicationOrderNumber": 1
+  },
+  {
+    "insuranceCompanyModalityId": "532831",
+    "insuranceModalityName": "PLAN FULL COBERTURAS",
+    "insuranceModalityType": "03",
+    "suggestedModalityIndType": "S",
     "publicationOrderNumber": 2
   },
   {
     "insuranceCompanyModalityId": "533277",
     "insuranceModalityName": "PLAN FLEXIBLE",
-    "insuranceModalityType": "01",
+    "insuranceModalityType": "13",
     "suggestedModalityIndType": "N",
     "publicationOrderNumber": 3
   }
