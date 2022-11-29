@@ -1,8 +1,6 @@
 package com.bbva.pisd.dto.insurance.commons;
 
 import com.bbva.apx.dto.AbstractDTO;
-import org.codehaus.jackson.annotate.JacksonAnnotation;
-import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 import org.codehaus.jackson.annotate.JsonProperty;
 
 import java.util.List;
