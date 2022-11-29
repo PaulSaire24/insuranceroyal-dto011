@@ -7,7 +7,7 @@ public class UninsurableGoodsDTO extends CommonDTO{
         final StringBuilder sb = new StringBuilder("UninsurableGoodsDTO{");
         sb.append("id='").append(this.getId()).append('\'');
         sb.append(", name='").append(this.getName()).append('\'');
-        sb.append(", isPrincipal='").append(this.getPrincipal()).append('\'');
+        sb.append(", isPrincipal='").append(this.getIsPrincipal()).append('\'');
         sb.append('}');
         return sb.toString();
     }
