@@ -3,11 +3,13 @@ package com.bbva.pisd.dto.insurance.bo;
 public class CommonBO {
 
     private String id;
+    private String descripcionCobertura;
     private String name;
     private Double primaBruta;
     private Double primaNeta;
     private String moneda;
     private Double sumaAsegurada;
+
     private String producto;
 
     public String getId() { return id; }
@@ -25,18 +27,26 @@ public class CommonBO {
     public String getProducto() { return producto; }
     public void setProducto(String producto) { this.producto = producto; }
 
+    public String getDescripcionCobertura() {
+        return descripcionCobertura;
+    }
+
+    public void setDescripcionCobertura(String descripcionCobertura) {
+        this.descripcionCobertura = descripcionCobertura;
+    }
+
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Campos Adicionales{");
-        sb.append("id=").append(id);
-        sb.append(", name=").append(name);
+        final StringBuilder sb = new StringBuilder("CommonBO{");
+        sb.append("id='").append(id).append('\'');
+        sb.append(", descripcionCobertura='").append(descripcionCobertura).append('\'');
+        sb.append(", name='").append(name).append('\'');
         sb.append(", primaBruta=").append(primaBruta);
         sb.append(", primaNeta=").append(primaNeta);
         sb.append(", moneda='").append(moneda).append('\'');
         sb.append(", sumaAsegurada=").append(sumaAsegurada);
-        sb.append(", producto=").append(producto);
+        sb.append(", producto='").append(producto).append('\'');
         sb.append('}');
         return sb.toString();
     }
-
 }
