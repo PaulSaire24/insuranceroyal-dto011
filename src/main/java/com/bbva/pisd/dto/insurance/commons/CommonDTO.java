@@ -1,6 +1,7 @@
 package com.bbva.pisd.dto.insurance.commons;
 
 import com.bbva.apx.dto.AbstractDTO;
+import org.codehaus.jackson.annotate.JsonProperty;
 
 import java.util.List;
 
@@ -34,18 +35,14 @@ public class CommonDTO extends AbstractDTO {
         this.name = name;
     }
 
-    public Boolean getPrincipal() {
-        return isPrincipal;
-    }
+    public Boolean getIsPrincipal() { return isPrincipal; }
+    public void setIsPrincipal(Boolean principal) { isPrincipal = principal; }
 
-    public void setPrincipal(Boolean principal) {
-        isPrincipal = principal;
-    }
-
+    @JsonProperty("isSelected")
     public Boolean getSelected() {
         return isSelected;
     }
-
+    @JsonProperty("isSelected")
     public void setSelected(Boolean selected) {
         isSelected = selected;
     }
