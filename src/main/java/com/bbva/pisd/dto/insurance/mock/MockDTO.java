@@ -514,4 +514,12 @@ public final class MockDTO {
         out.setData(listquot);
         return out;
     }
+
+
+    public InsuranceQuotationDetailBO getQuotationDetailResponseRimac() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/creation/rimac/getDetail/quotationDetailResponseRimac.json"),
+                InsuranceQuotationDetailBO.class);
+    }
 }
