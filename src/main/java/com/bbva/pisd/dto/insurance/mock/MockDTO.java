@@ -18,6 +18,7 @@ import com.bbva.pisd.dto.insurance.bo.registeradditional.ValidateGeneralDataBO;
 import com.bbva.pisd.dto.insurance.bo.simulation.InsuranceSimulationBO;
 
 import com.bbva.pisd.dto.insurance.commons.*;
+
 import com.bbva.pisd.dto.insurance.dao.ConsiderationsDAO;
 import com.bbva.pisd.dto.insurance.dao.InsuranceProductModalityDAO;
 
@@ -529,5 +530,10 @@ public final class MockDTO {
                 ConsiderationsDAO[].class));
     }
 
-
+    public InsuranceQuotationDetailBO getQuotationDetailResponseRimac() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/creation/rimac/getDetail/quotationDetailResponseRimac.json"),
+                InsuranceQuotationDetailBO.class);
+    }
 }
