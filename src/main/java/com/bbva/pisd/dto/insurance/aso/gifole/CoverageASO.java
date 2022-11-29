@@ -22,7 +22,7 @@ public class CoverageASO extends CommonFieldsASO{
         sb.append(", id=").append(this.getId()).append('\'');
         sb.append(", name='").append(this.getName()).append('\'');
         sb.append('}');
-        return sb.toString();setCoverageGroup();
+        return sb.toString();
     }
 
 }
