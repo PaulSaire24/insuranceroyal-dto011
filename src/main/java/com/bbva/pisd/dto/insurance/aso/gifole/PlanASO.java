@@ -1,7 +1,5 @@
 package com.bbva.pisd.dto.insurance.aso.gifole;
 
-import java.util.List;
-
 import com.bbva.pisd.dto.insurance.aso.CommonFieldsASO;
 
 public class PlanASO extends CommonFieldsASO {
