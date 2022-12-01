@@ -39,11 +39,13 @@ public class CommonDTO extends AbstractDTO {
     public void setIsPrincipal(Boolean principal) { isPrincipal = principal; }
 
 
-    public Boolean getIsSelected() {
+    @JsonProperty("isSelected")
+    public Boolean getSelected() {
         return isSelected;
     }
 
-    public void setIsSelected(Boolean selected) {
+    @JsonProperty("isSelected")
+    public void setSelected(Boolean selected) {
         isSelected = selected;
     }
 

@@ -1,6 +1,7 @@
 package com.bbva.pisd.dto.insurance.commons;
 
 import com.bbva.apx.dto.AbstractDTO;
+import org.codehaus.jackson.annotate.JsonProperty;
 
 import java.util.List;
 
@@ -26,11 +27,13 @@ public class InsuranceProductModalityDTO extends AbstractDTO {
     public Boolean getIsRecommendBoolean() {return this.isRecommendBoolean;}
     public void setIsRecommendBoolean(Boolean isRecommendBoolean) {this.isRecommendBoolean = isRecommendBoolean;}
 
-    public Boolean getIsNewOffer() {
+    @JsonProperty("isNewOffer")
+    public Boolean getNewOffer() {
         return isNewOffer;
     }
 
-    public void setIsNewOffer(Boolean newOffer) {
+    @JsonProperty("isNewOffer")
+    public void setNewOffer(Boolean newOffer) {
         isNewOffer = newOffer;
     }
 
