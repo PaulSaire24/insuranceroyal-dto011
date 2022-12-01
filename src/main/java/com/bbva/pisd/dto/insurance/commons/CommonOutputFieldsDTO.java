@@ -195,11 +195,11 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
     public VehicleDTO getVehicle() { return vehicle; }
     public void setVehicle(VehicleDTO vehicle) { this.vehicle = vehicle; }
 
-    public Boolean getEndorseRequired() {
+    public Boolean getIsEndorseRequired() {
         return isEndorseRequired;
     }
 
-    public void setEndorseRequired(Boolean endorseRequired) {
+    public void setIsEndorseRequired(Boolean endorseRequired) {
         isEndorseRequired = endorseRequired;
     }
 }

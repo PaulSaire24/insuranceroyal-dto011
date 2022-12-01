@@ -12,7 +12,7 @@
     "condicion": "OBL",
     "porcentajeSeleccionado": "100%",
     "codigoAgrupador": 1904,
-    "tipoAgrupador": "509437",
+    "tipoAgrupador": "VEHICULO",
     "indSeleccionar": "SI",
     "agrupador": {
       "codigoAgrupador": "15817",
@@ -37,7 +37,7 @@
     "condicion": "OBL",
     "porcentajeSeleccionado": "100%",
     "codigoAgrupador": 1904,
-    "tipoAgrupador": "509437",
+    "tipoAgrupador": "PERSONA",
     "indSeleccionar": "SI",
     "agrupador": {
       "codigoAgrupador": "15817",
@@ -62,7 +62,7 @@
     "condicion": "OBL",
     "porcentajeSeleccionado": "100%",
     "codigoAgrupador": 1904,
-    "tipoAgrupador": "509437",
+    "tipoAgrupador": "VEHICULO",
     "indSeleccionar": "SI",
     "agrupador": {
       "codigoAgrupador": "15817",
@@ -87,7 +87,7 @@
     "condicion": "OBL",
     "porcentajeSeleccionado": "100%",
     "codigoAgrupador": 1904,
-    "tipoAgrupador": "509437",
+    "tipoAgrupador": "VEHICULO",
     "indSeleccionar": "SI",
     "agrupador": {
       "codigoAgrupador": "15817",
@@ -112,7 +112,7 @@
     "condicion": "OBL",
     "porcentajeSeleccionado": "100%",
     "codigoAgrupador": 1904,
-    "tipoAgrupador": "509437",
+    "tipoAgrupador": "PERSONA",
     "indSeleccionar": "SI",
     "agrupador": {
       "codigoAgrupador": "15817",
@@ -137,7 +137,7 @@
     "condicion": "OBL",
     "porcentajeSeleccionado": "100%",
     "codigoAgrupador": 1904,
-    "tipoAgrupador": "509437",
+    "tipoAgrupador": "VEHICULO",
     "indSeleccionar": "SI",
     "agrupador": {
       "codigoAgrupador": "15817",
@@ -162,7 +162,7 @@
     "condicion": "OBL",
     "porcentajeSeleccionado": "100%",
     "codigoAgrupador": 1904,
-    "tipoAgrupador": "509437",
+    "tipoAgrupador": "PERSONA",
     "indSeleccionar": "SI",
     "agrupador": {
       "codigoAgrupador": "15817",
@@ -187,7 +187,7 @@
     "condicion": "OBL",
     "porcentajeSeleccionado": "100%",
     "codigoAgrupador": 1904,
-    "tipoAgrupador": "509437",
+    "tipoAgrupador": "VEHICULO",
     "indSeleccionar": "SI",
     "agrupador": {
       "codigoAgrupador": "15817",
@@ -212,7 +212,7 @@
     "condicion": "OBL",
     "porcentajeSeleccionado": "100%",
     "codigoAgrupador": 1904,
-    "tipoAgrupador": "509437",
+    "tipoAgrupador": "VEHICULO",
     "indSeleccionar": "SI",
     "agrupador": {
       "codigoAgrupador": "15817",
@@ -237,7 +237,7 @@
     "condicion": "OBL",
     "porcentajeSeleccionado": "100%",
     "codigoAgrupador": 1904,
-    "tipoAgrupador": "509437",
+    "tipoAgrupador": "PERSONA",
     "indSeleccionar": "SI",
     "agrupador": {
       "codigoAgrupador": "15817",
@@ -262,7 +262,7 @@
     "condicion": "OBL",
     "porcentajeSeleccionado": "100%",
     "codigoAgrupador": 1904,
-    "tipoAgrupador": "509437",
+    "tipoAgrupador": "VEHICULO",
     "indSeleccionar": "SI",
     "agrupador": {
       "codigoAgrupador": "15817",
@@ -287,7 +287,7 @@
     "condicion": "OBL",
     "porcentajeSeleccionado": "100%",
     "codigoAgrupador": 1904,
-    "tipoAgrupador": "509437",
+    "tipoAgrupador": "VEHICULO",
     "indSeleccionar": "SI",
     "agrupador": {
       "codigoAgrupador": "15817",
