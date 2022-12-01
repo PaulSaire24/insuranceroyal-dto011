@@ -1,6 +1,5 @@
 package com.bbva.pisd.dto.insurance.commons;
 
-import org.codehaus.jackson.annotate.JsonProperty;
 
 import java.io.Serializable;
 
