@@ -11,6 +11,7 @@ public class InsuranceProductModalityDTO extends AbstractDTO {
     private String name;
     private String isSelected;
     private String isRecommended;
+    @JsonProperty("isNewOffer")
     private Boolean isNewOffer;
     private Boolean isSelectBoolean;
     private Boolean isRecommendBoolean;

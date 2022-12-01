@@ -1,6 +1,7 @@
 package com.bbva.pisd.dto.insurance.commons;
 
 import com.bbva.apx.dto.AbstractDTO;
+import org.codehaus.jackson.annotate.JsonProperty;
 
 public class InstallmentModalityDTO extends AbstractDTO {
 
@@ -8,6 +9,7 @@ public class InstallmentModalityDTO extends AbstractDTO {
     private InsurancePrimeAmountDTO amount;
     private NotAdjustedAmountDTO notAdjustedAmount;
     private InsuranceFinancingDTO financing;
+    @JsonProperty("flexibilityIndicator")
     private Boolean flexibilityIndicator;
 
     public PaymentPeriodDTO getPeriod() { return period; }
@@ -19,10 +21,12 @@ public class InstallmentModalityDTO extends AbstractDTO {
     public NotAdjustedAmountDTO getNotAdjustedAmount() { return notAdjustedAmount; }
     public void setNotAdjustedAmount(NotAdjustedAmountDTO notAdjustedAmount) { this.notAdjustedAmount = notAdjustedAmount; }
 
+    @JsonProperty("flexibilityIndicator")
     public Boolean getFlexibilityIndicator() {
         return flexibilityIndicator;
     }
 
+    @JsonProperty("flexibilityIndicator")
     public void setFlexibilityIndicator(Boolean flexibilityIndicator) {
         this.flexibilityIndicator = flexibilityIndicator;
     }
