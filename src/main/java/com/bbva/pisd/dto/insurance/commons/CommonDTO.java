@@ -10,6 +10,7 @@ public class CommonDTO extends AbstractDTO {
     private String id;
     private String name;
     private Boolean isPrincipal;
+    @JsonProperty("isSelected")
     private Boolean isSelected;
     private CoverageCategoryDTO coverageCategory;
     private String number;
@@ -38,10 +39,12 @@ public class CommonDTO extends AbstractDTO {
     public Boolean getIsPrincipal() { return isPrincipal; }
     public void setIsPrincipal(Boolean principal) { isPrincipal = principal; }
 
+
     @JsonProperty("isSelected")
     public Boolean getSelected() {
         return isSelected;
     }
+
     @JsonProperty("isSelected")
     public void setSelected(Boolean selected) {
         isSelected = selected;

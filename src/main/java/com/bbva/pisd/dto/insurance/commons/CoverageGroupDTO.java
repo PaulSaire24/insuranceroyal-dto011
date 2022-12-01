@@ -4,9 +4,11 @@ import com.bbva.apx.dto.AbstractDTO;
 
 public class CoverageGroupDTO extends AbstractDTO {
 
+
     private String id;
     private String name;
     private String description;
+
 
     public String getId() {
         return id;

@@ -4,6 +4,7 @@ import com.bbva.apx.dto.AbstractDTO;
 import com.bbva.pisd.dto.insurance.policy.BusinessAgentDTO;
 import com.bbva.pisd.dto.insurance.policy.PaymentAmountDTO;
 import com.bbva.pisd.dto.insurance.simulation.VehicleDTO;
+import org.codehaus.jackson.annotate.JsonProperty;
 
 import java.util.Date;
 import java.util.List;
@@ -74,6 +75,7 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
 
     private VehicleDTO vehicle;
 
+    @JsonProperty("isEndorseRequired")
     private Boolean isEndorseRequired;
 
     public HolderDTO getHolder() { return holder; }
@@ -195,10 +197,12 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
     public VehicleDTO getVehicle() { return vehicle; }
     public void setVehicle(VehicleDTO vehicle) { this.vehicle = vehicle; }
 
+    @JsonProperty("isEndorseRequired")
     public Boolean getEndorseRequired() {
         return isEndorseRequired;
     }
 
+    @JsonProperty("isEndorseRequired")
     public void setEndorseRequired(Boolean endorseRequired) {
         isEndorseRequired = endorseRequired;
     }

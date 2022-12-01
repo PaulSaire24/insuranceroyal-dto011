@@ -7,8 +7,10 @@ import java.math.BigDecimal;
 
 public class PaymentAmount extends AbstractDTO {
 
+
     private BigDecimal amount;
     private String currency;
+
 
     public BigDecimal getAmount() {
         return amount;
