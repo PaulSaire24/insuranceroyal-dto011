@@ -1,0 +1,1525 @@
+{
+  "payload": {
+    "cotizaciones": [
+      {
+        "idCotizacion": "f37d4c6f-f8fa-4a89-97da-3af4a1c29aeb",
+        "diasVigencia": "30",
+        "fechaFinVigencia": "2022-12-31",
+        "indicadorRequiereInspeccion": 1,
+        "plan": {
+          "idPlan": 532844,
+          "descripcionPlan": "BBVA - PLAN BÁSICO",
+          "moneda": "USD",
+          "primaNeta": 565.2,
+          "primaBruta": 686.95,
+          "indicadorInspeccion": "S",
+          "indicadorGPS": "NO",
+          "financiamientos": [
+            {
+              "idFinanciamiento": "a4f50783-ebfc-4d4d-8327-f4a54540527a",
+              "periodicidad": "Mensual",
+              "numeroCuotas": 12,
+              "indicadorDescuentoPrima": "N",
+              "montoNetoFrac": 565.2,
+              "montoPago": 686.95,
+              "fechaInicio": "2022-12-02",
+              "fechaFinal": "2023-12-02",
+              "cuotasFinanciamiento": [
+                {
+                  "cuota": 1,
+                  "monto": 57.25,
+                  "fechaVencimiento": "2022-12-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 2,
+                  "monto": 57.25,
+                  "fechaVencimiento": "2023-01-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 3,
+                  "monto": 57.25,
+                  "fechaVencimiento": "2023-02-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 4,
+                  "monto": 57.25,
+                  "fechaVencimiento": "2023-03-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 5,
+                  "monto": 57.25,
+                  "fechaVencimiento": "2023-04-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 6,
+                  "monto": 57.25,
+                  "fechaVencimiento": "2023-05-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 7,
+                  "monto": 57.25,
+                  "fechaVencimiento": "2023-06-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 8,
+                  "monto": 57.25,
+                  "fechaVencimiento": "2023-07-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 9,
+                  "monto": 57.25,
+                  "fechaVencimiento": "2023-08-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 10,
+                  "monto": 57.25,
+                  "fechaVencimiento": "2023-09-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 11,
+                  "monto": 57.25,
+                  "fechaVencimiento": "2023-10-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 12,
+                  "monto": 57.2,
+                  "fechaVencimiento": "2023-11-02",
+                  "moneda": "USD"
+                }
+              ]
+            }
+          ],
+          "servicios": [
+            {
+              "idServicio": 7886,
+              "descripcionServicio": "AUXILIO MECÁNICO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400
+            },
+            {
+              "idServicio": 15810,
+              "descripcionServicio": "AMBULANCIA POR ACCIDENTE DE TRÁNSITO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400
+            },
+            {
+              "idServicio": 15800,
+              "descripcionServicio": "ASISTENCIA PERSONAL DE PROCURADORES",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400
+            }
+          ],
+          "coberturas": [
+            {
+              "idCobertura": 7792,
+              "descripcionCobertura": "DAÑO PROPIO SOLO PÉRDIDA TOTAL  POR ROBO TOTAL",
+              "primaBruta": 666.94,
+              "primaNeta": 565.2,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "observacionCobertura":"DAÑO PROPIO SOLO PÉRDIDA TOTAL  POR ROBO TOTAL",
+              "condicion":"OBL",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 7864,
+              "descripcionCobertura": "RESP. CIVIL FRENTE A TERCEROS POR ACCIDENTE DE TRÁNSITO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 20000,
+              "observacionCobertura":"RESP. CIVIL FRENTE A TERCEROS POR ACCIDENTE DE TRÁNSITO",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"PERSONA",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 7887,
+              "descripcionCobertura": "GRÚA POR CHOQUE",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "observacionCobertura":"GRÚA POR CHOQUE",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"NO"
+            }
+          ],
+          "deducibles": [
+            {
+              "idDeducible": 2239045,
+              "idComponente": 7792,
+              "descripcionDeducible": "ROBO TOTAL, 15% del MONTO DEL SINIESTRO, Mínimo de US$150.00"
+            },
+            {
+              "idDeducible": 2237284,
+              "idComponente": 7864,
+              "descripcionDeducible": "RESPONSABILIDAD CIVIL FRENTE A TERCEROS POR ACCIDENTE DE TRÁNSITO, 15% del MONTO DEL SINIESTRO, Mínimo de US$150.00"
+            },
+            {
+              "idDeducible": 2239046,
+              "idComponente": 7792,
+              "descripcionDeducible": "REPOSICIÓN DE LUNAS NACIONALES, SIN DEDUCIBLE."
+            }
+          ]
+        }
+      },
+      {
+        "idCotizacion": "f37d4c6f-f8fa-4a89-97da-3af4a1c29aeb",
+        "diasVigencia": "30",
+        "fechaFinVigencia": "2022-12-31",
+        "indicadorRequiereInspeccion": 1,
+        "plan": {
+          "idPlan": 532857,
+          "descripcionPlan": "BBVA - PLAN ESTÁNDAR",
+          "moneda": "USD",
+          "primaNeta": 1067.6,
+          "primaBruta": 1297.56,
+          "indicadorInspeccion": "S",
+          "indicadorGPS": "NO",
+          "financiamientos": [
+            {
+              "idFinanciamiento": "142addf2-6ff3-4ba0-a96c-dee51ca85cfc",
+              "periodicidad": "Mensual",
+              "numeroCuotas": 12,
+              "indicadorDescuentoPrima": "N",
+              "montoNetoFrac": 1067.6,
+              "montoPago": 1297.56,
+              "fechaInicio": "2022-12-02",
+              "fechaFinal": "2023-12-02",
+              "cuotasFinanciamiento": [
+                {
+                  "cuota": 1,
+                  "monto": 108.13,
+                  "fechaVencimiento": "2022-12-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 2,
+                  "monto": 108.13,
+                  "fechaVencimiento": "2023-01-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 3,
+                  "monto": 108.13,
+                  "fechaVencimiento": "2023-02-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 4,
+                  "monto": 108.13,
+                  "fechaVencimiento": "2023-03-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 5,
+                  "monto": 108.13,
+                  "fechaVencimiento": "2023-04-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 6,
+                  "monto": 108.13,
+                  "fechaVencimiento": "2023-05-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 7,
+                  "monto": 108.13,
+                  "fechaVencimiento": "2023-06-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 8,
+                  "monto": 108.13,
+                  "fechaVencimiento": "2023-07-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 9,
+                  "monto": 108.13,
+                  "fechaVencimiento": "2023-08-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 10,
+                  "monto": 108.13,
+                  "fechaVencimiento": "2023-09-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 11,
+                  "monto": 108.13,
+                  "fechaVencimiento": "2023-10-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 12,
+                  "monto": 108.13,
+                  "fechaVencimiento": "2023-11-02",
+                  "moneda": "USD"
+                }
+              ]
+            }
+          ],
+          "servicios": [
+            {
+              "idServicio": 15810,
+              "descripcionServicio": "AMBULANCIA POR ACCIDENTE DE TRÁNSITO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400
+            },
+            {
+              "idServicio": 15800,
+              "descripcionServicio": "ASISTENCIA PERSONAL DE PROCURADORES",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400
+            },
+            {
+              "idServicio": 15802,
+              "descripcionServicio": "CHOFER DE REEMPLAZO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400
+            },
+            {
+              "idServicio": 7886,
+              "descripcionServicio": "AUXILIO MECÁNICO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400
+            }
+          ],
+          "coberturas": [
+            {
+              "idCobertura": 15818,
+              "descripcionCobertura": "POR ROBO TOTAL",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "observacionCobertura":"POR ROBO TOTAL",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15826,
+              "descripcionCobertura": "POR ROBO PARCIAL",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "observacionCobertura":"POR ROBO PARCIAL",
+              "condicion":"OBL",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15817,
+              "descripcionCobertura": "PÉRDIDA TOTAL: POR CHOQUE, INCENDIO, VUELCO O DESPISTE POR ACCIDENTE DE TRANSITO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "observacionCobertura":"PÉRDIDA TOTAL: POR CHOQUE, INCENDIO, VUELCO O DESPISTE POR ACCIDENTE DE TRANSITO",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15816,
+              "descripcionCobertura": "ACCIDENTES DE TRÁNSITO (CHOQUE, VUELCO Y DESPISTE), INCENDIO Y DAÑOS MATERIALES",
+              "primaBruta": 1259.77,
+              "primaNeta": 1067.6,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "observacionCobertura":"ACCIDENTES DE TRÁNSITO (CHOQUE, VUELCO Y DESPISTE), INCENDIO Y DAÑOS MATERIALES",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15819,
+              "descripcionCobertura": "POR ALTERACIÓN DEL ORDEN PÚBLICO Y/O PRIVADO (RIESGOS POLÍTICOS)",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "observacionCobertura":"POR ALTERACIÓN DEL ORDEN PÚBLICO Y/O PRIVADO (RIESGOS POLÍTICOS)",
+              "condicion":"INC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"PERSONA",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15821,
+              "descripcionCobertura": "ACCESORIOS MUSICALES.",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 500,
+              "observacionCobertura":"ACCESORIOS MUSICALES.",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15820,
+              "descripcionCobertura": "RIESGOS DE LA NATURALEZA",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "observacionCobertura":"RIESGOS DE LA NATURALEZA",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"PERSONA",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15813,
+              "descripcionCobertura": "POR OCUPANTES DEL VEHÍCULO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 10000,
+              "observacionCobertura":"POR OCUPANTES DEL VEHÍCULO",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15811,
+              "descripcionCobertura": "POR DAÑOS MATERIALES Y/O PERSONALES A TERCEROS NO OCUPANTES DEL VEHÍCULO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 150000,
+              "observacionCobertura":"POR DAÑOS MATERIALES",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15829,
+              "descripcionCobertura": "GASTOS DE CURACIÓN, POR CADA OCUPANTE",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 1000,
+              "observacionCobertura":"GASTOS DE CURACIÓN, POR CADA OCUPANTE",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15827,
+              "descripcionCobertura": "MUERTE DE OCUPANTES DEL VEHÍCULO, POR CADA OCUPANTE",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 5000,
+              "observacionCobertura":"MUERTE DE OCUPANTES DEL VEHÍCULO, POR CADA OCUPANTE",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15828,
+              "descripcionCobertura": "INVALIDEZ PERMANENTE, POR CADA OCUPANTE",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 5000,
+              "observacionCobertura":"INVALIDEZ PERMANENTE, POR CADA OCUPANTE",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"PERSONA",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 7887,
+              "descripcionCobertura": "GRÚA POR CHOQUE",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "observacionCobertura":"GRÚA POR CHOQUE",
+              "condicion":"INC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"NO"
+            }
+          ],
+          "deducibles": [
+            {
+              "idDeducible": 2239134,
+              "idComponente": 15827,
+              "descripcionDeducible": "MUERTE DE OCUPANTES DEL VEHÍCULO, POR CADA UNO"
+            },
+            {
+              "idDeducible": 2239158,
+              "idComponente": 15828,
+              "descripcionDeducible": "INVALIDEZ DE OCUPANTES DEL VEHÍCULO, POR CADA UNO"
+            },
+            {
+              "idDeducible": 2239235,
+              "idComponente": 15829,
+              "descripcionDeducible": "GASTOS DE CURACIÓN, POR CADA UNO"
+            },
+            {
+              "idDeducible": 2239236,
+              "idComponente": 15811,
+              "descripcionDeducible": "POR DAÑOS MATERIALES Y/O PERSONALES A TERCEROS NO OCUPANTES DEL VEHÍCULO, 15% del MONTO DEL SINIESTRO, Mínimo de US$150.00"
+            },
+            {
+              "idDeducible": 2239237,
+              "idComponente": 15811,
+              "descripcionDeducible": "POR OCUPANTES DEL VEHÍCULO, 15% del MONTO DEL SINIESTRO, Mínimo de US$150.00"
+            },
+            {
+              "idDeducible": 2239162,
+              "idComponente": 15816,
+              "descripcionDeducible": "CONDUCTOR VARÓN MENOR DE 25 AÑOS PARA TALLERES MOVILPLAN, 20% del MONTO DEL SINIESTRO, Mínimo de US$500.00"
+            },
+            {
+              "idDeducible": 2239164,
+              "idComponente": 15816,
+              "descripcionDeducible": "REPOSICIÓN DE LUNAS NACIONALES"
+            },
+            {
+              "idDeducible": 2239181,
+              "idComponente": 15816,
+              "descripcionDeducible": "POR EVENTO EN TALLERES AFILIADOS MULTIMARCA:, 15% del MONTO DEL SINIESTRO, Mínimo de US$150.00"
+            },
+            {
+              "idDeducible": 2239178,
+              "idComponente": 15826,
+              "descripcionDeducible": "ROBO PARCIAL, 15% del MONTO DEL SINIESTRO, Mínimo de US$200.00"
+            },
+            {
+              "idDeducible": 2239675,
+              "idComponente": 15821,
+              "descripcionDeducible": "ACCESORIOS MUSICALES, 10% del MONTO DEL SINIESTRO, Mínimo de US$200.00"
+            }
+          ]
+        }
+      },
+      {
+        "idCotizacion": "f37d4c6f-f8fa-4a89-97da-3af4a1c29aeb",
+        "diasVigencia": "30",
+        "fechaFinVigencia": "2022-12-31",
+        "indicadorRequiereInspeccion": 1,
+        "plan": {
+          "idPlan": 532831,
+          "descripcionPlan": "BBVA - PLAN FULL COBERTURAS",
+          "moneda": "USD",
+          "primaNeta": 1334.5,
+          "primaBruta": 1621.96,
+          "indicadorInspeccion": "S",
+          "indicadorGPS": "NO",
+          "financiamientos": [
+            {
+              "idFinanciamiento": "f56b3760-9987-440b-ace3-e6df6eb7a636",
+              "periodicidad": "Mensual",
+              "numeroCuotas": 12,
+              "indicadorDescuentoPrima": "N",
+              "montoNetoFrac": 1334.5,
+              "montoPago": 1621.96,
+              "fechaInicio": "2022-12-02",
+              "fechaFinal": "2023-12-02",
+              "cuotasFinanciamiento": [
+                {
+                  "cuota": 1,
+                  "monto": 135.16,
+                  "fechaVencimiento": "2022-12-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 2,
+                  "monto": 135.16,
+                  "fechaVencimiento": "2023-01-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 3,
+                  "monto": 135.16,
+                  "fechaVencimiento": "2023-02-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 4,
+                  "monto": 135.16,
+                  "fechaVencimiento": "2023-03-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 5,
+                  "monto": 135.16,
+                  "fechaVencimiento": "2023-04-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 6,
+                  "monto": 135.16,
+                  "fechaVencimiento": "2023-05-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 7,
+                  "monto": 135.16,
+                  "fechaVencimiento": "2023-06-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 8,
+                  "monto": 135.16,
+                  "fechaVencimiento": "2023-07-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 9,
+                  "monto": 135.16,
+                  "fechaVencimiento": "2023-08-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 10,
+                  "monto": 135.16,
+                  "fechaVencimiento": "2023-09-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 11,
+                  "monto": 135.16,
+                  "fechaVencimiento": "2023-10-02",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 12,
+                  "monto": 135.2,
+                  "fechaVencimiento": "2023-11-02",
+                  "moneda": "USD"
+                }
+              ]
+            }
+          ],
+          "servicios": [
+            {
+              "idServicio": 7886,
+              "descripcionServicio": "AUXILIO MECÁNICO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400
+            },
+            {
+              "idServicio": 15810,
+              "descripcionServicio": "AMBULANCIA POR ACCIDENTE DE TRÁNSITO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400
+            },
+            {
+              "idServicio": 15800,
+              "descripcionServicio": "ASISTENCIA PERSONAL DE PROCURADORES",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400
+            },
+            {
+              "idServicio": 15802,
+              "descripcionServicio": "CHOFER DE REEMPLAZO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400
+            },
+            {
+              "idServicio": 15803,
+              "descripcionServicio": "VEHÍCULO DE REEMPLAZO POR CHOQUE",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400
+            },
+            {
+              "idServicio": 15804,
+              "descripcionServicio": "VEHÍCULO DE REEMPLAZO POR ROBO TOTAL",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400
+            }
+          ],
+          "coberturas": [
+            {
+              "idCobertura": 15818,
+              "descripcionCobertura": "POR ROBO TOTAL",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "observacionCobertura":"POR ROBO TOTAL",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15826,
+              "descripcionCobertura": "POR ROBO PARCIAL",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "observacionCobertura":"POR ROBO PARCIAL",
+              "condicion":"OBL",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15817,
+              "descripcionCobertura": ".PÉRDIDA TOTAL: POR CHOQUE, INCENDIO, VUELCO O DESPISTE POR ACCIDENTE DE TRANSITO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "observacionCobertura":"PÉRDIDA TOTAL",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15816,
+              "descripcionCobertura": "ACCIDENTES DE TRÁNSITO (CHOQUE, VUELCO Y DESPISTE), INCENDIO Y DAÑOS MATERIALES",
+              "primaBruta": 1574.71,
+              "primaNeta": 1334.5,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "observacionCobertura":"ACCIDENTES DE TRÁNSITO",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15819,
+              "descripcionCobertura": "POR ALTERACIÓN DEL ORDEN PÚBLICO Y/O PRIVADO (RIESGOS POLÍTICOS)",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "observacionCobertura":"POR ALTERACIÓN DEL ORDEN PÚBLICO",
+              "condicion":"INC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"PERSONA",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15821,
+              "descripcionCobertura": "ACCESORIOS MUSICALES.",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 1000,
+              "observacionCobertura":"ACCESORIOS MUSICALES",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15820,
+              "descripcionCobertura": "RIESGOS DE LA NATURALEZA",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "observacionCobertura":"RIESGOS DE LA NATURALEZA",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15824,
+              "descripcionCobertura": "PÉRDIDA DE LLAVES",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 500,
+              "observacionCobertura":"PÉRDIDA DE LLAVES",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"PERSONA",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15822,
+              "descripcionCobertura": "OTROS ACCESORIOS NO MUSICALES",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 1500,
+              "observacionCobertura":"OTROS ACCESORIOS NO MUSICALES",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"PERSONA",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15813,
+              "descripcionCobertura": "POR OCUPANTES DEL VEHÍCULO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 30000,
+              "observacionCobertura":"POR OCUPANTES DEL VEHÍCULO",
+              "condicion":"INC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"PERSONA",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15811,
+              "descripcionCobertura": "POR DAÑOS MATERIALES Y/O PERSONALES A TERCEROS NO OCUPANTES DEL VEHÍCULO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 200000,
+              "observacionCobertura":"POR DAÑOS MATERIALES Y/O PERSONALES",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15829,
+              "descripcionCobertura": "GASTOS DE CURACIÓN, POR CADA OCUPANTE",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 5000,
+              "observacionCobertura":"GASTOS DE CURACIÓN",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"PERSONA",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15828,
+              "descripcionCobertura": "INVALIDEZ PERMANENTE, POR CADA OCUPANTE",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 25000,
+              "observacionCobertura":"INVALIDEZ PERMANENTE, POR CADA OCUPANTE",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15827,
+              "descripcionCobertura": "MUERTE DE OCUPANTES DEL VEHÍCULO, POR CADA OCUPANTE",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 25000,
+              "observacionCobertura":"MUERTE DE OCUPANTES DEL VEHÍCULO, POR CADA OCUPANTE",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"PERSONA",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 7887,
+              "descripcionCobertura": "GRÚA POR CHOQUE",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "observacionCobertura":"GRÚA POR CHOQUE",
+              "condicion":"INC",
+              "porcentajeSeleccionado": "0%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"NO"
+            }
+          ],
+          "deducibles": [
+            {
+              "idDeducible": 2239146,
+              "idComponente": 15827,
+              "descripcionDeducible": "MUERTE DE OCUPANTES DEL VEHÍCULO, POR CADA UNO"
+            },
+            {
+              "idDeducible": 2239147,
+              "idComponente": 15828,
+              "descripcionDeducible": "INVALIDEZ DE OCUPANTES DEL VEHÍCULO, POR CADA UNO"
+            },
+            {
+              "idDeducible": 2239150,
+              "idComponente": 15829,
+              "descripcionDeducible": "GASTOS DE CURACIÓN, POR CADA UNO"
+            },
+            {
+              "idDeducible": 2239251,
+              "idComponente": 15816,
+              "descripcionDeducible": "SINIESTROS ATENDIDOS  EN RED DE TALLERES CONCESIONARIOS, 15% del MONTO DEL SINIESTRO, Mínimo de US$150.00"
+            },
+            {
+              "idDeducible": 2239247,
+              "idComponente": 15816,
+              "descripcionDeducible": "SINIESTROS ATENDIDOS EN RED DE TALLERES AFILIADOS MULTIMARCA, 10% del MONTO DEL SINIESTRO, Mínimo de US$150.00"
+            },
+            {
+              "idDeducible": 2239137,
+              "idComponente": 15826,
+              "descripcionDeducible": "ROBO PARCIAL, 15% del MONTO DEL SINIESTRO, Mínimo de US$150.00"
+            },
+            {
+              "idDeducible": 2239246,
+              "idComponente": 15816,
+              "descripcionDeducible": "POR EVENTO, MARCA MERCEDES BENZ, BMW, AUDI: EN TALLERES AFILIADOS, 20% del MONTO DEL SINIESTRO, Mínimo de US$200.00"
+            },
+            {
+              "idDeducible": 2239250,
+              "idComponente": 15816,
+              "descripcionDeducible": "MERCEDES BENZ, BMW, AUDI, POR EVENTO EN TALLERES AFILIADOS MULTIMARCA:, 15% del MONTO DEL SINIESTRO, Mínimo de US$150.00"
+            },
+            {
+              "idDeducible": 2239248,
+              "idComponente": 15811,
+              "descripcionDeducible": "POR DAÑOS MATERIALES Y/O PERSONALES A TERCEROS NO OCUPANTES DEL VEHÍCULO, 15% del MONTO DEL SINIESTRO, Mínimo de US$150.00"
+            },
+            {
+              "idDeducible": 2239249,
+              "idComponente": 15811,
+              "descripcionDeducible": "POR OCUPANTES DEL VEHÍCULO, 15% del MONTO DEL SINIESTRO, Mínimo de US$150.00"
+            },
+            {
+              "idDeducible": 2239698,
+              "idComponente": 15816,
+              "descripcionDeducible": "CONDUCTOR VARÓN MENOR DE 25 AÑOS, 20% del MONTO DEL SINIESTRO, Mínimo de US$500.00"
+            },
+            {
+              "idDeducible": 2239240,
+              "idComponente": 15816,
+              "descripcionDeducible": "REPOSICIÓN DE LUNAS NACIONALES"
+            },
+            {
+              "idDeducible": 2239243,
+              "idComponente": 15821,
+              "descripcionDeducible": "ACCESORIOS MUSICALES, 10% del MONTO DEL SINIESTRO, Mínimo de US$150.00"
+            },
+            {
+              "idDeducible": 2239242,
+              "idComponente": 15816,
+              "descripcionDeducible": "DEDUCIBLE PARA SUB LIMITE  DE ATENCIÒN US$ 400.00"
+            },
+            {
+              "idDeducible": 2239245,
+              "idComponente": 15816,
+              "descripcionDeducible": "OTROS RIESGOS NO ESPECIFICADOS SEGÚN CLÁUSULA CORRESPONDIENTE"
+            }
+          ]
+        }
+      },
+      {
+        "idCotizacion": "f37d4c6f-f8fa-4a89-97da-3af4a1c29aeb",
+        "diasVigencia": "30",
+        "fechaFinVigencia": "2022-12-29",
+        "indicadorRequiereInspeccion": 0,
+        "plan": {
+          "idPlan": 533277,
+          "descripcionPlan": "PLAN PREMIER FLEXIBLE ROYAL- MVP 01 (V4) - CON SCORING POR COBERTURA",
+          "moneda": "USD",
+          "primaNeta": 442.74,
+          "primaBruta": 538.1,
+          "indicadorInspeccion": "S",
+          "indicadorGPS": "NO",
+          "financiamientos": [
+            {
+              "idFinanciamiento": "5ef49788-5aaf-4be7-97d2-6dafd55625c9",
+              "periodicidad": "Mensual",
+              "numeroCuotas": 12,
+              "indicadorDescuentoPrima": "N",
+              "montoNetoFrac": 442.74,
+              "montoPago": 538.1,
+              "fechaInicio": "2022-11-30",
+              "fechaFinal": "2023-11-30",
+              "cuotasFinanciamiento": [
+                {
+                  "cuota": 1,
+                  "monto": 44.84,
+                  "fechaVencimiento": "2022-11-30",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 2,
+                  "monto": 44.84,
+                  "fechaVencimiento": "2022-12-30",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 3,
+                  "monto": 44.84,
+                  "fechaVencimiento": "2023-01-30",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 4,
+                  "monto": 44.84,
+                  "fechaVencimiento": "2023-02-28",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 5,
+                  "monto": 44.84,
+                  "fechaVencimiento": "2023-03-30",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 6,
+                  "monto": 44.84,
+                  "fechaVencimiento": "2023-04-30",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 7,
+                  "monto": 44.84,
+                  "fechaVencimiento": "2023-05-30",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 8,
+                  "monto": 44.84,
+                  "fechaVencimiento": "2023-06-30",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 9,
+                  "monto": 44.84,
+                  "fechaVencimiento": "2023-07-30",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 10,
+                  "monto": 44.84,
+                  "fechaVencimiento": "2023-08-30",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 11,
+                  "monto": 44.84,
+                  "fechaVencimiento": "2023-09-30",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 12,
+                  "monto": 44.86,
+                  "fechaVencimiento": "2023-10-30",
+                  "moneda": "USD"
+                }
+              ]
+            }
+          ],
+          "servicios": [
+            {
+              "idServicio": 15809,
+              "descripcionServicio": "AUXILIO MECÁNICO / GRÚA:  LIMA - PROVINCIA",
+              "primaBruta": 1.97,
+              "primaNeta": 1.67,
+              "moneda": "USD",
+              "sumaAsegurada": 31400
+            },
+            {
+              "idServicio": 15810,
+              "descripcionServicio": "AMBULANCIA POR ACCIDENTE DE TRÁNSITO",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400
+            },
+            {
+              "idServicio": 7883,
+              "descripcionServicio": "ASISTENCIA PERSONAL DE PROCURADORES",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400
+            },
+            {
+              "idServicio": 15802,
+              "descripcionServicio": "CHOFER DE REEMPLAZO",
+              "primaBruta": 1.97,
+              "primaNeta": 1.67,
+              "moneda": "USD",
+              "sumaAsegurada": 31400
+            },
+            {
+              "idServicio": 15803,
+              "descripcionServicio": "VEHÍCULO DE REEMPLAZO POR CHOQUE",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400
+            },
+            {
+              "idServicio": 15804,
+              "descripcionServicio": "VEHÍCULO DE REEMPLAZO POR ROBO TOTAL",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400
+            }
+          ],
+          "coberturas": [
+            {
+              "idCobertura": 15826,
+              "descripcionCobertura": "POR ROBO PARCIAL",
+              "primaBruta": 5.87,
+              "primaNeta": 4.97,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "observacionCobertura":"POR ROBO PARCIAL",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "100%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"SI"
+            },
+            {
+              "idCobertura": 15817,
+              "descripcionCobertura": "PÉRDIDA TOTAL: POR CHOQUE, INCENDIO, VUELCO O DESPISTE POR ACCIDENTE DE TRANSITO",
+              "primaBruta": 11.42,
+              "primaNeta": 9.68,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "observacionCobertura":"PÉRDIDA TOTAL: POR CHOQUE, INCENDIO, VUELCO O DESPISTE POR ACCIDENTE DE TRANSITO",
+              "condicion":"INC",
+              "porcentajeSeleccionado": "100%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"SI"
+            },
+            {
+              "idCobertura": 15818,
+              "descripcionCobertura": "POR ROBO TOTAL",
+              "primaBruta": 40.14,
+              "primaNeta": 34.02,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "observacionCobertura":"POR ROBO TOTAL",
+              "condicion":"OBL",
+              "porcentajeSeleccionado": "100%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"SI"
+            },
+            {
+              "idCobertura": 15819,
+              "descripcionCobertura": "POR ALTERACIÓN DEL ORDEN PÚBLICO Y/O PRIVADO (RIESGOS POLÍTICOS)",
+              "primaBruta": 2.78,
+              "primaNeta": 2.35,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "observacionCobertura":"POR ALTERACIÓN DEL ORDEN PÚBLICO Y/O PRIVADO (RIESGOS POLÍTICOS)",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "100%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15820,
+              "descripcionCobertura": "RIESGOS DE LA NATURALEZA",
+              "primaBruta": 5.87,
+              "primaNeta": 4.97,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "observacionCobertura":"RIESGOS DE LA NATURALEZA",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "100%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"SI"
+            },
+            {
+              "idCobertura": 15823,
+              "descripcionCobertura": "AUSENCIA DE CONTROL",
+              "primaBruta": 3.93,
+              "primaNeta": 3.33,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "observacionCobertura":"AUSENCIA DE CONTROL",
+              "condicion":"OBL",
+              "porcentajeSeleccionado": "100%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"SI"
+            },
+            {
+              "idCobertura": 15840,
+              "descripcionCobertura": "REPOSICIÓN POR ROTURA DE LUNAS",
+              "primaBruta": 1.24,
+              "primaNeta": 1.05,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "observacionCobertura":"REPOSICIÓN POR ROTURA DE LUNAS",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "100%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 116006,
+              "descripcionCobertura": "PÉRDIDA PARCIAL: POR CHOQUE, INCENDIO, VUELCO O DESPISTE POR ACCIDENTE DE TRÁNSITO",
+              "primaBruta": 23.99,
+              "primaNeta": 20.33,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "observacionCobertura":"PÉRDIDA PARCIAL: POR CHOQUE, INCENDIO, VUELCO O DESPISTE POR ACCIDENTE DE TRÁNSITO",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "100%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15827,
+              "descripcionCobertura": "MUERTE DE OCUPANTES DEL VEHÍCULO, POR CADA OCUPANTE",
+              "primaBruta": 0.93,
+              "primaNeta": 0.79,
+              "moneda": "USD",
+              "sumaAsegurada": 5000,
+              "observacionCobertura":"MUERTE DE OCUPANTES DEL VEHÍCULO, POR CADA OCUPANTE",
+              "condicion":"INC",
+              "porcentajeSeleccionado": "100%",
+              "tipoAgrupador":"PERSONA",
+              "indSeleccionar":"NO",
+              "codigoAgrupador": "3",
+              "agrupador": {
+                "codigoAgrupador": "3",
+                "nombreAgrupador": "Accidentes personales",
+                "descripcionAgrupador": "DAÑOS A PERSONAS OCUPANTES DE MI VEHÍCULO",
+                "porcentajes": [
+                  0,
+                  100
+                ],
+                "periodicidad": "Mensual",
+                "primaBruta": 3.41,
+                "primaNeta": 2.89
+              }
+            },
+            {
+              "idCobertura": 15828,
+              "descripcionCobertura": "INVALIDEZ PERMANENTE, POR CADA OCUPANTE",
+              "primaBruta": 1.24,
+              "primaNeta": 1.05,
+              "moneda": "USD",
+              "sumaAsegurada": 5000,
+              "observacionCobertura":"INVALIDEZ PERMANENTE, POR CADA OCUPANTE",
+              "condicion":"INC",
+              "porcentajeSeleccionado": "100%",
+              "tipoAgrupador":"PERSONA",
+              "indSeleccionar":"NO",
+              "codigoAgrupador": "3",
+              "agrupador": {
+                "codigoAgrupador": "3",
+                "nombreAgrupador": "Accidentes personales",
+                "descripcionAgrupador": "DAÑOS A PERSONAS OCUPANTES DE MI VEHÍCULO",
+                "porcentajes": [
+                  0,
+                  100
+                ],
+                "periodicidad": "Mensual",
+                "primaBruta": 3.41,
+                "primaNeta": 2.89
+              }
+            },
+            {
+              "idCobertura": 15830,
+              "descripcionCobertura": "GASTOS DE SEPELIO,  POR CADA OCUPANTE",
+              "primaBruta": 0.31,
+              "primaNeta": 0.26,
+              "moneda": "USD",
+              "sumaAsegurada": 1000,
+              "observacionCobertura":"GASTOS DE SEPELIO,  POR CADA OCUPANTE",
+              "condicion":"INC",
+              "porcentajeSeleccionado": "100%",
+              "codigoAgrupador": "3",
+              "tipoAgrupador":"PERSONA",
+              "indSeleccionar":"NO",
+              "agrupador": {
+                "codigoAgrupador": "3",
+                "nombreAgrupador": "Accidentes personales",
+                "descripcionAgrupador": "DAÑOS A PERSONAS OCUPANTES DE MI VEHÍCULO",
+                "porcentajes": [
+                  0,
+                  100
+                ],
+                "periodicidad": "Mensual",
+                "primaBruta": 3.41,
+                "primaNeta": 2.89
+              }
+            },
+            {
+              "idCobertura": 15811,
+              "descripcionCobertura": "POR DAÑOS MATERIALES Y/O PERSONALES A TERCEROS NO OCUPANTES DEL VEHÍCULO",
+              "primaBruta": 18.16,
+              "primaNeta": 15.39,
+              "moneda": "USD",
+              "sumaAsegurada": 100000,
+              "observacionCobertura":"POR DAÑOS MATERIALES Y/O PERSONALES A TERCEROS NO OCUPANTES DEL VEHÍCULO",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "100%",
+              "tipoAgrupador":"PERSONA",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15813,
+              "descripcionCobertura": "POR OCUPANTES DEL VEHÍCULO",
+              "primaBruta": 2.16,
+              "primaNeta": 1.83,
+              "moneda": "USD",
+              "sumaAsegurada": 10000,
+              "observacionCobertura":"POR OCUPANTES DEL VEHÍCULO",
+              "condicion":"INC",
+              "porcentajeSeleccionado": "100%",
+              "tipoAgrupador":"PERSONA",
+              "indSeleccionar":"SI"
+            },
+            {
+              "idCobertura": 15815,
+              "descripcionCobertura": "POR AUSENCIA DE CONTROL",
+              "primaBruta": 3.93,
+              "primaNeta": 3.33,
+              "moneda": "USD",
+              "sumaAsegurada": 50000,
+              "observacionCobertura":"POR AUSENCIA DE CONTROL",
+              "condicion":"INC",
+              "porcentajeSeleccionado": "100%",
+              "tipoAgrupador":"PERSONA",
+              "indSeleccionar":"NO"
+            },
+            {
+              "idCobertura": 15821,
+              "descripcionCobertura": "ACCESORIOS MUSICALES",
+              "primaBruta": 1.85,
+              "primaNeta": 1.57,
+              "moneda": "USD",
+              "sumaAsegurada": 500,
+              "observacionCobertura":"ACCESORIOS MUSICALES",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "100%",
+              "tipoAgrupador":"VEHICULO",
+              "indSeleccionar":"NO"
+            }
+          ],
+          "deducibles": [
+            {
+              "idDeducible": 2240255,
+              "idComponente": 15818,
+              "descripcionDeducible": "PÉRDIDA TOTAL POR ROBO TOTAL"
+            },
+            {
+              "idDeducible": 2240247,
+              "idComponente": 15827,
+              "descripcionDeducible": "MUERTE DE OCUPANTES DEL VEHÍCULO, POR CADA UNO"
+            },
+            {
+              "idDeducible": 2240254,
+              "idComponente": 15828,
+              "descripcionDeducible": "INVALIDEZ DE OCUPANTES DEL VEHÍCULO, POR CADA UNO"
+            },
+            {
+              "idDeducible": 2240244,
+              "idComponente": 15829,
+              "descripcionDeducible": "GASTOS DE CURACIÓN, POR CADA UNO"
+            },
+            {
+              "idDeducible": 2240258,
+              "idComponente": 15830,
+              "descripcionDeducible": "GASTOS DE SEPELIO,  POR CADA UNO"
+            },
+            {
+              "idDeducible": 2240242,
+              "idComponente": 15804,
+              "descripcionDeducible": "VEHÍCULO DE REEMPLAZO, US$100.00"
+            }
+          ]
+        }
+      }
+    ],
+    "producto": "VEHICULAR",
+    "moneda": "USD",
+    "planes": [
+      532844,
+      532857,
+      532831,
+      533277
+    ],
+    "datosParticulares": [
+      {
+        "etiqueta": "PLACA_DE_RODAJE",
+        "codigo": "",
+        "valor": "TGY564"
+      },
+      {
+        "codigo": "",
+        "etiqueta": "WEB_ANOS_DE_FABRICACION",
+        "valor": "2018"
+      },
+      {
+        "codigo": "",
+        "etiqueta": "SUMA_ASEGURADA",
+        "valor": "31400.00"
+      },
+      {
+        "codigo": "",
+        "etiqueta": "UBICACION",
+        "valor": "LIMA"
+      },
+      {
+        "codigo": "",
+        "etiqueta": "FACTOR CAMPANA",
+        "valor": "1"
+      },
+      {
+        "codigo": "",
+        "etiqueta": "TIER",
+        "valor": "1"
+      },
+      {
+        "codigo": "",
+        "etiqueta": "FACTOR BANCARIO",
+        "valor": "1"
+      },
+      {
+        "codigo": "",
+        "etiqueta": "TIMON_CAMBIADO_30",
+        "valor": "NO"
+      },
+      {
+        "codigo": "",
+        "etiqueta": "COMBUSTIBLE_GAS",
+        "valor": "NO"
+      },
+      {
+        "codigo": "001",
+        "etiqueta": "USOS_DE_VEHICULOS",
+        "valor": "PARTICULAR"
+      },
+      {
+        "codigo": "",
+        "etiqueta": "OFICINA_COTIZACION",
+        "valor": "0814"
+      },
+      {
+        "codigo": "",
+        "etiqueta": "REGALO",
+        "valor": "GRATIS SOAT"
+      },
+      {
+        "codigo": "",
+        "etiqueta": "ASISTENCIAS_SALUD",
+        "valor": "NO"
+      },
+      {
+        "codigo": "",
+        "etiqueta": "ACC._TRANSITO_BICI_MOTO_SCOOTER",
+        "valor": "NO"
+      },
+      {
+        "codigo": "",
+        "etiqueta": "RC_TERCEROS_BICI_SCOOTER_MOTO",
+        "valor": "NO"
+      },
+      {
+        "codigo": "",
+        "etiqueta": "TALLER_CONCESIONARIO",
+        "valor": "NO"
+      },
+      {
+        "codigo": "0001",
+        "etiqueta": "SCORING_RC_TERCEROS",
+        "valor": "RC010"
+      },
+      {
+        "codigo": "0001",
+        "etiqueta": "SCORING_ROBO_TOTAL",
+        "valor": "RT010"
+      },
+      {
+        "codigo": "0001",
+        "etiqueta": "SCORING_PERDIDA_PARCIAL",
+        "valor": "PP010"
+      },
+      {
+        "etiqueta": "MARCAS_DE_VEHICULOS",
+        "codigo": "137",
+        "valor": "FORD"
+      },
+      {
+        "etiqueta": "MODELOS_DE_VEHICULOS",
+        "codigo": "137063",
+        "valor": "ECOSPORT"
+      },
+      {
+        "etiqueta": "TIPOS_DE_VEHICULOS",
+        "codigo": "003007",
+        "valor": "RURAL"
+      },
+      {
+        "etiqueta": "CLASES_DE_VEHICULOS",
+        "codigo": "003",
+        "valor": "CAMIONETA"
+      }
+    ],
+    "financiamiento": [
+      {
+        "financiamiento": 24281,
+        "fechaInicio": "2022-11-30",
+        "numeroCuotas": 12
+      }
+    ]
+  }
+}
