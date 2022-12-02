@@ -70,6 +70,15 @@ public class SimulacionPayloadBO {
     public void setCotizaciones(List<CotizacionBO> cotizaciones) { this.cotizaciones = cotizaciones; }
     public List<Long> getPlanes() { return planes; }
     public void setPlanes(List<Long> planes) { this.planes = planes; }
+
+    public EndosatarioBO getEndosatario() {
+        return endosatario;
+    }
+
+    public void setEndosatario(EndosatarioBO endosatario) {
+        this.endosatario = endosatario;
+    }
+
     public List<DatoParticularBO> getDatosParticulares() { return datosParticulares; }
     public void setDatosParticulares(List<DatoParticularBO> datosParticulares) { this.datosParticulares = datosParticulares; }
     public List<PlanFinanciamientoBO> getFinanciamiento() { return financiamiento; }
