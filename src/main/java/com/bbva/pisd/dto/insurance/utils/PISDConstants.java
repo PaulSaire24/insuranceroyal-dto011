@@ -33,10 +33,20 @@ public class PISDConstants {
 	public static final String UBICACION_PROVINCIA = "PROVINCIA" ;
 	public static final String CHANNEL_GLOMO = "pisd.channel.glomo.aap";
 	public static final String CHANNEL_PZONE = "pisd.channel.pzone.aap"; //Open Market
-	public static final String INSURANCE_MODALITY_TYPE_PLAN_FLEXIBLE = "13";
-	public static final String INSURANCE_MODALITY_NAME_PLAN_FLEXIBLE_CONTAINS = "flexible";
-	public static final String ENDOSATARIO_RUC = "20100130204";
-	public static final String ENDOSATARIO_PORCENTAJE = "100";
+
+	public static final class ProductModality{
+		private ProductModality(){}
+
+		public static final String TYPE_PLAN_FLEXIBLE = "04";
+		public static final String NAME_PLAN_FLEXIBLE = "flexible";
+	}
+
+	public static final class Endosatario{
+		private Endosatario(){}
+
+		public static final String RUC = "20100130204";
+		public static final String PORCENTAJE = "100";
+	}
 
 	
 	private PISDConstants() { }

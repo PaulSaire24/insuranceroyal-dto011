@@ -551,4 +551,18 @@ public final class MockDTO {
                 InsuranceSimulationBO.class);
     }
 
+    public List<InsuranceProductModalityDAO> getProductModalitiesWithPlanFlexible() throws IOException {
+        return Arrays.asList(objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/simulation/productModalitiesWithFlexible.json"),
+                InsuranceProductModalityDAO[].class));
+    }
+
+    public InsuranceSimulationBO getInsuranceSimulationRequestRimacWithEndosatario() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/simulation/simulationRequestRimacWithEndosatario.json"),
+                InsuranceSimulationBO.class);
+    }
+
 }
