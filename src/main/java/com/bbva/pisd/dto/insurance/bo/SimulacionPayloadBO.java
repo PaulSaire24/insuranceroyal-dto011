@@ -14,6 +14,7 @@ public class SimulacionPayloadBO {
     private String moneda;
     private List<CotizacionBO> cotizaciones;
     private List<Long> planes;
+    private EndosatarioBO endosatario;
     private List<DatoParticularBO> datosParticulares;
     private List<PlanFinanciamientoBO> financiamiento;
     private List<Integer> periodosConDescuentoPrima;
@@ -98,6 +99,7 @@ public class SimulacionPayloadBO {
         sb.append(", moneda='").append(moneda).append('\'');
         sb.append(", cotizaciones=").append(cotizaciones);
         sb.append(", planes=").append(planes);
+        sb.append(", endosatario=").append(endosatario);
         sb.append(", datosParticulares=").append(datosParticulares);
         sb.append(", financiamiento=").append(financiamiento);
         sb.append(", periodosConDescuentoPrima=").append(periodosConDescuentoPrima);
