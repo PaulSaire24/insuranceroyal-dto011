@@ -4,27 +4,31 @@
     "insuranceModalityName": "PLAN ESTANDAR",
     "insuranceModalityType": "02",
     "suggestedModalityIndType": "N",
-    "publicationOrderNumber": 1
+    "publicationOrderNumber": 1,
+    "flexiblePlanIndicator": "N"
   },
   {
     "insuranceCompanyModalityId": "532831",
     "insuranceModalityName": "PLAN FULL COBERTURAS",
     "insuranceModalityType": "03",
     "suggestedModalityIndType": "S",
-    "publicationOrderNumber": 2
+    "publicationOrderNumber": 2,
+    "flexiblePlanIndicator": "N"
   },
   {
     "insuranceCompanyModalityId": "532844",
     "insuranceModalityName": "PLAN BASICO",
     "insuranceModalityType": "01",
     "suggestedModalityIndType": "N",
-    "publicationOrderNumber": 3
+    "publicationOrderNumber": 3,
+    "flexiblePlanIndicator": "N"
   },
   {
     "insuranceCompanyModalityId": "533277",
     "insuranceModalityName": "PLAN FLEXIBLE",
     "insuranceModalityType": "04",
     "suggestedModalityIndType": "N",
-    "publicationOrderNumber": 4
+    "publicationOrderNumber": 4,
+    "flexiblePlanIndicator": "S"
   }
 ]
