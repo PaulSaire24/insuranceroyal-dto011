@@ -22,7 +22,6 @@ public class InsuranceProductModalityDTO extends AbstractDTO {
     private List<ExclusionDTO> exclusions;
     private List<DeductibleDTO> deductibles;
 
-
     public Boolean getIsSelectBoolean() {return this.isSelectBoolean;}
     public void setIsSelectBoolean(Boolean isSelectBoolean) {this.isSelectBoolean = isSelectBoolean;}
     public Boolean getIsRecommendBoolean() {return this.isRecommendBoolean;}
@@ -37,6 +36,14 @@ public class InsuranceProductModalityDTO extends AbstractDTO {
     public void setNewOffer(Boolean newOffer) {
         isNewOffer = newOffer;
     }
+
+
+    public InsuranceProductModalityDTO(){}
+
+    public InsuranceProductModalityDTO(String id){
+        this.id = id;
+    }
+
 
     public String getId() { return id; }
     public void setId(String id) { this.id = id; }
