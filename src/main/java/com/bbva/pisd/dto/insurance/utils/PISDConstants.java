@@ -37,7 +37,7 @@ public class PISDConstants {
 	public static final class ProductModality{
 		private ProductModality(){}
 
-		public static final String TYPE_PLAN_FLEXIBLE = "04";
+		public static final String TYPE_PLAN_FLEXIBLE = "13";
 		public static final String NAME_PLAN_FLEXIBLE = "flexible";
 	}
 
