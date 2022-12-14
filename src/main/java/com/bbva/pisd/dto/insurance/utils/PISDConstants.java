@@ -39,6 +39,10 @@ public class PISDConstants {
 
 		public static final String TYPE_PLAN_FLEXIBLE = "13";
 		public static final String NAME_PLAN_FLEXIBLE = "flexible";
+		public static final String NO_PLAN_CODE = "00";
+		public static final String TYPE_PLAN_BASICO = "01";
+		public static final String TYPE_PLAN_ESTANDAR = "02";
+		public static final String TYPE_PLAN_FULL_COBERTURAS = "03";
 	}
 
 	public static final class Endosatario{
@@ -46,6 +50,12 @@ public class PISDConstants {
 
 		public static final String RUC = "20100130204";
 		public static final String PORCENTAJE = "100";
+	}
+
+	public static final class Channel{
+		private Channel(){}
+		public static final String BANCA_POR_INTERNET = "BI";
+		public static final String PIC = "PC";
 	}
 
 	
