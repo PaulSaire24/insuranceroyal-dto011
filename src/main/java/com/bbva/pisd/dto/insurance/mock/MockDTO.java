@@ -572,5 +572,19 @@ public final class MockDTO {
                 InsuranceSimulationDTO.class);
     }
 
+    public InsuranceSimulationDTO getInsuranceRequestWithPlanFlexibleAndCoverages() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/simulation/simulationRequestWithPlanFlexibleAndCoverages.json"),
+                InsuranceSimulationDTO.class);
+    }
+
+    public InsuranceSimulationDTO getInsuranceRequestWithPlanAndCoverages() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/simulation/simulationRequestWithPlanAndCoverages.json"),
+                InsuranceSimulationDTO.class);
+    }
+
 
 }
