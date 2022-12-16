@@ -57,6 +57,15 @@ public class PISDConstants {
 		private Channel(){}
 		public static final String BANCA_POR_INTERNET = "BI";
 		public static final String PIC = "PC";
+		public static final String OPEN_MARKET = "ZP";
+		public static final String TELEMARKETING = "TM";
+	}
+
+	public static final class Unit{
+		private Unit(){}
+
+		public static final String TYPE_TEXT = "TEXT";
+		public static final String TYPE_AMOUNT = "AMOUNT";
 	}
 
 	
