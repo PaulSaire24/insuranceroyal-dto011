@@ -11,7 +11,7 @@ public class CoberturaBO extends CommonBO{
     private String periodoEvento;
     private String condicion;
     private String porcentajeSeleccionado;
-    private int codigoAgrupador;
+    private Integer codigoAgrupador;
     private String tipoAgrupador;
     private String indSeleccionar;
     private AgrupadorCoberturaBO agrupador;
@@ -81,11 +81,11 @@ public class CoberturaBO extends CommonBO{
         this.porcentajeSeleccionado = porcentajeSeleccionado;
     }
 
-    public int getCodigoAgrupador() {
+    public Integer getCodigoAgrupador() {
         return codigoAgrupador;
     }
 
-    public void setCodigoAgrupador(int codigoAgrupador) {
+    public void setCodigoAgrupador(Integer codigoAgrupador) {
         this.codigoAgrupador = codigoAgrupador;
     }
 
