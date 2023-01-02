@@ -75,6 +75,9 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
 
     private VehicleDTO vehicle;
 
+    @JsonProperty("isEndorseMandatory")
+    private Boolean isEndorseMandatory;
+
     @JsonProperty("isEndorseRequired")
     private Boolean isEndorseRequired;
 
@@ -196,6 +199,16 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
 
     public VehicleDTO getVehicle() { return vehicle; }
     public void setVehicle(VehicleDTO vehicle) { this.vehicle = vehicle; }
+
+    @JsonProperty("isEndorseMandatory")
+    public Boolean getEndorseMandatory() {
+        return isEndorseMandatory;
+    }
+
+    @JsonProperty("isEndorseMandatory")
+    public void setEndorseMandatory(Boolean endorseMandatory) {
+        isEndorseMandatory = endorseMandatory;
+    }
 
     @JsonProperty("isEndorseRequired")
     public Boolean getEndorseRequired() {
