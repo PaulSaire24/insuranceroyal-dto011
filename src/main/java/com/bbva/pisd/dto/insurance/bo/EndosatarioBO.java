@@ -1,5 +1,8 @@
 package com.bbva.pisd.dto.insurance.bo;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class EndosatarioBO {
 
     private String ruc;
