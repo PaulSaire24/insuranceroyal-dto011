@@ -2,9 +2,9 @@ package com.bbva.pisd.dto.insurance.commons;
 
 
 import com.bbva.apx.dto.AbstractDTO;
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
-import java.io.Serializable;
-
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class CoverageCategoryDTO extends AbstractDTO {
 
     private String id;
