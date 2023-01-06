@@ -1,7 +1,9 @@
 package com.bbva.pisd.dto.insurance.bo;
 
 import java.util.List;
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class SelectionQuotationPayloadBO {
 
     private List<PlanesBO> planes;
