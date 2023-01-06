@@ -1,5 +1,8 @@
 package com.bbva.pisd.dto.insurance.bo;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class AseguradoBO extends CommonOutputFieldsBO {
 	@Override
     public String toString() {
