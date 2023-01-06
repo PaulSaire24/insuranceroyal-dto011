@@ -20,7 +20,7 @@ public class ComponenteBO {
     private String observacionCobertura;
     private String condicion;
     private String porcentajeSeleccionado;
-    private List<AgrupadorBo> agrupador;
+    private AgrupadorBo agrupador;
 
     public Long getComponente() { return componente; }
     public void setComponente(Long componente) { this.componente = componente; }
@@ -85,11 +85,11 @@ public class ComponenteBO {
         this.porcentajeSeleccionado = porcentajeSeleccionado;
     }
 
-    public List<AgrupadorBo> getAgrupadores() {
+    public AgrupadorBo getAgrupador() {
         return agrupador;
     }
 
-    public void setAgrupadores(List<AgrupadorBo> agrupador) {
+    public void setAgrupador(AgrupadorBo agrupador) {
         this.agrupador = agrupador;
     }
 
