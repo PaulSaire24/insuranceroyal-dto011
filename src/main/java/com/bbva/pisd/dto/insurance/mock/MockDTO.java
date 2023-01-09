@@ -586,5 +586,19 @@ public final class MockDTO {
                 InsuranceSimulationDTO.class);
     }
 
+    public List<ComponenteBO> getResponseRimacComponentsArray() throws IOException {
+        return Arrays.asList(objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/creation/rimac/getDetails/quotationDetailsResponseComponentArray.json"),
+                ComponenteBO[].class));
+    }
+
+    public List<FinanciamientoBO> getResponseRimacFinanciamientoArray() throws IOException {
+        return Arrays.asList(objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/creation/rimac/getDetails/quotationDetailsFinanciamientoArray.json"),
+                FinanciamientoBO[].class));
+    }
+
 
 }
