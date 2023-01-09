@@ -600,5 +600,12 @@ public final class MockDTO {
                 FinanciamientoBO[].class));
     }
 
+    public InsuranceQuotationDetailBO getQuotationDetailResponseRimacFlexibleUpdate() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/creation/rimac/getDetail/quotationDetailsResponseRimacUpdated.json"),
+                InsuranceQuotationDetailBO.class);
+    }
+
 
 }
