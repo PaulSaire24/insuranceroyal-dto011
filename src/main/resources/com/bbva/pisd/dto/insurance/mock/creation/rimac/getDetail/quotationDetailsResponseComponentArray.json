@@ -89,11 +89,7 @@
     "primaNeta": 187.93,
     "moneda": "USD",
     "sumaAsegurada": 100000,
-    "tasa": 0.57,
-    "tipoAgrupador": "VEHICULO",
-    "observacionCobertura": "GASTOS DE SEPELIO,  POR CADA OCUPANTE",
-    "condicion":"INC",
-    "porcentajeSeleccionado": "100"
+    "tasa": 0.57
   },
   {
     "componente": 15809,
