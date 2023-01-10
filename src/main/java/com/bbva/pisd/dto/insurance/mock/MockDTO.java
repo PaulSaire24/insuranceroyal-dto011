@@ -9,13 +9,7 @@ import com.bbva.pisd.dto.insurance.aso.tier.TierASO;
 
 import com.bbva.pisd.dto.insurance.blacklist.EntityOutBlackListDTO;
 
-import com.bbva.pisd.dto.insurance.bo.BlackListHealthRimacBO;
-import com.bbva.pisd.dto.insurance.bo.BlackListRiskRimacBO;
-import com.bbva.pisd.dto.insurance.bo.BlackListIndicatorBO;
-import com.bbva.pisd.dto.insurance.bo.SelectionQuotationPayloadBO;
-import com.bbva.pisd.dto.insurance.bo.SelectionQuotationBO;
-import com.bbva.pisd.dto.insurance.bo.DatoParticularBO;
-import com.bbva.pisd.dto.insurance.bo.SearchQuotationBO;
+import com.bbva.pisd.dto.insurance.bo.*;
 import com.bbva.pisd.dto.insurance.bo.detail.InsuranceQuotationDetailBO;
 import com.bbva.pisd.dto.insurance.bo.financing.CronogramaPagoBO;
 import com.bbva.pisd.dto.insurance.bo.financing.FinancingPlanBO;
@@ -23,14 +17,7 @@ import com.bbva.pisd.dto.insurance.bo.registeradditional.RegisterAdditionalVehBO
 import com.bbva.pisd.dto.insurance.bo.registeradditional.ValidateGeneralDataBO;
 import com.bbva.pisd.dto.insurance.bo.simulation.InsuranceSimulationBO;
 
-import com.bbva.pisd.dto.insurance.commons.InsuranceProductDTO;
-import com.bbva.pisd.dto.insurance.commons.InsuranceProductModalityDTO;
-import com.bbva.pisd.dto.insurance.commons.InstallmentModalityDTO;
-import com.bbva.pisd.dto.insurance.commons.PaymentPeriodDTO;
-import com.bbva.pisd.dto.insurance.commons.InsurancePrimeAmountDTO;
-import com.bbva.pisd.dto.insurance.commons.QuotationStatusDTO;
-import com.bbva.pisd.dto.insurance.commons.VehicleModelDTO;
-import com.bbva.pisd.dto.insurance.commons.VehicleBrandDTO;
+import com.bbva.pisd.dto.insurance.commons.*;
 
 import com.bbva.pisd.dto.insurance.dao.ConsiderationsDAO;
 import com.bbva.pisd.dto.insurance.dao.InsuranceProductModalityDAO;
@@ -514,4 +501,111 @@ public final class MockDTO {
         out.setData(listquot);
         return out;
     }
+
+    public List<CoverageModalityDTO> getCoveragesByResponse() throws IOException {
+        return Arrays.asList(objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/simulation/simulationCoverageResponse.json"),
+                CoverageModalityDTO[].class));
+    }
+
+    public List<CoberturaBO> getCoveragesByResponseRimac() throws IOException {
+        return Arrays.asList(objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/simulation/simulationCoveragesResponseRimac.json"),
+                CoberturaBO[].class));
+    }
+
+    public InsuranceSimulationBO getResponseRimac() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/simulation/simulationResponseRimacMonthlyFrequency.json"),
+                InsuranceSimulationBO.class);
+    }
+
+    public List<ConsiderationsDAO> getConsiderationsByQuery() throws IOException {
+        return Arrays.asList(objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/simulation/simulateQuerySelectConsiderations.json"),
+                ConsiderationsDAO[].class));
+    }
+
+    public InsuranceQuotationDetailBO getQuotationDetailResponseRimac() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/creation/rimac/getDetail/quotationDetailResponseRimac.json"),
+                InsuranceQuotationDetailBO.class);
+    }
+
+    public InsuranceSimulationBO getMockDataResponseRimac4Plans() throws IOException{
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/simulation/mockDataResponseRimac4Plans.json"),
+                InsuranceSimulationBO.class);
+    }
+
+    public InsuranceSimulationBO getMockDataResponseRimacFlexible() throws IOException{
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/simulation/mockDataResponseRimacFlexible.json"),
+                InsuranceSimulationBO.class);
+    }
+
+    public List<InsuranceProductModalityDAO> getProductModalitiesWithPlanFlexible() throws IOException {
+        return Arrays.asList(objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/simulation/productModalitiesWithFlexible.json"),
+                InsuranceProductModalityDAO[].class));
+    }
+
+    public InsuranceSimulationBO getInsuranceSimulationRequestRimacWithEndosatario() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/simulation/simulationRequestRimacWithEndosatario.json"),
+                InsuranceSimulationBO.class);
+    }
+
+    public InsuranceSimulationDTO getInsuranceRequestWithPlan00() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/simulation/simulationRequestWithPlan00.json"),
+                InsuranceSimulationDTO.class);
+    }
+
+    public InsuranceSimulationDTO getInsuranceRequestWithPlanFlexibleAndCoverages() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/simulation/simulationRequestWithPlanFlexibleAndCoverages.json"),
+                InsuranceSimulationDTO.class);
+    }
+
+    public InsuranceSimulationDTO getInsuranceRequestWithPlanAndCoverages() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/simulation/simulationRequestWithPlanAndCoverages.json"),
+                InsuranceSimulationDTO.class);
+    }
+
+    public List<ComponenteBO> getResponseRimacComponentsArray() throws IOException {
+        return Arrays.asList(objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/creation/rimac/getDetail/quotationDetailsResponseComponentArray.json"),
+                ComponenteBO[].class));
+    }
+
+    public List<FinanciamientoBO> getResponseRimacFinanciamientoArray() throws IOException {
+        return Arrays.asList(objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/creation/rimac/getDetail/quotationDetailsFinanciamientoArray.json"),
+                FinanciamientoBO[].class));
+    }
+
+    public InsuranceQuotationDetailBO getQuotationDetailResponseRimacFlexibleUpdate() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/creation/rimac/getDetail/quotationDetailsResponseRimacUpdated.json"),
+                InsuranceQuotationDetailBO.class);
+    }
+
+
 }

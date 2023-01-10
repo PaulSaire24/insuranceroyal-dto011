@@ -167,7 +167,8 @@
                 "maturityDate": "2021-12-11"
               }
             ]
-          }
+          },
+          "flexibilityIndicator": true
         },
         "coverages": [
           {
@@ -177,7 +178,50 @@
               "unitType": "P",
               "amount": 701.53,
               "currency": "USD"
-            }
+            },
+            "coverageType": {
+              "id": "INCLUDED",
+              "name": "INCLUIDA"
+            },
+            "coverageGroup": {
+              "id": "15817",
+              "name": "Por robo parcial",
+              "description": "Pérdida Total: Por choque, incendio, vuelco o despiste por Accidente de Tránsito"
+            },
+            "coverageFees": [
+              {
+                "paymentAmount": {
+                  "amount": "33.35",
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          {
+            "id": "C002",
+            "name": "Cubre el robo total del auto (no ubicado).",
+            "unit": {
+              "unitType": "P",
+              "amount": 701.53,
+              "currency": "USD"
+            },
+            "coverageType": {
+              "id": "MANDATORY",
+              "name": "OBLIGATORIA"
+            },
+            "coverageGroup": {
+              "id": "15817",
+              "name": "Por robo parcial",
+              "description": "Pérdida Total: Por choque, incendio, vuelco o despiste por Accidente de Tránsito"
+            },
+            "coverageFees": [
+              {
+                "paymentAmount": {
+                  "amount": "33.82",
+                  "currency": "USD"
+                }
+              }
+            ]
           }
         ],
         "benefits": [
@@ -212,5 +256,6 @@
     ]
   },
   "validityDays": 30,
-  "maturityDate": "2021-02-09"
+  "maturityDate": "2021-02-09",
+  "isEndorseRequired": true
 }

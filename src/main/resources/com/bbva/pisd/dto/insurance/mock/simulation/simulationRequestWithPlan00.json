@@ -1,0 +1,44 @@
+{
+  "vehicle": {
+    "model": {
+      "brand": {
+        "id": "181"
+      },
+      "id": "181003",
+      "year": 2016
+    },
+    "price": {
+      "amount": 23400,
+      "currency": "USD"
+    },
+    "hasPowerSupplyConvertion": "S"
+  },
+  "holder": {
+    "id": "97171889",
+    "identityDocument": {
+      "documentType": {
+        "id": "DNI"
+      },
+      "documentNumber": "21000009"
+    }
+  },
+  "product": {
+    "id": "830",
+    "plans":
+    [
+      {
+        "id": "00"
+      }
+    ]
+  },
+  "vehicleCirculation": {
+    "id": "URBAN_AREA"
+  },
+  "hasAcceptedDataTreatment": "S",
+  "bank": {
+    "id": "0011",
+    "branch": {
+      "id": "7794"
+    }
+  }
+}

@@ -1,0 +1,712 @@
+{
+  "payload": [
+    {
+      "fecCreacion": "2023-01-09",
+      "fecExpiracion": "2023-02-08",
+      "fecFinVig": "2023-02-07",
+      "fecIniVig": "2023-01-09",
+      "diasVigencia": "30",
+      "vehicular": "23fd8a62-90b2-46cf-820e-f2dde011890e",
+      "codigoExterno": "0241421002199",
+      "moneda": "USD",
+      "placa": "TGY564",
+      "tipoDocumento": "L",
+      "nroDocumento": "40456946",
+      "indSeleccionado": "S",
+      "indicadorRequiereInspeccion": 0,
+      "terceros": [],
+      "producto": "VEHICULAR",
+      "plan": [
+        {
+          "plan": 533277,
+          "descripcionPlan": "PLAN PREMIER FLEXIBLE ROYAL- MVP 01 (V4) - CON SCORING POR COBERTURA",
+          "primaNeta": 420.76,
+          "primaBruta": 511.39,
+          "indicadorInspeccion": "S",
+          "financiamientos": [
+            {
+              "financiamiento": 24281,
+              "periodicidad": "Mensual",
+              "numeroCuotas": 12,
+              "fechaInicio": "2023-01-09",
+              "fechaFinal": "2024-01-09",
+              "indicadorDescuentoPrima": "N",
+              "montoNetoFrac": 420.76,
+              "montoPago": 511.39,
+              "cuotasFinanciamiento": [
+                {
+                  "cuota": 1,
+                  "monto": 42.62,
+                  "fechaVencimiento": "2023-01-09",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 2,
+                  "monto": 42.62,
+                  "fechaVencimiento": "2023-02-09",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 3,
+                  "monto": 42.62,
+                  "fechaVencimiento": "2023-03-09",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 4,
+                  "monto": 42.62,
+                  "fechaVencimiento": "2023-04-09",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 5,
+                  "monto": 42.62,
+                  "fechaVencimiento": "2023-05-09",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 6,
+                  "monto": 42.62,
+                  "fechaVencimiento": "2023-06-09",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 7,
+                  "monto": 42.62,
+                  "fechaVencimiento": "2023-07-09",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 8,
+                  "monto": 42.62,
+                  "fechaVencimiento": "2023-08-09",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 9,
+                  "monto": 42.62,
+                  "fechaVencimiento": "2023-09-09",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 10,
+                  "monto": 42.62,
+                  "fechaVencimiento": "2023-10-09",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 11,
+                  "monto": 42.62,
+                  "fechaVencimiento": "2023-11-09",
+                  "moneda": "USD"
+                },
+                {
+                  "cuota": 12,
+                  "monto": 42.57,
+                  "fechaVencimiento": "2023-12-09",
+                  "moneda": "USD"
+                }
+              ]
+            }
+          ],
+          "componente": [
+            {
+              "componente": 15826,
+              "descipcionComponente": "POR ROBO PARCIAL",
+              "tipoComponente": "COB",
+              "primaBruta": 70.4,
+              "primaNeta": 59.66,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "tasa": 0.19,
+              "codigoAgrupador": "3",
+              "tipoAgrupador": "PERSONA",
+              "observacionCobertura": "GASTOS DE SEPELIO,  POR CADA OCUPANTE",
+              "condicion":"INC",
+              "porcentajeSeleccionado": "100",
+              "agrupador": {
+                "codigoAgrupador": "3",
+                "nombreAgrupador": "Accidentes personales",
+                "descripcionAgrupador": "DAÑOS A PERSONAS OCUPANTES DE MI VEHÍCULO"
+              }
+            },
+            {
+              "componente": 15818,
+              "descipcionComponente": "POR ROBO TOTAL",
+              "tipoComponente": "COB",
+              "primaBruta": 496.5,
+              "primaNeta": 420.76,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "tasa": 1.34,
+              "codigoAgrupador": "3",
+              "tipoAgrupador": "PERSONA",
+              "observacionCobertura": "GASTOS DE SEPELIO,  POR CADA OCUPANTE",
+              "condicion":"INC",
+              "porcentajeSeleccionado": "100",
+              "agrupador": {
+                "codigoAgrupador": "3",
+                "nombreAgrupador": "Accidentes personales",
+                "descripcionAgrupador": "DAÑOS A PERSONAS OCUPANTES DE MI VEHÍCULO"
+              }
+            },
+            {
+              "componente": 15819,
+              "descipcionComponente": "POR ALTERACIÓN DEL ORDEN PÚBLICO Y/O PRIVADO (RIESGOS POLÍTICOS)",
+              "tipoComponente": "COB",
+              "primaBruta": 37.05,
+              "primaNeta": 31.4,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "tasa": 0.1,
+              "tipoAgrupador": "PERSONA",
+              "observacionCobertura": "GASTOS DE SEPELIO,  POR CADA OCUPANTE",
+              "condicion":"OBL",
+              "porcentajeSeleccionado": "0"
+            },
+            {
+              "componente": 15823,
+              "descipcionComponente": "AUSENCIA DE CONTROL",
+              "tipoComponente": "COB",
+              "primaBruta": 47.2,
+              "primaNeta": 40,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "tasa": null,
+              "tipoAgrupador": "VEHICULO",
+              "observacionCobertura": "GASTOS DE SEPELIO,  POR CADA OCUPANTE",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "0"
+            },
+            {
+              "componente": 15840,
+              "descipcionComponente": "REPOSICIÓN POR ROTURA DE LUNAS",
+              "tipoComponente": "COB",
+              "primaBruta": 14.82,
+              "primaNeta": 12.56,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "tasa": 0.04,
+              "tipoAgrupador": "VEHICULO",
+              "observacionCobertura": "GASTOS DE SEPELIO,  POR CADA OCUPANTE",
+              "condicion":"OPC",
+              "porcentajeSeleccionado": "0"
+            },
+            {
+              "componente": 15811,
+              "descipcionComponente": "POR DAÑOS MATERIALES Y/O PERSONALES A TERCEROS NO OCUPANTES DEL VEHÍCULO",
+              "tipoComponente": "COB",
+              "primaBruta": 221.76,
+              "primaNeta": 187.93,
+              "moneda": "USD",
+              "sumaAsegurada": 100000,
+              "tasa": 0.57
+            },
+            {
+              "componente": 15809,
+              "descipcionComponente": "AUXILIO MECÁNICO / GRÚA:  LIMA - PROVINCIA",
+              "tipoComponente": "SER",
+              "primaBruta": 23.6,
+              "primaNeta": 20,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "tasa": null
+            },
+            {
+              "componente": 15810,
+              "descipcionComponente": "AMBULANCIA POR ACCIDENTE DE TRÁNSITO",
+              "tipoComponente": "SER",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "tasa": null
+            },
+            {
+              "componente": 7883,
+              "descipcionComponente": "ASISTENCIA PERSONAL DE PROCURADORES",
+              "tipoComponente": "SER",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "tasa": null
+            },
+            {
+              "componente": 15802,
+              "descipcionComponente": "CHOFER DE REEMPLAZO",
+              "tipoComponente": "SER",
+              "primaBruta": 23.6,
+              "primaNeta": 20,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "tasa": null
+            },
+            {
+              "componente": 15803,
+              "descipcionComponente": "VEHÍCULO DE REEMPLAZO POR CHOQUE",
+              "tipoComponente": "SER",
+              "primaBruta": 0,
+              "primaNeta": 0,
+              "moneda": "USD",
+              "sumaAsegurada": 31400,
+              "tasa": null
+            }
+          ],
+          "deducible": [
+            {
+              "deducible": 2240265,
+              "componente": 116006,
+              "descripcion": "PÉRDIDA PARCIAL: TALLERES DE CENTRO DE ATENCIÓN VEHICULAR Y RED CLÁSICA, 10% del MONTO DEL SINIESTRO, Mínimo de US$150.00",
+              "descripcionComp": null
+            },
+            {
+              "deducible": 2240263,
+              "componente": 15817,
+              "descripcion": "PÉRDIDA TOTAL: ACCIDENTES DE TRANSITO, INCENDIO Y DAÑOS MATERIALES",
+              "descripcionComp": null
+            },
+            {
+              "deducible": 2240264,
+              "componente": 15826,
+              "descripcion": "ROBO PARCIAL: TALLERES DE CENTRO DE ATENCIÓN VEHICULAR, RED CLÁSICA Y CONCESIONARIOS, 15% del MONTO DEL SINIESTRO, Mínimo de US$150.00",
+              "descripcionComp": null
+            },
+            {
+              "deducible": 2240255,
+              "componente": 15818,
+              "descripcion": "PÉRDIDA TOTAL POR ROBO TOTAL",
+              "descripcionComp": null
+            },
+            {
+              "deducible": 2240247,
+              "componente": 15827,
+              "descripcion": "MUERTE DE OCUPANTES DEL VEHÍCULO, POR CADA UNO",
+              "descripcionComp": null
+            },
+            {
+              "deducible": 2240254,
+              "componente": 15828,
+              "descripcion": "INVALIDEZ DE OCUPANTES DEL VEHÍCULO, POR CADA UNO",
+              "descripcionComp": null
+            },
+            {
+              "deducible": 2240244,
+              "componente": 15829,
+              "descripcion": "GASTOS DE CURACIÓN, POR CADA UNO",
+              "descripcionComp": null
+            },
+            {
+              "deducible": 2240258,
+              "componente": 15830,
+              "descripcion": "GASTOS DE SEPELIO,  POR CADA UNO",
+              "descripcionComp": null
+            },
+            {
+              "deducible": 2240257,
+              "componente": 15811,
+              "descripcion": "POR DAÑOS MATERIALES Y/O PERSONALES A TERCEROS NO OCUPANTES DEL VEHÍCULO, 15% del MONTO DEL SINIESTRO, Mínimo de US$150.00",
+              "descripcionComp": null
+            },
+            {
+              "deducible": 2240243,
+              "componente": 15813,
+              "descripcion": "POR OCUPANTES DEL VEHÍCULO, 15% del MONTO DEL SINIESTRO, Mínimo de US$150.00",
+              "descripcionComp": null
+            },
+            {
+              "deducible": 2240269,
+              "componente": 15815,
+              "descripcion": "POR AUSENCIA DE CONTROL, 25% del MONTO DEL SINIESTRO, Mínimo de US$500.00",
+              "descripcionComp": null
+            },
+            {
+              "deducible": 2240250,
+              "componente": 116006,
+              "descripcion": "CONDUCTOR VARÓN MENOR DE 29 AÑOS, 20% del MONTO DEL SINIESTRO, Mínimo de US$500.00",
+              "descripcionComp": null
+            },
+            {
+              "deducible": 2240251,
+              "componente": 15820,
+              "descripcion": "RIESGOS DE LA NATURALEZA, 20% del MONTO DEL SINIESTRO, Mínimo de US$200.00",
+              "descripcionComp": null
+            },
+            {
+              "deducible": 2240252,
+              "componente": 15819,
+              "descripcion": "DAÑOS AL VEHÍCULO POR ALTERACIÓN DEL ORDEN PÚBLICO Y/O PRIVADO, 20% del MONTO DEL SINIESTRO, Mínimo de US$200.00",
+              "descripcionComp": null
+            },
+            {
+              "deducible": 2240248,
+              "componente": 116006,
+              "descripcion": "VÍAS NO AUTORIZADAS, 20% del MONTO DEL SINIESTRO, Mínimo de US$500.00",
+              "descripcionComp": null
+            },
+            {
+              "deducible": 2240262,
+              "componente": 15821,
+              "descripcion": "ACCESORIOS MUSICALES, 10% del MONTO DEL SINIESTRO, Mínimo de US$150.00",
+              "descripcionComp": null
+            },
+            {
+              "deducible": 2240249,
+              "componente": 15840,
+              "descripcion": "ROTURA ACCIDENTAL, CAMBIO POR LUNAS ORIGINALES, 15% del MONTO DEL SINIESTRO, Mínimo de US$150.00",
+              "descripcionComp": null
+            },
+            {
+              "deducible": 2240245,
+              "componente": 15840,
+              "descripcion": "ROTURA ACCIDENTAL, CAMBIO POR LUNAS NACIONALES (SIN DEDUCIBLES)",
+              "descripcionComp": null
+            },
+            {
+              "deducible": 2240246,
+              "componente": 15803,
+              "descripcion": "VEHÍCULO DE REEMPLAZO, US$100.00",
+              "descripcionComp": null
+            },
+            {
+              "deducible": 2240242,
+              "componente": 15804,
+              "descripcion": "VEHÍCULO DE REEMPLAZO, US$100.00",
+              "descripcionComp": null
+            }
+          ],
+          "clausulas": [
+            {
+              "definicion": "ACCESORIOS ESPECIALES NO MUSICALES",
+              "clausula": 17428451,
+              "componente": 25106337
+            },
+            {
+              "definicion": "CONDICIONES GENERALES DEL SEGURO VEHICULAR",
+              "clausula": 17428452,
+              "componente": 25106340
+            },
+            {
+              "definicion": "ALTERACIÓN DEL ORDEN PÚBLICO O PRIVADO",
+              "clausula": 17428456,
+              "componente": 25106349
+            },
+            {
+              "definicion": "REPUESTOS",
+              "clausula": 17428463,
+              "componente": 25106357
+            },
+            {
+              "definicion": "VALOR CONVENIDO",
+              "clausula": 17428453,
+              "componente": 25106340
+            },
+            {
+              "definicion": "AUSENCIA DE CONTROL PARA POLIZAS ENDOSADAS AL BANCO",
+              "clausula": 17428460,
+              "componente": 25106356
+            },
+            {
+              "definicion": "GARANTÍAS",
+              "clausula": 17428455,
+              "componente": 25106340
+            },
+            {
+              "definicion": "VÍAS NO AUTORIZADAS",
+              "clausula": 17428461,
+              "componente": 25106357
+            },
+            {
+              "definicion": "AUXILIO MECÁNICO Y GRÚA PARA VEHÍCULOS LIGEROS",
+              "clausula": 17428457,
+              "componente": 25106350
+            },
+            {
+              "definicion": "SISTEMA SPEED",
+              "clausula": 17428454,
+              "componente": 25106340
+            },
+            {
+              "definicion": "VEHÍCULO DE REEMPLAZO",
+              "clausula": 17428459,
+              "componente": 25106354
+            },
+            {
+              "definicion": "CHOFER DE REEMPLAZO",
+              "clausula": 17428458,
+              "componente": 25106353
+            },
+            {
+              "definicion": "TALLERES",
+              "clausula": 17428462,
+              "componente": 25106357
+            }
+          ],
+          "datosParticulares": [
+            {
+              "etiqueta": "CLASES_DE_VEHICULOS",
+              "codigo": "003",
+              "valor": "CAMIONETA"
+            },
+            {
+              "etiqueta": "TIPOS_DE_VEHICULOS",
+              "codigo": "003007",
+              "valor": "RURAL"
+            },
+            {
+              "etiqueta": "MARCAS_DE_VEHICULOS",
+              "codigo": "137",
+              "valor": "FORD"
+            },
+            {
+              "etiqueta": "MODELOS_DE_VEHICULOS",
+              "codigo": "137063",
+              "valor": "ECOSPORT"
+            },
+            {
+              "etiqueta": "CATEGORIA VEHICULAR",
+              "codigo": null,
+              "valor": "533277-Alfanumérico-CMTA RURAL_BR2"
+            },
+            {
+              "etiqueta": "NUEVO RIESGO VEHICULAR",
+              "codigo": null,
+              "valor": "533277-Alfanumérico-R1"
+            },
+            {
+              "etiqueta": "RIESGO VEH ACTUALIZADO",
+              "codigo": null,
+              "valor": "533277-Alfanumérico-BR2"
+            },
+            {
+              "etiqueta": "PLACA_DE_RODAJE",
+              "codigo": null,
+              "valor": "TGY564"
+            },
+            {
+              "etiqueta": "NUMERO_DE_SERIE",
+              "codigo": null,
+              "valor": "UYIOY8979879"
+            },
+            {
+              "etiqueta": "USOS_DE_VEHICULOS",
+              "codigo": "001",
+              "valor": "PARTICULAR"
+            },
+            {
+              "etiqueta": "NUMERO_DE_MOTOR",
+              "codigo": null,
+              "valor": "HGKJG8978979"
+            },
+            {
+              "etiqueta": "NUMERO_INSPECCION",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "COLOR",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "GPS",
+              "codigo": "000",
+              "valor": "NO"
+            },
+            {
+              "etiqueta": "SUMA_ASEGURADA",
+              "codigo": null,
+              "valor": 31400
+            },
+            {
+              "etiqueta": "NRO_PASAJEROS",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "COMBUSTIBLE_GAS",
+              "codigo": "0002",
+              "valor": "NO"
+            },
+            {
+              "etiqueta": "VEHICULO_BLINDADO",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "TIMON_CAMBIADO_30",
+              "codigo": "002",
+              "valor": "NO"
+            },
+            {
+              "etiqueta": "NRO_CERT_BANCO",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "EQUIPO_MUSICAL",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "PARLANTES",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "ANTENA",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "OTROS_EQUIPOS_DE_SONIDO",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "ALARMA_ANTI_ROBO_VH",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "PROTECTOR_FAROS_DELANTEROS_VH",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "PROTECTOR_FAROS_POSTERIORES_VH",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "PERNOS_DE_SEGURIDAD_EN_AROS_VH",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "OTROS_TIPOS_DE_SEGURIDAD_VH",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "ATENCIONES_ALO_RIMAC_AL_AÑO",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "WEB_ANOS_DE_FABRICACION",
+              "codigo": null,
+              "valor": "2018"
+            },
+            {
+              "etiqueta": "WEB_MODALIDAD_DE_ASEGURAMIENTO",
+              "codigo": "001",
+              "valor": "TODO RIESGO"
+            },
+            {
+              "etiqueta": "AÑOS_ANTIGUEDAD",
+              "codigo": null,
+              "valor": 5
+            },
+            {
+              "etiqueta": "FORMA_DE_PAGO",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "ALTO_RIESGO",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "WEB_PROVEEDOR_GPS",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "REGALO",
+              "codigo": "0003",
+              "valor": "GRATIS SOAT"
+            },
+            {
+              "etiqueta": "PROCEDENCIA EXTERNA",
+              "codigo": "0",
+              "valor": "NO"
+            },
+            {
+              "etiqueta": "REQUIERE INSPECCION",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "FECHA INICIO NUEVO SOAT",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "NRO_CERT_BANCO",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "PROCEDENCIA DE VEHICULO",
+              "codigo": "0",
+              "valor": "IMP. VERS. LOCAL"
+            },
+            {
+              "etiqueta": "UBICACIÓN",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "TABLA SCORING",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "ASISTENCIAS_SALUD",
+              "codigo": "0002",
+              "valor": "NO"
+            },
+            {
+              "etiqueta": "ACC._TRANSITO_BICI_MOTO_SCOOTER",
+              "codigo": "0002",
+              "valor": "NO"
+            },
+            {
+              "etiqueta": "RC_TERCEROS_BICI_SCOOTER_MOTO",
+              "codigo": "0002",
+              "valor": "NO"
+            },
+            {
+              "etiqueta": "TALLER_CONCESIONARIO",
+              "codigo": "0002",
+              "valor": "NO"
+            },
+            {
+              "etiqueta": "SCORING_ROBO_TOTAL",
+              "codigo": "0001",
+              "valor": "RT010"
+            },
+            {
+              "etiqueta": "SCORING_RC_TERCEROS",
+              "codigo": "0001",
+              "valor": "RC010"
+            },
+            {
+              "etiqueta": "SCORING_PERDIDA_TOTAL",
+              "codigo": null,
+              "valor": null
+            },
+            {
+              "etiqueta": "SCORING_PERDIDA_PARCIAL",
+              "codigo": "0001",
+              "valor": "PP010"
+            }
+          ]
+        }
+      ],
+      "indicadorGps": "NO"
+    }
+  ]
+}

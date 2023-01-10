@@ -1,6 +1,13 @@
 {
   "payload": {
+    "idCotizacion": "6756c3b1-affa-4d22-ba25-dc8bbb687bee",
+    "planes": [532844,532857,532831,533277],
+    "asegurado": {
+      "numeroDocumento": "40456946",
+      "tipoDocumento": "L"
+    },
     "moneda": "USD",
+    "producto": "VEHICULAR",
     "datosParticulares": [
       {
         "etiqueta": "PLACA_DE_RODAJE",
@@ -59,6 +66,20 @@
         "etiqueta": "USOS_DE_VEHICULOS",
         "codigo": "",
         "valor": "PARTICULAR"
+      }
+    ],
+    "coberturas": [
+      {
+        "codigoCobertura": "15826"
+      },
+      {
+        "codigoCobertura": "15817"
+      },
+      {
+        "codigoCobertura": "15819"
+      },
+      {
+        "codigoCobertura": "15840"
       }
     ]
   }

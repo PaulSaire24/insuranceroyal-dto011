@@ -1,8 +1,11 @@
 package com.bbva.pisd.dto.insurance.bo;
 
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
 import java.util.Date;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class CotizacionBO {
 
     private String idCotizacion;
