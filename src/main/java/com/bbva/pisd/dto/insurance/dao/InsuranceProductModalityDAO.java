@@ -25,6 +25,21 @@ public class InsuranceProductModalityDAO extends CommonsDAO {
         this.setInsuranceModalityType(insuranceModalityType);
     }
 
+    public InsuranceProductModalityDAO(
+            String insuranceCompanyModalityId,
+            String insuranceModalityName,
+            String insuranceModalityType,
+            String suggestedModalityIndType,
+            BigDecimal publicationOrderNumber,
+            String flexiblePlanIndicator,
+            String newModalityIndType) {
+        this(insuranceCompanyModalityId, insuranceModalityName, suggestedModalityIndType);
+        this.publicationOrderNumber = publicationOrderNumber;
+        this.setInsuranceModalityType(insuranceModalityType);
+        this.setFlexiblePlanIndicator(flexiblePlanIndicator);
+        this.setNewModalityIndType(newModalityIndType);
+    }
+
     public InsuranceProductModalityDAO(String insuranceCompanyModalityId, String insuranceModalityName, String insuranceModalityType, String suggestedModalityIndType, String insuranceCompanyId, String insuranceCompanyDesc) {
         this(insuranceCompanyModalityId, insuranceModalityName, suggestedModalityIndType);
         this.setInsuranceModalityType(insuranceModalityType);
@@ -38,6 +53,8 @@ public class InsuranceProductModalityDAO extends CommonsDAO {
     private String insuranceCompanyId;
     private String insuranceCompanyDesc;
     private BigDecimal publicationOrderNumber;
+    private String flexiblePlanIndicator;
+    private String newModalityIndType;
 
     public String getInsuranceCompanyModalityId() { return insuranceCompanyModalityId; }
     public void setInsuranceCompanyModalityId(String insuranceCompanyModalityId) { this.insuranceCompanyModalityId = insuranceCompanyModalityId; }
@@ -52,4 +69,19 @@ public class InsuranceProductModalityDAO extends CommonsDAO {
     public BigDecimal getPublicationOrderNumber() {return publicationOrderNumber;}
     public void setPublicationOrderNumber(BigDecimal publicationOrderNumber) {this.publicationOrderNumber = publicationOrderNumber;}
 
+    public String getFlexiblePlanIndicator() {
+        return flexiblePlanIndicator;
+    }
+
+    public void setFlexiblePlanIndicator(String flexiblePlanIndicator) {
+        this.flexiblePlanIndicator = flexiblePlanIndicator;
+    }
+
+    public String getNewModalityIndType() {
+        return newModalityIndType;
+    }
+
+    public void setNewModalityIndType(String newModalityIndType) {
+        this.newModalityIndType = newModalityIndType;
+    }
 }

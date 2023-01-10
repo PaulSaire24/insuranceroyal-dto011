@@ -1,7 +1,10 @@
 package com.bbva.pisd.dto.insurance.bo;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
 import java.math.BigDecimal;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class CommonOutputFieldsBO {
 
 	private ErrorBO error;

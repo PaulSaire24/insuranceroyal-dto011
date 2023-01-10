@@ -1,7 +1,10 @@
 package com.bbva.pisd.dto.insurance.bo;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
 import java.util.List;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class PlanBO extends CommonOutputFieldsBO {
 
     private Long idPlan;
@@ -36,9 +39,6 @@ public class PlanBO extends CommonOutputFieldsBO {
         sb.append("idPlan=").append(idPlan);
         sb.append(", descripcionPlan='").append(descripcionPlan).append('\'');
         sb.append(", moneda='").append(moneda).append('\'');
-        sb.append(", primaNeta=").append(this.getPrimaNeta());
-        sb.append(", primaBruta=").append(this.getPrimaBruta());
-        sb.append(", indicadorInspeccion='").append(this.getIndicadorInspeccion()).append('\'');
         sb.append(", indicadorGPS='").append(indicadorGPS).append('\'');
         sb.append(", financiamientos=").append(financiamientos);
         sb.append(", servicios=").append(servicios);
@@ -47,5 +47,4 @@ public class PlanBO extends CommonOutputFieldsBO {
         sb.append('}');
         return sb.toString();
     }
-
 }

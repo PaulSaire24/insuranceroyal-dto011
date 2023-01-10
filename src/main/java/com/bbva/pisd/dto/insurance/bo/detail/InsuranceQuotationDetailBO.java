@@ -1,9 +1,11 @@
 package com.bbva.pisd.dto.insurance.bo.detail;
 
 import com.bbva.pisd.dto.insurance.bo.QuotationDetailPayloadBO;
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
 import java.util.List;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class InsuranceQuotationDetailBO {
 
     private List<QuotationDetailPayloadBO> payload;

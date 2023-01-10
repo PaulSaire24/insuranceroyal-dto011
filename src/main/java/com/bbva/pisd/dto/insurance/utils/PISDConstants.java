@@ -31,6 +31,43 @@ public class PISDConstants {
 	public static final String TAG_NRO_PASAJEROS = "NRO_PASAJEROS" ;
 	public static final String UBICACION_LIMA = "LIMA" ;
 	public static final String UBICACION_PROVINCIA = "PROVINCIA" ;
+	public static final String CHANNEL_GLOMO = "pisd.channel.glomo.aap";
+	public static final String CHANNEL_PZONE = "pisd.channel.pzone.aap"; //Open Market
+	public static final String LOWERCASE_LETTER_S = "s";
+
+	public static final class ProductModality{
+		private ProductModality(){}
+
+		public static final String TYPE_PLAN_FLEXIBLE = "04";
+		public static final String NAME_PLAN_FLEXIBLE = "flexible";
+		public static final String NO_PLAN_CODE = "00";
+		public static final String TYPE_PLAN_BASICO = "01";
+		public static final String TYPE_PLAN_ESTANDAR = "02";
+		public static final String TYPE_PLAN_FULL_COBERTURAS = "03";
+	}
+
+	public static final class Endosatario{
+		private Endosatario(){}
+
+		public static final String RUC = "20100130204";
+		public static final String PORCENTAJE = "100";
+	}
+
+	public static final class Channel{
+		private Channel(){}
+		public static final String BANCA_POR_INTERNET = "BI";
+		public static final String PIC = "PC";
+		public static final String ZONA_PUBLICA = "CZ";
+		public static final String TELEMARKETING = "TM";
+	}
+
+	public static final class Unit{
+		private Unit(){}
+
+		public static final String TYPE_TEXT = "TEXT";
+		public static final String TYPE_AMOUNT = "AMOUNT";
+	}
+
 	
 	private PISDConstants() { }
 

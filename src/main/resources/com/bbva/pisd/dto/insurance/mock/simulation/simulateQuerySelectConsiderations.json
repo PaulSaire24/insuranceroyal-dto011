@@ -1,0 +1,71 @@
+[
+  {
+      "insuranceModalityType": "01",
+      "idConsideration": 1,
+      "insuranceConsiderationDescription": "Auxilio mecánico (cambio de llantas, paso de corriente, entre otros).",
+      "considerationType": "BE",
+      "considerationValueType": "T",
+      "considerationAmount": 3494.35,
+      "considerationCurrency": "USD",
+      "considerationPercentage": 32.23
+  },
+  {
+    "insuranceModalityType": "03",
+    "idConsideration": 2,
+    "insuranceConsiderationDescription": "Daños a terceros, hasta por US$200,000.",
+    "considerationType": "CB",
+    "considerationValueType": "T",
+    "considerationAmount": 3294.27,
+    "considerationCurrency": "USD",
+    "considerationPercentage": 62.23
+  },
+  {
+    "insuranceModalityType": "02",
+    "idConsideration": 3,
+    "insuranceConsiderationDescription": "Daños a ocupantes del vehículo, hasta por US$10,000.",
+    "considerationType": "CB",
+    "considerationValueType": "T",
+    "considerationAmount": 2194.33,
+    "considerationCurrency": "USD",
+    "considerationPercentage": 70.67
+  },{
+    "insuranceModalityType": "02",
+    "idConsideration": 3,
+    "insuranceConsiderationDescription": "Daños a ocupantes del vehículo, hasta por US$10,000. CO T",
+    "considerationType": "CO",
+    "considerationValueType": "T",
+    "considerationAmount": 4094.33,
+    "considerationCurrency": "USD",
+    "considerationPercentage": 85.48
+  },
+  {
+    "insuranceModalityType": "03",
+    "idConsideration": 2,
+    "insuranceConsiderationDescription": "Robo de Accesorios musicales pagarás el 10% del monto a indemnizar (monto mínimo US$150).",
+    "considerationType": "DE",
+    "considerationValueType": "T",
+    "considerationAmount": 1894.33,
+    "considerationCurrency": "USD",
+    "considerationPercentage": 85.23
+  },
+  {
+    "insuranceModalityType": "02",
+    "idConsideration": 3,
+    "insuranceConsiderationDescription": "Circulando por vías o lugares no autorizados para el tránsito",
+    "considerationType": "EX",
+    "considerationValueType": "T",
+    "considerationAmount": 2594.33,
+    "considerationCurrency": "USD",
+    "considerationPercentage": 62.82
+  },
+  {
+    "insuranceModalityType": "02",
+    "idConsideration": 2,
+    "insuranceConsiderationDescription": "Vehículos menores (motocicletas, mototaxis y similares)",
+    "considerationType": "VN",
+    "considerationValueType": "T",
+    "considerationAmount": 3794.87,
+    "considerationCurrency": "USD",
+    "considerationPercentage": 89.55
+  }
+]

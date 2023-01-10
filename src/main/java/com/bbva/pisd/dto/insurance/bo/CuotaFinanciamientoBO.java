@@ -1,8 +1,11 @@
 package com.bbva.pisd.dto.insurance.bo;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
 import java.math.BigDecimal;
 import java.util.Date;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class CuotaFinanciamientoBO {
 
     private Long cuota;
