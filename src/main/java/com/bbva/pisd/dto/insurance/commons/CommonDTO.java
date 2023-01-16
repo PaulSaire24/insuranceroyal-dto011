@@ -13,6 +13,7 @@ public class CommonDTO extends AbstractDTO {
     @JsonProperty("isSelected")
     private Boolean isSelected;
     private CoverageCategoryDTO coverageCategory;
+    private CoverageCategoryDTO category;
     private String number;
     private String description;
     private UnitDTO unit;
@@ -56,6 +57,22 @@ public class CommonDTO extends AbstractDTO {
 
     public void setCoverageCategory(CoverageCategoryDTO coverageCategory) {
         this.coverageCategory = coverageCategory;
+    }
+
+    public Boolean getPrincipal() {
+        return isPrincipal;
+    }
+
+    public void setPrincipal(Boolean principal) {
+        isPrincipal = principal;
+    }
+
+    public CoverageCategoryDTO getCategory() {
+        return category;
+    }
+
+    public void setCategory(CoverageCategoryDTO category) {
+        this.category = category;
     }
 
     public String getNumber() {
