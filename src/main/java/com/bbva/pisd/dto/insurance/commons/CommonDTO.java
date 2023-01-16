@@ -60,6 +60,7 @@ public class CommonDTO extends AbstractDTO {
         this.coverageCategory = coverageCategory;
     }
 
+    @JsonProperty("isPrincipal")
     public Boolean getPrincipal() {
         return isPrincipal;
     }
@@ -69,7 +70,6 @@ public class CommonDTO extends AbstractDTO {
         isPrincipal = principal;
     }
 
-    @JsonProperty("isPrincipal")
     public CoverageCategoryDTO getCategory() {
         return category;
     }
