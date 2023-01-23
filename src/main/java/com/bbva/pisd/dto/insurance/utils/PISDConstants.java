@@ -46,13 +46,6 @@ public class PISDConstants {
 		public static final String TYPE_PLAN_FULL_COBERTURAS = "03";
 	}
 
-	public static final class Endosatario{
-		private Endosatario(){}
-
-		public static final String RUC = "20100130204";
-		public static final String PORCENTAJE = "100";
-	}
-
 	public static final class Channel{
 		private Channel(){}
 		public static final String BANCA_POR_INTERNET = "BI";
@@ -66,6 +59,20 @@ public class PISDConstants {
 
 		public static final String TYPE_TEXT = "TEXT";
 		public static final String TYPE_AMOUNT = "AMOUNT";
+	}
+
+	public static final class DatosParticulares{
+		private DatosParticulares(){}
+		public static final String ETIQUETA_ENDOSO = "IND_CESION_DERECHO_RG";
+
+	}
+
+	public static final class CategoriaAgrupador{
+		private CategoriaAgrupador(){}
+		public static final String TIPO_AGRUPADOR_PERSONA = "PERSONA";
+		public static final String TIPO_AGRUPADOR_VEHICULO = "VEHICULO";
+		public static final String CODIGO_AGRUPADOR_PERSONA = "1";
+		public static final String CODIGO_AGRUPADOR_VEHICULO = "3";
 	}
 
 	
