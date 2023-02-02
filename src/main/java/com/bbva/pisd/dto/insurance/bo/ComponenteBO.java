@@ -15,6 +15,7 @@ public class ComponenteBO {
     private String moneda;
     private Long sumaAsegurada;
     private String tasa;
+    private String indSeleccionar;
     private Long codigoAgrupador;
     private String tipoAgrupador;
     private String observacionCobertura;
@@ -43,6 +44,14 @@ public class ComponenteBO {
 
     public void setMoneda(String moneda) {
         this.moneda = moneda;
+    }
+
+    public String getIndSeleccionar() {
+        return indSeleccionar;
+    }
+
+    public void setIndSeleccionar(String indSeleccionar) {
+        this.indSeleccionar = indSeleccionar;
     }
 
     public Long getCodigoAgrupador() {
@@ -104,6 +113,7 @@ public class ComponenteBO {
         sb.append(", moneda=").append(moneda);
         sb.append(", sumaAsegurada=").append(sumaAsegurada);
         sb.append(", tasa='").append(tasa).append('\'');
+        sb.append(", indSeleccionar=").append(indSeleccionar);
         sb.append(", codigoAgrupador=").append(codigoAgrupador);
         sb.append(", tipoAgrupador=").append(tipoAgrupador);
         sb.append(", observacionCobertura=").append(observacionCobertura);

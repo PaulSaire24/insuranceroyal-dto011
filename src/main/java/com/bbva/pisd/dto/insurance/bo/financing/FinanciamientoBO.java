@@ -2,7 +2,9 @@ package com.bbva.pisd.dto.insurance.bo.financing;
 
 import java.math.BigDecimal;
 import org.joda.time.LocalDate;
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class FinanciamientoBO {
 
     private String financiamiento;
