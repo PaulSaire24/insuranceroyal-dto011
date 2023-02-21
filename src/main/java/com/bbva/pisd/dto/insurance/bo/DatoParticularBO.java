@@ -1,8 +1,5 @@
 package com.bbva.pisd.dto.insurance.bo;
 
-import org.codehaus.jackson.annotate.JsonIgnoreProperties;
-
-@JsonIgnoreProperties(ignoreUnknown = true)
 public class DatoParticularBO {
 
     private String etiqueta;

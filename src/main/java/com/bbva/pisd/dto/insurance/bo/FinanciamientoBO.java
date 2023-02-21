@@ -1,12 +1,9 @@
 package com.bbva.pisd.dto.insurance.bo;
 
-import org.codehaus.jackson.annotate.JsonIgnoreProperties;
-
 import java.math.BigDecimal;
 import java.util.Date;
 import java.util.List;
 
-@JsonIgnoreProperties(ignoreUnknown = true)
 public class FinanciamientoBO extends CommonOutputFieldsBO {
 
     private String idFinanciamiento;

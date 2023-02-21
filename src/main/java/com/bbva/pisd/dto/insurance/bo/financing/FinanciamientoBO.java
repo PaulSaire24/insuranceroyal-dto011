@@ -17,10 +17,6 @@ public class FinanciamientoBO {
     private Long numeroCuotas;
     private String indicadorDescuentoPrima;
 
-    private BigDecimal montoNetoFrac;
-
-    private BigDecimal montoPago;
-
     public Long getNroCuotas() { return nroCuotas; }
     public void setNroCuotas(Long nroCuotas) { this.nroCuotas = nroCuotas; }
     public String getFinanciamiento() {
@@ -69,38 +65,20 @@ public class FinanciamientoBO {
     public String getIndicadorDescuentoPrima() {return indicadorDescuentoPrima;}
     public void setIndicadorDescuentoPrima(String indicadorDescuentoPrima) {this.indicadorDescuentoPrima = indicadorDescuentoPrima;}
 
-    public BigDecimal getMontoNetoFrac() {
-        return montoNetoFrac;
-    }
-
-    public void setMontoNetoFrac(BigDecimal montoNetoFrac) {
-        this.montoNetoFrac = montoNetoFrac;
-    }
-
-    public BigDecimal getMontoPago() {
-        return montoPago;
-    }
-
-    public void setMontoPago(BigDecimal montoPago) {
-        this.montoPago = montoPago;
-    }
-
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("FinanciamientoBO{");
-        sb.append("financiamiento='").append(financiamiento).append('\'');
+        final StringBuilder sb = new StringBuilder("CuotaFinanciamientoBO{");
+        sb.append("financiamiento=").append(financiamiento);
         sb.append(", numeroCuotasTotales=").append(numeroCuotasTotales);
         sb.append(", periodo='").append(periodo).append('\'');
         sb.append(", descripcionPeriodo='").append(descripcionPeriodo).append('\'');
-        sb.append(", montoCuota=").append(montoCuota);
+        sb.append(", montoCuota='").append(montoCuota).append('\'');
         sb.append(", moneda='").append(moneda).append('\'');
-        sb.append(", nroCuotas=").append(nroCuotas);
-        sb.append(", frecuencia='").append(frecuencia).append('\'');
-        sb.append(", fechaInicio=").append(fechaInicio);
-        sb.append(", numeroCuotas=").append(numeroCuotas);
+        sb.append(", nroCuotas='").append(nroCuotas).append('\'');
+        sb.append("frecuencia=").append(frecuencia).append('\'');
+        sb.append(", fechaInicio=").append(fechaInicio).append('\'');
+        sb.append(", numeroCuotas='").append(numeroCuotas).append('\'');
         sb.append(", indicadorDescuentoPrima='").append(indicadorDescuentoPrima).append('\'');
-        sb.append(", montoNetoFrac=").append(montoNetoFrac);
-        sb.append(", montoPago=").append(montoPago);
         sb.append('}');
         return sb.toString();
     }

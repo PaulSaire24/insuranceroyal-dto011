@@ -1,11 +1,7 @@
 package com.bbva.pisd.dto.insurance.bo.simulation;
 
 import com.bbva.pisd.dto.insurance.bo.SimulacionPayloadBO;
-import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
-import java.util.List;
-
-@JsonIgnoreProperties(ignoreUnknown = true)
 public class InsuranceSimulationBO {
 
     private SimulacionPayloadBO payload;

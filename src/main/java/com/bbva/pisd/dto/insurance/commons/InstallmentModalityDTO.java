@@ -1,7 +1,6 @@
 package com.bbva.pisd.dto.insurance.commons;
 
 import com.bbva.apx.dto.AbstractDTO;
-import org.codehaus.jackson.annotate.JsonProperty;
 
 public class InstallmentModalityDTO extends AbstractDTO {
 
@@ -9,8 +8,6 @@ public class InstallmentModalityDTO extends AbstractDTO {
     private InsurancePrimeAmountDTO amount;
     private NotAdjustedAmountDTO notAdjustedAmount;
     private InsuranceFinancingDTO financing;
-    @JsonProperty("flexibilityIndicator")
-    private Boolean flexibilityIndicator;
 
     public PaymentPeriodDTO getPeriod() { return period; }
     public void setPeriod(PaymentPeriodDTO period) { this.period = period; }
@@ -21,16 +18,6 @@ public class InstallmentModalityDTO extends AbstractDTO {
     public NotAdjustedAmountDTO getNotAdjustedAmount() { return notAdjustedAmount; }
     public void setNotAdjustedAmount(NotAdjustedAmountDTO notAdjustedAmount) { this.notAdjustedAmount = notAdjustedAmount; }
 
-    @JsonProperty("flexibilityIndicator")
-    public Boolean getFlexibilityIndicator() {
-        return flexibilityIndicator;
-    }
-
-    @JsonProperty("flexibilityIndicator")
-    public void setFlexibilityIndicator(Boolean flexibilityIndicator) {
-        this.flexibilityIndicator = flexibilityIndicator;
-    }
-
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("InstallmentModalityDTO{");
@@ -38,7 +25,6 @@ public class InstallmentModalityDTO extends AbstractDTO {
         sb.append(", amount=").append(amount);
         sb.append(", notAdjustedAmount=").append(notAdjustedAmount);
         sb.append(", financing=").append(financing);
-        sb.append(", flexibilityIndicator=").append(flexibilityIndicator);
         sb.append('}');
         return sb.toString();
     }

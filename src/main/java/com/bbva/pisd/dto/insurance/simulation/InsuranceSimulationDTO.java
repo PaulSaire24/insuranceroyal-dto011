@@ -32,7 +32,6 @@ public class InsuranceSimulationDTO extends CommonOutputFieldsDTO {
         sb.append(", hasAcceptedDataTreatment='").append(hasAcceptedDataTreatment).append('\'');
         sb.append(", simulationCompany='").append(this.getSimulationCompany());
         sb.append(", bank=").append(this.getBank());
-        sb.append(", isEndorseRequired=").append(this.getEndorseRequired());
         sb.append('}');
         return sb.toString();
     }

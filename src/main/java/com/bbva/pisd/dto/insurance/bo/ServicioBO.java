@@ -1,8 +1,5 @@
 package com.bbva.pisd.dto.insurance.bo;
 
-import org.codehaus.jackson.annotate.JsonIgnoreProperties;
-
-@JsonIgnoreProperties(ignoreUnknown = true)
 public class ServicioBO extends CommonBO {
 
     private Long idServicio;

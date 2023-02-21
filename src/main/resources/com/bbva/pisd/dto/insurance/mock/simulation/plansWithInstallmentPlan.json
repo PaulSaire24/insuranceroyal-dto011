@@ -114,8 +114,7 @@
             "maturityDate": "2021-12-06"
           }
         ]
-      },
-      "flexibilityIndicator": true
+      }
     }
   },
   {
@@ -233,8 +232,7 @@
             "maturityDate": "2021-12-06"
           }
         ]
-      },
-      "flexibilityIndicator": true
+      }
     }
   },
   {
@@ -352,127 +350,7 @@
             "maturityDate": "2021-12-06"
           }
         ]
-      },
-      "flexibilityIndicator": true
-    }
-  },
-  {
-    "id": "04",
-    "name": "PLAN FLEXIBLE",
-    "installmentPlan": {
-      "period": {
-        "id": "M",
-        "name": "Mensual"
-      },
-      "amount": {
-        "amount": 496.13,
-        "currency": "USD"
-      },
-      "financing": {
-        "id": "154",
-        "paymentsTotalnumber": 12,
-        "startDate": "2022-11-17",
-        "maturityDate": "2023-11-17",
-        "installments": [
-          {
-            "paymentNumber": 1,
-            "amount": {
-              "amount": 41.34,
-              "currency": "USD"
-            },
-            "maturityDate": "2022-11-17"
-          },
-          {
-            "paymentNumber": 2,
-            "amount": {
-              "amount": 41.34,
-              "currency": "USD"
-            },
-            "maturityDate": "2022-12-17"
-          },
-          {
-            "paymentNumber": 3,
-            "amount": {
-              "amount": 41.34,
-              "currency": "USD"
-            },
-            "maturityDate": "2023-01-17"
-          },
-          {
-            "paymentNumber": 4,
-            "amount": {
-              "amount": 41.34,
-              "currency": "USD"
-            },
-            "maturityDate": "2023-02-17"
-          },
-          {
-            "paymentNumber": 5,
-            "amount": {
-              "amount": 41.34,
-              "currency": "USD"
-            },
-            "maturityDate": "2023-03-17"
-          },
-          {
-            "paymentNumber": 6,
-            "amount": {
-              "amount": 41.34,
-              "currency": "USD"
-            },
-            "maturityDate": "2023-04-17"
-          },
-          {
-            "paymentNumber": 7,
-            "amount": {
-              "amount": 41.34,
-              "currency": "USD"
-            },
-            "maturityDate": "2023-05-17"
-          },
-          {
-            "paymentNumber": 8,
-            "amount": {
-              "amount": 41.34,
-              "currency": "USD"
-            },
-            "maturityDate": "2023-06-17"
-          },
-          {
-            "paymentNumber": 9,
-            "amount": {
-              "amount": 41.34,
-              "currency": "USD"
-            },
-            "maturityDate": "2023-07-17"
-          },
-          {
-            "paymentNumber": 10,
-            "amount": {
-              "amount": 41.34,
-              "currency": "USD"
-            },
-            "maturityDate": "2023-08-17"
-          },
-          {
-            "paymentNumber": 11,
-            "amount": {
-              "amount": 41.34,
-              "currency": "USD"
-            },
-            "maturityDate": "2023-09-17"
-          },
-          {
-            "paymentNumber": 12,
-            "amount": {
-              "amount": 41.39,
-              "currency": "USD"
-            },
-            "maturityDate": "2023-10-17"
-          }
-        ]
-      },
-      "flexibilityIndicator": true
+      }
     }
   }
 ]
