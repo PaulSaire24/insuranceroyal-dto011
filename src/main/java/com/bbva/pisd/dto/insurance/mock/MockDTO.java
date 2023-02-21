@@ -607,5 +607,12 @@ public final class MockDTO {
                 InsuranceQuotationDetailBO.class);
     }
 
+    public CommercialValueBO getDataResponseCommercialValue() throws IOException{
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/simulation/valorcomercial/responseValorComercialRimac.json"),
+                CommercialValueBO.class);
+    }
+
 
 }
