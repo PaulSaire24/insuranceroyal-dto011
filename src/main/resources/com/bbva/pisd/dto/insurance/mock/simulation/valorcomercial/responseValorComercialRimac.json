@@ -1,0 +1,26 @@
+{
+  "payload": {
+    "idvalcom": "0343003438672014",
+    "anhoFab": 2014,
+    "valorAct": "9000.00",
+    "valorMaximo": "9900.00",
+    "valorMinimo": "8100.00",
+    "moneda": "USD",
+    "modelo": {
+      "codigo": "343867",
+      "descripcion": "STEPWAY 1.6"
+    },
+    "marca": {
+      "codigo": "343",
+      "descripcion": "RENAULT"
+    },
+    "clase": {
+      "codigo": "3",
+      "descripcion": "CAMIONETA"
+    },
+    "tipo": {
+      "codigo": "3007",
+      "descripcion": "RURAL"
+    }
+  }
+}
