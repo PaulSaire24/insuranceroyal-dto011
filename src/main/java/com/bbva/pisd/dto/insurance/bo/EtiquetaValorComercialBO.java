@@ -8,15 +8,6 @@ public class EtiquetaValorComercialBO {
     private String codigo;
     private String descripcion;
 
-    @Override
-    public String toString() {
-        final StringBuilder sb = new StringBuilder("EtiquetaValorComercialBO{");
-        sb.append("codigo='").append(codigo).append('\'');
-        sb.append(", descripcion=").append(descripcion);
-        sb.append('}');
-        return sb.toString();
-    }
-
 
     /**
      * @return String return the codigo
@@ -46,4 +37,12 @@ public class EtiquetaValorComercialBO {
         this.descripcion = descripcion;
     }
 
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("EtiquetaValorComercialBO{");
+        sb.append("codigo='").append(codigo).append('\'');
+        sb.append(", descripcion='").append(descripcion).append('\'');
+        sb.append('}');
+        return sb.toString();
+    }
 }

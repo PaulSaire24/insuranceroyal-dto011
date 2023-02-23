@@ -161,17 +161,16 @@ public class ValorComercialPayloadBO {
     public String toString() {
         final StringBuilder sb = new StringBuilder("ValorComercialPayloadBO{");
         sb.append("idvalcom='").append(idvalcom).append('\'');
-        sb.append(", anhoFab=").append(anhoFab).append('\'');
-        sb.append(", valorAct=").append(valorAct).append('\'');
-        sb.append(", valorMaximo=").append(valorMaximo).append('\'');
-        sb.append(", valorMinimo=").append(valorMinimo).append('\'');
-        sb.append(", moneda=").append(moneda).append('\'');
-        sb.append(", modelo=").append(modelo).append('\'');
-        sb.append(", marca=").append(marca).append('\'');
-        sb.append(", clase=").append(clase).append('\'');
+        sb.append(", anhoFab=").append(anhoFab);
+        sb.append(", valorAct='").append(valorAct).append('\'');
+        sb.append(", valorMaximo='").append(valorMaximo).append('\'');
+        sb.append(", valorMinimo='").append(valorMinimo).append('\'');
+        sb.append(", moneda='").append(moneda).append('\'');
+        sb.append(", modelo=").append(modelo);
+        sb.append(", marca=").append(marca);
+        sb.append(", clase=").append(clase);
         sb.append(", tipo=").append(tipo);
         sb.append('}');
         return sb.toString();
     }
-
 }

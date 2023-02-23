@@ -25,9 +25,8 @@ public class CommercialValueBO {
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("CommercialValueBO{");
-        sb.append("payload='").append(payload);
+        sb.append("payload=").append(payload);
         sb.append('}');
         return sb.toString();
     }
-
 }
