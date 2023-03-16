@@ -22,8 +22,12 @@ public class GifoleInsuranceRequestASO {
     private ValidityPeriodASO validityPeriod;
     private InsuranceASO insurance;
     private String policyNumber;
+    //externalSimulationId
+    private String externalSimulationId;
+    public String getExternalSimulationId() {return externalSimulationId;}
+	public void setExternalSimulationId(String externalSimulationId) {this.externalSimulationId = externalSimulationId;}
 
-    public ScheduleContactDTO getScheduleContact() {
+	public ScheduleContactDTO getScheduleContact() {
         return scheduleContact;
     }
 
@@ -81,6 +85,7 @@ public class GifoleInsuranceRequestASO {
         sb.append(", insurance='").append(insurance).append('\'');
         sb.append(", policyNumber='").append(policyNumber).append('\'');
         sb.append(", businessAgent='").append(businessAgent).append('\'');
+        sb.append(", externalSimulationId='").append(externalSimulationId).append('\'');
         sb.append('}');
         return sb.toString();
     }
