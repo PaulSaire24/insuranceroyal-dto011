@@ -1,9 +1,14 @@
 package com.bbva.pisd.dto.insurance.commons;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+import org.joda.time.LocalDate;
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class IdentityDataDTO {
 	private String tipoLista;
 	private String tipoDocumento;
 	private String nroDocumento;
+	private String producto;
+	private LocalDate fechaNacimiento;
 
 	public String getTipoLista() {
 		return tipoLista;
@@ -29,10 +34,28 @@ public class IdentityDataDTO {
 		this.nroDocumento = nroDocumento;
 	}
 
-	public IdentityDataDTO(String tipoLista, String tipoDocumento, String nroDocumento) {
+	public String getProducto() {
+		return producto;
+	}
+
+	public void setProducto(String producto) {
+		this.producto = producto;
+	}
+
+	public LocalDate getFechaNacimiento() {
+		return fechaNacimiento;
+	}
+
+	public void setFechaNacimiento(LocalDate fechaNacimiento) {
+		this.fechaNacimiento = fechaNacimiento;
+	}
+
+	public IdentityDataDTO(String tipoLista, String tipoDocumento, String nroDocumento, String producto, LocalDate fechaNacimiento) {
 		this.tipoLista = tipoLista;
 		this.tipoDocumento = tipoDocumento;
 		this.nroDocumento = nroDocumento;
+		this.producto = producto;
+		this.fechaNacimiento = fechaNacimiento;
 	}
 
 	public IdentityDataDTO() {
@@ -45,8 +68,11 @@ public class IdentityDataDTO {
 		result = prime * result + ((nroDocumento == null) ? 0 : nroDocumento.hashCode());
 		result = prime * result + ((tipoDocumento == null) ? 0 : tipoDocumento.hashCode());
 		result = prime * result + ((tipoLista == null) ? 0 : tipoLista.hashCode());
+		result = prime * result + ((fechaNacimiento == null) ? 0 : fechaNacimiento.hashCode());
+		result = prime * result + ((producto == null) ? 0 : producto.hashCode());
 		return result;
 	}
+
 
 	@Override
 	public boolean equals(Object obj) {
@@ -75,6 +101,18 @@ public class IdentityDataDTO {
 		} else if (!tipoLista.equals(other.tipoLista)) {
 			return false;
 		}
+		if (fechaNacimiento == null) {
+			if (other.fechaNacimiento != null)
+				return false;
+		} else if (!fechaNacimiento.isEqual(other.fechaNacimiento)) {
+			return false;
+		}
+		if (producto == null) {
+			if (other.producto != null)
+				return false;
+		} else if (!producto.equals(other.producto)) {
+			return false;
+		}
 		return true;
 	}
 
@@ -84,6 +122,8 @@ public class IdentityDataDTO {
 		sb.append("tipoLista='").append(tipoLista).append('\'');
 		sb.append(", tipoDocumento='").append(tipoDocumento).append('\'');
 		sb.append(", nroDocumento='").append(nroDocumento).append('\'');
+		sb.append(", fechaNacimiento='").append(fechaNacimiento).append('\'');
+		sb.append(", producto='").append(producto).append('\'');
 		sb.append('}');
 		return sb.toString();
 	}
