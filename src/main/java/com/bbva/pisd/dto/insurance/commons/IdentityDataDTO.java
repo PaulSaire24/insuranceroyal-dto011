@@ -101,18 +101,6 @@ public class IdentityDataDTO {
 		} else if (!tipoLista.equals(other.tipoLista)) {
 			return false;
 		}
-		if (fechaNacimiento == null) {
-			if (other.fechaNacimiento != null)
-				return false;
-		} else if (!fechaNacimiento.isEqual(other.fechaNacimiento)) {
-			return false;
-		}
-		if (producto == null) {
-			if (other.producto != null)
-				return false;
-		} else if (!producto.equals(other.producto)) {
-			return false;
-		}
 		return true;
 	}
 

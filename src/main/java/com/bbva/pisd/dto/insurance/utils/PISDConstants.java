@@ -75,6 +75,10 @@ public class PISDConstants {
 		public static final String CODIGO_AGRUPADOR_VEHICULO = "3";
 	}
 
+	public static final class ProductEasyYesLife{
+		public static final String EASY_YES_RIMAC = "EASYYES" ;
+		public static final String EASY_YES_PRODUCT_CODE = "840";
+	}
 	
 	private PISDConstants() { }
 
