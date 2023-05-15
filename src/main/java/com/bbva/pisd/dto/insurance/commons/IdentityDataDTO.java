@@ -1,11 +1,13 @@
 package com.bbva.pisd.dto.insurance.commons;
 
+import org.joda.time.LocalDate;
+
 public class IdentityDataDTO {
 	private String tipoLista;
 	private String tipoDocumento;
 	private String nroDocumento;
 	private String producto;
-	private String fechaNacimiento;
+	private LocalDate fechaNacimiento;
 
 	public String getTipoLista() {
 		return tipoLista;
@@ -39,15 +41,15 @@ public class IdentityDataDTO {
 		this.producto = producto;
 	}
 
-	public String getFechaNacimiento() {
+	public LocalDate getFechaNacimiento() {
 		return fechaNacimiento;
 	}
 
-	public void setFechaNacimiento(String fechaNacimiento) {
+	public void setFechaNacimiento(LocalDate fechaNacimiento) {
 		this.fechaNacimiento = fechaNacimiento;
 	}
 
-	public IdentityDataDTO(String tipoLista, String tipoDocumento, String nroDocumento, String producto, String fechaNacimiento) {
+	public IdentityDataDTO(String tipoLista, String tipoDocumento, String nroDocumento, String producto, LocalDate fechaNacimiento) {
 		this.tipoLista = tipoLista;
 		this.tipoDocumento = tipoDocumento;
 		this.nroDocumento = nroDocumento;
@@ -69,6 +71,7 @@ public class IdentityDataDTO {
 		result = prime * result + ((producto == null) ? 0 : producto.hashCode());
 		return result;
 	}
+
 
 	@Override
 	public boolean equals(Object obj) {
@@ -100,7 +103,7 @@ public class IdentityDataDTO {
 		if (fechaNacimiento == null) {
 			if (other.fechaNacimiento != null)
 				return false;
-		} else if (!fechaNacimiento.equals(other.fechaNacimiento)) {
+		} else if (!fechaNacimiento.isEqual(other.fechaNacimiento)) {
 			return false;
 		}
 		if (producto == null) {
