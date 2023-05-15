@@ -623,10 +623,4 @@ public final class MockDTO {
                 BlackListRiskRimacBO.class);
     }
 
-    public BlackListRequestRimacDTO getDataRequestBlackListRiskRimac() throws IOException{
-        return objectMapperHelper.readValue(
-                Thread.currentThread().getContextClassLoader().getResourceAsStream(
-                        "com/bbva/pisd/dto/insurance/mock/blacklist/blackListRiskEasyYesRimacRequest.json"),
-                BlackListRequestRimacDTO.class);
-    }
 }
