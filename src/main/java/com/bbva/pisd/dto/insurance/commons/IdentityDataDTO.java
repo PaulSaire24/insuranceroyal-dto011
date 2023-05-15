@@ -50,12 +50,10 @@ public class IdentityDataDTO {
 		this.fechaNacimiento = fechaNacimiento;
 	}
 
-	public IdentityDataDTO(String tipoLista, String tipoDocumento, String nroDocumento, String producto, LocalDate fechaNacimiento) {
+	public IdentityDataDTO(String tipoLista, String tipoDocumento, String nroDocumento) {
 		this.tipoLista = tipoLista;
 		this.tipoDocumento = tipoDocumento;
 		this.nroDocumento = nroDocumento;
-		this.producto = producto;
-		this.fechaNacimiento = fechaNacimiento;
 	}
 
 	public IdentityDataDTO() {
@@ -68,8 +66,6 @@ public class IdentityDataDTO {
 		result = prime * result + ((nroDocumento == null) ? 0 : nroDocumento.hashCode());
 		result = prime * result + ((tipoDocumento == null) ? 0 : tipoDocumento.hashCode());
 		result = prime * result + ((tipoLista == null) ? 0 : tipoLista.hashCode());
-		result = prime * result + ((fechaNacimiento == null) ? 0 : fechaNacimiento.hashCode());
-		result = prime * result + ((producto == null) ? 0 : producto.hashCode());
 		return result;
 	}
 

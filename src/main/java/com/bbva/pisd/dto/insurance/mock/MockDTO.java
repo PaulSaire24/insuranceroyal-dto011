@@ -7,6 +7,7 @@ import com.bbva.pisd.dto.insurance.aso.GetContactDetailsASO;
 import com.bbva.pisd.dto.insurance.aso.crypto.CryptoASO;
 import com.bbva.pisd.dto.insurance.aso.tier.TierASO;
 
+import com.bbva.pisd.dto.insurance.blacklist.BlackListRequestRimacDTO;
 import com.bbva.pisd.dto.insurance.blacklist.EntityOutBlackListDTO;
 
 import com.bbva.pisd.dto.insurance.bo.*;
@@ -615,5 +616,17 @@ public final class MockDTO {
                 CommercialValueBO.class);
     }
 
+    public BlackListRiskRimacBO getDataResponseBlackListRiskRimac() throws IOException{
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/blacklist/blackListRiskEasyYesRimacResponse.json"),
+                BlackListRiskRimacBO.class);
+    }
 
+    public BlackListRequestRimacDTO getDataRequestBlackListRiskRimac() throws IOException{
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/blacklist/blackListRiskEasyYesRimacRequest.json"),
+                BlackListRequestRimacDTO.class);
+    }
 }

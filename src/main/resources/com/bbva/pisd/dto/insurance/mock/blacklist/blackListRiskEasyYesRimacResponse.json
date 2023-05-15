@@ -1,0 +1,9 @@
+{
+  "payload": [
+    {
+      "status": "0",
+      "mensaje": "El Dni con número 40456946 no se encuentra registrado.",
+      "edad": "33 años"
+    }
+  ]
+}

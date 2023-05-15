@@ -12,6 +12,8 @@ public class SelectionQuotationPayloadBO {
     private String status;
     private String mensaje;
 
+    private String edad;
+
     public List<PlanesBO> getPlanes() { return planes; }
     public void setPlanes(List<PlanesBO> planes) { this.planes = planes; }
     public AseguradoBO getAsegurado() { return asegurado; }
@@ -23,14 +25,23 @@ public class SelectionQuotationPayloadBO {
     public String getMensaje() { return mensaje; }
     public void setMensaje(String mensaje) { this.mensaje = mensaje; }
 
+    public String getEdad() {
+        return edad;
+    }
+
+    public void setEdad(String edad) {
+        this.edad = edad;
+    }
+
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("SeleccionPayloadBO{");
+        final StringBuilder sb = new StringBuilder("SelectionQuotationPayloadBO{");
         sb.append("planes=").append(planes);
         sb.append(", asegurado=").append(asegurado);
         sb.append(", codigoExterno='").append(codigoExterno).append('\'');
         sb.append(", status='").append(status).append('\'');
         sb.append(", mensaje='").append(mensaje).append('\'');
+        sb.append(", edad='").append(edad).append('\'');
         sb.append('}');
         return sb.toString();
     }
