@@ -76,44 +76,7 @@ public class IdentityDataDTO {
 
 	@Override
 	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		IdentityDataDTO other = (IdentityDataDTO) obj;
-		if (nroDocumento == null) {
-			if (other.nroDocumento != null)
-				return false;
-		} else if (!nroDocumento.equals(other.nroDocumento)) {
-			return false;
-		}
-		if (tipoDocumento == null) {
-			if (other.tipoDocumento != null)
-				return false;
-		} else if (!tipoDocumento.equals(other.tipoDocumento)) {
-			return false;
-		}
-		if (tipoLista == null) {
-			if (other.tipoLista != null)
-				return false;
-		} else if (!tipoLista.equals(other.tipoLista)) {
-			return false;
-		}
-		if (fechaNacimiento == null) {
-			if (other.fechaNacimiento != null)
-				return false;
-		} else if (!fechaNacimiento.isEqual(other.fechaNacimiento)) {
-			return false;
-		}
-		if (producto == null) {
-			if (other.producto != null)
-				return false;
-		} else if (!producto.equals(other.producto)) {
-			return false;
-		}
-		return true;
+		return super.equals(obj);
 	}
 
 	@Override
