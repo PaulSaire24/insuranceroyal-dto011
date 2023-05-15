@@ -7,7 +7,6 @@ public class PISDConstants {
 	public static final String MOCKERBBVA = "MOCKERBBVA";
 	public static final String HEALTH_RIMAC = "SALUD";
 	public static final String VEHICULAR_RIMAC = "VEHICULAR" ;
-	public static final String EASY_YES_RIMAC = "EASYYES" ;
 	public static final String LETTER_SI = "S" ;
 	public static final String LETTER_NO = "N" ;
 	public static final String BLACKLIST_BLOCKED = "1" ;
@@ -76,6 +75,10 @@ public class PISDConstants {
 		public static final String CODIGO_AGRUPADOR_VEHICULO = "3";
 	}
 
+	public static final class ProductEasyYesLife{
+		public static final String EASY_YES_RIMAC = "EASYYES" ;
+		public static final String EASY_YES_PRODUCT_CODE = "840";
+	}
 	
 	private PISDConstants() { }
 
