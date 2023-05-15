@@ -12,6 +12,7 @@ public class FinanciamientoPayloadBO {
     private LocalDate fechaInicio;
     private LocalDate fechaFin;
     private List<FinanciamientoBO> financiamiento;
+    private String producto;
 
     public void setCotizacion(String cotizacion) {
         this.cotizacion = cotizacion;
@@ -53,6 +54,13 @@ public class FinanciamientoPayloadBO {
         return fechaInicioFinanciamiento;
     }
 
+    public String getProducto() {
+        return producto;
+    }
+
+    public void setProducto(String producto) {
+        this.producto = producto;
+    }
 
     @Override
     public String toString() {
@@ -62,6 +70,7 @@ public class FinanciamientoPayloadBO {
         sb.append(", fechaInicio=").append(fechaInicio).append('\'');
         sb.append(", fechaFin=").append(fechaFin).append('\'');
         sb.append(", finacimiento=").append(financiamiento).append('\'');
+        sb.append(", producto=").append(producto).append('\'');
         sb.append('}');
         return sb.toString();
     }
