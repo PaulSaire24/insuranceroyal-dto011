@@ -1,7 +1,8 @@
 package com.bbva.pisd.dto.insurance.commons;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 import org.joda.time.LocalDate;
-
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class IdentityDataDTO {
 	private String tipoLista;
 	private String tipoDocumento;
