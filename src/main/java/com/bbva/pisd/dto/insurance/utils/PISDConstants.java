@@ -7,6 +7,7 @@ public class PISDConstants {
 	public static final String MOCKERBBVA = "MOCKERBBVA";
 	public static final String HEALTH_RIMAC = "SALUD";
 	public static final String VEHICULAR_RIMAC = "VEHICULAR" ;
+	public static final String EASY_YES_RIMAC = "EASYYES" ;
 	public static final String LETTER_SI = "S" ;
 	public static final String LETTER_NO = "N" ;
 	public static final String BLACKLIST_BLOCKED = "1" ;
