@@ -8,7 +8,7 @@ public class IdentityDataDTO {
 	private String tipoDocumento;
 	private String nroDocumento;
 	private String producto;
-	private LocalDate fechaNacimiento;
+	private String fechaNacimiento;
 
 	public String getTipoLista() {
 		return tipoLista;
@@ -42,11 +42,11 @@ public class IdentityDataDTO {
 		this.producto = producto;
 	}
 
-	public LocalDate getFechaNacimiento() {
+	public String getFechaNacimiento() {
 		return fechaNacimiento;
 	}
 
-	public void setFechaNacimiento(LocalDate fechaNacimiento) {
+	public void setFechaNacimiento(String fechaNacimiento) {
 		this.fechaNacimiento = fechaNacimiento;
 	}
 
