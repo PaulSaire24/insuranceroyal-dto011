@@ -149,8 +149,10 @@ public enum PISDProperties {
     ASO_GET_BLACKLISTRISKRIMAC_MOCK("pisd.aso.get.blacklistriskrimac.mock"),    
     ID_API_BLACKLIST_ASO("blacklist.aso"),
     ID_API_BLACKLISTRISK_RIMAC("blacklistrisk.rimac"),
+    ID_API_BLACKLISTEASYYES_RIMAC("blacklisteasyyes.rimac"),
     ID_API_BLACKLISTHEALTH_RIMAC("blacklisthealth.rimac"),
     URI_BLACKLIST_RISK("/vehicular/V1/cotizacion/riesgoPersona/validar"),
+    URI_BLACKLIST_EASYYES("/api-operaciones-generales-polizas/V1/cotizacion/riesgoPersona/validar"),
 	URI_BLACKLIST_HEALTH("/vehicular/V1/cotizacion/rechazoSalud/validar"),
 	
 	ASO_MOCK_SEARCH_ENABLED("pisd.aso.mock.search.enabled"),
