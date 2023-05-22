@@ -7,10 +7,18 @@ import com.bbva.pisd.dto.insurance.aso.GetContactDetailsASO;
 import com.bbva.pisd.dto.insurance.aso.crypto.CryptoASO;
 import com.bbva.pisd.dto.insurance.aso.tier.TierASO;
 
-import com.bbva.pisd.dto.insurance.blacklist.BlackListRequestRimacDTO;
 import com.bbva.pisd.dto.insurance.blacklist.EntityOutBlackListDTO;
 
-import com.bbva.pisd.dto.insurance.bo.*;
+import com.bbva.pisd.dto.insurance.bo.ComponenteBO;
+import com.bbva.pisd.dto.insurance.bo.FinanciamientoBO;
+import com.bbva.pisd.dto.insurance.bo.CoberturaBO;
+import com.bbva.pisd.dto.insurance.bo.SearchQuotationBO;
+import com.bbva.pisd.dto.insurance.bo.DatoParticularBO;
+import com.bbva.pisd.dto.insurance.bo.SelectionQuotationBO;
+import com.bbva.pisd.dto.insurance.bo.SelectionQuotationPayloadBO;
+import com.bbva.pisd.dto.insurance.bo.BlackListIndicatorBO;
+import com.bbva.pisd.dto.insurance.bo.BlackListRiskRimacBO;
+import com.bbva.pisd.dto.insurance.bo.BlackListHealthRimacBO;
 import com.bbva.pisd.dto.insurance.bo.detail.InsuranceQuotationDetailBO;
 import com.bbva.pisd.dto.insurance.bo.financing.CronogramaPagoBO;
 import com.bbva.pisd.dto.insurance.bo.financing.FinancingPlanBO;
@@ -19,8 +27,16 @@ import com.bbva.pisd.dto.insurance.bo.registeradditional.ValidateGeneralDataBO;
 import com.bbva.pisd.dto.insurance.bo.simulation.InsuranceSimulationBO;
 
 import com.bbva.pisd.dto.insurance.bo.valorcomercial.CommercialValueBO;
-import com.bbva.pisd.dto.insurance.commons.*;
 
+import com.bbva.pisd.dto.insurance.commons.CoverageModalityDTO;
+import com.bbva.pisd.dto.insurance.commons.VehicleBrandDTO;
+import com.bbva.pisd.dto.insurance.commons.QuotationStatusDTO;
+import com.bbva.pisd.dto.insurance.commons.VehicleModelDTO;
+import com.bbva.pisd.dto.insurance.commons.InsurancePrimeAmountDTO;
+import com.bbva.pisd.dto.insurance.commons.PaymentPeriodDTO;
+import com.bbva.pisd.dto.insurance.commons.InstallmentModalityDTO;
+import com.bbva.pisd.dto.insurance.commons.InsuranceProductModalityDTO;
+import com.bbva.pisd.dto.insurance.commons.InsuranceProductDTO;
 import com.bbva.pisd.dto.insurance.dao.ConsiderationsDAO;
 import com.bbva.pisd.dto.insurance.dao.InsuranceProductModalityDAO;
 

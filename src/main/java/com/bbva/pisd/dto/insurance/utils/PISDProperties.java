@@ -74,7 +74,7 @@ public enum PISDProperties {
 
     FIELD_LAST_CHANGE_BRANCH_ID("LAST_CHANGE_BRANCH_ID"),
     FIELD_SOURCE_BRANCH_ID("SOURCE_BRANCH_ID"),
- 
+
     QUERY_INSERT_INSURANCE_SIMULATION("PISD.INSERT_INSURANCE_SIMULATION"),
     FIELD_INSRNC_COMPANY_SIMULATION_ID("INSRNC_COMPANY_SIMULATION_ID"),
     FIELD_CUSTOMER_ID("CUSTOMER_ID"),
@@ -141,28 +141,30 @@ public enum PISDProperties {
     FIELD_CREATION_USER_ID("CREATION_USER_ID"),
     FIELD_USER_AUDIT_ID("USER_AUDIT_ID"),
     FIELD_CREATION_DATE("CREATION_DATE"),
-    
+
     ASO_MOCK_BBVA_ENABLED("pisd.aso.mock.bbva.enabled"),
     ASO_MOCK_RIMAC_ENABLED("pisd.aso.mock.rimac.enabled"),
-    ASO_GET_BLACKLISTBBVA_MOCK("pisd.aso.get.blacklistbbva.mock"),    
-    ASO_GET_BLACKLISTHEALTHRIMAC_MOCK("pisd.aso.get.blacklisthealthrimac.mock"),    
-    ASO_GET_BLACKLISTRISKRIMAC_MOCK("pisd.aso.get.blacklistriskrimac.mock"),    
+    ASO_GET_BLACKLISTBBVA_MOCK("pisd.aso.get.blacklistbbva.mock"),
+    ASO_GET_BLACKLISTHEALTHRIMAC_MOCK("pisd.aso.get.blacklisthealthrimac.mock"),
+    ASO_GET_BLACKLISTRISKRIMAC_MOCK("pisd.aso.get.blacklistriskrimac.mock"),
     ID_API_BLACKLIST_ASO("blacklist.aso"),
     ID_API_BLACKLISTRISK_RIMAC("blacklistrisk.rimac"),
+    ID_API_BLACKLISTEASYYES_RIMAC("blacklisteasyyes.rimac"),
     ID_API_BLACKLISTHEALTH_RIMAC("blacklisthealth.rimac"),
     URI_BLACKLIST_RISK("/vehicular/V1/cotizacion/riesgoPersona/validar"),
-	URI_BLACKLIST_HEALTH("/vehicular/V1/cotizacion/rechazoSalud/validar"),
-	
-	ASO_MOCK_SEARCH_ENABLED("pisd.aso.mock.search.enabled"),
+    URI_BLACKLIST_EASYYES("/api-operaciones-generales-polizas/V1/cotizacion/riesgoPersona/validar"),
+    URI_BLACKLIST_HEALTH("/vehicular/V1/cotizacion/rechazoSalud/validar"),
+
+    ASO_MOCK_SEARCH_ENABLED("pisd.aso.mock.search.enabled"),
     QUOTATION_SEARCH_QUERYSTRING_DOCUMENT_TYPE("tipoDocumento="),
     QUOTATION_SEARCH_QUERYSTRING_DOCUMENT_NUMBER("nroDocumento="),
     QUOTATION_SEARCH_QUERYSTRING_LIMIT("limite="),
     QUOTATION_SEARCH_QUERYSTRING_PLATE("placa="),
     QUOTATION_SEARCH_QUERYSTRING_PROD("ideProd="),
-	ID_API_SEARCH_RIMAC("quotationsearch.rimac"),
-	ASO_GET_SEARCH_MOCK("pisd.aso.get.search.mock"),
+    ID_API_SEARCH_RIMAC("quotationsearch.rimac"),
+    ASO_GET_SEARCH_MOCK("pisd.aso.get.search.mock"),
 
-	QUERY_SELECT_INSRC_QUOTATION("PISD.SELECT_INSURANCE_QUOTATION"),
+    QUERY_SELECT_INSRC_QUOTATION("PISD.SELECT_INSURANCE_QUOTATION"),
 
     KEY_REQUEST_INSRC_QUOTATION("POLICY_QUOTA_INTERNAL_ID"),
     URI_QUOTATION_SEARCH("/vehicular/V1/cotizacion/buscar"),
