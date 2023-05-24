@@ -58,7 +58,9 @@ public enum PISDErrors {
     VEHCOT001_RIMAC_ERROR_CODE("PISD00120047", false, "Rimac encontro errores en algunas validaciones"),
     RIMAC_SERVER_ERROR("PISD00120048", false, "Ocurrio un problema con el servidor"),
     ERROR_CHANNEL_NOT_VALID("PISD00120049",false,"El codigo del canal es incorrecto"),
-    ERROR_COVERAGE_CODE("PISD00120050",false,"El codigo de cobertura es incorrecto");
+    ERROR_COVERAGE_CODE("PISD00120050",false,"El codigo de cobertura es incorrecto"),
+
+    ERROR_BIRTHDATE_BLACKLIST("PISD00120053", false,"La edad del cliente no se encuentra en el rango válido [18 - 70]");
 
     private final String adviceCode;
     private final boolean rollback;

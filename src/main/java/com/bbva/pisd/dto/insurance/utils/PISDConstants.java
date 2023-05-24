@@ -12,7 +12,7 @@ public class PISDConstants {
 	public static final String BLACKLIST_BLOCKED = "1" ;
 	public static final String BLACKLIST_COMPANY_RIMAC = "RIMAC" ;
 	public static final String BLACKLIST_COMPANY_CHUBB = "CHUBB" ;
-	public static final String BLACKLIST_MSJ_REJECT = "BLOQUEADO" ;
+	public static final String BLACKLIST_MSJ_REJECT = "El cliente se encuentra bloqueado por lista negra" ;
 	public static final String MSJ_EN_TRAMITE = "EN TRAMITE" ;
 	public static final String MSJ_SIN_PLACA = "SIN PLACA";
 	public static final String TAG_SI = "SI" ;
