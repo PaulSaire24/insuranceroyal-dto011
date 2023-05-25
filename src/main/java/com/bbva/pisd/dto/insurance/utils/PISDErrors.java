@@ -60,7 +60,8 @@ public enum PISDErrors {
     ERROR_CHANNEL_NOT_VALID("PISD00120049",false,"El codigo del canal es incorrecto"),
     ERROR_COVERAGE_CODE("PISD00120050",false,"El codigo de cobertura es incorrecto"),
 
-    ERROR_BIRTHDATE_BLACKLIST("PISD00120053", false,"Error al obtener el campo fechaNacimiento");
+    ERROR_BIRTHDATE_BLACKLIST("PISD00120053", false,"Error al obtener el campo fechaNacimiento"),
+    ERROR_AGE_VALIDATION_BLACKLIST("PISD00120054", false,"La edad del cliente se encuentra fuera del rango valido");
 
     private final String adviceCode;
     private final boolean rollback;
