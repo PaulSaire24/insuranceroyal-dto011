@@ -1,0 +1,71 @@
+{
+  "payload": {
+    "cotizacion": "58e46e2e-a49d-4943-a5df-db1913954b3d",
+    "primaNeta": 15,
+    "primaBruta": 15,
+    "financiamiento": 23776,
+    "numeroCuotas": 12,
+    "cuotasFinanciamiento": [
+      {
+        "cuota": 1,
+        "montoCuota": 15,
+        "fechaVencimiento": "2023-05-31"
+      },
+      {
+        "cuota": 2,
+        "montoCuota": 15,
+        "fechaVencimiento": "2023-06-30"
+      },
+      {
+        "cuota": 3,
+        "montoCuota": 15,
+        "fechaVencimiento": "2023-07-31"
+      },
+      {
+        "cuota": 4,
+        "montoCuota": 15,
+        "fechaVencimiento": "2023-08-31"
+      },
+      {
+        "cuota": 5,
+        "montoCuota": 15,
+        "fechaVencimiento": "2023-09-30"
+      },
+      {
+        "cuota": 6,
+        "montoCuota": 15,
+        "fechaVencimiento": "2023-10-31"
+      },
+      {
+        "cuota": 7,
+        "montoCuota": 15,
+        "fechaVencimiento": "2023-11-30"
+      },
+      {
+        "cuota": 8,
+        "montoCuota": 15,
+        "fechaVencimiento": "2023-12-31"
+      },
+      {
+        "cuota": 9,
+        "montoCuota": 15,
+        "fechaVencimiento": "2024-01-31"
+      },
+      {
+        "cuota": 10,
+        "montoCuota": 15,
+        "fechaVencimiento": "2024-02-29"
+      },
+      {
+        "cuota": 11,
+        "montoCuota": 15,
+        "fechaVencimiento": "2024-03-31"
+      },
+      {
+        "cuota": 12,
+        "montoCuota": 15,
+        "fechaVencimiento": "2024-04-30"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "payload": {
+    "producto": "EASYYES",
+    "financiamiento": [
+      {
+        "frecuencia": "M",
+        "numeroCuotas": 12
+      }
+    ]
+  }
+}
