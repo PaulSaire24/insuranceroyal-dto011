@@ -13,6 +13,7 @@ import com.bbva.pisd.dto.insurance.blacklist.EntityOutBlackListDTO;
 import com.bbva.pisd.dto.insurance.bo.*;
 import com.bbva.pisd.dto.insurance.bo.detail.InsuranceQuotationDetailBO;
 import com.bbva.pisd.dto.insurance.bo.financing.CronogramaPagoBO;
+import com.bbva.pisd.dto.insurance.bo.financing.CronogramaPagoLifeBO;
 import com.bbva.pisd.dto.insurance.bo.financing.FinancingPlanBO;
 import com.bbva.pisd.dto.insurance.bo.registeradditional.RegisterAdditionalVehBO;
 import com.bbva.pisd.dto.insurance.bo.registeradditional.ValidateGeneralDataBO;
@@ -621,6 +622,20 @@ public final class MockDTO {
                 Thread.currentThread().getContextClassLoader().getResourceAsStream(
                         "com/bbva/pisd/dto/insurance/mock/blacklist/blackListRiskEasyYesRimacResponse.json"),
                 BlackListRiskRimacBO.class);
+    }
+
+    public CronogramaPagoLifeBO getSimulateInsuranceQuotationInstallmentPlanCronogramaPagoRequestRimacLifeEasyYes() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/financing/simulateInsuranceQuotationInstallmentPlanCronogramaPagoRequestRimacEasyYes.json"),
+                CronogramaPagoLifeBO.class);
+    }
+
+    public CronogramaPagoLifeBO getSimulateInsuranceQuotationInstallmentPlanCronogramaPagoResponseRimacLifeEasyYes() throws IOException {
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/pisd/dto/insurance/mock/financing/simulateInsuranceQuotationInstallmentPlanCronogramaPagoResponseRimacEasyYes.json"),
+                CronogramaPagoLifeBO.class);
     }
 
 }
