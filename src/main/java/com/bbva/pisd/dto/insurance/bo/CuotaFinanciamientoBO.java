@@ -10,6 +10,7 @@ public class CuotaFinanciamientoBO {
 
     private Long cuota;
     private BigDecimal monto;
+    private BigDecimal montoCuota;
     private Date fechaVencimiento;
     private String moneda;
 
@@ -22,15 +23,23 @@ public class CuotaFinanciamientoBO {
     public String getMoneda() { return moneda; }
     public void setMoneda(String moneda) { this.moneda = moneda; }
 
+    public BigDecimal getMontoCuota() {
+        return montoCuota;
+    }
+
+    public void setMontoCuota(BigDecimal montoCuota) {
+        this.montoCuota = montoCuota;
+    }
+
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("CuotaFinanciamientoBO{");
         sb.append("cuota=").append(cuota);
         sb.append(", monto=").append(monto);
-        sb.append(", fechaVencimiento='").append(fechaVencimiento).append('\'');
+        sb.append(", montoCuota=").append(montoCuota);
+        sb.append(", fechaVencimiento=").append(fechaVencimiento);
         sb.append(", moneda='").append(moneda).append('\'');
         sb.append('}');
         return sb.toString();
     }
-
 }
