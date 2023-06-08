@@ -15,6 +15,8 @@ public class GifoleInsuranceRequestASO {
     private BankASO bank;
     private QuotationASO quotation;
     private BusinessAgentASO businessAgent;
+    private PromoterASO promoter;
+    private String couponCode;
     //Inicio Open Market
     private ScheduleContactDTO scheduleContact;
 
@@ -35,9 +37,25 @@ public class GifoleInsuranceRequestASO {
         this.scheduleContact = scheduleContact;
     }
     //Fin Open Market
+    
+    
+    
+    public PromoterASO getPromoter() {
+		return promoter;
+	}
+	public void setPromoter(PromoterASO promoter) {
+		this.promoter = promoter;
+	}
+	public String getCouponCode() {
+		return couponCode;
+	}
+	public void setCouponCode(String couponCode) {
+		this.couponCode = couponCode;
+	}
+    
 
     public ProductASO getProduct() {return product;}
-    public void setProduct(ProductASO product) {this.product = product;}
+	public void setProduct(ProductASO product) {this.product = product;}
     public GoodASO getGood() {return good;}
     public void setGood(GoodASO good) {this.good = good;}
     public InstallmentPlanASO getInstallmentPlan() {return installmentPlan;}
@@ -85,6 +103,8 @@ public class GifoleInsuranceRequestASO {
         sb.append(", insurance='").append(insurance).append('\'');
         sb.append(", policyNumber='").append(policyNumber).append('\'');
         sb.append(", businessAgent='").append(businessAgent).append('\'');
+        sb.append(", promoter='").append(promoter).append('\'');
+        sb.append(", couponCode='").append(couponCode).append('\'');
         sb.append(", externalSimulationId='").append(externalSimulationId).append('\'');
         sb.append('}');
         return sb.toString();
