@@ -4,7 +4,7 @@
 	<parent>
 		<artifactId>elara-project</artifactId>
 		<groupId>com.bbva.elara</groupId>
-		<version>7.8.9</version>
+		<version>7.9.6</version>
 	</parent>
 	<groupId>com.bbva.pisd.dto.insurance</groupId>
 	<artifactId>PISDC011</artifactId>
@@ -12,6 +12,7 @@
 	<packaging>bundle</packaging>
 	<description>Deployment unit insuranceroyal-dto011 of uuaa pisd</description>
 	<properties>
+		<apx.core.online.version>7.9.6</apx.core.online.version>
 		<sonar.coverage.exclusions>
 			/src/main/java/com/bbva/pisd/dto/insurance/amazon/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/aso/**.java,
@@ -65,8 +66,7 @@
 		<dependency>
 			<groupId>com.bbva.elara</groupId>
 			<artifactId>elara-exception</artifactId>
-			<version>7.5.5</version>
-			<scope>compile</scope>
+			<version>${apx.core.online.version}</version>
 		</dependency>
 	</dependencies>
 	<build>
