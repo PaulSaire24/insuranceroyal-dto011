@@ -29,6 +29,7 @@ public class GifoleRequestCrossDTO extends CommonOutputFieldsDTO {
 
     private transient QuotationASO quotation;
 
+
     private Boolean hasBankAccount;
 
     public Boolean getHasBankAccount() {
