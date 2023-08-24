@@ -27,7 +27,7 @@ public class GifoleRequestCrossDTO extends CommonOutputFieldsDTO {
 
     private String channelCode;
 
-    private QuotationASO quotation;
+    private transient QuotationASO quotation;
 
     private Boolean hasBankAccount;
 

@@ -37,6 +37,7 @@
 			/src/main/java/com/bbva/pisd/dto/insurance/quotation/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/search/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/simulation/**.java,
+			/src/main/java/com/bbva/pisd/dto/insurance/gifole/**.java,
 			/src/main/java/com/bbva/pisd/dto/insurance/utils/**.java
 		</sonar.coverage.exclusions>
 		<osgi.version.manifest>0.0</osgi.version.manifest>
