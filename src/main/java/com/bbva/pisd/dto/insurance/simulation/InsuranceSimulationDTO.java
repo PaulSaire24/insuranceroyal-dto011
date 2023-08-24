@@ -1,16 +1,36 @@
 package com.bbva.pisd.dto.insurance.simulation;
 
 import com.bbva.pisd.dto.insurance.commons.CommonOutputFieldsDTO;
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class InsuranceSimulationDTO extends CommonOutputFieldsDTO {
 
     private String hasAcceptedDataTreatment;
     private SimulationCompanyDTO simulationCompany;
+    private GifoleInternalSimulationDTO gifoleInternalSimulation;
+    private String typeSimulation;
 
     public String getHasAcceptedDataTreatment() { return hasAcceptedDataTreatment; }
     public void setHasAcceptedDataTreatment(String hasAcceptedDataTreatment) { this.hasAcceptedDataTreatment = hasAcceptedDataTreatment; }
     public SimulationCompanyDTO getSimulationCompany() { return simulationCompany; }
     public void setSimulationCompany(SimulationCompanyDTO simulationCompany) { this.simulationCompany = simulationCompany; }
+
+    public GifoleInternalSimulationDTO getGifoleInternalSimulation() {
+        return gifoleInternalSimulation;
+    }
+
+    public void setGifoleInternalSimulation(GifoleInternalSimulationDTO gifoleInternalSimulation) {
+        this.gifoleInternalSimulation = gifoleInternalSimulation;
+    }
+
+    public String getTypeSimulation() {
+        return typeSimulation;
+    }
+
+    public void setTypeSimulation(String typeSimulation) {
+        this.typeSimulation = typeSimulation;
+    }
 
     @Override
     public String toString() {
@@ -33,6 +53,8 @@ public class InsuranceSimulationDTO extends CommonOutputFieldsDTO {
         sb.append(", simulationCompany='").append(this.getSimulationCompany());
         sb.append(", bank=").append(this.getBank());
         sb.append(", isEndorseRequired=").append(this.getEndorseRequired());
+        sb.append(", simulationInternal=").append(this.getGifoleInternalSimulation());
+        sb.append(", typeSimulation=").append(this.getTypeSimulation());
         sb.append('}');
         return sb.toString();
     }
