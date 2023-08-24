@@ -35,6 +35,11 @@ public class PISDConstants {
 	public static final String CHANNEL_PZONE = "pisd.channel.pzone.aap"; //Open Market
 	public static final String LOWERCASE_LETTER_S = "s";
 
+	public static final String TIER_VALUE = "TIER";
+
+	public static final String DATE_TIME_FORMATTER = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'";
+
+
 	public static final class ProductModality{
 		private ProductModality(){}
 
@@ -79,6 +84,31 @@ public class PISDConstants {
 		private ProductEasyYesLife(){}
 		public static final String EASY_YES_RIMAC = "EASYYES" ;
 		public static final String EASY_YES_PRODUCT_CODE = "840";
+	}
+
+	public static final class Number{
+		private Number(){}
+		public static final int CERO = 0;
+		public static final int UNO  = 1;
+	}
+
+	public static final class ContactDetail{
+		public static final String MOBILE_TYPE = "PHONE";
+		public static final String EMAIL_TYPE = "EMAIL";
+		private ContactDetail() {
+		}
+	}
+
+	public static final class Alphabet{
+		public static final String S = "S";
+		private Alphabet() {
+		}
+	}
+
+	public static final class TypeInsurance{
+		public static final String VEHICLE = "VEHICLE";
+		private TypeInsurance() {
+		}
 	}
 	
 	private PISDConstants() { }
