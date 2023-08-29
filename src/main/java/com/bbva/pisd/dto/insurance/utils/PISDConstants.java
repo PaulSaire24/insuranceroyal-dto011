@@ -95,12 +95,21 @@ public class PISDConstants {
 	public static final class ContactDetail{
 		public static final String MOBILE_TYPE = "PHONE";
 		public static final String EMAIL_TYPE = "EMAIL";
+		public static final String DOCUMENT_TYPE = "documentType";
+		public static final String DOCUMENT_NUMBER = "documentNumber";
 		private ContactDetail() {
 		}
 	}
 
+	public static final class FactorType{
+
+	}
+
 	public static final class Alphabet{
 		public static final String S = "S";
+		public static final String C = "C";
+		public static final String F = "F";
+		public static final String D = "D";
 		private Alphabet() {
 		}
 	}
@@ -110,6 +119,17 @@ public class PISDConstants {
 		private TypeInsurance() {
 		}
 	}
+
+	public static final class Status {
+		public static final String SUCESSFULL = "SUCESSFULL";
+		public static final String FAILED = "FAILED";
+		public static final String MOCK_SERVICE = "MOCK_SERVICE";
+
+		private Status() {
+		}
+	}
+
+
 	
 	private PISDConstants() { }
 

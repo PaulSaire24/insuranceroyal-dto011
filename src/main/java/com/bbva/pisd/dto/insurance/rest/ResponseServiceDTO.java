@@ -1,9 +1,13 @@
 package com.bbva.pisd.dto.insurance.rest;
 
+import com.bbva.pisd.dto.insurance.interfaces.PISDErrorsInterface;
+
 public class ResponseServiceDTO {
 
     private String  statusProcess;
     private Boolean enabledService;
+    private PISDErrorsInterface errorPISD;
+
     private Object  body;
 
     public String getStatusProcess() {
@@ -30,11 +34,15 @@ public class ResponseServiceDTO {
         this.body = body;
     }
 
+    public void setErrorPISD(PISDErrorsInterface errorPISD) {
+        this.errorPISD = errorPISD;
+    }
+
     public static final class ResponseServiceBuilder {
-        private ResponseServiceDTO responseDetailQuotation;
+        private ResponseServiceDTO responseService;
 
         public ResponseServiceBuilder(){
-            responseDetailQuotation = new ResponseServiceDTO();
+            responseService = new ResponseServiceDTO();
         }
 
         public static ResponseServiceBuilder an(){
@@ -42,23 +50,38 @@ public class ResponseServiceDTO {
         }
 
         public ResponseServiceBuilder withStatusIndicatorProcess(String statusIndicatorProcess){
-            this.responseDetailQuotation.setStatusProcess(statusIndicatorProcess);
+            this.responseService.setStatusProcess(statusIndicatorProcess);
             return this;
         }
 
         public ResponseServiceBuilder withEnabledService(Boolean enabledService){
-            this.responseDetailQuotation.setEnabledService(enabledService);
+            this.responseService.setEnabledService(enabledService);
             return this;
         }
 
         public ResponseServiceBuilder withBody(Object body){
-            this.responseDetailQuotation.setBody(body);
+            this.responseService.setBody(body);
+            return this;
+        }
+
+        public ResponseServiceBuilder withPISDError(PISDErrorsInterface pisdErrorsInterface){
+            this.responseService.setErrorPISD(pisdErrorsInterface);
             return this;
         }
 
         public ResponseServiceDTO build(){
-            return this.responseDetailQuotation;
+            return this.responseService;
         }
 
+    }
+
+    @Override
+    public String toString() {
+        return "ResponseServiceDTO{" +
+                "statusProcess='" + statusProcess + '\'' +
+                ", enabledService=" + enabledService +
+                ", errorPISD=" + errorPISD +
+                ", body=" + body +
+                '}';
     }
 }

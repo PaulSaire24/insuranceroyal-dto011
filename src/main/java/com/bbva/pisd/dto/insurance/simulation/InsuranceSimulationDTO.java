@@ -3,6 +3,8 @@ package com.bbva.pisd.dto.insurance.simulation;
 import com.bbva.pisd.dto.insurance.commons.CommonOutputFieldsDTO;
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
+import java.math.BigDecimal;
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class InsuranceSimulationDTO extends CommonOutputFieldsDTO {
 
@@ -10,6 +12,63 @@ public class InsuranceSimulationDTO extends CommonOutputFieldsDTO {
     private SimulationCompanyDTO simulationCompany;
     private GifoleInternalSimulationDTO gifoleInternalSimulation;
     private String typeSimulation;
+    private BigDecimal bankFactorAmount;
+    private BigDecimal bankFactorPer;
+    private String bankFactorType;
+
+    private Boolean hasBankAccount;
+
+    private Boolean isBankCustomer;
+
+    private Boolean hasCreditCard;
+
+    public Boolean getHasBankAccount() {
+        return hasBankAccount;
+    }
+
+    public void setHasBankAccount(Boolean hasBankAccount) {
+        this.hasBankAccount = hasBankAccount;
+    }
+
+    public Boolean getIsBankCustomer() {
+        return isBankCustomer;
+    }
+
+    public void setIsBankCustomer(Boolean bankCustomer) {
+        isBankCustomer = bankCustomer;
+    }
+
+    public Boolean getHasCreditCard() {
+        return hasCreditCard;
+    }
+
+    public void setHasCreditCard(Boolean hasCreditCard) {
+        this.hasCreditCard = hasCreditCard;
+    }
+
+    public String getBankFactorType() {
+        return bankFactorType;
+    }
+
+    public void setBankFactorType(String bankFactorType) {
+        this.bankFactorType = bankFactorType;
+    }
+
+    public BigDecimal getBankFactorAmount() {
+        return bankFactorAmount;
+    }
+
+    public void setBankFactorAmount(BigDecimal bankFactorAmount) {
+        this.bankFactorAmount = bankFactorAmount;
+    }
+
+    public BigDecimal getBankFactorPer() {
+        return bankFactorPer;
+    }
+
+    public void setBankFactorPer(BigDecimal bankFactorPer) {
+        this.bankFactorPer = bankFactorPer;
+    }
 
     public String getHasAcceptedDataTreatment() { return hasAcceptedDataTreatment; }
     public void setHasAcceptedDataTreatment(String hasAcceptedDataTreatment) { this.hasAcceptedDataTreatment = hasAcceptedDataTreatment; }
@@ -55,6 +114,8 @@ public class InsuranceSimulationDTO extends CommonOutputFieldsDTO {
         sb.append(", isEndorseRequired=").append(this.getEndorseRequired());
         sb.append(", simulationInternal=").append(this.getGifoleInternalSimulation());
         sb.append(", typeSimulation=").append(this.getTypeSimulation());
+        sb.append(", bankFactorAmount=").append(this.getBankFactorAmount());
+        sb.append(", bankFactorPer=").append(this.getBankFactorPer());
         sb.append('}');
         return sb.toString();
     }

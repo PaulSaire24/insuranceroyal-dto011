@@ -1,6 +1,8 @@
 package com.bbva.pisd.dto.insurance.utils;
 
-public enum PISDErrors {
+import com.bbva.pisd.dto.insurance.interfaces.PISDErrorsInterface;
+
+public enum PISDErrors implements PISDErrorsInterface {
 
     QUERY_EMPTY_RESULT("PISD00120000", false, "No se encontró data en la BD"),
     STEERING_WHEEL_CHANGED("PISD00120002", false, "No se puede realizar una cotización porque el timón está cambiado"),
