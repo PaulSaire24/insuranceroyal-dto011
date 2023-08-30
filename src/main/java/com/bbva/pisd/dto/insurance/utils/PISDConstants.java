@@ -110,6 +110,7 @@ public class PISDConstants {
 		public static final String C = "C";
 		public static final String F = "F";
 		public static final String D = "D";
+		public static final String L = "L";
 		private Alphabet() {
 		}
 	}
