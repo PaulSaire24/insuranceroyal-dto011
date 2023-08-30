@@ -38,6 +38,10 @@ public class ResponseServiceDTO {
         this.errorPISD = errorPISD;
     }
 
+    public PISDErrorsInterface getErrorPISD() {
+        return errorPISD;
+    }
+
     public static final class ResponseServiceBuilder {
         private ResponseServiceDTO responseService;
 

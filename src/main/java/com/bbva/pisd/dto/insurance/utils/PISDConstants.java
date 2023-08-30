@@ -101,8 +101,9 @@ public class PISDConstants {
 		}
 	}
 
-	public static final class FactorType{
-
+	public static final class City{
+		public static final String LIMA = "LIMA";
+		public static final String DEFAULT_PROVINCIA = "PROVINCIA";
 	}
 
 	public static final class Alphabet{
