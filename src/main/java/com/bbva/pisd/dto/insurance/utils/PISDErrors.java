@@ -63,7 +63,8 @@ public enum PISDErrors implements PISDErrorsInterface {
     ERROR_COVERAGE_CODE("PISD00120050",false,"El codigo de cobertura es incorrecto"),
 
     ERROR_BIRTHDATE_BLACKLIST("PISD00120053", false,"Error al obtener el campo fechaNacimiento"),
-    ERROR_AGE_VALIDATION_BLACKLIST("PISD00120054", false,"La edad del cliente se encuentra fuera del rango valido");
+    ERROR_AGE_VALIDATION_BLACKLIST("PISD00120054", false,"La edad del cliente se encuentra fuera del rango valido"),
+    ERROR_GIFOLE_CONFIGURATION("PISD00120056",false,"Las credenciales de Gifole no se han configurado para el canal solicitado en la consola de operaciones. Por favor, realice esta configuración.");
 
     private final String adviceCode;
     private final boolean rollback;
