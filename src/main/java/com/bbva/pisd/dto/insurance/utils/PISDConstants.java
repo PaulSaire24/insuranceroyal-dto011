@@ -94,6 +94,7 @@ public class PISDConstants {
 
 	public static final class ContactDetail{
 		public static final String MOBILE_TYPE = "PHONE";
+		public static final String MOBILE_NUMBER = "MOBILE_NUMBER";
 		public static final String EMAIL_TYPE = "EMAIL";
 		public static final String DOCUMENT_TYPE = "documentType";
 		public static final String DOCUMENT_NUMBER = "documentNumber";
