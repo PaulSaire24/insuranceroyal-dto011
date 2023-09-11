@@ -98,6 +98,10 @@ public class PISDConstants {
 		public static final String EMAIL_TYPE = "EMAIL";
 		public static final String DOCUMENT_TYPE = "documentType";
 		public static final String DOCUMENT_NUMBER = "documentNumber";
+
+		public static final String EXPAND_CONTACT_DETAILS = "contact-details";
+		public static final String EXPAND = "expand";
+
 		private ContactDetail() {
 		}
 	}
