@@ -85,6 +85,12 @@ public class PISDConstants {
 		public static final String EASY_YES_RIMAC = "EASYYES" ;
 		public static final String EASY_YES_PRODUCT_CODE = "840";
 	}
+	
+	public static final class ProductVidaDinamicoLife{
+		private ProductVidaDinamicoLife(){}
+		public static final String VIDA_DINAMICO = "VIDADINAMICO";
+		public static final String VIDA_DINAMICO_PRODUCT_CODE = "841";
+	}
 
 	public static final class Number{
 		private Number(){}
