@@ -3,12 +3,15 @@ package com.bbva.pisd.dto.insurance.commons;
 import com.bbva.apx.dto.AbstractDTO;
 import com.bbva.pisd.dto.insurance.policy.BusinessAgentDTO;
 import com.bbva.pisd.dto.insurance.policy.PaymentAmountDTO;
+import com.bbva.pisd.dto.insurance.simulation.GifoleInternalSimulationDTO;
 import com.bbva.pisd.dto.insurance.simulation.VehicleDTO;
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 import org.codehaus.jackson.annotate.JsonProperty;
 
 import java.util.Date;
 import java.util.List;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class CommonOutputFieldsDTO extends AbstractDTO {
 
     private HolderDTO holder;
@@ -77,6 +80,104 @@ public class CommonOutputFieldsDTO extends AbstractDTO {
 
     @JsonProperty("isEndorseRequired")
     private Boolean isEndorseRequired;
+
+    private GifoleInternalSimulationDTO gifoleInternalSimulation;
+
+    private Boolean isBankCustomer;
+
+    private Boolean hasCreditCard;
+
+    private String operationType;
+
+    private String policyNumber;
+
+    private String channelCode;
+
+    private Boolean isDataTreatment;
+
+    private String hasAcceptedDataTreatment;
+
+    private Boolean hasBankAccount;
+
+    public Boolean getHasBankAccount() {
+        return hasBankAccount;
+    }
+
+    public void setHasBankAccount(Boolean hasBankAccount) {
+        this.hasBankAccount = hasBankAccount;
+    }
+
+    public String getHasAcceptedDataTreatment() {
+        return hasAcceptedDataTreatment;
+    }
+
+    public void setHasAcceptedDataTreatment(String hasAcceptedDataTreatment) {
+        this.hasAcceptedDataTreatment = hasAcceptedDataTreatment;
+    }
+
+    public Boolean getBankCustomer() {
+        return isBankCustomer;
+    }
+
+    public void setBankCustomer(Boolean bankCustomer) {
+        isBankCustomer = bankCustomer;
+    }
+
+    public Boolean getIsDataTreatment() {
+        return isDataTreatment;
+    }
+
+    public void setIsDataTreatment(Boolean dataTreatment) {
+        isDataTreatment = dataTreatment;
+    }
+
+    public Boolean getIsBankCustomer() {
+        return isBankCustomer;
+    }
+
+    public void setIsBankCustomer(Boolean bankCustomer) {
+        isBankCustomer = bankCustomer;
+    }
+
+    public Boolean getHasCreditCard() {
+        return hasCreditCard;
+    }
+
+    public void setHasCreditCard(Boolean hasCreditCard) {
+        this.hasCreditCard = hasCreditCard;
+    }
+
+    public String getOperationType() {
+        return operationType;
+    }
+
+    public void setOperationType(String operationType) {
+        this.operationType = operationType;
+    }
+
+    public String getPolicyNumber() {
+        return policyNumber;
+    }
+
+    public void setPolicyNumber(String policyNumber) {
+        this.policyNumber = policyNumber;
+    }
+
+    public String getChannelCode() {
+        return channelCode;
+    }
+
+    public void setChannelCode(String channelCode) {
+        this.channelCode = channelCode;
+    }
+
+    public GifoleInternalSimulationDTO getGifoleInternalSimulation() {
+        return gifoleInternalSimulation;
+    }
+
+    public void setGifoleInternalSimulation(GifoleInternalSimulationDTO gifoleInternalSimulation) {
+        this.gifoleInternalSimulation = gifoleInternalSimulation;
+    }
 
     public HolderDTO getHolder() { return holder; }
     public void setHolder(HolderDTO holder) { this.holder = holder; }
