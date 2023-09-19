@@ -35,6 +35,13 @@ public class InsuranceQuotationDTO extends CommonOutputFieldsDTO {
         sb.append(", validityDays=").append(this.getValidityDays());
         sb.append(", status=").append(this.getStatus());
         sb.append(",vehicle=").append(this.getVehicle());
+        sb.append(",isBankCustomer=").append(this.getIsBankCustomer());
+        sb.append(",hasCreditCard=").append(this.getHasCreditCard());
+        sb.append(",operationType=").append(this.getOperationType());
+        sb.append(",policyNumber=").append(this.getPolicyNumber());
+        sb.append(",channelCode=").append(this.getChannelCode());
+        sb.append(",isDataTreatment=").append(this.getIsDataTreatment());
+        sb.append(",hasBankAccount=").append(this.getHasBankAccount());
 
         sb.append('}');
         return sb.toString();

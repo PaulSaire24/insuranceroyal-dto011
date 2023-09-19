@@ -9,36 +9,10 @@ import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class GifoleRequestCrossDTO extends CommonOutputFieldsDTO {
 
-    private String hasAcceptedDataTreatment;
-
-    private Boolean isDataTreatment;
-
     private SimulationCompanyDTO simulationCompany;
-    private GifoleInternalSimulationDTO gifoleInternalSimulation;
     private String typeSimulation;
-
-    private Boolean isBankCustomer;
-
-    private Boolean hasCreditCard;
-
-    private String operationType;
-
-    private String policyNumber;
-
-    private String channelCode;
-
     private transient QuotationASO quotation;
 
-
-    private Boolean hasBankAccount;
-
-    public Boolean getHasBankAccount() {
-        return hasBankAccount;
-    }
-
-    public void setHasBankAccount(Boolean hasBankAccount) {
-        this.hasBankAccount = hasBankAccount;
-    }
 
     public QuotationASO getQuotation() {
         return quotation;
@@ -48,66 +22,10 @@ public class GifoleRequestCrossDTO extends CommonOutputFieldsDTO {
         this.quotation = quotation;
     }
 
-    public String getChannelCode() {
-        return channelCode;
-    }
 
-    public void setChannelCode(String channelCode) {
-        this.channelCode = channelCode;
-    }
-
-    public String getPolicyNumber() {
-        return policyNumber;
-    }
-
-    public void setPolicyNumber(String policyNumber) {
-        this.policyNumber = policyNumber;
-    }
-
-    public String getOperationType() {
-        return operationType;
-    }
-
-    public void setOperationType(String operationType) {
-        this.operationType = operationType;
-    }
-
-    public Boolean getHasCreditCard() {
-        return hasCreditCard;
-    }
-
-    public void setHasCreditCard(Boolean hasCreditCard) {
-        this.hasCreditCard = hasCreditCard;
-    }
-
-    public Boolean getIsBankCustomer() {
-        return isBankCustomer;
-    }
-
-    public void setIsBankCustomer(Boolean bankCustomer) {
-        isBankCustomer = bankCustomer;
-    }
-
-    public Boolean getIsDataTreatment() {
-        return isDataTreatment;
-    }
-
-    public void setIsDataTreatment(Boolean dataTreatment) {
-        isDataTreatment = dataTreatment;
-    }
-
-    public String getHasAcceptedDataTreatment() { return hasAcceptedDataTreatment; }
-    public void setHasAcceptedDataTreatment(String hasAcceptedDataTreatment) { this.hasAcceptedDataTreatment = hasAcceptedDataTreatment; }
     public SimulationCompanyDTO getSimulationCompany() { return simulationCompany; }
     public void setSimulationCompany(SimulationCompanyDTO simulationCompany) { this.simulationCompany = simulationCompany; }
 
-    public GifoleInternalSimulationDTO getGifoleInternalSimulation() {
-        return gifoleInternalSimulation;
-    }
-
-    public void setGifoleInternalSimulation(GifoleInternalSimulationDTO gifoleInternalSimulation) {
-        this.gifoleInternalSimulation = gifoleInternalSimulation;
-    }
 
     public String getTypeSimulation() {
         return typeSimulation;
@@ -135,7 +53,7 @@ public class GifoleRequestCrossDTO extends CommonOutputFieldsDTO {
         sb.append(", isGpsRequired='").append(this.getIsGpsRequired()).append('\'');
         sb.append(", isInspectionRequired='").append(this.getIsInspectionRequired()).append('\'');
 
-        sb.append(", hasAcceptedDataTreatment='").append(hasAcceptedDataTreatment).append('\'');
+        sb.append(", hasAcceptedDataTreatment='").append(this.getHasAcceptedDataTreatment()).append('\'');
         sb.append(", simulationCompany='").append(this.getSimulationCompany());
         sb.append(", bank=").append(this.getBank());
         sb.append(", isEndorseRequired=").append(this.getEndorseRequired());
