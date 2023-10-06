@@ -2,7 +2,10 @@ package com.bbva.pisd.dto.insurance.aso.gifole;
 
 import com.bbva.pisd.dto.insurance.aso.CommonFieldsASO;
 
-public class ProductGifoleASO extends CommonFieldsASO  {
+import java.io.Serializable;
+
+public class ProductGifoleASO extends CommonFieldsASO implements Serializable {
+    private static final long serialVersionUID = 849841507248073L;
 
     public ProductGifoleASO() {
         this.setId("4");

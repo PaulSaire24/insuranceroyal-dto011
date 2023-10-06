@@ -1,6 +1,10 @@
 package com.bbva.pisd.dto.insurance.aso.gifole;
 
-public class IdentityDocumentGifoleASO {
+import java.io.Serializable;
+
+public class IdentityDocumentGifoleASO implements Serializable {
+
+    private static final long serialVersionUID = 865156167248073L;
 
     private DocumentTypeASO documentType;
     private String documentNumber;

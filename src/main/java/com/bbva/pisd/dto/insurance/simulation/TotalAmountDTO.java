@@ -4,11 +4,12 @@ import com.bbva.pisd.dto.insurance.aso.gifole.PeriodASO;
 import com.bbva.pisd.dto.insurance.commons.VehiclePriceDTO;
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class TotalAmountDTO {
-
+public class TotalAmountDTO implements Serializable {
+    private static final long serialVersionUID = 445021072480734189L;
     private BigDecimal amount;
     private String currency;
     private PeriodASO period;

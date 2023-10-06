@@ -39,6 +39,10 @@ public class PISDConstants {
 
 	public static final String DATE_TIME_FORMATTER = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'";
 
+	public static final class Period{
+		public static final String ANNUAL_PERIOD_ID = "ANNUAL";
+		public static final String ANNUAL_PERIOD_NAME = "ANUAL";
+	}
 
 	public static final class ProductModality{
 		private ProductModality(){}
