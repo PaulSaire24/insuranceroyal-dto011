@@ -8,7 +8,9 @@ import com.bbva.pisd.dto.insurance.aso.gifole.ContractGifoleASO;
 import com.bbva.pisd.dto.insurance.aso.gifole.CoverageASO;
 import com.bbva.pisd.dto.insurance.aso.gifole.CustomerGifoleASO;
 import com.bbva.pisd.dto.insurance.aso.gifole.ProductGifoleASO;
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class CommonFieldsASO {
 
     private String id;
