@@ -1,6 +1,10 @@
 package com.bbva.pisd.dto.insurance.aso.gifole;
 
-public class ContactDetailsGifoleASO {
+import java.io.Serializable;
+
+public class ContactDetailsGifoleASO implements Serializable {
+
+    private static final long serialVersionUID = 566501407248073L;
 
     private ContactGifoleASO contact;
 

@@ -4,6 +4,8 @@ import com.bbva.pisd.dto.insurance.commons.CommonDTO;
 
 public class SimulationCompanyDTO extends CommonDTO {
 
+    private static final long serialVersionUID = 2077814072480734189L;
+
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("SimulationCompanyDTO{");

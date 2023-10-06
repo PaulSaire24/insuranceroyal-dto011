@@ -9,9 +9,11 @@ import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class GifoleRequestCrossDTO extends CommonOutputFieldsDTO {
 
+    private static final long serialVersionUID = 20778140724865646L;
+
     private SimulationCompanyDTO simulationCompany;
     private String typeSimulation;
-    private transient QuotationASO quotation;
+    private QuotationASO quotation;
 
 
     public QuotationASO getQuotation() {

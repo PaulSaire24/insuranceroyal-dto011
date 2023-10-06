@@ -2,7 +2,11 @@ package com.bbva.pisd.dto.insurance.aso.gifole;
 
 import com.bbva.pisd.dto.insurance.aso.CommonFieldsASO;
 
-public class ContactGifoleASO extends CommonFieldsASO {
+import java.io.Serializable;
+
+public class ContactGifoleASO extends CommonFieldsASO implements Serializable {
+
+    private static final long serialVersionUID = 801407248073L;
 
     private String address;
     private String contactDetailType;

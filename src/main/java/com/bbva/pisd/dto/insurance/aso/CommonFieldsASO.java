@@ -1,5 +1,6 @@
 package com.bbva.pisd.dto.insurance.aso;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.List;
 
@@ -8,8 +9,11 @@ import com.bbva.pisd.dto.insurance.aso.gifole.ContractGifoleASO;
 import com.bbva.pisd.dto.insurance.aso.gifole.CoverageASO;
 import com.bbva.pisd.dto.insurance.aso.gifole.CustomerGifoleASO;
 import com.bbva.pisd.dto.insurance.aso.gifole.ProductGifoleASO;
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
-public class CommonFieldsASO {
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class CommonFieldsASO implements Serializable {
+    private static final long serialVersionUID = 207781407248073L;
 
     private String id;
     private String name;
