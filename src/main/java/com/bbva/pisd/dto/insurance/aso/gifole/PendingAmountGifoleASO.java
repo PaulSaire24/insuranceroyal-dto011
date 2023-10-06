@@ -1,6 +1,10 @@
 package com.bbva.pisd.dto.insurance.aso.gifole;
 
-public class PendingAmountGifoleASO {
+import java.io.Serializable;
+
+public class PendingAmountGifoleASO implements Serializable {
+
+    private static final long serialVersionUID = 8489807248073L;
 
     private TotalGifoleASO total;
 
