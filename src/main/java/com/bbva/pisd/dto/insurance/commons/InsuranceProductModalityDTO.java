@@ -1,7 +1,7 @@
 package com.bbva.pisd.dto.insurance.commons;
 
 import com.bbva.apx.dto.AbstractDTO;
-import com.bbva.pisd.dto.insurance.policy.TotalAmountDTO;
+import com.bbva.pisd.dto.insurance.simulation.TotalAmountDTO;
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 import org.codehaus.jackson.annotate.JsonProperty;
 
@@ -25,6 +25,14 @@ public class InsuranceProductModalityDTO extends AbstractDTO {
     private List<BenefitModalityDTO> benefits;
     private List<ExclusionDTO> exclusions;
     private List<DeductibleDTO> deductibles;
+
+    public TotalAmountDTO getTotalInstallment() {
+        return totalInstallment;
+    }
+
+    public void setTotalInstallment(TotalAmountDTO totalInstallment) {
+        this.totalInstallment = totalInstallment;
+    }
 
     public Boolean getIsSelectBoolean() {return this.isSelectBoolean;}
     public void setIsSelectBoolean(Boolean isSelectBoolean) {this.isSelectBoolean = isSelectBoolean;}
@@ -84,6 +92,7 @@ public class InsuranceProductModalityDTO extends AbstractDTO {
         sb.append(", deductibles=").append(deductibles);
         sb.append(", isSelectBoolean='").append(isSelectBoolean).append('\'');
         sb.append(", isRecommendBoolean='").append(isRecommendBoolean).append('\'');
+        sb.append(", totalInstallment='").append(totalInstallment).append('\'');
         sb.append('}');
         return sb.toString();
     }
