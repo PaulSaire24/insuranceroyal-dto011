@@ -149,6 +149,7 @@ public class PISDConstants {
 	public static final class PropertiesKeyGlobal {
 		public static final String KEY_DEFAULT_VALUE_FIRST_NAME            = "default.value.firstname.notclient";
 		public static final String KEY_DEFAULT_VALUE_LAST_NAME           = "default.value.lastname.notclient";
+		public static final String KEY_DEFAULT_VALUE_SCHEDULE_CONTACT           = "default.value.schedulecontact";
 		private PropertiesKeyGlobal() {
 		}
 	}
