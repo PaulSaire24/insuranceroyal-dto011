@@ -250,7 +250,7 @@ public enum PISDProperties {
     QUERY_UPDATE_INSURANCE_QUOTATION_CUSTOMER("PISD.UPDATE_INSURANCE_QUOTATION_CUSTOMER"),
     //Fin Open Market
     BANK_PERU("bank.Peru"),
-    PRODUCT_BLACK_WHITE_LIST("productBlackWhiteList"),
+    PRODUCT_BLACK_YELLOW_LIST("productBlackYellowList"),
     ID_API_VALIDATE_GENERAL_DATA_VALUE("validateGeneralData.rimac"),
     URI_VALIDATE_GENERAL_DATA_KEY("rimac.validateGeneralData.uri");
 
